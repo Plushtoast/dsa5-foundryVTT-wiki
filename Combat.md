@@ -20,7 +20,7 @@ Furthermore the status system from DSA is included in foundry. For more details 
 Yes, Belastung due to armor, heavy weight or any other reasons are calculated.  
 The calculated modification ia displayed in your attack / defense rolls.  
 ![Combat Roll](https://user-images.githubusercontent.com/75448500/106728444-bc510880-660c-11eb-8c51-15fc1e603097.jpg)
-IMG ATTACK ROLL WITH BELASTUNG
+
 
 ## Can I modify any test / rolls?
 Yes, all test rolls, in combat or anywhere else can be modified according to the specified rules from the Grundregelwerk.  
@@ -29,7 +29,7 @@ Yes, all test rolls, in combat or anywhere else can be modified according to the
 ## How can I attack, defend or evade during combat?
 To attack, defend or evade during combat you can simply click on the button on your character sheet on the combat tab.  
 ![Attack, Defend, Evade](https://user-images.githubusercontent.com/75448500/106728521-d2f75f80-660c-11eb-82ee-15cf4d06edcd.jpg)
-IMG ATTACK/DEFEND EVADE  
+  
 
 Alternativly you can enter the following commands into the chat box:
 * attack:

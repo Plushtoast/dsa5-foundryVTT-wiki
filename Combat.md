@@ -12,11 +12,11 @@ DSA for foundry will calculate your characters initiative for you and rank your 
 Now each player can act according to their turn.  
 If you want to know more about the foundry combat system please check out the following link: LINK  
 
-## Are the DSA specific combat rules included in DSA for foundry.  
+## Are the DSA specific combat rules included in DSA for foundry?
 YES. DSA for foundry include all combat rules specified in the DSA Grundregelwerk.
 Furthermore the status system from DSA is included in foundry. For more details on the status system check out the game mechanics section: LINK
 
-## Does DSA calculate the Belastung in the combat.
+## Does DSA calculate the Belastung in the combat?
 Yes, Belastung due to armor, heavy weight or any other reasons are calculated.  
 The calculated modification ia displayed in your attack / defense rolls.  
 ![Combat Roll](https://user-images.githubusercontent.com/75448500/106728444-bc510880-660c-11eb-8c51-15fc1e603097.jpg)
@@ -32,9 +32,11 @@ To attack, defend or evade during combat you can simply click on the button on y
   
 
 Alternativly you can enter the following commands into the chat box:
-* attack:
-* defend/parry:
-* evade:
+* attack: /at someText
+* defend/parry: /pa someText
+
+This will show you an auto completion tab with the abilities of your current selected token (GM) or your own character (player). Just type in some part of the name of the weapon you want to use.
+
 
 ## Can special combat abilities be used in DSA for foundry?
 Partially, special abilities, if configured correctly, can be used and selected when attacking an opponent.  

@@ -1,7 +1,7 @@
 # Game configuration
 To be able to play DSA in foundry you require a list of assets including advantages, special abilities, professions, cultures or items.
 There are two options to obtain all necessary assets:
-1. You can purchase prepared modules from Ulisses such as the Das Schwarze Auge Grundregelwerk and import the assets
+1. You can purchase prepared modules from Ulisses such as the [Das Schwarze Auge Grundregelwerk](https://ulisses-spiele.de/zum-f-shop/) and import the assets
 1. You can create all assets manually for your system
 
 ## How do I create necessary assets for DSA in foundry?  

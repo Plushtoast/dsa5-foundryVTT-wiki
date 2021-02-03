@@ -203,7 +203,7 @@ Additional attributes for magical professions
 ![Ritual2](https://user-images.githubusercontent.com/75448500/106731687-0be50380-6610-11eb-95c0-2c1e4aab9f1f.jpg)
  
 
-###What do I have to enter for liturgies, ceremonies and blessings?  
+### What do I have to enter for liturgies, ceremonies and blessings?  
 
  Blessings
 | Element  | Description | 
@@ -264,7 +264,7 @@ Additional attributes for magical professions
 ![Ceremony2](https://user-images.githubusercontent.com/75448500/106737256-c0822380-6616-11eb-8b19-95302114b26d.jpg)
  
 
-###What do I have to enter for items?
+### What do I have to enter for items?
 | Element  | Description | 
 | ------------- | ------------- | 
 | Price | Price in silver of the item |

@@ -16,14 +16,14 @@ If you want to know more about the foundry combat system please check out the fo
 YES. DSA for foundry include all combat rules specified in the DSA Grundregelwerk.
 Furthermore the status system from DSA is included in foundry. For more details on the status system check out the game mechanics section: LINK
 
-## Does DSA calculate the Belastung in the combat?
-Yes, Belastung due to armor, heavy weight or any other reasons are calculated.  
+## Does DSA calculate the encumbrance in combat?
+Yes, encumbrance due to armor, heavy weight or any other reasons are calculated.  
 The calculated modification ia displayed in your attack / defense rolls.  
 ![Combat Roll](https://user-images.githubusercontent.com/75448500/106728444-bc510880-660c-11eb-8c51-15fc1e603097.jpg)
 
 
 ## Can I modify any test / rolls?
-Yes, all test rolls, in combat or anywhere else can be modified according to the specified rules from the Grundregelwerk.  
+Yes, all test rolls, in combat or anywhere else can be modified according to the specified rules from the core rules.  
   
 
 ## How can I attack, defend or evade during combat?

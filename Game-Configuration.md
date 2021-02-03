@@ -110,7 +110,8 @@ In DSA for foundry special abilities of all categories are created as special ab
 | talents*** | Talents a character receives when choosing this profession |
 | combat skills*** | Combat skills a character receives when choosing this profession |
 | special abilities**/*** | Special abilities  character receives when choosing this profession |
-| Magical abilities | Select if this profession is magical/mundane/clerical |
+| Magical abilities | Select if this profession is magical/mundane/clerical |  
+
 ![Profession](https://user-images.githubusercontent.com/75448500/106730545-cc69e780-660e-11eb-9fab-71dc04823cbf.jpg)
    
 
@@ -136,7 +137,8 @@ Additional attributes for magical professions
 | Merkmal |  |
 | Spells | Spells the character receives when choosing this profession |
 | Spelltricks | Spelltricks the character receives / can choose from when choosing this profession |
-| Number of Spelltricks | Usually characters only receive limited amount of spelltricks, enter the amount here. |
+| Number of Spelltricks | Usually characters only receive limited amount of spelltricks, enter the amount here. |  
+
 ![Magical Profession](https://user-images.githubusercontent.com/75448500/106730964-3aaeaa00-660f-11eb-8606-a624ed17d71b.jpg)
  
 
@@ -159,7 +161,8 @@ Additional attributes for magical professions
 | Effect | enter the effect details here, e.g. 2d6 damage |
 | Verbreitung | Who knows the spell: (allgemein, Elfen, Gildenmagier, Hexen) |
 | Widerstand  | How to resist the spell: SK or toughness |
-| Steigerungsfaktor | Cost of AP to increase the level of the spell: A, B, C, D |
+| Steigerungsfaktor | Cost of AP to increase the level of the spell: A, B, C, D |  
+
 ![Spell](https://user-images.githubusercontent.com/75448500/106731547-e0faaf80-660f-11eb-8389-07372f62e0ef.jpg)
 ![Spell2](https://user-images.githubusercontent.com/75448500/106731552-e1934600-660f-11eb-9c07-4afbf65ff91b.jpg)
  
@@ -194,7 +197,8 @@ Additional attributes for magical professions
 | Effect | enter the effect details here, e.g. 2d6 damage |
 | Verbreitung | Who knows the Ritual: (allgemein, Elfen, Gildenmagier, Hexen) @JAN |
 | Widerstand  | How to resist the spell: SK or toughness |
-| Steigerungsfaktor | Cost of AP to increase the level of the ritual: A, B, C, D |
+| Steigerungsfaktor | Cost of AP to increase the level of the ritual: A, B, C, D |  
+
 ![Ritual](https://user-images.githubusercontent.com/75448500/106731684-0b4c6d00-6610-11eb-9824-e4ba2fbfa5c7.jpg)
 ![Ritual2](https://user-images.githubusercontent.com/75448500/106731687-0be50380-6610-11eb-95c0-2c1e4aab9f1f.jpg)
  
@@ -207,8 +211,8 @@ Additional attributes for magical professions
 | Range | Range in yard of the blessing |
 | Duration |  |
 | Target category | Some blessings can be cast on only the character, some via touch, some to a distance: Self, touch, sight @JAN |
-| Merkmal | Aspect of the blessing: e.g. allgemein |
- ![Blessing](https://user-images.githubusercontent.com/75448500/106736320-98de8b80-6615-11eb-80bf-3cc574ba74df.jpg)
+| Merkmal | Aspect of the blessing: e.g. allgemein |  
+![Blessing](https://user-images.githubusercontent.com/75448500/106736320-98de8b80-6615-11eb-80bf-3cc574ba74df.jpg)
 ![Blessing2](https://user-images.githubusercontent.com/75448500/106736322-99772200-6615-11eb-9c56-3f7b1ed1bfec.jpg)
 
 

@@ -121,10 +121,10 @@ Additional attributes for clerical professions:
 
 | Element  | Description | 
 | ------------- | ------------- | 
-| Leiteigenschaft | Main attribute of the religion, e.g. strength  |
+| Primary attribute | Main attribute of the religion, e.g. strength  |
 | Tradition | Tradition of the god, e.g. Rondrakirche |
-| Aspekt | Aspects of the god. Each god is assigned with several aspects |
-| wohlgefällige Talente | Talents the god approves of  |
+| Aspect | Aspects of the god. Each god is assigned with several aspects |
+| Favored skills | Talents the god approves of  |
 | Liturgies | Liturgies the character will receive when choosing this profession |
 | Blessings | List of all blessings the character receives when choosing this profession |
  
@@ -132,9 +132,9 @@ Additional attributes for clerical professions:
 Additional attributes for magical professions
 | Element  | Description | 
 | ------------- | ------------- | 
-| Leiteigenschaft | Main attribute of the religion, e.g. strength |
+| Primary attribute | Main attribute of the religion, e.g. strength |
 | Tradition | Tradition of the magician, e.g. Elf |
-| Merkmal |  |
+| Property |  |
 | Spells | Spells the character receives when choosing this profession |
 | Spelltricks | Spelltricks the character receives / can choose from when choosing this profession |
 | Number of Spelltricks | Usually characters only receive limited amount of spelltricks, enter the amount here. |  
@@ -156,12 +156,12 @@ Additional attributes for magical professions
 | Time to cast | KR to cast the spell, some spell cast durations can be modified: Modification (Yes or No) |
 | AsP cost | AsP cost of the spell, some spells require an initial amount of AsPs and some to keep the spell running, the cost of spells can be modified: Modification (Yes or No) |
 | AsP Detail |  |
-| Aufrechterhalten | If the spell can be kept active for a time, enter additional AsP costs here |
+| Up-keep| If the spell can be kept active for a time, enter additional AsP costs here |
 | Effect description | Spell effect description to display in Chat for all to see |
 | Effect | enter the effect details here, e.g. 2d6 damage |
-| Verbreitung | Who knows the spell: (allgemein, Elfen, Gildenmagier, Hexen) |
-| Widerstand  | How to resist the spell: SK or toughness |
-| Steigerungsfaktor | Cost of AP to increase the level of the spell: A, B, C, D |  
+| Traditions | Who knows the spell: (allgemein, Elfen, Gildenmagier, Hexen) |
+| Resistance | How to resist the spell: SK or toughness |
+| Improvement | Cost of AP to increase the level of the spell: A, B, C, D |  
 
 ![Spell](https://user-images.githubusercontent.com/75448500/106731547-e0faaf80-660f-11eb-8389-07372f62e0ef.jpg)
 ![Spell2](https://user-images.githubusercontent.com/75448500/106731552-e1934600-660f-11eb-9c07-4afbf65ff91b.jpg)
@@ -173,7 +173,7 @@ Additional attributes for magical professions
 | Range | Range in yard of the spelltrick |
 | Spell effect duration | How long does the spelltrick last |
 | Target category | Possible type of the target |
-| Merkmal | Enter the merkmal of the spell, e.g. Einfluss, Verwandlung |
+| Property | Enter the merkmal of the spell, e.g. Einfluss, Verwandlung |
   
 ![Spelltrick](https://user-images.githubusercontent.com/75448500/106731159-734e8380-660f-11eb-95bc-3e1ea510f709.jpg)
 ![Spelltrick2](https://user-images.githubusercontent.com/75448500/106731162-73e71a00-660f-11eb-8890-90a96306b38c.jpg)
@@ -197,7 +197,7 @@ Additional attributes for magical professions
 | Effect | enter the effect details here, e.g. 2d6 damage |
 | Distirbution | What traditions use this ritual |
 | Resistance| How to resist the spell: SK or toughness |
-| Advancement| Cost of AP to increase the level of the ritual: A, B, C, D |  
+| Improvement | Cost of AP to increase the level of the ritual: A, B, C, D |  
 
 ![Ritual](https://user-images.githubusercontent.com/75448500/106731684-0b4c6d00-6610-11eb-9824-e4ba2fbfa5c7.jpg)
 ![Ritual2](https://user-images.githubusercontent.com/75448500/106731687-0be50380-6610-11eb-95c0-2c1e4aab9f1f.jpg)
@@ -234,7 +234,7 @@ Additional attributes for magical professions
 | Effect | enter the effect details here, e.g. 2d6 damage |
 | Distribution| What traditions use this liturgy |
 | Resistance| How to resist the spell: SK or toughness |
-| Advancement| Cost of AP to increase the level of the Liturgy: A, B, C, D |  
+| Improvement | Cost of AP to increase the level of the Liturgy: A, B, C, D |  
 
 ![Liturgie](https://user-images.githubusercontent.com/75448500/106737078-8ca6fe00-6616-11eb-8483-2b0816ff8e74.jpg)
 ![Liturgie2](https://user-images.githubusercontent.com/75448500/106737082-8ca6fe00-6616-11eb-953e-ef9c13bf2507.jpg)
@@ -253,12 +253,12 @@ Additional attributes for magical professions
 | KaP cost |  KaP cost of the ceremony, some ceremonies require an initial amount of KaPs and some to keep the ceremony running, the cost of ceremony can be modified: Modification (Yes or No) |
 | Permanent KaP cost | Some ceremonies require permanent sacrifice of AsP. Enter them here  |
 | KaP Detail |  |
-| Aufrechterhalten | If the ceremony can be kept active for a time, enter additional KaP costs here |
+| Maintain| If the ceremony can be kept active for a time, enter additional KaP costs here |
 | Effect description | ceremony effect description to display in Chat for all to see |
 | Effect |  enter the effect details here, e.g. 2d6 damage  |
-| Verbreitung | Which church does know this ceremony, e.g. Phex (Schatten) |
-| Widerstand | How to resist the spell: SK or toughness |
-| Steigerungsfaktor | Cost of AP to increase the level of the ceremony: A, B, C, D |  
+| Tradition | Which church does know this ceremony, e.g. Phex (Schatten) |
+| Resistance | How to resist the spell: SK or toughness |
+| Improvement | Cost of AP to increase the level of the ceremony: A, B, C, D |  
 
 ![Ceremony](https://user-images.githubusercontent.com/75448500/106737253-bfe98d00-6616-11eb-9eaf-46ab5c03b52f.jpg)
 ![Ceremony2](https://user-images.githubusercontent.com/75448500/106737256-c0822380-6616-11eb-8b19-95302114b26d.jpg)
@@ -281,9 +281,9 @@ On the details tab select the category of your item.
 | ------------- | ------------- | 
 | Damage | Damage value of the weapon, e.g. 1d6+4 |
 | Attack modifier | Attack modifier for carrying the weapon in the right hand / in the off hand |
-| parade modifier | parade modifier for carrying the weapon in the right hand / in the off hand |
-| Schadensschwelle | Attribute level when the weapon makes more damage|
-| Leiteigenschaft | Attribute for making more damage|
+| Parade modifier | parade modifier for carrying the weapon in the right hand / in the off hand |
+| Damage Threshold| Attribute level when the weapon makes more damage|
+| Primary Attribute| Attribute for making more damage|
 | combat skill | Talent with which the weapon is used with |
 | Range | Short / Medium / Large |
 | Efect | |
@@ -310,9 +310,9 @@ On the details tab select the category of your item.
  Special attributes armors 
 | Element  | Description | 
 | ------------- | ------------- | 
-| Rüstungsschutz | level of armor|
-| Belastung | Level of how much Belastung the armor puts on |
-| Effect | e.g. -1 INI, -1 GE|  
+| Protection| level of armor|
+| Encumbrance| Level of how much Belastung the armor puts on |
+| Effect | Additional Penealties e.g. -1 INI, -1 GE|  
 | Structure Points | Number of Structure points of the armor |  
 
 ![Armor](https://user-images.githubusercontent.com/75448500/106739748-c4637500-6619-11eb-84ed-1253496355e5.jpg)

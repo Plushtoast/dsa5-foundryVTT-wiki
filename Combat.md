@@ -1,10 +1,12 @@
 # Combat  
 DSA in foundry includes a module for combat encounters. To start a combat encounter, player characters and npc's need to toggle the foundry combat mode.  
 The combat mode can be activated at the characters token on the map.  
-IMG TOGGLE COMBAT MODE
+![Toggle Combat Mode](https://user-images.githubusercontent.com/75448500/106728258-8f9cf100-660c-11eb-86da-71875d518354.jpg)
+  
   
 On the combat encounter menu element each player can roll his/her iniative by clicking on the dice symbol next to their characters name.  
-IMG COMBAT ENCOUNTER  
+![Combat Encounter](https://user-images.githubusercontent.com/75448500/106728369-a93e3880-660c-11eb-82a4-61508b3353d7.jpg)
+  
  
 DSA for foundry will calculate your characters initiative for you and rank your character according to your initiative roll.  
 Now each player can act according to their turn.  
@@ -17,14 +19,16 @@ Furthermore the status system from DSA is included in foundry. For more details 
 ## Does DSA calculate the Belastung in the combat.
 Yes, Belastung due to armor, heavy weight or any other reasons are calculated.  
 The calculated modification ia displayed in your attack / defense rolls.  
+![Combat Roll](https://user-images.githubusercontent.com/75448500/106728444-bc510880-660c-11eb-8c51-15fc1e603097.jpg)
 IMG ATTACK ROLL WITH BELASTUNG
 
 ## Can I modify any test / rolls?
 Yes, all test rolls, in combat or anywhere else can be modified according to the specified rules from the Grundregelwerk.  
-IMG ATTACK ROLL  
+  
 
 ## How can I attack, defend or evade during combat?
 To attack, defend or evade during combat you can simply click on the button on your character sheet on the combat tab.  
+![Attack, Defend, Evade](https://user-images.githubusercontent.com/75448500/106728521-d2f75f80-660c-11eb-82ee-15cf4d06edcd.jpg)
 IMG ATTACK/DEFEND EVADE  
 
 Alternativly you can enter the following commands into the chat box:

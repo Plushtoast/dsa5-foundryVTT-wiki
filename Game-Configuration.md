@@ -171,8 +171,8 @@ Additional attributes for magical professions
 | Element  | Description | 
 | ------------- | ------------- | 
 | Range | Range in yard of the spelltrick |
-| Spell effect duration |  |
-| Target category | Some spellstricks can be cast on only the character, some via touch, some to a distance: Self, touch, sight @JAN |
+| Spell effect duration | How long does the spelltrick last |
+| Target category | Possible type of the target |
 | Merkmal | Enter the merkmal of the spell, e.g. Einfluss, Verwandlung |
   
 ![Spelltrick](https://user-images.githubusercontent.com/75448500/106731159-734e8380-660f-11eb-95bc-3e1ea510f709.jpg)
@@ -187,17 +187,17 @@ Additional attributes for magical professions
 | Attribute 3 | Attribute to cast the ritual |
 | Range | Range in yard of the ritual; with some spells the range can be modified: Modification (Yes or No)  |
 | Spell effect duration |  |
-| Target category | Some rituals can be cast on only the character, some via touch, some to a distance: Self, touch, sight @JAN |
+| Target category | Possible type of the target |
 | Time to cast | ROUNDS to cast the ritual, some ritual cast durations can be modified: Modification (Yes or No)  |
 | AsP cost | AsP cost of the ritual, some ritual require an initial amount of AsPs and some to keep the spell running, the cost of rituals can be modified: Modification (Yes or No) |
 | Permanent AsP cost | Some rituals require permanent sacrifice of AsP. Enter them here |
-| AsP Detail |  |
-| Aufrechterhalten | If the ritual can be kept active for a time, enter additional AsP costs here |
+| AsP Detail | Description of the the spell cost |
+| Maintain| If the ritual can be kept active for a time, enter additional AsP costs here |
 | Effect description | Ritual effect description to display in Chat for all to see  |
 | Effect | enter the effect details here, e.g. 2d6 damage |
-| Verbreitung | Who knows the Ritual: (allgemein, Elfen, Gildenmagier, Hexen) @JAN |
-| Widerstand  | How to resist the spell: SK or toughness |
-| Steigerungsfaktor | Cost of AP to increase the level of the ritual: A, B, C, D |  
+| Distirbution | What traditions use this ritual |
+| Resistance| How to resist the spell: SK or toughness |
+| Advancement| Cost of AP to increase the level of the ritual: A, B, C, D |  
 
 ![Ritual](https://user-images.githubusercontent.com/75448500/106731684-0b4c6d00-6610-11eb-9824-e4ba2fbfa5c7.jpg)
 ![Ritual2](https://user-images.githubusercontent.com/75448500/106731687-0be50380-6610-11eb-95c0-2c1e4aab9f1f.jpg)
@@ -210,8 +210,8 @@ Additional attributes for magical professions
 | ------------- | ------------- | 
 | Range | Range in yard of the blessing |
 | Duration |  |
-| Target category | Some blessings can be cast on only the character, some via touch, some to a distance: Self, touch, sight @JAN |
-| Merkmal | Aspect of the blessing: e.g. allgemein |  
+| Target category | Possible types of the target |
+| Aspect| Aspect of the blessing: e.g. general|  
 
 ![Blessing](https://user-images.githubusercontent.com/75448500/106736320-98de8b80-6615-11eb-80bf-3cc574ba74df.jpg)
 ![Blessing2](https://user-images.githubusercontent.com/75448500/106736322-99772200-6615-11eb-9c56-3f7b1ed1bfec.jpg)
@@ -229,12 +229,12 @@ Additional attributes for magical professions
 | Time to cast | KR to cast the spell, some spell cast durations can be modified: Modification (Yes or No) |
 | KaP cost | KaP cost of the spell, some liturgies require an initial amount of KaPs and some to keep the liturgy running, the cost of liturgy can be modified: Modification (Yes or No) |
 | AsP Detail |  |
-| Aufrechterhalten | If the liturgy can be kept active for a time, enter additional KaP costs here |
+| Maintain| If the liturgy can be kept active for a time, enter additional KaP costs here |
 | Effect description | Liturgy effect description to display in Chat for all to see |
 | Effect | enter the effect details here, e.g. 2d6 damage |
-| Verbreitung | Which church does know this liturgy, e.g. Boron (Tod und Traum), Phex (Schatten) - @JAN wie eintragen |
-| Widerstand | How to resist the spell: SK or toughness |
-| Steigerungsfaktor | Cost of AP to increase the level of the Liturgy: A, B, C, D |  
+| Distribution| What traditions use this liturgy |
+| Resistance| How to resist the spell: SK or toughness |
+| Advancement| Cost of AP to increase the level of the Liturgy: A, B, C, D |  
 ![Liturgie](https://user-images.githubusercontent.com/75448500/106737078-8ca6fe00-6616-11eb-8483-2b0816ff8e74.jpg)
 ![Liturgie2](https://user-images.githubusercontent.com/75448500/106737082-8ca6fe00-6616-11eb-953e-ef9c13bf2507.jpg)
  

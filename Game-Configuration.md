@@ -151,8 +151,8 @@ Additional attributes for magical professions
 | Attribute 2 | Attribute to cast the spell |
 | Attribute 3 | Attribute to cast the spell |
 | Range | Range in yard of the spell; with some spells the range can be modified: Modification (Yes or No) |
-| Spell effect duration |  |
-| Target category | Some spells can be cast on only the character, some via touch, some to a distance: Self, touch, sight @JAN |
+| Spell effect duration | How long does the spell last |
+| Target category | The possible type of the target of the spell |
 | Time to cast | KR to cast the spell, some spell cast durations can be modified: Modification (Yes or No) |
 | AsP cost | AsP cost of the spell, some spells require an initial amount of AsPs and some to keep the spell running, the cost of spells can be modified: Modification (Yes or No) |
 | AsP Detail |  |

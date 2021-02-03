@@ -33,5 +33,5 @@ Alternativly you can enter the following commands into the chat box:
 * evade:
 
 ## Can special combat abilities be used in DSA for foundry?
-Yes, special abilities, if configured correctly, can be used and selected when attacking an opponent.  
-IMG ATTACK SCREEN
+Partially, special abilities, if configured correctly, can be used and selected when attacking an opponent.  
+Some special abilities are not yet available in the character sheet, but will be soon, so as of now you need to calculate them manually.

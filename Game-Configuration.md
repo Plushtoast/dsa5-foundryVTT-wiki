@@ -212,6 +212,7 @@ Additional attributes for magical professions
 | Duration |  |
 | Target category | Some blessings can be cast on only the character, some via touch, some to a distance: Self, touch, sight @JAN |
 | Merkmal | Aspect of the blessing: e.g. allgemein |  
+
 ![Blessing](https://user-images.githubusercontent.com/75448500/106736320-98de8b80-6615-11eb-80bf-3cc574ba74df.jpg)
 ![Blessing2](https://user-images.githubusercontent.com/75448500/106736322-99772200-6615-11eb-9c56-3f7b1ed1bfec.jpg)
 
@@ -233,7 +234,9 @@ Additional attributes for magical professions
 | Effect | enter the effect details here, e.g. 2d6 damage |
 | Verbreitung | Which church does know this liturgy, e.g. Boron (Tod und Traum), Phex (Schatten) - @JAN wie eintragen |
 | Widerstand | How to resist the spell: SK or toughness |
-| Steigerungsfaktor | Cost of AP to increase the level of the Liturgy: A, B, C, D |
+| Steigerungsfaktor | Cost of AP to increase the level of the Liturgy: A, B, C, D |  
+![Liturgie](https://user-images.githubusercontent.com/75448500/106737078-8ca6fe00-6616-11eb-8483-2b0816ff8e74.jpg)
+![Liturgie2](https://user-images.githubusercontent.com/75448500/106737082-8ca6fe00-6616-11eb-953e-ef9c13bf2507.jpg)
  
 
  Ceremonies
@@ -254,7 +257,10 @@ Additional attributes for magical professions
 | Effect |  enter the effect details here, e.g. 2d6 damage  |
 | Verbreitung | Which church does know this ceremony, e.g. Phex (Schatten) |
 | Widerstand | How to resist the spell: SK or toughness |
-| Steigerungsfaktor | Cost of AP to increase the level of the ceremony: A, B, C, D |
+| Steigerungsfaktor | Cost of AP to increase the level of the ceremony: A, B, C, D |  
+
+![Ceremony](https://user-images.githubusercontent.com/75448500/106737253-bfe98d00-6616-11eb-9eaf-46ab5c03b52f.jpg)
+![Ceremony2](https://user-images.githubusercontent.com/75448500/106737256-c0822380-6616-11eb-8b19-95302114b26d.jpg)
  
 
 ###What do I have to enter for items?
@@ -263,7 +269,9 @@ Additional attributes for magical professions
 | Price | Price in silver of the item |
 | amount | How many do you purchase, e.g. 1 for a sword or 20 for arrows |
 | weight | Weight of the item in stone, e.g. 0.05 |
-| description | Description of the item |
+| description | Description of the item |  
+
+![Item](https://user-images.githubusercontent.com/75448500/106737408-e7d8f080-6616-11eb-8a19-1336d2b5d1a1.jpg)
  
 On the details tab select the category of your item.
 
@@ -271,41 +279,53 @@ On the details tab select the category of your item.
 | Element  | Description | 
 | ------------- | ------------- | 
 | Damage | Damage value of the weapon, e.g. 1d6+4 |
-| Attack modifier | text |
-| parade modifier | text |
-| Schadensschwelle | text |
-| Leiteigenschaft | select from the the list |
-| combat skill | text |
-| Range | text |
-| Efect | text |
+| Attack modifier | Attack modifier for carrying the weapon in the right hand / in the off hand |
+| parade modifier | parade modifier for carrying the weapon in the right hand / in the off hand |
+| Schadensschwelle | Attribute level when the weapon makes more damage|
+| Leiteigenschaft | Attribute for making more damage|
+| combat skill | Talent with which the weapon is used with |
+| Range | Short / Medium / Large |
+| Efect | |
+| Structure Points | Number of Structure points of the weapon |  
+  
+![Weapon](https://user-images.githubusercontent.com/75448500/106738706-90d41b00-6618-11eb-932b-99ccc57b4bc3.jpg)
+![Weapon2](https://user-images.githubusercontent.com/75448500/106738710-92054800-6618-11eb-8066-ccd6cf17e29d.jpg)
  
 
  Special attributes range weapons: 
 | Element  | Description | 
 | ------------- | ------------- | 
-| damage | text |
-| reload actions | text |
-| range short/mid/long | text |
-| type of ammunition  | text |
-| combat skill | text |
-| effect | text |
- 
+| damage | Damage value of the weapon, e.g. 1d6+4|
+| reload actions | Rounds it takes to reload the weapon|
+| range short/mid/long | Range separated by /|
+| type of ammunition  | arrow / bolts / bullets / stone|
+| combat skill | Talent with which the weapon is used with|
+| effect | |
+| Structure Points | Number of Structure points of the weapon |  
 
- Special attributes armors @JAN
+![range weapon](https://user-images.githubusercontent.com/75448500/106739310-469f6980-6619-11eb-9531-20a19f8c1f85.jpg)
+![range weapon2](https://user-images.githubusercontent.com/75448500/106739317-47380000-6619-11eb-8657-f47f7dbe0f0f.jpg) 
+
+ Special attributes armors 
 | Element  | Description | 
 | ------------- | ------------- | 
-| Rüstungsschutz | text |
-| Belastung | text |
-| Effect | text |
+| Rüstungsschutz | level of armor|
+| Belastung | Level of how much Belastung the armor puts on |
+| Effect | e.g. -1 INI, -1 GE|  
+| Structure Points | Number of Structure points of the armor |  
+
+![Armor](https://user-images.githubusercontent.com/75448500/106739748-c4637500-6619-11eb-84ed-1253496355e5.jpg)
+![Armor2](https://user-images.githubusercontent.com/75448500/106739750-c4fc0b80-6619-11eb-95d7-158bc21c05f7.jpg)
+
  
 NOTE: Effects are currently only applicable for GE and INI
 
 ### What do I have to enter for creatures?  
 
 Creatures are created on the Actors Directory.  
+![ActorsDirectory](https://user-images.githubusercontent.com/75448500/106740030-32a83780-661a-11eb-9f79-94acc980c138.jpg)
 
-IMAGE Actors Directory
-@JAN
+
 | Element  | Description | 
 | ------------- | ------------- | 
 | Type of creature | text |

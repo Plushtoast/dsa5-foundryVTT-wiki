@@ -323,24 +323,14 @@ NOTE: Effects are currently only applicable for GE and INI
 ### What do I have to enter for creatures?  
 
 Creatures are created on the Actors Directory.  
-![ActorsDirectory](https://user-images.githubusercontent.com/75448500/106740030-32a83780-661a-11eb-9f79-94acc980c138.jpg)
+![ActorsDirectory](https://user-images.githubusercontent.com/75448500/106740030-32a83780-661a-11eb-9f79-94acc980c138.jpg)  
+
+Afterwards create the creature as you would create a character:  
+
+![Biest](https://user-images.githubusercontent.com/75448500/106745455-69ce1700-6621-11eb-80b4-1c6878393413.jpg)
 
 
-| Element  | Description | 
-| ------------- | ------------- | 
-| Type of creature | text |
-| hitpoints | text |
-| Advantages / Disadvantages | text |
-| Special abilities | text |
-| Traits | text |
- 
+Traits 
+![trait](https://user-images.githubusercontent.com/75448500/106745393-5327c000-6621-11eb-95da-ecfb59c7a578.jpg)
+![trait2](https://user-images.githubusercontent.com/75448500/106745397-53c05680-6621-11eb-8398-ba0edec5797a.jpg)
 
- Traits @ JAN
-| Element  | Description | 
-| ------------- | ------------- | 
-| category | text |
-| attack value | text |
-| damage | text |
-| range | text |
-| effect | text |
- 

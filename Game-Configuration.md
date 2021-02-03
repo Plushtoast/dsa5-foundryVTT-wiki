@@ -235,6 +235,7 @@ Additional attributes for magical professions
 | Distribution| What traditions use this liturgy |
 | Resistance| How to resist the spell: SK or toughness |
 | Advancement| Cost of AP to increase the level of the Liturgy: A, B, C, D |  
+
 ![Liturgie](https://user-images.githubusercontent.com/75448500/106737078-8ca6fe00-6616-11eb-8483-2b0816ff8e74.jpg)
 ![Liturgie2](https://user-images.githubusercontent.com/75448500/106737082-8ca6fe00-6616-11eb-953e-ef9c13bf2507.jpg)
  
@@ -330,7 +331,8 @@ Afterwards create the creature as you would create a character:
 ![Biest](https://user-images.githubusercontent.com/75448500/106745455-69ce1700-6621-11eb-80b4-1c6878393413.jpg)
 
 
-Traits 
+Traits  
+
 ![trait](https://user-images.githubusercontent.com/75448500/106745393-5327c000-6621-11eb-95da-ecfb59c7a578.jpg)
 ![trait2](https://user-images.githubusercontent.com/75448500/106745397-53c05680-6621-11eb-8398-ba0edec5797a.jpg)
 

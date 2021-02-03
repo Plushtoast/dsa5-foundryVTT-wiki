@@ -9,13 +9,17 @@ If you do not yet have characters you can either use the prepared characters fro
 
 ## How do I create characters in Das Schwarze Auge?  
 
-If you have purchased the DSA Grundregelwerk modules, the character creation is based on the character creation explained in the core rulebook: 
-1. First you enter APs for your character, e.g. 1100  
+Go to the Actors Directory and create a new character:
 IMAGE NEW CHAR
 
-1. Then you select your race from the compendium by dragging it from the compendium to your character sheet  
+If you have purchased the DSA Grundregelwerk modules, the character creation is based on the character creation explained in the core rulebook: 
+1. First go to the Eigenschaften tab and enter APs for your character, e.g. 1100  
+IMAGE NEW CHAR
+
+1. Then you go to the Compendium Packs and select your race from the compendium Rasse by dragging it from the compendium to your character sheet  
 IMAGE DRAG RACE  
 Note: The races require you to select a trait, follow the race description screen
+IMAGE RACE SCREEN
 
 1. Next select your Culture by dragging it from the compendium, if you want to use the culture package or enter culture name manually  
 IMAGE DRAG CULTURE  
@@ -24,12 +28,19 @@ NOTE: Culture packs will include modification to your skills
 1. Select your profession by dragging it from the compendium, if you want to use a predefined profession form DSA  
 IMAGE PROFESSION  
 NOTE: professions include skills, advantages, disadvantages special abilities, spells / liturgies, etc.
+IMAGE PROFESION2
 
 1. Modify your attributes, skill
 1. Choose advantages / disadvantages, special abilities, spells, liturgies and drag them from the compendium to your character sheet 
+IMAGE ADVANTAGES
+
 1. Drag your desired equipment to your character  
 NOTE: at this point in time DSA in foundry does not automatically deduct money from you character when dropping an item to the character sheet. So you have to keep track of your spendings
+IMAGE EQUIPMENT
+
 1. Enter your background story, if you want to
+IMAGE STORY
+
 1. Start playing
  
 

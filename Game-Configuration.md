@@ -20,7 +20,7 @@ TDE/DSA offers a variety of different assets for your game:
 | Cultures | Where your character stems from in Aventuria. |
 | Professions | Describes, what he/she does for a living besides being an adventurer and what he/she learned in the past.|
 | Special Abilities | Special Abilities push your character's limits beyond ordinary people. Special Abilities also cover language and reading skills for your character. |
-| Spells, cantrips or Rituals | Magicians can cast Spells, cantrips or Rituals |
+| Spells, Cantrips or Rituals | Magicians can cast Spells, cantrips or Rituals |
 | Liturgies, Ceremonies and Blessings | Priests of the 12 gods can cast Liturgies, Ceremonies or bestow Blessings. |
 | Items, Weapons, Armors, Poisons | Everything you need as an adventurer. |
 | Creatures, Traits for Creatures (Natural Attacks, Armors, Special Abilities) | Animals, Demons, other mythical creatures you may encounter.|
@@ -223,11 +223,11 @@ Additional attributes for magical Professions
 | Attribute 1 | Attribute to cast the liturgy |
 | Attribute 2 | Attribute to cast the liturgy |
 | Attribute 3 | Attribute to cast the liturgy |
-| Range | Range in yard of the liturgy; with some liturgies the range can be modified: Modification (Yes or No) |
+| Range | Range in yards of the liturgy; with some liturgies the range can be modified: Modification (Yes or No) |
 | Spell effect duration |  |
 | Target category | Some liturgies can be cast on only the character, some via touch, some to a distance: Self, touch, sight, etc. |
 | Time to cast | KR to cast the spell, some spell cast durations can be modified: Modification (Yes or No) |
-| KaP cost | KaP cost of the spell, some liturgies require an initial amount of KaPs and some to keep the liturgy running, the cost of liturgy can be modified: Modification (Yes or No) |
+| KP cost | KP cost of the spell, some liturgies require an initial amount of KaPs and some to keep the liturgy running, the cost of liturgy can be modified: Modification (Yes or No) |
 | AsP Detail |  |
 | Maintain| If the liturgy can be kept active for a time, enter additional KaP costs here |
 | Effect description | Liturgy effect description to display in Chat for all to see |
@@ -243,16 +243,16 @@ Additional attributes for magical Professions
  Ceremonies
 | Element  | Description | 
 | ------------- | ------------- | 
-| Attribute 1 | Attribute to cast the ceemony |
-| Attribute 2 | Attribute to cast the ceemony |
-| Attribute 3 | Attribute to cast the ceemony |
-| Range | Range in yard of the ceremony; with some ceremonies the range can be modified: Modification (Yes or No) |
+| Attribute 1 | Attribute to cast the ceremony |
+| Attribute 2 | Attribute to cast the ceremony |
+| Attribute 3 | Attribute to cast the ceremony |
+| Range | Range in yards of the ceremony; with some ceremonies the range can be modified: Modification (Yes or No) |
 | Spell effect duration |  |
 | Target category  | Some ceremonies can be cast on only the character, some via touch, some to a distance: Self, touch, sight, etc.  |
 | Time to cast | Rounds to cast the ceremony, some ceremony cast durations can be modified: Modification (Yes or No) |
-| KaP cost |  KaP cost of the ceremony, some ceremonies require an initial amount of KaPs and some to keep the ceremony running, the cost of ceremony can be modified: Modification (Yes or No) |
-| Permanent KaP cost | Some ceremonies require permanent sacrifice of AsP. Enter them here  |
-| KaP Detail |  |
+| KP cost |  KP cost of the ceremony, some ceremonies require an initial amount of KPs and some to keep the ceremony running, the cost of ceremony can be modified: Modification (Yes or No) |
+| Permanent KP cost | Some ceremonies require the permanent sacrifice of AsP. Enter them here  |
+| KP Detail |  |
 | Maintain| If the ceremony can be kept active for a time, enter additional KaP costs here |
 | Effect description | ceremony effect description to display in Chat for all to see |
 | Effect |  enter the effect details here, e.g. 2d6 damage  |
@@ -274,26 +274,26 @@ Additional attributes for magical Professions
 
 ![Item](https://user-images.githubusercontent.com/75448500/106737408-e7d8f080-6616-11eb-8a19-1336d2b5d1a1.jpg)
  
-On the details tab select the category of your item.
+In the details tab, select the category of your item.
 
  Special attributes melee weapons: 
 | Element  | Description | 
 | ------------- | ------------- | 
 | Damage | Damage value of the weapon, e.g. 1d6+4 |
-| Attack modifier | Attack modifier for carrying the weapon in the right hand / in the off hand |
-| Parade modifier | parade modifier for carrying the weapon in the right hand / in the off hand |
-| Damage Threshold| Attribute level when the weapon makes more damage|
-| Primary Attribute| Attribute for making more damage|
-| combat skill | Talent with which the weapon is used with |
+| Attack modifier | Attack modifier for carrying the weapon in the proper hand / in the off hand |
+| Parade modifier | Parade modifier for carrying the weapon in the proper hand / in the off hand |
+| Damage Threshold| Attribute level when the weapon does more damage|
+| Primary Attribute| Attribute for doing more damage|
+| combat skill | Talent the weapon is used with |
 | Range | Short / Medium / Large |
-| Efect | |
-| Structure Points | Number of Structure points of the weapon |  
+| Effect | |
+| Structure Points | Number of structure points of the weapon |  
   
 ![Weapon](https://user-images.githubusercontent.com/75448500/106738706-90d41b00-6618-11eb-932b-99ccc57b4bc3.jpg)
 ![Weapon2](https://user-images.githubusercontent.com/75448500/106738710-92054800-6618-11eb-8066-ccd6cf17e29d.jpg)
  
 
- Special attributes range weapons: 
+ Special attributes of ranged weapons: 
 | Element  | Description | 
 | ------------- | ------------- | 
 | damage | Damage value of the weapon, e.g. 1d6+4|
@@ -307,13 +307,13 @@ On the details tab select the category of your item.
 ![range weapon](https://user-images.githubusercontent.com/75448500/106739310-469f6980-6619-11eb-9531-20a19f8c1f85.jpg)
 ![range weapon2](https://user-images.githubusercontent.com/75448500/106739317-47380000-6619-11eb-8657-f47f7dbe0f0f.jpg) 
 
- Special attributes armors 
+ Special attributes armours 
 | Element  | Description | 
 | ------------- | ------------- | 
-| Protection| level of armor|
-| Encumbrance| Level of how much Belastung the armor puts on |
-| Effect | Additional Penealties e.g. -1 INI, -1 GE|  
-| Structure Points | Number of Structure points of the armor |  
+| Protection| level of armour |
+| Encumbrance| Level of how much Belastung the armour puts on |
+| Effect | Additional Penalties e.g. -1 INI, -1 GE|  
+| Structure Points | Number of Structure points of the armour |  
 
 ![Armor](https://user-images.githubusercontent.com/75448500/106739748-c4637500-6619-11eb-84ed-1253496355e5.jpg)
 ![Armor2](https://user-images.githubusercontent.com/75448500/106739750-c4fc0b80-6619-11eb-95d7-158bc21c05f7.jpg)
@@ -321,12 +321,12 @@ On the details tab select the category of your item.
  
 NOTE: Effects are currently only applicable for GE and INI
 
-### What do I have to enter for creatures?  
+### What do I need to enter for creatures?  
 
 Creatures are created on the Actors Directory.  
 ![ActorsDirectory](https://user-images.githubusercontent.com/75448500/106740030-32a83780-661a-11eb-9f79-94acc980c138.jpg)  
 
-Afterwards create the creature as you would create a character:  
+Afterwards, create the creature as you would create a character:  
 
 ![Biest](https://user-images.githubusercontent.com/75448500/106745455-69ce1700-6621-11eb-80b4-1c6878393413.jpg)
 

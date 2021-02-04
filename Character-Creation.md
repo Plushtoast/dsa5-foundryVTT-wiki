@@ -20,7 +20,7 @@ If you have purchased the DSA Grundregelwerk modules, the character creation is 
 ![Enter AP](https://user-images.githubusercontent.com/75448500/106726636-e7d2f380-660a-11eb-95c7-7e3844dadd3b.jpg)
   
 
-2. Then you go to the Compendium Packs and select your race from the compendium Rasse by dragging it from the compendium to your character sheet  
+2. Then you go to the Compendium Packs and select your species from the compendium Rasse by dragging it from the compendium to your character sheet  
   
 ![Race Selection](https://user-images.githubusercontent.com/75448500/106726734-033dfe80-660b-11eb-8b4f-18fc96756306.jpg)
   

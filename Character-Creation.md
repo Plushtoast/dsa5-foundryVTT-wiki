@@ -75,13 +75,15 @@ NOTE: at this point in time DSA in foundry does not automatically deduct money f
 
 If you have not purchased the DSA Grundregelwerk or any other module, you have to create all your assets as mentioned in the previous section and then follow the same steps as mentioned above.
 
+For a complete experience with maximum comofort functionality and all the content of the base game, the "Base Rules" Module is available from https://www.ulissesf-shop.com/ bzw für de https://www.f-shop.de/
+
 
 ## How can any asset be attached to my character?
 DSA in foundry allows you to drag and drop any asset (from any paid module or self created) from the Compendium packs or Item directory.
 Left click and hold the button and drag the asset to your character sheet or the map.  
 
 
-## How do I find any asset easiest in DSA for foundry?
+## How do I find an asset easily in DSA for Foundry?
 The easiest way to find any asset in DSA for foundry is to use the item browser in the library of the compendium packs. 
 There you can select what kind of asset you want to find, enter a name and all potential assets will appear.  
   

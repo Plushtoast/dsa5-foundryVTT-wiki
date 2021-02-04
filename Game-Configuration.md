@@ -124,35 +124,35 @@ Additional attributes for clerical Professions:
 | Primary attribute | Main attribute of the religion, e.g. strength  |
 | Tradition | Tradition of the god, e.g. Rondrakirche |
 | Aspect | Aspects of the god. Each god is assigned with several aspects |
-| Favored skills | Talents the god approves of  |
-| Liturgies | Liturgies the character will receive when choosing this profession |
-| Blessings | List of all blessings the character receives when choosing this profession |
+| Favored skills | Skills the god approves of  |
+| Liturgies | Liturgies the character will receive when choosing this Profession |
+| Blessings | List of all blessings the character receives when choosing this Profession |
  
 
-Additional attributes for magical professions
+Additional attributes for magical Professions
 | Element  | Description | 
 | ------------- | ------------- | 
 | Primary attribute | Main attribute of the religion, e.g. strength |
 | Tradition | Tradition of the magician, e.g. Elf |
 | Property |  |
-| Spells | Spells the character receives when choosing this profession |
-| Spelltricks | Spelltricks the character receives / can choose from when choosing this profession |
-| Number of Spelltricks | Usually characters only receive limited amount of spelltricks, enter the amount here. |  
+| Spells | Spells the character receives when choosing this Profession |
+| Spelltricks | Spelltricks the character receives / can choose from when choosing this Profession |
+| Number of Spelltricks | Usually characters only receive limited amount of Spelltricks, enter the amount here. |  
 
 ![Magical Profession](https://user-images.githubusercontent.com/75448500/106730964-3aaeaa00-660f-11eb-8606-a624ed17d71b.jpg)
  
 
-### What do I have to enter for spells, spelltricks or rituals?  
+### What do I have to enter for Spells, Spelltricks or Rituals?  
 
  Spells
 | Element  | Description | 
 | ------------- | ------------- | 
-| Attribute 1 | Attribute to cast the spell |
-| Attribute 2 | Attribute to cast the spell |
-| Attribute 3 | Attribute to cast the spell |
-| Range | Range in yard of the spell; with some spells the range can be modified: Modification (Yes or No) |
-| Spell effect duration | How long does the spell last |
-| Target category | The possible type of the target of the spell |
+| Attribute 1 | Attribute to cast the Spell |
+| Attribute 2 | Attribute to cast the Spell |
+| Attribute 3 | Attribute to cast the Spell |
+| Range | Range in yard of the Spell; with some spells the range can be modified: Modification (Yes or No) |
+| Spell effect duration | How long does the Spell last |
+| Target category | The possible type of the target of the Spell |
 | Time to cast | KR to cast the spell, some spell cast durations can be modified: Modification (Yes or No) |
 | AsP cost | AsP cost of the spell, some spells require an initial amount of AsPs and some to keep the spell running, the cost of spells can be modified: Modification (Yes or No) |
 | AsP Detail |  |

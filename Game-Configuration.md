@@ -1,12 +1,12 @@
 # Game configuration
-To be able to play DSA in foundry you require a list of assets including advantages, special abilities, professions, cultures or items.
+To be able to play DSA in Foundry you require a list of assets including Advantages, Special Abilities, Professions, Cultures or Items.
 There are two options to obtain all necessary assets:
 1. You can purchase prepared modules from Ulisses such as the [Das Schwarze Auge Grundregelwerk](https://ulisses-spiele.de/zum-f-shop/) and import the assets
 1. You can create all assets manually for your system
 
-## How do I create necessary assets for DSA in foundry?  
+## How do I create necessary assets for DSA in Foundry?  
 
-To create any assets in DSA for foundry go to the items Directory and create item. Select the category you want to create and enter a name and press ok.  
+To create any assets in DSA for Foundry go to the items Directory and create item. Select the category you want to create and enter a name and press ok.  
 
 ![Item Directory](https://github.com/PMFlint/Test/blob/main/Item%20directory.jpg)
 
@@ -16,19 +16,19 @@ Depending on the type of assets you have to enter the necessary details to the a
 DSA offers a variety of different assets for your game:
 | Element  | Description | 
 | ------------- | ------------- | 
-| advantages / disadvantages | Advantages and disadvantages give your character an edge or a hindrance |
-| cultures | Where your character is from in Aventurien. Each region |
-| professions | The profession of your character describes, what he does for a living besides being an adventurer and what he/she learned in the past |
-| special abilities | Special abilities enhance your character, e.g. give them a powerful attack. Special abilities are also all languages and reading skills of your character |
-| spells, spelltricks or rituals | Magicians can cast spells, spelltricks or rituals |
-| liturgies, ceremonies and blessings | Priests of the 12 gods can cast liturgies, ceremonies or bless people |
-| items, weapons, armors, poisons | Everything you need as an adventurer |
-| creatures, traits for creatures (attacks, armors, special abilities) | Animals, demons, other creatures and dragons |
+| Advantages / Disadvantages | Advantages and disadvantages give your character an edge or a hindrance |
+| Cultures | Where your character is from in Aventurien. |
+| Professions | The Profession of your character describes, what he does for a living besides being an adventurer and what he/she learned in the past |
+| Special Abilities | Special Abilities enhance your character, e.g. give them a powerful attack. Special Abilities are also all languages and reading skills of your character |
+| Spells, Spelltricks or Rituals | Magicians can cast Spells, Spelltricks or Rituals |
+| Liturgies, Ceremonies and Blessings | Priests of the 12 gods can cast Liturgies, Ceremonies or bless people with their Blessings |
+| Items, Weapons, Armors, Poisons | Everything you need as an adventurer |
+| Creatures, Traits for Creatures (Natural Attacks, Armors, Special Abilities) | Animals, Demons, other creatures and Dragons |
  
 ![Item creation](https://github.com/PMFlint/Test/blob/main/New%20Item.jpg)
 
-## What information do I need to create assets for DSA in foundry?  
-Assets in DSA for foundry require different information to be created.
+## What information do I need to create assets for DSA in Foundry?  
+Assets in DSA for Foundry require different information to be created.
 All assets require at least
 
 | Element  | Description | 
@@ -42,20 +42,20 @@ All assets require at least
 Depending on the kind of asset you want to create different information are required as well.
 
 ### What do I have to enter for advantages / disadvantages?
-Advantages and disadvantages impact your character in many ways.
+Advantages and Disadvantages impact your character in many ways.
 Choose them carefully. :)
-To create advantages or disadvantages you need to enter the following details as well:
+To create Advantages or Disadvantages you need to enter the following details as well:
 | Element  | Description | 
 | ------------- | ------------- | 
 | AP-value | AP cost or bonus when choosing this asset  | 
-| maximum level  | Some advantages / disadvantages can have several levels, enter the amount of levels here. NOTE: if only one level is available leave 0  | 
-| requirements* | Some advantages / disadvantages can only be selected when certain requirements are met, enter them here.  | 
-| effect | If your advantage / disadvantage has an in-game modifcation you can enter them here.*  |  
+| maximum level  | Some Advantages / Fisadvantages can have several levels, enter the amount of levels here. NOTE: if only one level is available leave 0  | 
+| requirements* | Some Advantages / Disadvantages can only be selected when certain requirements are met, enter them here.  | 
+| effect | If your Advantage / Disadvantage has an in-game modifcation you can enter them here.*  |  
 
 *For details on how to enter effects / requirements, check out our effect how to: LINK
 
 ### What do I have to enter for special abilities?  
-In DSA for foundry special abilities of all categories are created as special abilities.  
+In DSA for Foundry Special Abilities of all categories are created as Special Abilities.  
 ![Special Abilities](https://user-images.githubusercontent.com/75448500/106729253-92e4ac80-660d-11eb-9583-52b16a2e308c.jpg)  
 ![Special Abilities](https://user-images.githubusercontent.com/75448500/106729332-a3952280-660d-11eb-893c-27868ea9da49.jpg)  
 
@@ -63,59 +63,59 @@ In DSA for foundry special abilities of all categories are created as special ab
 | Element  | Description | 
 | ------------- | ------------- | 
 | AP-value | AP cost or bonus when choosing this asset  | 
-| requirements* | Some special abilities can only be selected when certain requirements are met, enter them here.  | 
+| requirements* | Some Special Abilities can only be selected when certain requirements are met, enter them here.  | 
 | category | ![Categories](https://user-images.githubusercontent.com/75448500/106729551-e35c0a00-660d-11eb-8e19-c6cb44fd9ebb.jpg) | 
 | rule text | The rule text can be displayed in the chat window for all players / gm to be seen.  | 
-| maximum level  | Some special abilities can have several levels, enter the amount of levels here. NOTE: if only one level is available leave 0  | 
-| effect | If your special ability has an in-game modifcation you can enter them here.*  | 
-| Combat skill | Combat special abilities can be linked to a combat skill   | 
+| maximum level  | Some Special Abilities can have several levels, enter the amount of levels here. NOTE: if only one level is available leave 0  | 
+| effect | If your Special Ability has an in-game modifcation you can enter them here.*  | 
+| Combat skill | Combat Special Abilities can be linked to a combat skill   | 
 
 *For details on how to enter effects / requirements, check out our effect how to: LINK
 
 
-### What do I have to enter for cultures  
+### What do I have to enter for Cultures  
 ![Culture](https://user-images.githubusercontent.com/75448500/106729947-549bbd00-660e-11eb-9aa5-5c42f962dac8.jpg)
 ![Culture](https://user-images.githubusercontent.com/75448500/106729960-582f4400-660e-11eb-8289-1c38ac680f33.jpg)
 
 | Element  | Description | 
 | ------------- | ------------- | 
 | AP-value | AP cost or bonus when choosing this asset  |
-| language* | The language / languages spoken in this culture. If the character can choose between languages separate them with a ,  |
-| writing* | The script available in the culture |
+| Language* | The language / languages spoken in this Culture. If the character can choose between languages separate them with a ,  |
+| writing* | The script available in the Culture |
 | local town knowledge** | The player can enter his local town knowledge |
-| suitable professions*** | List all possible professions this culture knows |
-| social status | Some cultures have slaves or noblemen |
-| suitable advantages*** | Advantages usually recognized with this culture, e.g. Thorwals are tough |
-| suitable disadvantages*** | Disadvantages usually recognized with this culture, e.g. Thorwals superstitious |
-| unsuitable advantages*** | Advantages not recognized with this culture |
-| unsuitable disadvantages*** | Disadvantages not recognized with this culture |
-| suitable talents*** | Talents members of this culture usually possess |
-| unsuitable talents*** | Talents members in this culture do not know |
-| selected talents*** | Talents players will receive when selecting this culture |
+| suitable professions*** | List all possible Professions this Culture knows |
+| social status | Some Cultures have slaves or noblemen |
+| suitable advantages*** | Advantages usually recognized with this Culture, e.g. Thorwals are tough |
+| suitable disadvantages*** | Disadvantages usually recognized with this Culture, e.g. Thorwals superstitious |
+| unsuitable advantages*** | Advantages not recognized with this Culture |
+| unsuitable disadvantages*** | Disadvantages not recognized with this Culture |
+| suitable talents*** | Skills members of this Culture usually possess |
+| unsuitable talents*** | Skills members in this Culture do not know |
+| selected talents*** | Skills players will receive when selecting this Culture |
  
-*language / writing must be set up as special abilities earlier
+*language / writing must be set up as Special Abilities earlier
 **leave empty if player can enter text manually
 ***separate by ,
 
-### What do I have to enter for professions/careers?
+### What do I have to enter for Professions?
 | Element  | Description | 
 | ------------- | ------------- | 
-| optional picture | To make your profession more recognizable you can upload a picture. If you purchase the Grundregelwerk, all professions will come with a picture |
+| optional picture | To make your Profession more recognizable you can upload a picture. If you purchase the Grundregelwerk, all Professions will come with a picture |
 | AP-value | AP cost or bonus when choosing this asset |
 | language points included |  |
-| suitable advantages*** | Advantages usually recognized with this profession |
-| suitable disadvantages*** | Disadvantages usually recognized with this profession |
-| unsuitable advantages*** | Advantages not recognized with this profession|
-| unsuitable disadvantages*** | Disadvantages not recognized with this profession|
-| talents*** | Talents a character receives when choosing this profession |
-| combat skills*** | Combat skills a character receives when choosing this profession |
-| special abilities**/*** | Special abilities  character receives when choosing this profession |
-| Magical abilities | Select if this profession is magical/mundane/clerical |  
+| suitable advantages*** | Advantages usually recognized with this Profession |
+| suitable disadvantages*** | Disadvantages usually recognized with this Profession |
+| unsuitable advantages*** | Advantages not recognized with this Profession|
+| unsuitable disadvantages*** | Disadvantages not recognized with this Profession|
+| talents*** | Skills a character receives when choosing this Profession |
+| combat skills*** | Combat skills a character receives when choosing this Profession |
+| special abilities**/*** | Special Abilities character receives when choosing this Profession |
+| Magical abilities | Select if this Profession is magical/mundane/clerical |  
 
 ![Profession](https://user-images.githubusercontent.com/75448500/106730545-cc69e780-660e-11eb-9fab-71dc04823cbf.jpg)
    
 
-Additional attributes for clerical professions:  
+Additional attributes for clerical Professions:  
 ![Clerical Profession](https://user-images.githubusercontent.com/75448500/106730785-05a25780-660f-11eb-860a-63f52f7effa6.jpg)  
   
 

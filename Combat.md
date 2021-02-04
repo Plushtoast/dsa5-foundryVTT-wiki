@@ -1,10 +1,10 @@
 # Combat  
-DSA in Foundry includes a module for combat encounters. To start a combat encounter, player characters and NPC's need to toggle the Foundry combat mode.  
-The combat mode can be activated at the characters token on the map.  
+TDE/DSA in Foundry includes a module for combat encounters. To start a combat encounter, player characters and NPC's need to toggle the Foundry combat mode.  
+The combat mode can be activated by clicking the character token on the map and selecting the shield and sword Combat symbol.  
 ![Toggle Combat Mode](https://user-images.githubusercontent.com/75448500/106728258-8f9cf100-660c-11eb-86da-71875d518354.jpg)
   
   
-On the combat encounter menu element each player can roll his/her iniative by clicking on the dice symbol next to their characters name.  
+Inthe combat encounter menu element each player can roll his/her initiative by clicking on the dice symbol next to their characters name.  
 ![Combat Encounter](https://user-images.githubusercontent.com/75448500/106728369-a93e3880-660c-11eb-82a4-61508b3353d7.jpg)
   
  

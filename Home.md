@@ -20,6 +20,6 @@ To really enjoy all features of the game you should have:
 * Items
 * Enemy creatures, natural weapons and traits
   
-For a complete experience with maximum comfort functionality and all the content of the base game, the "Base Rules" Module is available from https://www.ulissesf-shop.com/ (English) or https://www.f-shop.de/ (Deutsch)
+For a complete experience with maximum comfort functionality and all the content of the base game, the "Core Rules" Module is available from https://www.ulissesf-shop.com/ (English) or https://www.f-shop.de/ (Deutsch)
 
 

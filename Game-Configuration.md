@@ -1,60 +1,60 @@
 # Game configuration
 To be able to play DSA in Foundry you require a list of assets including Advantages, Special Abilities, Professions, Cultures or Items.
 There are two options to obtain all necessary assets:
-1. You can purchase prepared modules from Ulisses such as the [Das Schwarze Auge Grundregelwerk](https://ulisses-spiele.de/zum-f-shop/) and import the assets
-1. You can create all assets manually for your system
+1. You can purchase prepared modules from Ulisses such as the [Das Schwarze Auge Grundregelwerk](https://ulisses-spiele.de/zum-f-shop/) and import the assets.
+2. You can create all assets manually for your system as you see fit.
 
-## How do I create necessary assets for DSA in Foundry?  
+## How do I create assets for TDE/DSA in Foundry?  
 
-To create any assets in DSA for Foundry go to the items Directory and create item. Select the category you want to create and enter a name and press ok.  
+To create any assets in DSA for Foundry go to the Items Directory and create an item. Select the category you want to create, enter a name and press ok.  
 
 ![Item Directory](https://github.com/PMFlint/Test/blob/main/Item%20directory.jpg)
 
-Depending on the type of assets you have to enter the necessary details to the asset.
+Depending on the type of asset you will have to enter the required details for that asset type.
 
 ## What type of assets can be created?
-DSA offers a variety of different assets for your game:
+TDE/DSA offers a variety of different assets for your game:
 | Element  | Description | 
 | ------------- | ------------- | 
-| Advantages / Disadvantages | Advantages and disadvantages give your character an edge or a hindrance |
-| Cultures | Where your character is from in Aventurien. |
-| Professions | The Profession of your character describes, what he does for a living besides being an adventurer and what he/she learned in the past |
-| Special Abilities | Special Abilities enhance your character, e.g. give them a powerful attack. Special Abilities are also all languages and reading skills of your character |
-| Spells, Spelltricks or Rituals | Magicians can cast Spells, Spelltricks or Rituals |
-| Liturgies, Ceremonies and Blessings | Priests of the 12 gods can cast Liturgies, Ceremonies or bless people with their Blessings |
-| Items, Weapons, Armors, Poisons | Everything you need as an adventurer |
-| Creatures, Traits for Creatures (Natural Attacks, Armors, Special Abilities) | Animals, Demons, other creatures and Dragons |
+| Advantages / Disadvantages | Advantages and Disadvantages give your character an edge or a hindrance |
+| Cultures | Where your character stems from in Aventuria. |
+| Professions | Describes, what he/she does for a living besides being an adventurer and what he/she learned in the past.|
+| Special Abilities | Special Abilities push your character's limits beyond ordinary people. Special Abilities also cover language and reading skills for your character. |
+| Spells, cantrips or Rituals | Magicians can cast Spells, cantrips or Rituals |
+| Liturgies, Ceremonies and Blessings | Priests of the 12 gods can cast Liturgies, Ceremonies or bestow Blessings. |
+| Items, Weapons, Armors, Poisons | Everything you need as an adventurer. |
+| Creatures, Traits for Creatures (Natural Attacks, Armors, Special Abilities) | Animals, Demons, other mythical creatures you may encounter.|
  
 ![Item creation](https://github.com/PMFlint/Test/blob/main/New%20Item.jpg)
 
-## What information do I need to create assets for DSA in Foundry?  
-Assets in DSA for Foundry require different information to be created.
+## What information do I need to create assets for TDE/DSA in Foundry?  
+Assets in DSA for Foundry require different types of information to be created.
 All assets require at least
 
 | Element  | Description | 
 | ------------- | ------------- | 
-| Name | Name of the asset, will be entered in the item browser  |
-| Category | Category of the item, e.g. advantages |
-| Description  | Description of the esset  | 
+| Name | Name of the asset - will be added to the item browser  |
+| Category | Category of the item, e.g. Advantages |
+| Description  | Description of the asset  | 
 
 ![Item creation](https://github.com/PMFlint/Test/blob/main/New%20Item.jpg)
 
-Depending on the kind of asset you want to create different information are required as well.
+Depending on the kind of asset you want to create different information may be required additionally.
 
-### What do I have to enter for advantages / disadvantages?
+### What do I need to enter for advantages/disadvantages?
 Advantages and Disadvantages impact your character in many ways.
 Choose them carefully. :)
 To create Advantages or Disadvantages you need to enter the following details as well:
 | Element  | Description | 
 | ------------- | ------------- | 
 | AP-value | AP cost or bonus when choosing this asset  | 
-| maximum level  | Some Advantages / Fisadvantages can have several levels, enter the amount of levels here. NOTE: if only one level is available leave 0  | 
+| maximum level  | Some Advantages / Disadvantages can have several levels, enter them here. NOTE: If only ONE level is available, leave the value at 0 | 
 | requirements* | Some Advantages / Disadvantages can only be selected when certain requirements are met, enter them here.  | 
-| effect | If your Advantage / Disadvantage has an in-game modifcation you can enter them here.*  |  
+| effect | If your Advantage / Disadvantage results in in-game modifications, you can enter them here.*  |  
 
-*For details on how to enter effects / requirements, check out our effect how to: LINK
+*For details on how to enter effects/requirements, check out our effect how to: LINK
 
-### What do I have to enter for special abilities?  
+### What do I need to enter for Special Abilities?  
 In DSA for Foundry Special Abilities of all categories are created as Special Abilities.  
 ![Special Abilities](https://user-images.githubusercontent.com/75448500/106729253-92e4ac80-660d-11eb-9583-52b16a2e308c.jpg)  
 ![Special Abilities](https://user-images.githubusercontent.com/75448500/106729332-a3952280-660d-11eb-893c-27868ea9da49.jpg)  
@@ -65,51 +65,51 @@ In DSA for Foundry Special Abilities of all categories are created as Special Ab
 | AP-value | AP cost or bonus when choosing this asset  | 
 | requirements* | Some Special Abilities can only be selected when certain requirements are met, enter them here.  | 
 | category | ![Categories](https://user-images.githubusercontent.com/75448500/106729551-e35c0a00-660d-11eb-8e19-c6cb44fd9ebb.jpg) | 
-| rule text | The rule text can be displayed in the chat window for all players / gm to be seen.  | 
-| maximum level  | Some Special Abilities can have several levels, enter the amount of levels here. NOTE: if only one level is available leave 0  | 
-| effect | If your Special Ability has an in-game modifcation you can enter them here.*  | 
-| Combat skill | Combat Special Abilities can be linked to a combat skill   | 
+| rule text | The rule text can be displayed in the chat window for all players/gm to be seen.  | 
+| maximum level  | Some Special Abilities can have several levels, enter them here. NOTE: If only ONE level is available, leave the value at 0. | 
+| effect | If your Special Ability has any in-game modifications you can add them here.*  | 
+| Combat skill | Combat Special Abilities can be linked to a combat skill.  | 
 
-*For details on how to enter effects / requirements, check out our effect how to: LINK
+*For details on how to enter effects/requirements, check out our effect how to: LINK
 
 
-### What do I have to enter for Cultures  
+### What do I need to enter for Cultures?  
 ![Culture](https://user-images.githubusercontent.com/75448500/106729947-549bbd00-660e-11eb-9aa5-5c42f962dac8.jpg)
 ![Culture](https://user-images.githubusercontent.com/75448500/106729960-582f4400-660e-11eb-8289-1c38ac680f33.jpg)
 
 | Element  | Description | 
 | ------------- | ------------- | 
 | AP-value | AP cost or bonus when choosing this asset  |
-| Language* | The language / languages spoken in this Culture. If the character can choose between languages separate them with a ,  |
-| writing* | The script available in the Culture |
+| Language* | The language/languages spoken in this Culture. If the character can choose between languages separate them with a ,  |
+| writing* | The script available for the Culture |
 | local town knowledge** | The player can enter his local town knowledge |
-| suitable professions*** | List all possible Professions this Culture knows |
-| social status | Some Cultures have slaves or noblemen |
-| suitable advantages*** | Advantages usually recognized with this Culture, e.g. Thorwals are tough |
-| suitable disadvantages*** | Disadvantages usually recognized with this Culture, e.g. Thorwals superstitious |
-| unsuitable advantages*** | Advantages not recognized with this Culture |
-| unsuitable disadvantages*** | Disadvantages not recognized with this Culture |
-| suitable talents*** | Skills members of this Culture usually possess |
-| unsuitable talents*** | Skills members in this Culture do not know |
+| suitable professions*** | Lists all suitable Professions this Culture has|
+| social status | Some Cultures may have slaves or noblemen or other social strata |
+| suitable advantages*** | Advantages common in this Culture, e.g. Thorwalians are tough |
+| suitable disadvantages*** | Disadvantages usually associated with this Culture, e.g. Thorwalians superstitious |
+| unsuitable advantages*** | Advantages not usually associated with this Culture |
+| unsuitable disadvantages*** | Disadvantages not usually associated with this Culture |
+| suitable talents*** | Skills that members of this Culture usually possess |
+| unsuitable talents*** | Skills that members in this Culture would not normally know |
 | selected talents*** | Skills players will receive when selecting this Culture |
  
-*language / writing must be set up as Special Abilities earlier
-**leave empty if player can enter text manually
+* language/script must be set up under Special Abilities earlier
+**leave empty if the player can enter text manually
 ***separate by ,
 
-### What do I have to enter for Professions?
+### What do I need to enter for Professions?
 | Element  | Description | 
 | ------------- | ------------- | 
 | optional picture | To make your Profession more recognizable you can upload a picture. If you purchase the Grundregelwerk, all Professions will come with a picture |
 | AP-value | AP cost or bonus when choosing this asset |
 | language points included |  |
-| suitable advantages*** | Advantages usually recognized with this Profession |
-| suitable disadvantages*** | Disadvantages usually recognized with this Profession |
-| unsuitable advantages*** | Advantages not recognized with this Profession|
-| unsuitable disadvantages*** | Disadvantages not recognized with this Profession|
+| suitable advantages*** | Advantages usually associated with this Profession |
+| suitable disadvantages*** | Disadvantages usually associated with this Profession |
+| unsuitable advantages*** | Advantages not normally associated with this Profession|
+| unsuitable disadvantages*** | Disadvantages not normally associated with this Profession|
 | talents*** | Skills a character receives when choosing this Profession |
 | combat skills*** | Combat skills a character receives when choosing this Profession |
-| special abilities**/*** | Special Abilities character receives when choosing this Profession |
+| special abilities**/*** | Special Abilities a character receives when choosing this Profession |
 | Magical abilities | Select if this Profession is magical/mundane/clerical |  
 
 ![Profession](https://user-images.githubusercontent.com/75448500/106730545-cc69e780-660e-11eb-9fab-71dc04823cbf.jpg)
@@ -122,27 +122,27 @@ Additional attributes for clerical Professions:
 | Element  | Description | 
 | ------------- | ------------- | 
 | Primary attribute | Main attribute of the religion, e.g. strength  |
-| Tradition | Tradition of the god, e.g. Rondrakirche |
-| Aspect | Aspects of the god. Each god is assigned with several aspects |
+| Tradition | Tradition of the god, e.g. Church of Rondra |
+| Aspect | Aspects of the god. Each god may represent several aspects |
 | Favored skills | Skills the god approves of  |
 | Liturgies | Liturgies the character will receive when choosing this Profession |
-| Blessings | List of all blessings the character receives when choosing this Profession |
+| Blessings | List of all Blessings the character receives when choosing this Profession |
  
 
 Additional attributes for magical Professions
 | Element  | Description | 
 | ------------- | ------------- | 
-| Primary attribute | Main attribute of the religion, e.g. strength |
+| Primary attribute | Main attribute of the Tradition, e.g. strength |
 | Tradition | Tradition of the magician, e.g. Elf |
 | Property |  |
 | Spells | Spells the character receives when choosing this Profession |
-| Spelltricks | Spelltricks the character receives / can choose from when choosing this Profession |
-| Number of Spelltricks | Usually characters only receive limited amount of Spelltricks, enter the amount here. |  
+| cantrips | cantrips the character receives / can choose from when choosing this Profession |
+| Number of cantrips | Usually characters only receive a limited amount of cantrips, enter the amount here. |  
 
 ![Magical Profession](https://user-images.githubusercontent.com/75448500/106730964-3aaeaa00-660f-11eb-8606-a624ed17d71b.jpg)
  
 
-### What do I have to enter for Spells, Spelltricks or Rituals?  
+### What do I need to enter for Spells, cantrips or Rituals?  
 
  Spells
 | Element  | Description | 
@@ -150,33 +150,33 @@ Additional attributes for magical Professions
 | Attribute 1 | Attribute to cast the Spell |
 | Attribute 2 | Attribute to cast the Spell |
 | Attribute 3 | Attribute to cast the Spell |
-| Range | Range in yard of the Spell; with some spells the range can be modified: Modification (Yes or No) |
-| Spell effect duration | How long does the Spell last |
+| Range | Range in yards of the Spell; with some spells the range can be modified: Modification (Yes or No) |
+| Spell effect duration | How long the Spell lasts |
 | Target category | The possible type of the target of the Spell |
 | Time to cast | KR to cast the spell, some spell cast durations can be modified: Modification (Yes or No) |
-| AsP cost | AsP cost of the spell, some spells require an initial amount of AsPs and some to keep the spell running, the cost of spells can be modified: Modification (Yes or No) |
+| AsP cost | AsP cost of the spell, some spells require an initial amount of AsPs and some require AsP to keep the spell running, the cost of spells can be modified: Modification (Yes or No) |
 | AsP Detail |  |
 | Up-keep| If the spell can be kept active for a time, enter additional AsP costs here |
 | Effect description | Spell effect description to display in Chat for all to see |
-| Effect | enter the effect details here, e.g. 2d6 damage |
-| Traditions | Who knows the spell: (allgemein, Elfen, Gildenmagier, Hexen) |
-| Resistance | How to resist the spell: SK or toughness |
+| Effect | Enter the effect details here, e.g. 2d6 damage |
+| Traditions | Who knows this spell: (allgemein, Elfen, Gildenmagier, Hexen) |
+| Resistance | How to resist the spell: SK or Toughness |
 | Improvement | Cost of AP to increase the level of the spell: A, B, C, D |  
 
 ![Spell](https://user-images.githubusercontent.com/75448500/106731547-e0faaf80-660f-11eb-8389-07372f62e0ef.jpg)
 ![Spell2](https://user-images.githubusercontent.com/75448500/106731552-e1934600-660f-11eb-9c07-4afbf65ff91b.jpg)
  
 
- Spelltricks
+ Cantrips
 | Element  | Description | 
 | ------------- | ------------- | 
-| Range | Range in yard of the spelltrick |
-| Spell effect duration | How long does the spelltrick last |
+| Range | Range in yards of the Cantrip |
+| Spell effect duration | How long does the Cantrip last |
 | Target category | Possible type of the target |
-| Property | Enter the merkmal of the spell, e.g. Einfluss, Verwandlung |
+| Property | Enter the property of the spell, e.g. Einfluss, Verwandlung |
   
 ![Spelltrick](https://user-images.githubusercontent.com/75448500/106731159-734e8380-660f-11eb-95bc-3e1ea510f709.jpg)
-![Spelltrick2](https://user-images.githubusercontent.com/75448500/106731162-73e71a00-660f-11eb-8890-90a96306b38c.jpg)
+![Spelltrick](https://user-images.githubusercontent.com/75448500/106731162-73e71a00-660f-11eb-8890-90a96306b38c.jpg)
 
 
  Ritual
@@ -185,17 +185,17 @@ Additional attributes for magical Professions
 | Attribute 1 | Attribute to cast the ritual |
 | Attribute 2 | Attribute to cast the ritual |
 | Attribute 3 | Attribute to cast the ritual |
-| Range | Range in yard of the ritual; with some spells the range can be modified: Modification (Yes or No)  |
+| Range | Range in yards of the ritual; with some spells the range can be modified: Modification (Yes or No)  |
 | Spell effect duration |  |
 | Target category | Possible type of the target |
 | Time to cast | ROUNDS to cast the ritual, some ritual cast durations can be modified: Modification (Yes or No)  |
 | AsP cost | AsP cost of the ritual, some ritual require an initial amount of AsPs and some to keep the spell running, the cost of rituals can be modified: Modification (Yes or No) |
-| Permanent AsP cost | Some rituals require permanent sacrifice of AsP. Enter them here |
-| AsP Detail | Description of the the spell cost |
+| Permanent AsP cost | Some rituals require the permanent sacrifice of AsP. Enter them here |
+| AsP Detail | Description of the spell cost |
 | Maintain| If the ritual can be kept active for a time, enter additional AsP costs here |
 | Effect description | Ritual effect description to display in Chat for all to see  |
-| Effect | enter the effect details here, e.g. 2d6 damage |
-| Distirbution | What traditions use this ritual |
+| Effect | Enter the effect details here, e.g. 2d6 damage |
+| Distribution | Which traditions use this ritual |
 | Resistance| How to resist the spell: SK or toughness |
 | Improvement | Cost of AP to increase the level of the ritual: A, B, C, D |  
 
@@ -208,9 +208,9 @@ Additional attributes for magical Professions
  Blessings
 | Element  | Description | 
 | ------------- | ------------- | 
-| Range | Range in yard of the blessing |
+| Range | Range in yards of the Blessing |
 | Duration |  |
-| Target category | Possible types of the target |
+| Target category | Possible types of targets |
 | Aspect| Aspect of the blessing: e.g. general|  
 
 ![Blessing](https://user-images.githubusercontent.com/75448500/106736320-98de8b80-6615-11eb-80bf-3cc574ba74df.jpg)

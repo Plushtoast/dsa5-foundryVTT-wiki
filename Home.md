@@ -15,7 +15,7 @@ To really enjoy all features of the game you should have:
 * Special Abilities
 * Cultures
 * Professions
-* Spells, Tricks and Rituals
+* Spells, Cantrips and Rituals
 * Liturgies, Ceremonies and Blessings
 * Items
 * Enemy creatures, natural weapons and traits

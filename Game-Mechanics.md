@@ -7,8 +7,8 @@ For more details on general game mechanics please check out the following link: 
 We offer you automated rolls for all relevant tests. To roll for anything you have several options:
 1. Click on the dice symbol next to the desired element and let the system roll for you.  
 
-![skills_Rolls](https://user-images.githubusercontent.com/75448500/106746238-8b7bce00-6622-11eb-8523-449597139b0c.jpg)
-![skills_Rolls2](https://user-images.githubusercontent.com/75448500/106746240-8c146480-6622-11eb-86d2-338652c9241b.jpg)
+![Skill_Roll](https://user-images.githubusercontent.com/75448500/107001819-981b3600-678a-11eb-9962-9bcf4a88e827.jpg)
+![Skill_Roll2](https://user-images.githubusercontent.com/75448500/107001822-98b3cc80-678a-11eb-82bd-d612a0adbc35.jpg)
   
 
 2. Use one of our unique chat commands and select the desired element - see Chat Commands  

@@ -19,7 +19,7 @@ Furthermore the status system from DSA is included in Foundry. For more details 
 ## Does DSA calculate the encumbrance in combat?
 Yes, encumbrance due to armour, weight or other reasons is calculated.  
 The calculated modification is displayed in your attack/defence rolls.  
-![Combat Roll](https://user-images.githubusercontent.com/75448500/106728444-bc510880-660c-11eb-8c51-15fc1e603097.jpg)
+![CombatRoll](https://user-images.githubusercontent.com/75448500/107008491-23e59000-6794-11eb-8e91-6ed5a21a47b7.jpg)
 
 
 ## Can I modify test/rolls?

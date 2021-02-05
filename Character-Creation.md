@@ -17,18 +17,18 @@ Go to the Actors Directory and create a new character:
 If you have purchased the TDE Core Rules (DSA Grunderegelwerk) modules, the character creation is based on the character creation explained in the rulebook: 
 1. First go to the Eigenschaften tab and enter APs for your character, e.g. 1100.    
 
-![Enter AP](https://user-images.githubusercontent.com/75448500/106726636-e7d2f380-660a-11eb-95c7-7e3844dadd3b.jpg)
+![New_Char_Geron](https://user-images.githubusercontent.com/75448500/107000698-994b6380-6788-11eb-8c6a-9d37dcc58ddd.jpg)
   
 
 2. Next go to the Compendium Packs and select your Species from the compendium Species by dragging it from the Compendium to your sheet.  
   
-![Race Selection](https://user-images.githubusercontent.com/75448500/106726734-033dfe80-660b-11eb-8b4f-18fc96756306.jpg)
+![Species_Selection](https://user-images.githubusercontent.com/75448500/107000730-a8321600-6788-11eb-8c8d-b6cff53a7e6e.jpg)
   
  
 Note: Most Species require you to select a trait, follow the description on the screen.
   
-![Race Traits](https://user-images.githubusercontent.com/75448500/106726844-1fda3680-660b-11eb-924d-70438dddfd76.jpg)
-![Race Traits ](https://user-images.githubusercontent.com/75448500/106726916-33859d00-660b-11eb-8a74-a977d4c47f42.jpg)
+![Species_Info](https://user-images.githubusercontent.com/75448500/107000767-b5e79b80-6788-11eb-8adb-5d815f19727e.jpg)
+![Species_Info2](https://user-images.githubusercontent.com/75448500/107000785-bda74000-6788-11eb-94e9-cc20e0290011.jpg)
   
 
 
@@ -45,29 +45,31 @@ NOTE: Culture packs will include modifications to your skills!
   
 ![Profession Selection](https://user-images.githubusercontent.com/75448500/106727204-819aa080-660b-11eb-8be8-354bfabf5783.jpg)
 ![Select Profession](https://user-images.githubusercontent.com/75448500/106727267-95460700-660b-11eb-9346-405c156bf03b.jpg)
-  
+![Profession_New](https://user-images.githubusercontent.com/75448500/107000832-d7488780-6788-11eb-9a67-1fff999ef82c.jpg)
+
+NOTE: If you haven't entered APs yet, DSA for Foundry will advise you to select an AP level for character  
 NOTE: Professions include Skills, Advantages, Disadvantages, Special Abilities, Spells / Liturgies, etc.
   
-![Select Profession](https://user-images.githubusercontent.com/75448500/106727321-a68f1380-660b-11eb-8f77-273decf51387.jpg)
+![Geron_Overview](https://user-images.githubusercontent.com/75448500/107000873-e7f8fd80-6788-11eb-9a63-f925fb3cf8d2.jpg)
   
 
 5. Modify your Attributes and Skills.
 6. Choose Advantages / Disadvantages, Special Abilities, Spells, Liturgies and drag them from the Compendium to your sheet.
   
-![Select Advantages](https://user-images.githubusercontent.com/75448500/106727385-b7d82000-660b-11eb-9da7-fe27af7ba685.jpg)
+![Select_Advantages](https://user-images.githubusercontent.com/75448500/107000889-f1826580-6788-11eb-8a12-35bc24bb4285.jpg)
   
 
 7. Drag the desired Equipment over to your character.  
   
 NOTE: at this point in time TDE/DSA in Foundry does not automatically deduct money from your character when dropping an item to the character sheet. You have to keep track of your spendings manually.
   
-![Select Equipment](https://user-images.githubusercontent.com/75448500/106727494-d5a58500-660b-11eb-9853-7ffc0b9dac7b.jpg)
+![Geron_Ausrüstung](https://user-images.githubusercontent.com/75448500/107000902-f6dfb000-6788-11eb-893b-94e45414f627.jpg)
   
 
 
 8. Enter your character's Background Story, if you want to.
   
-![Background Story](https://user-images.githubusercontent.com/75448500/106727576-ebb34580-660b-11eb-8f55-e23bbad943b8.jpg)
+![Geron_Background](https://user-images.githubusercontent.com/75448500/107000915-fcd59100-6788-11eb-9204-f6b06ec20088.jpg)
 
 
 9. Start playing!

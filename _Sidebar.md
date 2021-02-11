@@ -4,7 +4,7 @@
 ### Game Mechanics
 
 ### Character Generation
-[Character Creation] (https://github.com/Plushtoast/dsa5-foundryVTT/wiki/Character-Creation)
+[Character Creation](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/Character-Creation)
 [Spellcaster and Blessed One](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/Spellcaster--and--Blessed-One-Creation)
 
 ### Game Mechanics

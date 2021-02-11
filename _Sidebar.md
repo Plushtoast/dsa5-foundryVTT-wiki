@@ -4,6 +4,7 @@
 **Character Generation**
 * [Character Creation](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/Character-Creation)
 * [Spellcaster and Blessed One](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/Spellcaster--and--Blessed-One-Creation)
+* [Familiar](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/Familiar)
 
 **Game Mechanics**
 * [Game Mechanics](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/Game-Mechanics)

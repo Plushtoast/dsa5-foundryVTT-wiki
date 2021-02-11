@@ -21,5 +21,5 @@ You can take the advantage from the predefined core module compendium or you can
 For the latter make sure to enter in the effect field
 * +20 AsP or +20 KaP (german)
 * +20 AE or +20 KP (english)
-This will add the number to you maximum Arcane Energy or Karma Points.
+This will add the number to your maximum Arcane Energy or Karma Points.
 

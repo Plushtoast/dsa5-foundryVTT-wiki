@@ -20,6 +20,6 @@ To enable the calculation of Arcane Energy or Karma Points you have to make sure
 You can take the advantage from the predefined core module compendium or you can create one yourself.
 For the latter make sure to enter in the effect field
 * +20 AsP or +20 KaP (german)
-* +20 AE or +20KP (english)
+* +20 AE or +20 KP (english)
 This will add the number to you maximum Arcane Energy or Karma Points.
 

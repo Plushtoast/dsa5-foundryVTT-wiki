@@ -11,4 +11,7 @@
 * [Game Configuration](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/Game-Configuration)
 * [Combat](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/Combat)
 
+**Advanced Mechanics**
+* [Effects]
+
 

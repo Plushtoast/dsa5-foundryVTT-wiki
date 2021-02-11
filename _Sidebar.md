@@ -12,6 +12,6 @@
 * [Combat](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/Combat)
 
 **Advanced Mechanics**
-* [Effects]
+* [Item Effects](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/Item-Effects)
 
 

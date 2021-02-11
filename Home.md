@@ -1,4 +1,4 @@
-# What's The Dark Eye (TDE) -Das Schwarze Auge (DSA) and what's Das Schwarze Auge in Foundry?  
+# What's The Dark Eye (TDE) - Das Schwarze Auge (DSA) and what's Das Schwarze Auge in Foundry?  
 
 Das Schwarze Auge/The Dark Eye is a roleplaying game taking place in the world of Aventuria for almost 40 years. Its 5th edition has been published by Ulisses Spiele and features a world of unique depth and richness, unlike any other fantasy RPG.
 Das Schwarze Auge/The Dark Eye for Foundry is an implementation of the roleplaying game in the virtual tabletop system of Foundry vtt, which has been developed together with Ulisses Spiele.  

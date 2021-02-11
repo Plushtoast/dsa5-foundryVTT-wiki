@@ -2,7 +2,7 @@ To create a spellcaster or blessed one, drag and drop an entity of one of the fo
 
 Blessed One:
 * Liturgy
-* Ceremnoy
+* Ceremony
 * Blessing
 * Clerical Special Ability
 

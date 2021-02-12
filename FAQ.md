@@ -3,3 +3,6 @@ Go to the [Foundry Virtual Table Top](https://foundryvtt.com/) Website. Login to
 
 ## How can I create a spellcaster/blessed on?
 Please refer to [this page](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/Spellcaster--and--Blessed-One-Creation).
+
+## How can I get immediate support?
+Please leave an issue on [Github](https://github.com/Plushtoast/dsa5-foundryVTT/issues) or join the [Foundry VTT's Discord Server](https://discord.gg/foundryvtt) and check out the ulisses-dsa channel.

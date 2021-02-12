@@ -12,3 +12,6 @@ Please leave an issue on [Github](https://github.com/Plushtoast/dsa5-foundryVTT/
 
 ## My weapons don't show on the character sheet
 Make sure you are looking at the equipment tab, not the combat tab. Weapons only show up on the combat tab, if you actually equip them (like take them into your hands).
+
+## Why does the attribute change of the species not add attribute levels on the character sheet?
+This seems to be a common misunderstanding. The attribute change of the species only affects the maximum allowed rating of the attribute during the character generation, not the actual value itself. So you can advance with +2 AGI f.e. an attribute at the character generation to 16 instead of 14, but you still have to pay the adventure points.

@@ -1,5 +1,6 @@
 * [Home](https://github.com/Plushtoast/dsa5-foundryVTT/wiki)
 * [Quick Start](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/Quick-Start)
+* [FAQ](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/FAQ)
 
 **Character Generation**
 * [Character Creation](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/Character-Creation)

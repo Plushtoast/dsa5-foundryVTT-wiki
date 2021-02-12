@@ -6,3 +6,6 @@ Please refer to [this page](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/S
 
 ## How can I get immediate support?
 Please leave an issue on [Github](https://github.com/Plushtoast/dsa5-foundryVTT/issues) or join the [Foundry VTT's Discord Server](https://discord.gg/foundryvtt) and check out the ulisses-dsa channel.
+
+## My weapons don't show on the character sheet
+Make sure you are looking at the equipment tab, not the combat tab. Weapons only show up on the combat tab, if you actually equip them (like take them into your hands).

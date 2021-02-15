@@ -1,5 +1,5 @@
-Common culprits:
-**Foundry is not automatically updating itself nor its content. Make sure you updated all your modules and the system to the latest version. This will already help in a lot of cases.**
+# Common culprits:
+## **Foundry is not automatically updating itself nor its content. Make sure you updated all your modules and the system to the latest version. This will already help in a lot of cases.**
 
 ## How can I unlock the premium content that I bought from Ulisses?
 Go to the [Foundry Virtual Table Top](https://foundryvtt.com/) Website. Login to your account. Open your account profile (click on your name in the top right corner). Select "Premium Content" and enter the key provided by Ulisses. After that you can install the module via the module browser in your Foundry installation.

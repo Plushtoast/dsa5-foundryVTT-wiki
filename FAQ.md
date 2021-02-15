@@ -1,4 +1,3 @@
-# Common culprits:
 ## **Foundry is not automatically updating itself nor its content. Make sure you updated all your modules and the system to the latest version. This will already help in a lot of cases.**
 
 ## How can I unlock the premium content that I bought from Ulisses?

@@ -18,3 +18,6 @@ Make sure to give your players the permission to upload files. So they can creat
 
 ## Why does the attribute change of the species not add attribute levels on the character sheet?
 This seems to be a common misunderstanding. The attribute change of the species only affects the maximum allowed rating of the attribute during the character generation, not the actual value itself. So you can advance with +2 AGI f.e. an attribute at the character generation to 16 instead of 14, but you still have to pay the adventure points.
+
+## Changing the Values in the input field for talent/combatskill and others does not calculate the used Adventure Point Cost
+The purpose of the input field is to give the player full control over the value without automated functions in the background. This is f.e. helpful as fallback in case of bugs or during the character generation. Please use the +- buttons if you want to have the AP calculation.

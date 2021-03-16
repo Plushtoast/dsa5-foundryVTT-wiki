@@ -1,3 +1,3 @@
 ### Want to contribute to this Wiki?
 
-[Fork it and send a pull request.](https://github.com/Plushtoast/dsa5-foundryVTT-wiki)
+[Visit the wiki source and start helping](https://github.com/Plushtoast/dsa5-foundryVTT-wiki)

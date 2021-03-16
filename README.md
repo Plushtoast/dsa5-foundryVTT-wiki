@@ -13,3 +13,11 @@ Useful content besides system explanation for the wiki could be:
 
 # Contributing
 To add wiki pages request access via the issues or create a pull request.
+
+
+
+## How To Write on Github
+
+### Formatting
+For headings paragraphs and stuff checkout this page:
+https://guides.github.com/features/mastering-markdown/

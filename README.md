@@ -3,7 +3,7 @@ Wiki Repository for the Foundry VTT TDE/DSA5 System
 
 This is the source repository for the wiki for the Foundry VTT system [Das Schwarze Auge / The Dark Eye 5](https://github.com/Plushtoast/dsa5-foundryVTT). 
 
-Documentation is a lot of work and can never be enought. So if you feel like there is something missing, please help us out and join the cause.
+Documentation is a lot of work and can never be enough. So if you feel like there is something missing, please help us out and fill the gaps.
 
 Useful content besides system explanation for the wiki could be:
 * Tricks for adventures

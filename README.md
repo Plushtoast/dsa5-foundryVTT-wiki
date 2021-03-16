@@ -21,5 +21,5 @@ Edit the corresponding page or create a new one. Make sure to set the filename's
 Also add your newly created page to the contents in the `_sidebar.md` file.
 
 ### Formatting
-For headings paragraphs and stuff checkout this page:
+For headings paragraphs and stuff check out this page:
 https://guides.github.com/features/mastering-markdown/

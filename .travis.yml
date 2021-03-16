@@ -1,7 +1,7 @@
 script:
 - |-
   git config user.name "Plushtoast"
-  git config user.email "none@web.de"
+  git config user.email "janweigmann@web.de"
   git remote remove origin
   git remote add origin https://$GITHUB_API_KEY@github.com/Plushtoast/dsa5-foundryVTT-wiki.git > /dev/null 2>&1
   git remote add upstream https://$GITHUB_API_KEY@github.com/Plustoast/dsa5-foundryVTT.wiki.git > /dev/null 2>&1

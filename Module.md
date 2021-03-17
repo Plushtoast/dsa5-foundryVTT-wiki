@@ -7,8 +7,7 @@ Diese Module funktionieren mit dem DSA 5 Regelwerk, es kann aber den ein oder an
 ## Dice Tray
 Platziert unter dem Chat Würfelsymbole um schnell Würfe über das anklicken der jeweiligen Würfel zu generieren. Ein Linksklick fügt einen Würfel hinzu und ein Rechtsklick zieht diesen wieder ab. Über + und - sowie das Feld dazwischen werden die Modifikatoren eingegeben. 
 Dabei wird der Wurf direkt in den Chat geschrieben und kann dort noch weiter modifiziert werden.  
-![Dice Tray empty](https://user-images.githubusercontent.com/80099175/111421882-09d19280-86ee-11eb-8415-9d420ed7b7d8.png)  
-![Dice Tray](https://user-images.githubusercontent.com/80099175/111421985-35ed1380-86ee-11eb-96ff-cfcc19174571.png)
+![Dice Tray empty](https://user-images.githubusercontent.com/80099175/111421882-09d19280-86ee-11eb-8415-9d420ed7b7d8.png)![Dice Tray](https://user-images.githubusercontent.com/80099175/111421985-35ed1380-86ee-11eb-96ff-cfcc19174571.png)
 
 ## Dice so nice
 Wirf 3D Würfel über den virtuellen Spieltisch. Dabei kann sogar zwischen verschiedenen DSA5 Themen gewählt werden.

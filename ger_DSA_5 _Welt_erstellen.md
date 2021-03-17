@@ -3,7 +3,7 @@ Bevor eine neue Welt für DSA5 erstellt wird, muss das Spielsystem installiert w
 1. Zuerst *Spielsysteme* -> *System installieren*
 2. Dann gibt man im Feld *Pakete durchuchen* dsa ein.
 3. Über *installieren* wird der Charakterbogen und die damit verbundenen Regeln installiert  
-![Spielsystem installieren](https://user-images.githubusercontent.com/80099175/111477062-06aac680-872f-11eb-967e-9e229ef88df5.png)  
+![Spielsystem installieren](https://user-images.githubusercontent.com/80099175/111484055-aec38e00-8735-11eb-9c3c-670bdc66fbf5.png)
  
 Der Schnellstarter ist als Modul gratis und kann ebenfalls direkt installiert werden. Mit diesem hat man schon ein paar Charaktere und ein Abenteuer angelegt 
 und kann etwas einfacher in das System einarbeiten.

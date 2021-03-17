@@ -17,7 +17,13 @@ Wirf 3D Würfel über den virtuellen Spieltisch. Dabei kann sogar zwischen versc
 
 ## Tokenizer
 Bietet die Möglichkeit aus dem Hochgeladenen Charakterbild einen Token mit der offiziellen DSA5 Umrandung zu erstellen.
-*Anleitung folgt*
+1. Ein Bild für den Charakter hochladen (hier vom eigenen Computer).
+1. Über die Tonne kann eine Ebene auf der jeweiligen Seite gelöscht werden.
+1. Das Bild von der Linken Seite über das männchen Symbol auf die Token Seite kopieren.
+1. Über die Pfeile kann die Anordnung der einzelnen Bilder gesteuert werden. Die Vorschau zeigt dabei immer das Ergebnis.
+1. Wird das Schloss deaktiviert kann das einzelne Bild mit der Maus verschoben und über das Mausrad gezoomt werden
+1. Ist man mit dem Ergebnis zufrieden kann man das Bild Speichern und dann mit OK bestätigen.
+![Tokennizer](https://user-images.githubusercontent.com/80099175/111424712-6c2c9200-86f2-11eb-8343-6c56e0d20c6f.png)
 
 ## German [Core]
 Durch dieses Modul kann die Standardsprache im Foundry Setup auf Deutsch umgestellt werden. Übersetz die komplette Oberfläche auf Deutsch.

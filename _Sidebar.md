@@ -1,19 +1,4 @@
-<div class="tabbed">
-		<input type="radio" id="tab1" name="css-tabs" checked>
-		<input type="radio" id="tab2" name="css-tabs">
-		<input type="radio" id="tab3" name="css-tabs">
-		
-		<ul class="tabs">
-			<li class="tab"><label for="tab1">Gangsta lipsum</label></li>
-			<li class="tab"><label for="tab2">Zombie lipsum</label></li>
-			<li class="tab"><label for="tab3">New age bullshit</label></li>
-		</ul>
-		
-		<div class="tab-content">
-     </div>
- </div>
-
-
+<
 * [Home](https://github.com/Plushtoast/dsa5-foundryVTT/wiki)
 * [Quick Start](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/Quick-Start)
 * [FAQ](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/FAQ)

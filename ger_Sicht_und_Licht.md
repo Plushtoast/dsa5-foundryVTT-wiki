@@ -10,7 +10,7 @@ wirkt sich auf die Sicht und Lichtweite einzelner Elemente in dieser Szene aus. 
 macht es einen großen unterschied ob ein Gitter 2 oder 20 Einheiten groß ist. Bei 2 kann er 5 Kästchen weit sehen, bei 20 nur 2 Kästchen). 
 Diese Einstellung hängt direkt mit den Einstellungen am Token zusammen (LINK ZU TOKEN ANLEITUNG) 
 ![Gitter 2](https://user-images.githubusercontent.com/80099175/111609623-c9037780-87da-11eb-8cdb-5f75ef20c8a0.png)
-![Gitter 20](https://user-images.githubusercontent.com/80099175/111609711-db7db100-87da-11eb-842b-9d4a5956b0c2.png)
+![Gitter 20](https://user-images.githubusercontent.com/80099175/111629054-2dc9cc80-87f1-11eb-8b8e-43f6482f91c9.png)
 
 ## Szeneneinstellungen - Sicht und Beleuchtung
 **Figuren-Sicht** Ist der Haken deaktiviert, können alle Spieler immer alles von der Map sehen. Außerdem werden Lichtquellen und Wände bei 

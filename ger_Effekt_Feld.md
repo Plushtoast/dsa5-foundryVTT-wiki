@@ -27,9 +27,12 @@ Aktuelle verwendbare Attribute je Sprache des Systems:
 
 # Effekt Feld - Fertigkeitspunkte für Talente/Zauber/Rituale/Liturgien/Zeremonien modifizieren
 Um die Fertigkeitspunkte der oben genannten Fertigkeiten zu modifizieren kann ebenfalls das Effekt Feld verwendet werden.
-Dafür muss in das Effekt Feld eines Items `FERTIGKEIT FPWERT` eingetragen werden (Bsp.: Kraftakt FP2).   
+Dafür muss in das Effekt Feld eines Items `FERTIGKEIT FPWERT` eingetragen werden (Bsp.: Kraftakt FP2). Auch hier können mehrere Fertigkeiten durch ein `,` getrennt angegeben werden.   
 ![Effekt Fertigkeit](https://user-images.githubusercontent.com/80099175/111601462-aa00e780-87d2-11eb-93d6-3fbec9a717c1.png)  
 Dies führt aber nicht wie bei den Attributen dazu, dass der Wert automatisch im Charakterbogen steigt/sinkt.
 Erst bei der Probe taucht die Modifikation im Feld *Bedingte Modifikation* auf.  
 ![Bedingte Modifikation](https://user-images.githubusercontent.com/80099175/111600712-f8fa4d00-87d1-11eb-906d-22d8902671ca.png)  
 **Dies funktioniert im Effekt Feld folgender ITEMS: Vorteile, Nachteile, Sonderfertigkeiten und Ausrüstung**
+
+Hier noch ein Beispiel für einen Zauber:
+![Effekt Zauber](https://user-images.githubusercontent.com/80099175/111606154-38776800-87d7-11eb-8039-0f2b31a775a1.png)

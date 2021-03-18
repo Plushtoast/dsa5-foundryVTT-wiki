@@ -22,7 +22,7 @@ und mit Lichtquellen im Außenbereich arbeiten)
 und/oder beleuchtete Bereich wieder verdeckt wenn der Spieler den Bereich verlässt. Bei Aktivem Haken, bleibt zumindest die Szene sichtbar, allerdings
 nicht die Token die sich dort befinden.  
 **Dunkelheit** Verändert den generellen Dunkelheitswert der Szene. Wird auf der Karte über die Seitenleiste Tag oder Nacht gewählt, 
-wird hier für die Szene der Wert auf 0 für Tag oder auf 1 für Nacht. 
+wird hier für die Szene der Wert auf 0 für Tag oder auf 1 für Nacht.   
 **Schwellwert für globale Beleuchtung** Ist der Haken gesetzt, wird die globale Beleuchtung auf der Szene automatisch deaktiviert sobald der 
 im Regler erreichte Grenzwert überschritten ist.  
 ![Sicht und Beleuchtung](https://user-images.githubusercontent.com/80099175/111619947-6dd78200-87e6-11eb-93e0-5b6cc0169cf7.png)

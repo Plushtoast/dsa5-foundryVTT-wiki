@@ -24,16 +24,16 @@ nicht die Token die sich dort befinden.
 **Dunkelheit** Verändert den generellen Dunkelheitswert der Szene. Wird auf der Karte über die Seitenleiste Tag oder Nacht gewählt, 
 wird hier für die Szene der Wert auf 0 für Tag oder auf 1 für Nacht. 
 **Schwellwert für globale Beleuchtung** Ist der Haken gesetzt, wird die globale Beleuchtung auf der Szene automatisch deaktiviert sobald der 
-im Regler erreichte Grenzwert überschritten ist.
+im Regler erreichte Grenzwert überschritten ist.  
 ![Sicht und Beleuchtung](https://user-images.githubusercontent.com/80099175/111619947-6dd78200-87e6-11eb-93e0-5b6cc0169cf7.png)
 
 ## Token Einstellungen
 Der Token hat noch einmal eine komplett eigene Einstellung für die eigene Sicht bei Dunkelheit (Vorteil: Dunkelsicht) sowie das von ihm 
-ausgestrahlte Licht (Stichwort: Fackel).
+ausgestrahlte Licht (Stichwort: Fackel).  
 **Kurze Anmerkung** Öffnet ihr die folgenden Einstellungen über einen Token auf dem Spielfeld, gilt die Änderung auch nur für den dort platzierten Token.
-Zieht ihr den Token dann aus den Akteuren aufs Spielfeld, hat dieser wieder die "alten" Werte. 
-1. Öffnet die Einstellungen des gewünschten Tokens über das Akteur Menü. Oben im Fenster muss [Prototyp-Figur] stehen!
-1. In diesem Fenster wird unter *Vision* die komplette Sicht und das Licht vom Token gesteuert.
+Zieht ihr den Token dann aus den Akteuren aufs Spielfeld, hat dieser wieder die "alten" Werte.   
+1. Öffnet die Einstellungen des gewünschten Tokens über das Akteur Menü. Oben im Fenster muss [Prototyp-Figur] stehen!  
+1. In diesem Fenster wird unter *Vision* die komplette Sicht und das Licht vom Token gesteuert.  
 ![Prototyp Token Vision](https://user-images.githubusercontent.com/80099175/111622001-f5be8b80-87e8-11eb-9135-f6e283007ec5.png)  
 
 ###Wichtige Einstellungen für DSA: (persönliche Meinung)

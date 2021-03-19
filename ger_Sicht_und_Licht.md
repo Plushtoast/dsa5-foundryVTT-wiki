@@ -48,7 +48,7 @@ Zieht ihr den Token dann aus den Akteuren aufs Spielfeld, hat dieser wieder die 
 Bsp.: Held mit einer Fackel  
 ![Geron Fackel](https://user-images.githubusercontent.com/80099175/111623244-6619dc80-87ea-11eb-92e6-7cfbb3fd5264.png)
 
-###Modultip: Torch
+### Modultip: Torch
 [Das Modul Torch](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Module.md#torch) bietet die Möglichkeit Fackeln über das Kontextmenü der Token zu aktivieren und deaktivieren.
 
 ## Standardeinstellungen Sichtweite

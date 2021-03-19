@@ -8,7 +8,7 @@ welches auf Teile dieses Themas eingeht: https://www.youtube.com/watch?v=s60nS56
 In der Szene gibt es neben dem Abschnitt *Sicht und Beleuchtung* noch die Gitter-Skalierung. Der Wert der hier eingetragen ist, 
 wirkt sich auf die Sicht und Lichtweite einzelner Elemente in dieser Szene aus. (Bsp.: Hat ein Token eine 10 bei Dämmersicht,
 macht es einen großen unterschied ob ein Gitter 2 oder 20 Einheiten groß ist. Bei 2 kann er 5 Kästchen weit sehen, bei 20 nur 2 Kästchen). 
-Diese Einstellung hängt direkt mit den [Einstellungen am Token](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Sicht_und_Licht.md#token-einstellungen) zusammen
+Diese Einstellung hängt direkt mit den [Einstellungen am Token](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Sicht_und_Licht.md#token-einstellungen) zusammen.  
 ![Gitter 2](https://user-images.githubusercontent.com/80099175/111609623-c9037780-87da-11eb-8cdb-5f75ef20c8a0.png)
 ![Gitter 20](https://user-images.githubusercontent.com/80099175/111629054-2dc9cc80-87f1-11eb-8b8e-43f6482f91c9.png)
 
@@ -49,11 +49,11 @@ Bsp.: Held mit einer Fackel
 ![Geron Fackel](https://user-images.githubusercontent.com/80099175/111623244-6619dc80-87ea-11eb-92e6-7cfbb3fd5264.png)
 
 ### Modultip: Torch
-[Das Modul Torch](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Module.md#torch) bietet die Möglichkeit Fackeln über das Kontextmenü der Token zu aktivieren und deaktivieren.
+[Das Modul Torch](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Module.md#torch) bietet die Möglichkeit Fackeln über das Kontextmenü der Token zu aktivieren und deaktivieren.  
 
 ## Standardeinstellungen Sichtweite
 Um nicht bei jedem neu erstellten Akteur die Sicheinstellungen auf den eigenen Standard setzen zu müssen, 
 gibt es unter *Zahnrad* (Einstellungen) (1) -> *Einstellungen anpassen* (2) -> *Systemeinstellungen* (3) die Punkte *Standard Sichtweite (vage)* (4) (*Dämmersicht* im Token)
 und *Standard Sichtweite (klar)* (5) (*Helle Sicht* im Token). Jeder neu erstellte Akteur bekommt diese Einstellungen. (Persönliche Meinung: Ich habe beides auf 0
-und steuere die Sicht bei Tag nur über Hinternisse, bei Dunkelheit über Dämmersicht und Fackeln)
+und steuere die Sicht bei Tag nur über Hinternisse, bei Dunkelheit über Dämmersicht und Fackeln)  
 ![Systemeinstellungen Sichtweite](https://user-images.githubusercontent.com/80099175/111624415-f278cf00-87eb-11eb-9ac3-b4b3a98fb1e8.png)

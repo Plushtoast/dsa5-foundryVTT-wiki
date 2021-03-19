@@ -1,6 +1,6 @@
 # Sicht und Licht
 **Anmerkung: Dieses Thema ist nicht ganz so einfach und kurz zu erklären, deshalb ist diese Anleitung deutlich länger als andere!**
-**Um das Thema etwas griffiger zu machen, hier einmal ein Video von Enyounter Library 
+**Um das Thema etwas griffiger zu machen, hier einmal ein Video von Encounter Library 
 welches auf Teile dieses Themas eingeht: https://www.youtube.com/watch?v=s60nS56jIH8** 
 
 

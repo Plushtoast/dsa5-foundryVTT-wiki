@@ -29,3 +29,14 @@ Bietet die Möglichkeit aus dem Hochgeladenen Charakterbild einen Token mit der 
 Durch dieses Modul kann die Standardsprache im Foundry Setup auf Deutsch umgestellt werden. Übersetz die komplette Oberfläche auf Deutsch.
 Unter *Adminsetup -> Configuration -> Default Language* Deutsch - German [Core] wählen und Server neu starten.
 ![grafik](https://user-images.githubusercontent.com/80099175/111421703-bb23f880-86ed-11eb-94ee-92a71189353e.png)
+
+
+# Persönliche Empfehlungen
+Hier liste ich kurz die Module auf, die ich in meinen Sitzungen verwende. Auch bei diesen gibt es keine Garantie auf Kompatibilität.
+
+## Torch
+Dieses Modul fügt einen Fackel schalter im Kontextmenü des Charakters hinzu. In den Moduleinstellungen kann die Reichweite der Fackel definiert werden.
+1. Bei aktiviertem Haken können auch die Spieler auf den Fackelschalter im Kontextmenü zugreifen.
+2. Raduis helles und dämmriges Licht der Fackel
+3. Fackelschalter im Kontextmenü mit dem die Fackel aktiviert und deaktiviert werden kann.  
+![grafik](https://user-images.githubusercontent.com/80099175/111770465-beb0ae80-88aa-11eb-88fe-3fd1be700b0b.png)

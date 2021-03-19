@@ -8,7 +8,7 @@ welches auf Teile dieses Themas eingeht: https://www.youtube.com/watch?v=s60nS56
 In der Szene gibt es neben dem Abschnitt *Sicht und Beleuchtung* noch die Gitter-Skalierung. Der Wert der hier eingetragen ist, 
 wirkt sich auf die Sicht und Lichtweite einzelner Elemente in dieser Szene aus. (Bsp.: Hat ein Token eine 10 bei Dämmersicht,
 macht es einen großen unterschied ob ein Gitter 2 oder 20 Einheiten groß ist. Bei 2 kann er 5 Kästchen weit sehen, bei 20 nur 2 Kästchen). 
-Diese Einstellung hängt direkt mit den Einstellungen am Token zusammen ([Tokeneinstellungen:] (https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Sicht_und_Licht.md#token-einstellungen)) 
+Diese Einstellung hängt direkt mit den [Einstellungen am Token](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Sicht_und_Licht.md#token-einstellungen) zusammen
 ![Gitter 2](https://user-images.githubusercontent.com/80099175/111609623-c9037780-87da-11eb-8cdb-5f75ef20c8a0.png)
 ![Gitter 20](https://user-images.githubusercontent.com/80099175/111629054-2dc9cc80-87f1-11eb-8b8e-43f6482f91c9.png)
 
@@ -48,8 +48,8 @@ Zieht ihr den Token dann aus den Akteuren aufs Spielfeld, hat dieser wieder die 
 Bsp.: Held mit einer Fackel  
 ![Geron Fackel](https://user-images.githubusercontent.com/80099175/111623244-6619dc80-87ea-11eb-92e6-7cfbb3fd5264.png)
 
-###Modifikationstip: Torch
-Die Mod Torch bietet die Möglichkeit Fackeln über das Kontextmenü der Token zu aktivieren und deaktivieren. (Link Kurzanleitung: https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Module.md#torch)
+###Modultip: Torch
+[Das Modul Torch](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Module.md#torch) bietet die Möglichkeit Fackeln über das Kontextmenü der Token zu aktivieren und deaktivieren.
 
 ## Standardeinstellungen Sichtweite
 Um nicht bei jedem neu erstellten Akteur die Sicheinstellungen auf den eigenen Standard setzen zu müssen, 

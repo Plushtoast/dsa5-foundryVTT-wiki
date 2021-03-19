@@ -49,7 +49,7 @@ Bsp.: Held mit einer Fackel
 ![Geron Fackel](https://user-images.githubusercontent.com/80099175/111623244-6619dc80-87ea-11eb-92e6-7cfbb3fd5264.png)
 
 ###Modifikationstip: Torch
-Die Mod Torch bietet die Möglichkeit Fackeln über das Kontextmenü der Token zu aktivieren und deaktivieren. (LINK ZU MODULE - TORCH)
+Die Mod Torch bietet die Möglichkeit Fackeln über das Kontextmenü der Token zu aktivieren und deaktivieren. (https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Module.md#torch)
 
 ## Standardeinstellungen Sichtweite
 Um nicht bei jedem neu erstellten Akteur die Sicheinstellungen auf den eigenen Standard setzen zu müssen, 

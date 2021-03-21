@@ -30,6 +30,11 @@ Durch dieses Modul kann die Standardsprache im Foundry Setup auf Deutsch umgeste
 Unter *Adminsetup -> Configuration -> Default Language* Deutsch - German [Core] wählen und Server neu starten.
 ![grafik](https://user-images.githubusercontent.com/80099175/111421703-bb23f880-86ed-11eb-94ee-92a71189353e.png)
 
+## Ping
+Um den Spielern einen Hinweis darüber zu geben über was auf der Szene man gerade spricht, kann mit dem Modul Ping ein 
+Signal auf der Szene erzeugt werden (Standard: Linksklick)  
+Mit einer Tastenkombination (Standard: STRG+Linksklick) springt dann die Sicht der Spieler auch zu dem Punkt an die das Signal gesetzt wurde.  
+![Ping](https://user-images.githubusercontent.com/80099175/111904281-60b8ce00-8a46-11eb-9728-720a761c85b3.png)
 
 # Persönliche Empfehlungen
 Hier liste ich kurz die Module auf, die ich in meinen Sitzungen verwende. Auch bei diesen gibt es keine Garantie auf Kompatibilität.

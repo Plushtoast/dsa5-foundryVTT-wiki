@@ -13,19 +13,19 @@ Diese Einstellung hängt direkt mit den [Einstellungen am Token](https://github.
 ![Gitter 20](https://user-images.githubusercontent.com/80099175/111629054-2dc9cc80-87f1-11eb-8b8e-43f6482f91c9.png)
 
 ## Szeneneinstellungen - Sicht und Beleuchtung
-**Figuren-Sicht** Ist der Haken deaktiviert, können alle Spieler immer alles von der Map sehen. Außerdem werden Lichtquellen und Wände bei 
+1. **Figuren-Sicht**: Ist der Haken deaktiviert, können alle Spieler immer alles von der Map sehen. Außerdem werden Lichtquellen und Wände bei 
 markierten Token ignoriert was die Sichteinschränkungen angeht. (Bewegungseinschränkungen gelten immer noch).    
-**Globale Beleuchtung** Ist der Haken deaktiviert, ist die Karte komplett dunkel. Diese dunkelheit wird nur durch Lichtquellen 
+2. **Globale Beleuchtung**: Ist der Haken deaktiviert, ist die Karte komplett dunkel. Diese dunkelheit wird nur durch Lichtquellen 
 oder Licht- und Sichteinstellungen der Token (LINK ZU TOKEN ANLEITUNG) durchbrochen. (Meistertipp: In Karten mit Außen- und Innenbereich Haken deaktivieren 
 und mit Lichtquellen im Außenbereich arbeiten)  
-**Nebel Erkundung** Hiermit kann das nach und nach Aufdecken der Karte beeinflusst werden. Ist der Haken deaktiviert, wird der nicht sichtbare 
+3. **Nebel Erkundung**: Hiermit kann das nach und nach Aufdecken der Karte beeinflusst werden. Ist der Haken deaktiviert, wird der nicht sichtbare 
 und/oder beleuchtete Bereich wieder verdeckt wenn der Spieler den Bereich verlässt. Bei Aktivem Haken, bleibt zumindest die Szene sichtbar, allerdings
 nicht die Token die sich dort befinden.  
-**Dunkelheit** Verändert den generellen Dunkelheitswert der Szene. Wird auf der Karte über die Seitenleiste Tag oder Nacht gewählt, 
+4. **Dunkelheit**: Verändert den generellen Dunkelheitswert der Szene. Wird auf der Karte über die Seitenleiste Tag oder Nacht gewählt, 
 wird hier für die Szene der Wert auf 0 für Tag oder auf 1 für Nacht.   
-**Schwellwert für globale Beleuchtung** Ist der Haken gesetzt, wird die globale Beleuchtung auf der Szene automatisch deaktiviert sobald der 
+5. **Schwellwert**: für globale Beleuchtung** Ist der Haken gesetzt, wird die globale Beleuchtung auf der Szene automatisch deaktiviert sobald der 
 im Regler erreichte Grenzwert überschritten ist.  
-![Sicht und Beleuchtung](https://user-images.githubusercontent.com/80099175/111619947-6dd78200-87e6-11eb-93e0-5b6cc0169cf7.png)
+![Sicht und Beleuchtung](https://user-images.githubusercontent.com/80099175/111903842-5c8bb100-8a44-11eb-8fea-3b32dcde8b0b.png)
 
 ## Token Einstellungen
 Der Token hat noch einmal eine komplett eigene Einstellung für die eigene Sicht bei Dunkelheit (Vorteil: Dunkelsicht) sowie das von ihm 
@@ -36,17 +36,17 @@ Zieht ihr den Token dann aus den Akteuren aufs Spielfeld, hat dieser wieder die 
 1. In diesem Fenster wird unter *Vision* die komplette Sicht und das Licht vom Token gesteuert.  
 ![Prototyp Token Vision](https://user-images.githubusercontent.com/80099175/111622001-f5be8b80-87e8-11eb-9135-f6e283007ec5.png)  
 
-###Wichtige Einstellungen für DSA: (persönliche Meinung)
-**Hat Sicht**: Bei aktiviertem Haken gelten alle Sichteinschränkungen durch Licht, Wände, etc. Ist er deaktiviert kann der Akteur über die ganze Szene schauen.    
-**Dämmersicht**: Einheiten die der Akteur im Dunkeln mit dämmrigem Licht weit sehen kann. (Vorteil: Dunkelsicht)    
-**Helle Sicht**: Einheiten die der Akteur im Dunkeln mit hellem Licht weit sehen kann.  
-**Radius dämmriges Licht**: Einheiten in denen der Akteur dämmriges Licht um sich herum abgibt (Stichwort: Fackel)  
-**Raduis helles Licht**: Einheiten in denen der Akteur helles Licht um sich herum abgibt (Stichwort:Fackel)  
-**Lichtfarbe**: Farbe des abgegebenen Lichts  
-**Farbintensität**: Stärke des abgegebenen Lichts  
-**Animationstyp**: Ob das Licht einen Effekt hat (Stichwort: Fackel)  
+### Wichtige Einstellungen für DSA: (persönliche Meinung)
+1. **Hat Sicht**: Bei aktiviertem Haken gelten alle Sichteinschränkungen durch Licht, Wände, etc. Ist er deaktiviert kann der Akteur über die ganze Szene schauen.    
+2. **Dämmersicht**: Einheiten die der Akteur im Dunkeln mit dämmrigem Licht weit sehen kann. (Vorteil: Dunkelsicht)    
+3. **Helle Sicht**: Einheiten die der Akteur im Dunkeln mit hellem Licht weit sehen kann.  
+4. **Radius dämmriges Licht**: Einheiten in denen der Akteur dämmriges Licht um sich herum abgibt (Stichwort: Fackel)  
+5. **Raduis helles Licht**: Einheiten in denen der Akteur helles Licht um sich herum abgibt (Stichwort:Fackel)  
+6. **Lichtfarbe**: Farbe des abgegebenen Lichts  
+7. **Farbintensität**: Stärke des abgegebenen Lichts  
+8. **Animationstyp**: Ob das Licht einen Effekt hat (Stichwort: Fackel)  
 Bsp.: Held mit einer Fackel  
-![Geron Fackel](https://user-images.githubusercontent.com/80099175/111623244-6619dc80-87ea-11eb-92e6-7cfbb3fd5264.png)
+![Geron Fackel](https://user-images.githubusercontent.com/80099175/111904114-74176980-8a45-11eb-9609-f4d47b2d6446.png)
 
 ### Modultip: Torch
 [Das Modul Torch](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Module.md#torch) bietet die Möglichkeit Fackeln über das Kontextmenü der Token zu aktivieren und deaktivieren.  

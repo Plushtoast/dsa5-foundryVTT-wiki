@@ -36,7 +36,7 @@ Zieht ihr den Token dann aus den Akteuren aufs Spielfeld, hat dieser wieder die 
 1. In diesem Fenster wird unter *Vision* die komplette Sicht und das Licht vom Token gesteuert.  
 ![Prototyp Token Vision](https://user-images.githubusercontent.com/80099175/111622001-f5be8b80-87e8-11eb-9135-f6e283007ec5.png)  
 
-### Wichtige Einstellungen für DSA: (persönliche Meinung)
+### Wichtige Einstellungen für DSA: (persönliche Meinung von *tsaath*)
 1. **Hat Sicht**: Bei aktiviertem Haken gelten alle Sichteinschränkungen durch Licht, Wände, etc. Ist er deaktiviert kann der Akteur über die ganze Szene schauen.    
 2. **Dämmersicht**: Einheiten die der Akteur im Dunkeln mit dämmrigem Licht weit sehen kann. (Vorteil: Dunkelsicht)    
 3. **Helle Sicht**: Einheiten die der Akteur im Dunkeln mit hellem Licht weit sehen kann.  

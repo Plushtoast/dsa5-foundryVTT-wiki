@@ -8,6 +8,7 @@ Es gibt darin die Kategorien:
 5. Ausrüstung
 6. Status
 7. Notizen  
+  
 ![Charakterbogen](https://user-images.githubusercontent.com/80099175/112130343-adc4ad80-8bc8-11eb-8953-1f82cd10fbf8.png)
 
 ## 1. Kopfbereich

@@ -26,12 +26,18 @@ Der Spielleiter muss über das Akteure Menü einen Charakter anlegen:
 
 Danach müssen die Rechte über den Akteur an den Spieler gegeben werden: 
 1. Rechtsklick auf den Charakter -> *Rechte anpassen*
-2. Bei dem Spieler das Recht *Besitzer* auswählen und *Änderungen speichern*
-![grafik](https://user-images.githubusercontent.com/80099175/112156197-4ddcff80-8be6-11eb-8fbf-676be85cb2c4.png)  
+2. Bei dem Spieler das Recht *Besitzer* auswählen und *Änderungen speichern*  
+![Akteur Rechte](https://user-images.githubusercontent.com/80099175/112156197-4ddcff80-8be6-11eb-8fbf-676be85cb2c4.png)  
 
 Jetzt kann der Spieler diesen Charakter selbst bearbeiten.
 
 ## 2. Erfahrung eingeben
+Die Erfahrung wird auf dem Charakterbogen unter *Eigenschaften* festgelegt.  
+![Erfahrungsgrad](https://user-images.githubusercontent.com/80099175/112157133-30f4fc00-8be7-11eb-8aed-4d167ffb4ae1.png)
+
+Wird dieser Schritt übersprungen, kommt es beim Hinzufügen von Spezies, Kultur usw. zu einer Abfrage nach dem Erfahrungsgrad. Hierdurch werden die Abenteuerpunke automatisch im Bogen eingetragen.  
+![Abenteuerpunkte hinzufügen](https://user-images.githubusercontent.com/80099175/112157700-c7c1b880-8be7-11eb-8f16-56b24cc9e6af.png)
+
 ## 3. Spezies wählen
 ## 4. Kultur wählen
 ## 5. Eigenschaftspunkte verteilen

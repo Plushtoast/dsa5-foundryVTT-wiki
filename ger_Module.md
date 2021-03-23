@@ -37,7 +37,7 @@ Mit einer Tastenkombination (Standard: STRG+Linksklick) springt dann die Sicht d
 ![Ping](https://user-images.githubusercontent.com/80099175/111904281-60b8ce00-8a46-11eb-9728-720a761c85b3.png)
 
 # Persönliche Empfehlungen von *tsaath*
-Hier liste ich kurz die Module auf, die ich (*tsaath*) <q>Meine Meinung. <em>Tsaath</em><q> in meinen Sitzungen verwende. Auch bei diesen gibt es keine Garantie auf Kompatibilität.
+Hier liste ich kurz die Module auf, die ich (*tsaath*) in meinen Sitzungen verwende. Auch bei diesen gibt es keine Garantie auf Kompatibilität.
 
 ## Torch
 Dieses Modul fügt einen Fackel schalter im Kontextmenü des Charakters hinzu. In den Moduleinstellungen kann die Reichweite der Fackel definiert werden.

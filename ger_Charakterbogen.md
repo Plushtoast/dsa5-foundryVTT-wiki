@@ -1,20 +1,19 @@
 # Charakterbogen - Aufbau (Akteur - Charakter)
 Der Aufbau des Charakterbogens ist so ähnlich aufgebaut wie der Bogen des Regelwerkes.
 Es gibt darin die Kategorien:
-1. Kopfbereich
-2. Talente
-3. Kampf
-4. Eigenschaften
-5. Ausrüstung
-6. Status
-7. Notizen  
+1. [Kopfbereich](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#1-kopfbereich)
+2. [Talente](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#2-talente)
+3. [Kampf](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#3-kampf)
+4. [Eigenschaften](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#4-eigenschaften)
+5. [Ausrüstung](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#5-ausr%C3%BCstung)
+6. [Status](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#6-status)
+7. [Notizen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#7-notizen)
   
 ![Charakterbogen](https://user-images.githubusercontent.com/80099175/112130343-adc4ad80-8bc8-11eb-8953-1f82cd10fbf8.png)
 
 ## 1. Kopfbereich
-Dieser Teil des Bogens ist immer sichtbar und wird unter anderem durch die Eingaben in Eigenschaften (LINK) beeinflusst. Es handelt sich hier um die aktuellen Werte 
-des Charakters.  
-Außerdem kann hier manuell die Profession eingetragen werden. Es sei denn es wird eine vorgefertigte Profession verwendet (LINK Charakterbau).  
+Dieser Teil des Bogens ist immer sichtbar und wird unter anderem durch die Eingaben in [Eigenschaften](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#4-eigenschaften) beeinflusst. Es handelt sich hier um die aktuellen Werte des Charakters.  
+Außerdem kann hier manuell die Profession eingetragen werden. Es sei denn es wird eine vorgefertigte Profession verwendet (LINK Charakterbau/-steigerung).  
   
 ![Charakterbogen Kopfbereich](https://user-images.githubusercontent.com/80099175/112131586-faf54f00-8bc9-11eb-887a-8c8cf417bf9f.png)
 
@@ -26,8 +25,8 @@ Auf dem Talentbogen werden die Talentwerte des Charakters festgehalten und es k�
 ![Charakterbogen Talente](https://user-images.githubusercontent.com/80099175/112131981-6c350200-8bca-11eb-9f89-005632ce6e50.png)
 
 ## 3. Kampf
-Der Kampfbogen beinhaltet alle Daten die zum Kampf in DSA 5 verwendet werden (Siehe Kampf LINK).  
-1. **Nah-, Fernkampfwaffen und Rüstungen**: Listet alle Waffen und Rüstungen die auf der Ausrüstungsseite vorhanden sind und für den Kampfbogen aktiviert wurde (siehe Ausrüstung LINK)  
+Der Kampfbogen beinhaltet alle Daten die zum Kampf in DSA 5 verwendet werden (Kampf LINK).  
+1. **Nah-, Fernkampfwaffen und Rüstungen**: Listet alle Waffen und Rüstungen die auf der [Ausrüstung](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#5-ausr%C3%BCstung) vorhanden sind und für den Kampfbogen aktiviert wurden. 
 1.1 **Ausweichen, waffenloser Angriff und Parade**: Hinter den Symbolen verbergen sich das Ausweichen sowie der waffenlose Angriff und die Parade.   
 1.2 **Munition**: hier kann Munition für die Waffe ausgewählt werden. Diese muss aber im Ausrüstungstab LINK hinterlegt sein. Dann zieht das System die Munition nach einem Angriff automatisch ab.  
 1.3. **Details**: Ein Klick auf den Pfeil zeigt Details wie Recihweite und Ladezeit.

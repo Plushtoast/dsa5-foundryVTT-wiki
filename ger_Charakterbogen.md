@@ -70,6 +70,8 @@ Belastung durch Rüstung und Ausrüstung.) Soll ein Zustand oder Status entfernt
   
 **Kontexttmenü**: dieses Menü lässt sich über das + im Charakterbogen-Status oder direkt im Kontextmenü des Tokens öffnen  
   
-![Charakterbogen Status Kontextmenü](https://user-images.githubusercontent.com/80099175/112146446-dc984f00-8bdb-11eb-9e88-cd990dd227ab.png)  
-
+![Charakterbogen Status Kontextmenü](https://user-images.githubusercontent.com/80099175/112149436-41a17400-8bdf-11eb-8fd9-f950c18b7196.png)  
+ 
 ## 7. Notizen
+In den Notizen finden sicht verschiedene Dinge die über den Charakter eingetragen werden können. Hier wird auch die Kultur abgelegt wenn diese beim Charakterbau in den Charakter gezogen wird. Die **GM Notizen** sind nur für Spielleiter sichtbar.
+![Charakterbogen Notizen](https://user-images.githubusercontent.com/80099175/112149840-b4125400-8bdf-11eb-9577-1d78333392ad.png)

@@ -27,8 +27,13 @@ Auf dieser Seite werden die Talentwerte des Charakters festgehalten und es könn
 Der Kampfbogen beinhaltet alle Daten die zum Kampf in DSA 5 verwendet werden (Siehe Kampf LINK).  
 1. **Nah-, Fernkampfwaffen und Rüstungen**: Listet alle Waffen und Rüstungen die auf der Ausrüstungsseite vorhanden sind und für den Kampfbogen aktiviert wurde (siehe Ausrüstung LINK)
 1.1 **Ausweichen, waffenloser Angriff und Parade**: Hinter den Symbolen verbergen sich das Ausweichen sowie der waffenlose Angriff und die Parade. 
-1.2 **Munition**: hier kann Munition für die Waffe ausgewählt werden. Diese muss aber im 
-2.
+1.2 **Munition**: hier kann Munition für die Waffe ausgewählt werden. Diese muss aber im Ausrüstungstab LINK hinterlegt sein. Dann zieht das System die Munition nach einem Angriff
+automatisch ab
+1.3. **Details**: Ein Klick auf den Pfeil zeigt Details wie Recihweite und Ladezeit.
+2. **Kampfsonderfertigkeiten**: Listet alle Kampfsonderfertigkeiten des Charakters auf.
+3. **Kampftechniken**: Falls ein Wurf auf den Grundwert der Kampftechnik notwendig ist, sind die Werte und Würfel hier zu finden. Das Steigern funktioniert wie bei den Fertigkeiten  
+![Charakterbogen Kampf](https://user-images.githubusercontent.com/80099175/112133821-5e807c00-8bcc-11eb-836a-ec9431cb011a.png)
+
 
 ## 4. Eigenschaften
 In diesem Bogen werden die Grundwerte des Charakters festgelegt und gesteigert. Einige der hier vorhandenen Werte werden komplett automatisch berechnet.  

@@ -7,7 +7,7 @@ Es gibt darin die Kategorien:
 4. Eigenschaften
 5. Ausrüstung
 6. Status
-7. Notizen
+7. Notizen  
 SCREENSHOT
 
 ## 1. Kopfbereich
@@ -27,7 +27,7 @@ In diesem Bogen werden die Grundwerte des Charakters festgelegt und gesteigert. 
 1. **Vorteile, Nachteile, Sonderfertigkeiten, Sprache und Schicksalspunktsonderfertigkeiten**: Hier werden die dem Helden zugeordneten Items aufgelistet
 die bei der Erstellung oder später aus der Bibliothek auf den Helden gezogen werden. 
 1. **Grundwerte**: Alles in der Spalte *Wert* wird automatisch nach DSA 5 Regeln berechnet.
-1. **Erfahrungsgrad**: hier werden die Verfügbaren und Ausgegebenen Abenteuerpunkte verwaltet. Details hierzu in der Charaktererstellung LINK
+1. **Erfahrungsgrad**: hier werden die Verfügbaren und Ausgegebenen Abenteuerpunkte verwaltet. Details hierzu in der Charaktererstellung LINK  
 ![Eigenschaften](https://user-images.githubusercontent.com/80099175/112108651-c759fb00-8bb0-11eb-9854-697551f5f667.png)  
 
 ## 5. Ausrüstung

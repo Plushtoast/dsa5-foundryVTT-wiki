@@ -36,8 +36,8 @@ Signal auf der Szene erzeugt werden (Standard: Linksklick)
 Mit einer Tastenkombination (Standard: STRG+Linksklick) springt dann die Sicht der Spieler auch zu dem Punkt an die das Signal gesetzt wurde.  
 ![Ping](https://user-images.githubusercontent.com/80099175/111904281-60b8ce00-8a46-11eb-9728-720a761c85b3.png)
 
-# Persönliche Empfehlungen
-Hier liste ich kurz die Module auf, die ich in meinen Sitzungen verwende. Auch bei diesen gibt es keine Garantie auf Kompatibilität.
+# Persönliche Empfehlungen von *tsaath*
+Hier liste ich kurz die Module auf, die ich (*tsaath* in meinen Sitzungen verwende. Auch bei diesen gibt es keine Garantie auf Kompatibilität.
 
 ## Torch
 Dieses Modul fügt einen Fackel schalter im Kontextmenü des Charakters hinzu. In den Moduleinstellungen kann die Reichweite der Fackel definiert werden.

@@ -12,7 +12,7 @@ Die Charaktererstellung ist relativ modular. Um es aber einfach zu gestalten sol
 8. [Steigerungen vornehmen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charaktererstellung.md#8-steigerungen-vornehmen)
 9. [Sonderfertigkeiten aussuchen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charaktererstellung.md#9-sonderfertigkeiten-aussuchen)
 10. [Letzte Anpassungen vornehmen (Notizen, Ausrüstung, Name)](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charaktererstellung.md#10-letzte-anpassungen-vornehmen-notizen-ausr%C3%BCstung-name)
-11. [Bild und Token] (Spielleiter)
+11. [Bild und Token (Spielleiter)](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charaktererstellung.md#11-bild-und-token) 
 
 ## Grundsätzliches (Vermutlich separate Anleitung)
 ### Inhalte aus der Bibliothek verwenden

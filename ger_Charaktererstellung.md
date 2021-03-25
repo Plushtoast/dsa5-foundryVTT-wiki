@@ -100,9 +100,11 @@ Sonderfertigkeiten lassen sich ebenfalls aus der Bibliothek in den Charakterboge
 Die letzten Anpassungen werden im Heldendokument unter [Ausrüstung](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#5-ausr%C3%BCstung) und [Notizen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#7-notizen) vorgenommen.
 
 ## 11. Bild und Token (Spielleiter)
-### Bild anpassen: Um das Bild anzupassen wird im Charakterbogen auf das Bild im [Kopfbereich](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#1-kopfbereich) geklickt. Es öffnet sich der Foundry Dateimanager mit dem ein Bild gesucht und ausgewählt wird.  
+### Bild anpassen
+Um das Bild anzupassen wird im Charakterbogen auf das Bild im [Kopfbereich](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#1-kopfbereich) geklickt. Es öffnet sich der Foundry Dateimanager mit dem ein Bild gesucht und ausgewählt wird.  
 
-###Standard Token auswählen: wichtig ist hierfür, dass der Charakterbogen aus dem Seitenmenü unter geöffnet wird.
+### Standard Token auswählen
+Wichtig ist hierfür, dass der Charakterbogen aus dem Seitenmenü unter geöffnet wird.
 1. Über das Menü unter *Akteuere* (1) -> Doppelklick auf den Charakter (2) -> *Token konfigurieren* (3)
 ![Token konfigurieren](https://user-images.githubusercontent.com/80099175/112472976-11d4a680-8d6e-11eb-803d-a9ccab15cb70.png)  
 2. Im Kopf des geöffneten Fensters muss *Prototyp-Figur* stehen. Dort dann über Image (1) -> *Durchsuche Dateien* den Token heraussuchen und übernehmen.

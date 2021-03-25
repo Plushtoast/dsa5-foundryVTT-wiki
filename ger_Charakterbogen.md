@@ -8,8 +8,8 @@ Es gibt darin die Kategorien:
 5. [Ausrüstung](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#5-ausr%C3%BCstung)
 6. [Status](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#6-status)
 7. [Notizen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#7-notizen)
-8. [Magie]()
-9. [Religion]()
+8. [Magie](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#8-magie)
+9. [Religion](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#9-religion)
   
 **Anmerkung**: Die Punkte [Magie]() und [Religion]() erscheinen nur, wenn dem Charakter mindestens eine magische oder karmale Sonderfertigkeit/Zauber/Ritual/Liturgie/Zeremonie zugeordnet ist. Auch erst dann erscheinen im [Eigenschaftenbogen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#4-eigenschaften) AsP- und/oder Karmapunkte.
   

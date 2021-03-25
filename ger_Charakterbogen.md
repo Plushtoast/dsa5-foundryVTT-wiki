@@ -40,11 +40,11 @@ Der Kampfbogen beinhaltet alle Daten die zum Kampf in DSA 5 verwendet werden (Ka
 ![Charakterbogen Kampf](https://user-images.githubusercontent.com/80099175/112133821-5e807c00-8bcc-11eb-836a-ec9431cb011a.png)
 
 ## 4. Eigenschaften
-In diesem Bogen werden die Grundwerte des Charakters festgelegt und gesteigert. Einige der hier vorhandenen Werte werden komplett automatisch berechnet.  
+In diesem Bogen werden die Grundwerte des Charakters festgelegt und gesteigert. Einige der hier vorhandenen Werte werden komplett automatisch berechnet.
 1. **Eigenschaften**: Soll die AP Berechnung verwendet werden muss im Grundwert 8 eingetragen und über + und - gesteigert werden.
 1. **Vorteile, Nachteile, Sonderfertigkeiten, Sprache und Schicksalspunktsonderfertigkeiten**: Hier werden die dem Helden zugeordneten Items aufgelistet
 die bei der Erstellung oder später aus der Bibliothek auf den Helden gezogen werden. 
-1. **Grundwerte**: Alles in der Spalte *Wert* wird automatisch nach DSA 5 Regeln berechnet.
+1. **Grundwerte**: Alles in der Spalte *Wert* wird automatisch nach DSA 5 Regeln berechnet. Die Werte Astral- und Karmaenergie erscheinen nur, wenn der Charakter einen magische, karmale Sonderfertigkeit, einen Zauber, eine Liturgie oder ähnliches zugeordnet hat. Die Vorteile Zauberer und Geweihter reichen dafür nicht.
 1. **Erfahrungsgrad**: hier werden die Verfügbaren und Ausgegebenen Abenteuerpunkte verwaltet. Details hierzu in der Charaktererstellung LINK  
   
 ![Eigenschaften](https://user-images.githubusercontent.com/80099175/112108651-c759fb00-8bb0-11eb-9854-697551f5f667.png)  
@@ -80,6 +80,20 @@ In den Notizen finden sicht verschiedene Dinge die über den Charakter eingetrag
 ![Charakterbogen Notizen](https://user-images.githubusercontent.com/80099175/112149840-b4125400-8bdf-11eb-9577-1d78333392ad.png)
 
 ## 8. Magie
-
+Der Magiebogen erscheint erst, wenn dem Charakter eine magische Sonderfertigkeit, ein Zauber, ein Ritual oder ein Zaubertrick zugeordnet wurde. Der Vorteil Zauberer reicht dafür nicht aus!  
+1. **Zaubersprüche und Rituale**: Hier werden alle Zauber und Rituale des Charakters aufgelistet.
+  1.1 Die Sprechblase teilt den Zauber/das Ritual über den Chat, der Pfeil öffnet Details (Wirkungsdauer, Kosten) und die Tonne löscht den Zauber/das Ritual.   
+2. **Magische Sonderfertigkeiten**: Alle dem Charakter zugeordneten magischen Sonderfertigkeiten.
+3. **Tradition, Leiteigenschaft, Merkmal**: die Leiteigenschaft muss hier angegeben werden, da sich darüber auch die AsP in den [Eigenschaften](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#4-eigenschaften) berechnen.
+4. **Zaubertricks**  
+  
+![Magie](https://user-images.githubusercontent.com/80099175/112474961-8a3c6700-8d70-11eb-9f3b-900c64e1a2b8.png) 
 
 ## 9. Religion
+1. **Liturgien und Zeremonien**: Hier werden alle Liturgien und Zeremonien des Charakters aufgelistet.
+  1.1 Die Sprechblase teilt die Liturgie/die Zeremonie über den Chat, der Pfeil öffnet Details (Wirkungsdauer, Kosten) und die Tonne löscht die Liturgie/die Zeremonie.   
+2. **Karmale Sonderfertigkeiten**: Alle dem Charakter zugeordneten karmalen Sonderfertigkeiten.
+3. **Tradition, Leiteigenschaft, Aspekt, Wohlgefällige Talente**: die Leiteigenschaft muss hier angegeben werden, da sich darüber auch die KaP in den [Eigenschaften](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#4-eigenschaften) berechnen.
+4. **Segnungen**  
+  
+![Religion](https://user-images.githubusercontent.com/80099175/112478313-29af2900-8d74-11eb-8344-d68b8f35dbe6.png)

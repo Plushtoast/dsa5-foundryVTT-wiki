@@ -105,8 +105,11 @@ Um das Bild anzupassen wird im Charakterbogen auf das Bild im [Kopfbereich](http
 
 ### Standard Token auswählen
 Wichtig ist hierfür, dass der Charakterbogen aus dem Seitenmenü unter geöffnet wird.
-1. Über das Menü unter *Akteuere* (1) -> Doppelklick auf den Charakter (2) -> *Token konfigurieren* (3)
+1. Über das Menü unter *Akteuere* (1) -> Doppelklick auf den Charakter (2) -> *Token konfigurieren* (3)  
+
 ![Token konfigurieren](https://user-images.githubusercontent.com/80099175/112472976-11d4a680-8d6e-11eb-803d-a9ccab15cb70.png)  
-2. Im Kopf des geöffneten Fensters muss *Prototyp-Figur* stehen. Dort dann über Image (1) -> *Durchsuche Dateien* den Token heraussuchen und übernehmen.
-**Anmerkung**: Steht hier nicht *Prototyp-Figur* wurde der Charakterbogen über einen Token in einer Szene geöffnet. Dann ändert sich nur der Token in dieser Szene. Wird der Charakter in eine andere Szene gezogen, erscheint wieder der alte Token.  
+
+2. Im Kopf des geöffneten Fensters muss *Prototyp-Figur* stehen. Dort dann über Image (1) -> *Durchsuche Dateien* den Token heraussuchen und übernehmen.  
+**Anmerkung**: Steht hier nicht *Prototyp-Figur* wurde der Charakterbogen über einen Token in einer Szene geöffnet. Dann ändert sich nur der Token in dieser Szene. Wird der Charakter in eine andere Szene gezogen, erscheint wieder der alte Token.   
+
 ![Token zuordnen](https://user-images.githubusercontent.com/80099175/112473291-73951080-8d6e-11eb-9618-975a933dc282.png)  

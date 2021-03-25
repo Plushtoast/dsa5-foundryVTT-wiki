@@ -8,6 +8,10 @@ Es gibt darin die Kategorien:
 5. [Ausrüstung](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#5-ausr%C3%BCstung)
 6. [Status](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#6-status)
 7. [Notizen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#7-notizen)
+8. [Magie]()
+9. [Religion]()
+  
+**Anmerkung**: Die Punkte [Magie]() und [Religion]() erscheinen nur, wenn dem Charakter mindestens eine magische oder karmale Sonderfertigkeit/Zauber/Ritual/Liturgie/Zeremonie zugeordnet ist. Auch erst dann erscheinen im [Eigenschaftenbogen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#4-eigenschaften) AsP- und/oder Karmapunkte.
   
 ![Charakterbogen](https://user-images.githubusercontent.com/80099175/112130343-adc4ad80-8bc8-11eb-8953-1f82cd10fbf8.png)
 
@@ -74,3 +78,8 @@ Belastung durch Rüstung und Ausrüstung.) Soll ein Zustand oder Status entfernt
 ## 7. Notizen
 In den Notizen finden sicht verschiedene Dinge die über den Charakter eingetragen werden können. Hier wird auch die Kultur abgelegt wenn diese beim Charakterbau in den Charakter gezogen wird. Die **GM Notizen** sind nur für Spielleiter sichtbar.
 ![Charakterbogen Notizen](https://user-images.githubusercontent.com/80099175/112149840-b4125400-8bdf-11eb-9577-1d78333392ad.png)
+
+## 8. Magie
+
+
+## 9. Religion

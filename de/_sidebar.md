@@ -2,7 +2,7 @@
 de | [en](Home)
 
 * [Home](de-Home)
-* [Schnellstart](de-DSA5_Welt_erstellen)
+* [Schnellstart](de-DSA_5_Welt_erstellen)
 * [FAQ](../FAQ)
 
 **Character**

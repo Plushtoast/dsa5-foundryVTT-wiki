@@ -1,4 +1,4 @@
-[de](de/Home) | en
+[de](de-Home) | en
 
 
 * [Home](Home)

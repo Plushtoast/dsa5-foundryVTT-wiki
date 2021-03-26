@@ -1,21 +1,21 @@
-[de](de/Home.md) | en
+[de](de/Home) | en
 
 
-* [Home](Home.md)
-* [Quick Start](Quick-Start.md)
-* [FAQ](FAQ.md)
+* [Home](Home)
+* [Quick Start](Quick-Start)
+* [FAQ](FAQ)
 
 **Character Generation**
-* [Character Creation](Character-Creation.md)
-* [Spellcaster and Blessed One](Spellcaster--and--Blessed-One-Creation.md)
-* [Familiar](Familiar.md)
+* [Character Creation](Character-Creation)
+* [Spellcaster and Blessed One](Spellcaster--and--Blessed-One-Creation)
+* [Familiar](Familiar)
 
 **Game Mechanics**
-* [Game Mechanics](Game-Mechanics.md)
-* [Game Configuration](Game-Configuration.md)
-* [Combat](Combat.md)
+* [Game Mechanics](Game-Mechanics)
+* [Game Configuration](Game-Configuration)
+* [Combat](Combat)
 
 **Advanced Mechanics**
-* [Item Effects](Item-Effects.md)
+* [Item Effects](Item-Effects)
 
 

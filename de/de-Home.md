@@ -6,9 +6,9 @@ Das Schwarze Auge/The Dark Eye für Foundry ist eine Umsetzung des Rollenspiels 
 ## Was braucht ihr zum Spielen von DSA in Foundry?
 Zum spielen mit euren Freunden braucht ihr mindestens Charaktere, einige Gegner (NSCs) und eine Geschichte. 
 
-Um zu erfahren wie du ein DSA Spiel in Foundry erstellt, schau hier im [Wiki - DSA 5 Welt erstellen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-DSA_5_Welt_erstellen.md) nach.
+Um zu erfahren wie ihr ein DSA Spiel in Foundry erstellt, schaut im [Wiki - DSA 5 Welt erstellen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-DSA_5_Welt_erstellen.md) nach.
   
-Um wirklich alle Features des Spiels genießen zu können, benötigst du:
+Damit ihr alle Features des Spiels genießen könnt, benötigt ihr:
 * Vorteile
 * Nachteile
 * Sonderfertigkeiten

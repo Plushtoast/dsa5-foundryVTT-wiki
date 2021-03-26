@@ -1,19 +1,21 @@
-<
-* [Home](https://github.com/Plushtoast/dsa5-foundryVTT/wiki)
-* [Quick Start](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/Quick-Start)
-* [FAQ](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/FAQ)
+[de](de/Home.md) | en
+
+
+* [Home](Home.md)
+* [Quick Start](Quick-Start.md)
+* [FAQ](FAQ.md)
 
 **Character Generation**
-* [Character Creation](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/Character-Creation)
-* [Spellcaster and Blessed One](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/Spellcaster--and--Blessed-One-Creation)
-* [Familiar](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/Familiar)
+* [Character Creation](Character-Creation.md)
+* [Spellcaster and Blessed One](Spellcaster--and--Blessed-One-Creation.md)
+* [Familiar](Familiar.md)
 
 **Game Mechanics**
-* [Game Mechanics](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/Game-Mechanics)
-* [Game Configuration](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/Game-Configuration)
-* [Combat](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/Combat)
+* [Game Mechanics](Game-Mechanics.md)
+* [Game Configuration](Game-Configuration.md)
+* [Combat](Combat.md)
 
 **Advanced Mechanics**
-* [Item Effects](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/Item-Effects)
+* [Item Effects](Item-Effects.md)
 
 

@@ -1,25 +1,22 @@
-# What's The Dark Eye (TDE) - Das Schwarze Auge (DSA) and what's Das Schwarze Auge in Foundry?  
+# Was ist The Dark Eye (TDE) - Das Schwarze Auge (DSA) und was bietet es in Foundry?
 
-Das Schwarze Auge/The Dark Eye is a roleplaying game taking place in the world of Aventuria for almost 40 years. Its 5th edition has been published by Ulisses Spiele and features a world of unique depth and richness, unlike any other fantasy RPG.
-Das Schwarze Auge/The Dark Eye for Foundry is an implementation of the roleplaying game in the virtual tabletop system of Foundry vtt, which has been developed together with Ulisses Spiele.  
- 
+Das Schwarze Auge/The Dark Eye ist ein Pen and Paper Rollenspiel welches seit fast 40 Jahren in der Welt Aventurien spielt. Seine 5te Edition wurde von Ulisses Spiele veröffentlicht und bietet einen Welt mit einzigartiger Tiefe und Vielfalt wie fast kein anderes Fantasy RPG.
+Das Schwarze Auge/The Dark Eye für Foundry ist eine Umsetzung des Rollenspiels in dem Virtual Tabletop System von Foundry VTT, welches zusammen mit Ulisses Spiele entwickelt wurde.
 
-## What do we need to play DSA in Foundry?  
-To play with your friends you need at least characters, some enemies (NPCs) and a story.
+## Was braucht ihr zum Spielen von DSA in Foundry?
+Zum spielen mit euren Freunden braucht ihr mindestens Charaktere, einige Gegner (NSCs) und eine Geschichte. 
 
-To learn more about how to start a game check out our QUICK START section.
-
-To really enjoy all features of the game you should have:
-* Advantages
-* Disadvantages
-* Special Abilities
-* Cultures
-* Professions
-* Spells, Cantrips and Rituals
-* Liturgies, Ceremonies and Blessings
-* Items
-* Enemy creatures, natural weapons and traits
+Um zu erfahren wie du ein DSA Spiel in Foundry erstellt, schau hier im [Wiki - DSA 5 Welt erstellen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-DSA_5_Welt_erstellen.md) nach.
   
-For a complete experience with maximum comfort functionality and all the content of the base game, the "Core Rules" Module is available from https://www.ulissesf-shop.com/ (English) or https://www.f-shop.de/ (Deutsch)
+Um wirklich alle Features des Spiels genießen zu können, benötigst du:
+* Vorteile
+* Nachteile
+* Sonderfertigkeiten
+* Kulturen
+* Professionen
+* Zauber, Rituale und Zaubertricks
+* Liturgien, Zeremonien und Segnungen
+* Ausrüstung
+* Gegner, natürliche Waffen und Eigenschaften
 
-
+Um alle Funktionen komfortabel und schnell verwenden zu können und damit die beste Erfahrung mit DSA Foundry zu haben, ist das Grundregelwerk verfügbar unter: https://f-shop.de/ (deutsch) oder https://ulissesf-shop.com/ (englisch) 

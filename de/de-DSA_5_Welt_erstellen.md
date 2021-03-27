@@ -1,3 +1,5 @@
+Zu dieser Anleitung gibt es auch das passende Video: [Installation von Das Schwarze Auge in Foundry VTT](https://www.youtube.com/watch?v=bzgb_pmw-bs)
+
 # Vorbereitung: Spielsystem und Module installieren.
 Bevor eine neue Welt für DSA5 erstellt wird, muss das Spielsystem installiert werden. 
 1. Zuerst *Spielsysteme* -> *System installieren*

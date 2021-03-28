@@ -1,22 +1,22 @@
 # Charakterbogen - Aufbau (Akteur - Charakter)
 Der Aufbau des Charakterbogens ist so ähnlich aufgebaut wie der Bogen des Regelwerkes.
 Es gibt darin die Kategorien:
-1. [Kopfbereich](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#1-kopfbereich)
-2. [Talente](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#2-talente)
-3. [Kampf](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#3-kampf)
-4. [Eigenschaften](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#4-eigenschaften)
-5. [Ausrüstung](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#5-ausr%C3%BCstung)
-6. [Status](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#6-status)
-7. [Notizen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#7-notizen)
-8. [Magie](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#8-magie)
-9. [Religion](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#9-religion)
+1. [Kopfbereich](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charakterbogen.md#1-kopfbereich)
+2. [Talente](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charakterbogen.md#2-talente)
+3. [Kampf](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charakterbogen.md#3-kampf)
+4. [Eigenschaften](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charakterbogen.md#4-eigenschaften)
+5. [Ausrüstung](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charakterbogen.md#5-ausr%C3%BCstung)
+6. [Status](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charakterbogen.md#6-status)
+7. [Notizen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charakterbogen.md#7-notizen)
+8. [Magie](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charakterbogen.md#8-magie)
+9. [Religion](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charakterbogen.md#9-religion)
   
-**Anmerkung**: Die Punkte [Magie]() und [Religion]() erscheinen nur, wenn dem Charakter mindestens eine magische oder karmale Sonderfertigkeit/Zauber/Ritual/Liturgie/Zeremonie zugeordnet ist. Auch erst dann erscheinen im [Eigenschaftenbogen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#4-eigenschaften) AsP- und/oder Karmapunkte.
+**Anmerkung**: Die Punkte [Magie]() und [Religion]() erscheinen nur, wenn dem Charakter mindestens eine magische oder karmale Sonderfertigkeit/Zauber/Ritual/Liturgie/Zeremonie zugeordnet ist. Auch erst dann erscheinen im [Eigenschaftenbogen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charakterbogen.md#4-eigenschaften) AsP- und/oder Karmapunkte.
   
 ![Charakterbogen](https://user-images.githubusercontent.com/80099175/112130343-adc4ad80-8bc8-11eb-8953-1f82cd10fbf8.png)
 
 ## 1. Kopfbereich
-Dieser Teil des Bogens ist immer sichtbar und wird unter anderem durch die Eingaben in [Eigenschaften](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#4-eigenschaften) beeinflusst. Es handelt sich hier um die aktuellen Werte des Charakters.  
+Dieser Teil des Bogens ist immer sichtbar und wird unter anderem durch die Eingaben in [Eigenschaften](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charakterbogen.md#4-eigenschaften) beeinflusst. Es handelt sich hier um die aktuellen Werte des Charakters.  
 Außerdem kann hier manuell die Profession eingetragen werden. Es sei denn es wird eine vorgefertigte Profession verwendet (LINK Charakterbau/-steigerung).  
   
 ![Charakterbogen Kopfbereich](https://user-images.githubusercontent.com/80099175/112131586-faf54f00-8bc9-11eb-887a-8c8cf417bf9f.png)
@@ -30,7 +30,7 @@ Auf dem Talentbogen werden die Talentwerte des Charakters festgehalten und es k�
 
 ## 3. Kampf
 Der Kampfbogen beinhaltet alle Daten die zum Kampf in DSA 5 verwendet werden (Kampf LINK).  
-1. **Nah-, Fernkampfwaffen und Rüstungen**: Listet alle Waffen und Rüstungen die auf der [Ausrüstung](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#5-ausr%C3%BCstung) vorhanden sind und für den Kampfbogen aktiviert wurden. 
+1. **Nah-, Fernkampfwaffen und Rüstungen**: Listet alle Waffen und Rüstungen die auf der [Ausrüstung](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charakterbogen.md#5-ausr%C3%BCstung) vorhanden sind und für den Kampfbogen aktiviert wurden. 
 1.1 **Ausweichen, waffenloser Angriff und Parade**: Hinter den Symbolen verbergen sich das Ausweichen sowie der waffenlose Angriff und die Parade.   
 1.2 **Munition**: hier kann Munition für die Waffe ausgewählt werden. Diese muss aber im Ausrüstungstab LINK hinterlegt sein. Dann zieht das System die Munition nach einem Angriff automatisch ab.  
 1.3. **Details**: Ein Klick auf den Pfeil zeigt Details wie Recihweite und Ladezeit.
@@ -84,7 +84,7 @@ Der Magiebogen erscheint erst, wenn dem Charakter eine magische Sonderfertigkeit
 1. **Zaubersprüche und Rituale**: Hier werden alle Zauber und Rituale des Charakters aufgelistet.
   1.1 Die Sprechblase teilt den Zauber/das Ritual über den Chat, der Pfeil öffnet Details (Wirkungsdauer, Kosten) und die Tonne löscht den Zauber/das Ritual.   
 2. **Magische Sonderfertigkeiten**: Alle dem Charakter zugeordneten magischen Sonderfertigkeiten.
-3. **Tradition, Leiteigenschaft, Merkmal**: die Leiteigenschaft muss hier angegeben werden, da sich darüber auch die AsP in den [Eigenschaften](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#4-eigenschaften) berechnen.
+3. **Tradition, Leiteigenschaft, Merkmal**: die Leiteigenschaft muss hier angegeben werden, da sich darüber auch die AsP in den [Eigenschaften](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charakterbogen.md#4-eigenschaften) berechnen.
 4. **Zaubertricks**  
   
 ![Magie](https://user-images.githubusercontent.com/80099175/112474961-8a3c6700-8d70-11eb-9f3b-900c64e1a2b8.png) 
@@ -93,7 +93,7 @@ Der Magiebogen erscheint erst, wenn dem Charakter eine magische Sonderfertigkeit
 1. **Liturgien und Zeremonien**: Hier werden alle Liturgien und Zeremonien des Charakters aufgelistet.
   1.1 Die Sprechblase teilt die Liturgie/die Zeremonie über den Chat, der Pfeil öffnet Details (Wirkungsdauer, Kosten) und die Tonne löscht die Liturgie/die Zeremonie.   
 2. **Karmale Sonderfertigkeiten**: Alle dem Charakter zugeordneten karmalen Sonderfertigkeiten.
-3. **Tradition, Leiteigenschaft, Aspekt, Wohlgefällige Talente**: die Leiteigenschaft muss hier angegeben werden, da sich darüber auch die KaP in den [Eigenschaften](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/ger_Charakterbogen.md#4-eigenschaften) berechnen.
+3. **Tradition, Leiteigenschaft, Aspekt, Wohlgefällige Talente**: die Leiteigenschaft muss hier angegeben werden, da sich darüber auch die KaP in den [Eigenschaften](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charakterbogen.md#4-eigenschaften) berechnen.
 4. **Segnungen**  
   
 ![Religion](https://user-images.githubusercontent.com/80099175/112478313-29af2900-8d74-11eb-8344-d68b8f35dbe6.png)

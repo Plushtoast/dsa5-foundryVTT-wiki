@@ -14,6 +14,8 @@
 * [Game Mechanics](Game-Mechanics)
 * [Game Configuration](Game-Configuration)
 * [Combat](Combat)
+* [Merchant](merchant)
+* [Shapeshifting](shapeshifting)
 
 **Advanced Mechanics**
 * [Item Effects](Item-Effects)

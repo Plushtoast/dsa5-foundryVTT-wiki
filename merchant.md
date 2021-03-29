@@ -1,4 +1,4 @@
-# Merchant && Loot sheet
+# Merchant & Loot sheet
 To use the merchant feature follow these steps: 
 
 * Create a new npc

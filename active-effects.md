@@ -1,6 +1,7 @@
 # Active Effects
  You can now add any custom effect to actors, which can alter the actors base stats. This is an important upgrade for future improvements regarding spell automation and effects of items. 
  
+**You can change any underlying data value of actors!**. But keep in mind that some of them are calcualted and will be overriden and some of them should not be messed with.
 Unfortunately this requires some understanding of the base data scheme of actors. We will work on further faciliating improvements and on tutorials on how to do stuff like that. 
 Also we plan to incorporate those effects in spells and items so they get applied automatically.
 

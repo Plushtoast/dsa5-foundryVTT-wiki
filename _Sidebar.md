@@ -19,5 +19,6 @@
 
 **Advanced Mechanics**
 * [Item Effects](Item-Effects)
+* [Active Effects](active-effects)
 
 

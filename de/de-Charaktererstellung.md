@@ -16,9 +16,9 @@ Die Charaktererstellung ist relativ modular. Um es aber einfach zu gestalten sol
 
 Hier findet ihr das ganze als Video: [Charaktererstellung](https://www.youtube.com/watch?v=NrqvByX3da0)
 
-## Grundsätzliches (Vermutlich separate Anleitung)
-### Inhalte aus der Bibliothek verwenden
-### Eigene Inhalte erstellen (Zauber, Sonderfertigkeiten, Ausrüstung usw.)
+## Grundsätzliches
+### [Inhalte aus der Bibliothek verwenden](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Bibliothek.md) 
+### [Eigene Inhalte erstellen (Zauber, Sonderfertigkeiten, Ausrüstung usw.)](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Eigene-Inhalte-erstellen.md)
 
 ## 1. Charakter anlegen (Spielleiter)
 Der Spielleiter muss über das Akteure Menü einen Charakter anlegen:

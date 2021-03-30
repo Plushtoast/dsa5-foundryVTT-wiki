@@ -23,7 +23,7 @@ That's already it!
 To give access to Traders for your players make sure to give them the limited permission for that actor.
 They can then access the trader via the actors directory or directly on a token on the map. 
 Keep in mind that tokens on the map don't change the source actor in the actors directory. So you can reuse the same merchant/loot if the players only access it on the map.
-Interaction with the trader is only available if a gm is locked in (due to permissions).
+Interaction with the trader is only available if a gm is logged in (due to permissions).
 
 ![grafik](https://user-images.githubusercontent.com/44941845/112885292-dff67380-90d0-11eb-89fd-291e5716a434.png)
 

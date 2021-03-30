@@ -16,7 +16,7 @@ You can then edit the new status. Change its name and set the desired alteration
 #### Armatrutz
 Edit the new effect. Go to the "Effects" tab and add a new attribute key labeled "data.totalArmor". Set the mode to "Add" and set the effect value to the number of the resulting armor of the spell armatrutz f.e. 1.
 Save the changes and close the Active Effect Window. You can then enable or disable the effect whenever the spell is active. (This is planned to occur automatically at some point in the future).
-You could also create several Armatrutz effects each with a different armor value and only the enable the proper one on each encounter. You should see the changed armor value on the combat tab.
+You could also create several Armatrutz effects each with a different armor value and only enable the proper one on each encounter. You should see the changed armor value on the combat tab.
 
 ![grafik](https://user-images.githubusercontent.com/44941845/112887203-264cd200-90d3-11eb-8acd-901577120573.png)
 

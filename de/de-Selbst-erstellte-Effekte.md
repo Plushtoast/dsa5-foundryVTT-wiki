@@ -12,7 +12,7 @@ Um selbst erstellte Effekte zu verwenden, öffne den Charakterbogen und gehe auf
 ### Beispiel
 #### Armatrutz
 Erstelle einen neuen Status im Charakterbogen unter Status und füge ein neues Attribut mit der Bezeichnung "data.totalArmor" hinzu. Setze den Modus auf *"Add"* und gib als Wert den gewünschten Rüstungwert ein (Bsp.: 1)
-So kannst du verschiedene Armatrutz Effekte mit verschiedeneen Rüstungswerten anlegen, sodass der Spieler den passenden nur noch aktivieren muss wenn er den Zauber erfolgreich spricht. Der geänderte Rüstungswert wird dann unter Kampf im Charakterbogen angezeigt.
+So kannst du verschiedene Armatrutz Effekte mit verschiedeneen Rüstungswerten anlegen, sodass der Spieler den passenden nur noch aktivieren muss, wenn er den Zauber erfolgreich spricht. Der geänderte Rüstungswert wird dann unter Kampf im Charakterbogen angezeigt.
 
 ![grafik](https://user-images.githubusercontent.com/44941845/112887203-264cd200-90d3-11eb-8acd-901577120573.png)
 

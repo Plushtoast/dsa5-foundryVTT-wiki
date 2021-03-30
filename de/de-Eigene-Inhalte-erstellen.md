@@ -19,4 +19,4 @@ Diese Methode hat den Vorteil, dass die selbst erstellten Inhalte wieder verwend
 3. Ziehen des Rituals auf den Charakterbogen des Helden
 
 ## Eintrag im Charakter ändern
-Möchtet ihr die neuen Inhalte nur für einen Charakter neu erstellen, dann zieht ihr das passende Gegenstück auf den Charakter und ändert dort die Beschreibung und Details. Dies funktioniert aber nicht mit Spezies, Kultur und Profession. Diese werden direkt auf den Charakter angewendetn und müssen [Importiert](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-eigene-Inhalte-erstellen.md#import-einer-vorlage-aus-den-kompendien) werden.
+Möchtet ihr die neuen Inhalte nur für einen Charakter neu erstellen, dann zieht ihr das passende Gegenstück auf den Charakter und ändert dort die Beschreibung und Details. Dies funktioniert aber nicht mit Spezies, Kultur und Profession. Diese werden direkt auf den Charakter angewendetn und müssen [Importiert](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Eigene-Inhalte-erstellen.md#import-einer-vorlage-aus-den-kompendien) werden.

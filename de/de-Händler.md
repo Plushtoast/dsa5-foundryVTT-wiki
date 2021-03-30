@@ -3,7 +3,7 @@ Um einen Händler zu verwenden geht wie folgt vor:
 
 * Erstellt einen neuen Akteur -> Nichtspielercharakter
 * Ändere den Charakterbogen über das Zahnrad *Blatt konfigurieren* zu *MerchantSheetDSA5*. **Achtung** bitte nicht bei Standard Bogen den Bogen ändern!
-* Auf dem Ausrüstungstab des Charakters kannst du zwischen *merchant* oder *loot* wechseln.
+* Auf dem Händlertab des Charakters könnt ihr zwischen *merchant* oder *loot* wechseln.
 
 ![grafik](https://user-images.githubusercontent.com/44941845/112885213-c5bc9580-90d0-11eb-8f4a-4a14e1977d30.png)
 ![grafik](https://user-images.githubusercontent.com/44941845/112885235-cd7c3a00-90d0-11eb-9a71-0cd64161060a.png)

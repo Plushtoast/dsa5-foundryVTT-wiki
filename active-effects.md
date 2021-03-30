@@ -8,7 +8,7 @@ Also we plan to incorporate those effects in spells and items so they get applie
 
 ## Actor Effects
 To add a custom effect to a character open the character sheet and go to the status tab. Add a new status with the plus button inside the add effect menu.
-You can then edit the new status change its name and set the desired alterations to you character.
+You can then edit the new status. Change its name and set the desired alterations to you character.
 
 ![grafik](https://user-images.githubusercontent.com/44941845/112887103-0d442100-90d3-11eb-8ee5-aa056fcbe8e7.png)
 

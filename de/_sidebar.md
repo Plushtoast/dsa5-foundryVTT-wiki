@@ -16,6 +16,8 @@ de | [en](Home)
 * [Sicht und Licht](de-Sicht_und_Licht)
 * [Händler](de-Haendler)
 * [Gestaltwandlung](de-Gestaltwandlung)
+* [Eigene Inhalte](de-Eigene-Inhalte-erstellen)
+* [Bibliothek](de-Bibliothek)
 
 **Fortgeschrittene Mechanismen**
 * [Journal Probe anfordern](de-Journal-probe_anfordern)

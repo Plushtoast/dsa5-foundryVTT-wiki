@@ -23,5 +23,5 @@ Wenn ein Charakter Astralpunkte aufgrund eines Rituals oder der Bindes des Tradi
 
 ## ToDo
 Folgende Features planen wir aktuell:
-  * Die Auswhl des Attributs über eine Liste
+  * Die Auswahl des Attributs über eine Liste
   * Dieselbe Funktion bei Zaubern, Liturgien, Items, Sonderfertigkeite usw.

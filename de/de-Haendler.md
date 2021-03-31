@@ -3,15 +3,17 @@ Um einen Händler zu verwenden geht wie folgt vor:
 
 * Erstellt einen neuen Akteur -> Nichtspielercharakter
 * Ändere den Charakterbogen über das Zahnrad *Blatt konfigurieren* zu *MerchantSheetDSA5*. **Achtung** bitte nicht bei Standard Bogen den Bogen ändern!
-* Auf dem Händlertab des Charakters könnt ihr zwischen *merchant* oder *loot* wechseln.
+* Auf dem Händlertab des Charakters könnt ihr zwischen *normale Person*, *Händler* oder *Schatz* wechseln.
 
 ![grafik](https://user-images.githubusercontent.com/44941845/112885213-c5bc9580-90d0-11eb-8f4a-4a14e1977d30.png)
 ![grafik](https://user-images.githubusercontent.com/44941845/112885235-cd7c3a00-90d0-11eb-9a71-0cd64161060a.png)
 
 ## Händler
-* Setzt den multiplikator für den Kaufs- und Verkaufswert des Händlers
-* Vergesst nicht Geld zum Handeln hinzuzufügen (Sowohl Händler als auch Charakter)
-* Ihr könnt die Ausrüstung einfach aus der Bibliothek zu dem Händler hinzufügen oder den *random choice* Button für einen Zufallsgegenstand nutzen.
+1. Setzt den multiplikator für den Kaufs- und Verkaufsfaktor des Händlers (Bsp.: 2 für doppelt, 0.5 für halb)
+2. Vergesst nicht Geld zum Handeln hinzuzufügen (Sowohl Händler als auch Charakter)
+3. Ihr könnt die Ausrüstung einfach aus der Bibliothek zu dem Händler hinzufügen oder über das + einen Dummy hinzufügen und ändern. Außerdem gibt es einen Zufällige Auswahl Button um den Händler RAndom zu befüllen.  
+  
+![Händler](https://user-images.githubusercontent.com/80099175/113191268-a0a95d80-925d-11eb-9964-2bdeadecf53b.png)
 
 ## Loot
 * Spieler können alle Items aus dem Loot Tab nehmen oder hinzufügen.

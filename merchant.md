@@ -30,7 +30,7 @@ Interaction with the trader is only available if a gm is logged in (due to permi
 The GM can also use the "toggle limited view" button in the top right corner of the sheet to get the view that player's are going to have.
 
 ## Usage Players
-Open the trader or loot sheet via the actors directory or a double click on the token on the map. You can then sell and buy stuff with the sell and buy buttons next to the commodities.
+Open the trader or loot sheet via the actors directory or a double click on the token on the map. You can then sell and buy stuff with the sell and buy buttons next to the commodities. A GM has to be logged in to use a merchant due to foundry permission configuration.
 
 ![grafik](https://user-images.githubusercontent.com/44941845/112885440-0e744e80-90d1-11eb-9d11-64a441991eb6.png)
 

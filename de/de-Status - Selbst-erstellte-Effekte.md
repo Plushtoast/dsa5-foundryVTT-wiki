@@ -1,4 +1,4 @@
-# Selbst erstellte Effekte
+# Status - Selbst erstellte Effekte
 Ihr könnt jetzt beliebige Effekte auf die Akteuere anwenden, welche die Basiswerte des Akteurs beeinflussen. Dies ist ein wichtiges Upgrate für zuküftige Verbesserungen wie zum Beispiel automatische Anwendung von Zaubern/Liturgien oder Effekte von Items.
  
 **Ihr könnt alle Datenwerte der Akteure ändern** Aber beachtet, dass einige davon brechnet wurden und deshalb immer wieder überschrieben werden. Deshalb ist diese Funktion mit Vorsicht zu verwenden!  

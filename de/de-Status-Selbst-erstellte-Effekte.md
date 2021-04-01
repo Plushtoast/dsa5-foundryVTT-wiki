@@ -26,7 +26,7 @@ Folgende Features planen wir aktuell:
   * Die Auswahl des Attributs über eine Liste
   * Dieselbe Funktion bei Zaubern, Liturgien, Items, Sonderfertigkeite usw.
 
-###Tipp für Fortgeschrittene:
+## Tipp für Fortgeschrittene:
 Wer sich ein bisschen mit der Console auskennt (F12 im Browser) kann die Spieldaten selbst nach den Werten durchsuchen.  
 Markiert einen Token und gebt in die Konsole: *_token.actor.data* ein. Dann seht ihr die Werte die sich hierdurch beeinflussen lassen. Weitere Infos hierzu folgen.
   

@@ -1,8 +1,8 @@
 # Status - Selbst erstellte Effekte
 Ihr könnt jetzt beliebige Effekte auf die Akteuere anwenden, welche die Basiswerte des Akteurs beeinflussen. Dies ist ein wichtiges Upgrate für zuküftige Verbesserungen wie zum Beispiel automatische Anwendung von Zaubern/Liturgien oder Effekte von Items.
  
-**Ihr könnt alle Datenwerte der Akteure ändern** Aber beachtet, dass einige davon brechnet wurden und deshalb immer wieder überschrieben werden. Deshalb ist diese Funktion mit Vorsicht zu verwenden!  
-Dies erfordert Kenntnisse der Datenstruktur von Akteueren. Wir arbeiten daran diese Funktion noch zu erleichtern und mit Tutorials zu erklären. 
+**Ihr könnt alle Datenwerte der Akteure ändern** Aber beachtet, dass einige davon berechnet wurden und deshalb immer wieder überschrieben werden. Deshalb ist diese Funktion mit Vorsicht zu verwenden!  
+Dies erfordert Kenntnisse der Datenstruktur von Akteuren. Wir arbeiten daran diese Funktion noch zu erleichtern und mit Tutorials zu erklären. 
 
 ## Effekte von Akteuren
 Um selbst erstellte Effekte zu verwenden, öffne den Charakterbogen und gehe auf die Kategorie Status. Über das + kann ein neuer Effekt angelegt, der Statuseffekt benannt und die gewünschten Änderungen eingegeben werden.

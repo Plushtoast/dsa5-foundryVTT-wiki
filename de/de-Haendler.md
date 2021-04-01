@@ -16,9 +16,11 @@ Um den Charakterbogen zu verwenden müsst ihr wie folgt vorgehen:
 * Beachtet, dass der Token auf der Szene nicht den Akteur im Menü verändert. So könnt ihr den Händler/das Loot wieder verwenden wenn sie nur über die Szene darauf zugreifen.
 * Interaktion mit dem Händler sind nur erlaubt, wenn ein Spielleiter ins Spiel eingelogt ist.
 
-![grafik](https://user-images.githubusercontent.com/44941845/112885292-dff67380-90d0-11eb-89fd-291e5716a434.png)
+![Beschränkt](https://user-images.githubusercontent.com/80099175/113254135-7f308c00-92c6-11eb-8950-700abcba55e6.png)
 
-Der Spielleiter kann den *toggle limited view* Button in der rechten oberen Ecke des Charakterbogens verwenden um die Sicht der Spieler auf den Händler zu bekommen.
+Der Spielleiter kann den *Begrenzte Ansicht umschalten (Spieleransicht)* Button in der rechten oberen Ecke des Charakterbogens verwenden um die Sicht der Spieler auf den Händler zu bekommen.  
+  
+![Ansicht umschalten](https://user-images.githubusercontent.com/80099175/113253341-6378b600-92c5-11eb-9920-3c81cb187ff1.png)
 
 ## Händler
 1. Ihr könnt den multiplikator für den Kaufs- und Verkaufsfaktor des Händlers einstellen (Bsp.: 2 für doppelt, 0.5 für halb)

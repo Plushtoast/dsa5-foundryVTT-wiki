@@ -1,4 +1,4 @@
-# Händler,Person und Loot Charakterbogen
+# Händler,Person und Schatz Charakterbogen
 Es gibt einen neuen Charakterbogen. mit diesem lassen sich Händler, Schätze und einfache Personen abbilden.  
 **Anmerkung**: Der Kauf und Austausch der Items zwischen Spieler und Händler/Schatz ist nur möglich wenn ein Spielleiter im Spiel angemeldet ist! Sonst passiert nichts beim Klick auf kaufen/verkaufen/nehmen!   
   

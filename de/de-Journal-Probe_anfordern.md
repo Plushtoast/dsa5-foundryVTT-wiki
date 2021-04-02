@@ -14,7 +14,7 @@ Außerdem funktionieren Sonderzeichen wie & nicht im Befehl und werden bei den F
 Dies ist nützlich um direkt zum Beispiel diesen Journaleintrag direkt auf der Karte in einem Raum zu platzieren.
 Dort kann dann zum Beispiel eine verschlossene Truhe stehen die eine Schlösserknacken Probe verlangt.
 
-Journal Eintrag: *Der Raum misst etwa 3x3 Schritt. In ihm steht ein Bett, ein Nachtschrank, ein Kleiderschrank und ein kleiner Tisch mit einem Stuhl. 
+Journal Eintrag: *Der Raum misst etwa 3x3 Schritt. In ihm stehen ein Bett, ein Nachtschrank, ein Kleiderschrank und ein kleiner Tisch mit einem Stuhl. 
 Am Fußende des Bettes steht eine große Truhe.
 Diese ist verschlossen und muss mit einer @Rq[Schlösserknacken -1] Probe geöffnet werden.*
 ![Verschlossene Truhe](https://user-images.githubusercontent.com/80099175/111426706-54a2d880-86f5-11eb-8812-80dedd388d49.png)

@@ -2,23 +2,23 @@
 **Achtung**: Aktuell gibt es noch den ein oder anderen Fehler, weshalb es sich zur Zeit anbietet den Charakter per Hand oder Tool zu erstellen und dann in Foundry 
 manuell zu übertragen!
 Die Charaktererstellung ist relativ modular. Um es aber einfach zu gestalten sollte man sich grob an den Ablauf des Grundregelwerkes halten. Dabei kommen aber ein paar zusätzliche Schritte hinzu die nur in Foundry gemacht werden müssen. Außerdem sind die Punkte mit (Spielleiter) in der Standard Rechteeinstellung nur vom Spielleiter durchzuführen:
-1. [Charakter anlegen (Spielleiter)](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charaktererstellung.md#1-charakter-anlegen-spielleiter)
-2. [Erfahrung eingeben](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charaktererstellung.md#2-erfahrung-eingeben)
-3. [Spezies wählen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charaktererstellung.md#3-spezies-w%C3%A4hlen)
-4. [Kultur wählen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charaktererstellung.md#4-kultur-w%C3%A4hlen)
-5. [Eigenschaftspunkte verteilen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charaktererstellung.md#5-eigenschaftspunkte-verteilen)
-6. [Profession wählen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charaktererstellung.md#6-profession-w%C3%A4hlen)
-7. [Vor- und Nachteile wählen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charaktererstellung.md#7-vor--und-nachteile-w%C3%A4hlen)
-8. [Steigerungen vornehmen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charaktererstellung.md#8-steigerungen-vornehmen)
-9. [Sonderfertigkeiten aussuchen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charaktererstellung.md#9-sonderfertigkeiten-aussuchen)
-10. [Letzte Anpassungen vornehmen (Notizen, Ausrüstung, Name)](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charaktererstellung.md#10-letzte-anpassungen-vornehmen-notizen-ausr%C3%BCstung-name)
-11. [Bild und Token (Spielleiter)](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charaktererstellung.md#11-bild-und-token-spielleiter)  
+1. [Charakter anlegen (Spielleiter)](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#1-charakter-anlegen-spielleiter)
+2. [Erfahrung eingeben](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#2-erfahrung-eingeben)
+3. [Spezies wählen](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#3-spezies-w%C3%A4hlen)
+4. [Kultur wählen](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#4-kultur-w%C3%A4hlen)
+5. [Eigenschaftspunkte verteilen](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#5-eigenschaftspunkte-verteilen)
+6. [Profession wählen](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#6-profession-w%C3%A4hlen)
+7. [Vor- und Nachteile wählen](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#7-vor--und-nachteile-w%C3%A4hlen)
+8. [Steigerungen vornehmen](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#8-steigerungen-vornehmen)
+9. [Sonderfertigkeiten aussuchen](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#9-sonderfertigkeiten-aussuchen)
+10. [Letzte Anpassungen vornehmen (Notizen, Ausrüstung, Name)](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#10-letzte-anpassungen-vornehmen-notizen-ausr%C3%BCstung-name)
+11. [Bild und Token (Spielleiter)](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#11-bild-und-token-spielleiter)  
 
 Hier findet ihr das ganze als Video: [Charaktererstellung](https://www.youtube.com/watch?v=NrqvByX3da0)
 
 ## Grundsätzliches
-### [Inhalte aus der Bibliothek verwenden](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Bibliothek.md) 
-### [Eigene Inhalte erstellen (Zauber, Sonderfertigkeiten, Ausrüstung usw.)](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Eigene-Inhalte-erstellen.md)
+### [Inhalte aus der Bibliothek verwenden](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Bibliothek) 
+### [Eigene Inhalte erstellen (Zauber, Sonderfertigkeiten, Ausrüstung usw.)](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Eigene-Inhalte-erstellen)
 
 ## 1. Charakter anlegen (Spielleiter)
 Der Spielleiter muss über das Akteure Menü einen Charakter anlegen:
@@ -64,7 +64,7 @@ Die Kultur wird ebenfalls einfach auf den Charakterbogen gezogen. Dann öffnet s
 ![Kultur VorNachteile](https://user-images.githubusercontent.com/80099175/112460234-f4e4a700-8d5e-11eb-88e0-383c9c9c9de7.png)
 
 ## 5. Eigenschaftspunkte verteilen
-Im [Eigeschaftstab des Charakterbogens](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charakterbogen.md#4-eigenschaften) können die Eigenschaftswerte festgelegt werden. Um eine AP Berechnung hier korrekt zu verwenden müssen die Eigenschaften über das + und - gesteigert werden.  
+Im [Eigeschaftstab des Charakterbogens](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#4-eigenschaften) können die Eigenschaftswerte festgelegt werden. Um eine AP Berechnung hier korrekt zu verwenden müssen die Eigenschaften über das + und - gesteigert werden.  
 **ACHTUNG**: Aktuell werden die Eigenschaftswerte nicht nach den Regeln begrenzt. Das bedeutet, dass auch über den Wert von 14 gesteigert werden kann. Außerdem gibt es keine Grenze bei den 100 Eigenschaftspunkten die maxmial laut Regelwerk verteilt werden dürfen.  
   
 ![Eigenschaften](https://user-images.githubusercontent.com/80099175/112467092-e601f280-8d66-11eb-8b62-916bca0cc4d0.png)
@@ -99,11 +99,11 @@ Sonderfertigkeiten lassen sich ebenfalls aus der Bibliothek in den Charakterboge
   * ![Kampf Sonderfertigkeiten](https://user-images.githubusercontent.com/80099175/112471191-de911800-8d6b-11eb-944b-891abd205e40.png)
 
 ## 10. Letzte Anpassungen vornehmen (Notizen, Ausrüstung, Name)
-Die letzten Anpassungen werden im Heldendokument unter [Ausrüstung](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charakterbogen.md#5-ausr%C3%BCstung) und [Notizen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charakterbogen.md#7-notizen) vorgenommen.
+Die letzten Anpassungen werden im Heldendokument unter [Ausrüstung](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#5-ausr%C3%BCstung) und [Notizen](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#7-notizen) vorgenommen.
 
 ## 11. Bild und Token (Spielleiter)
 ### Bild anpassen
-Um das Bild anzupassen wird im Charakterbogen auf das Bild im [Kopfbereich](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Charakterbogen.md#1-kopfbereich) geklickt. Es öffnet sich der Foundry Dateimanager mit dem ein Bild gesucht und ausgewählt wird.  
+Um das Bild anzupassen wird im Charakterbogen auf das Bild im [Kopfbereich](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#1-kopfbereich) geklickt. Es öffnet sich der Foundry Dateimanager mit dem ein Bild gesucht und ausgewählt wird.  
 
 ### Standard Token auswählen
 Wichtig ist hierfür, dass der Charakterbogen aus dem Seitenmenü unter geöffnet wird.

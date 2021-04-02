@@ -1,5 +1,5 @@
 # Charaktererstellung
-**Achtung**: Aktuell gibt es noch den ein oder anderen Fehler, weshalb es sich zur Zeit anbietet den Charakter per Hand oder Tool zu erstellen und dann in Foundry 
+**Achtung**: Aktuell gibt es noch den ein oder anderen Fehler, weshalb es sich zurzeit anbietet den Charakter per Hand oder Tool zu erstellen und dann in Foundry 
 manuell zu übertragen!
 Die Charaktererstellung ist relativ modular. Um es aber einfach zu gestalten sollte man sich grob an den Ablauf des Grundregelwerkes halten. Dabei kommen aber ein paar zusätzliche Schritte hinzu die nur in Foundry gemacht werden müssen. Außerdem sind die Punkte mit (Spielleiter) in der Standard Rechteeinstellung nur vom Spielleiter durchzuführen:
 1. [Charakter anlegen (Spielleiter)](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#1-charakter-anlegen-spielleiter)
@@ -14,7 +14,7 @@ Die Charaktererstellung ist relativ modular. Um es aber einfach zu gestalten sol
 10. [Letzte Anpassungen vornehmen (Notizen, Ausrüstung, Name)](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#10-letzte-anpassungen-vornehmen-notizen-ausr%C3%BCstung-name)
 11. [Bild und Token (Spielleiter)](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#11-bild-und-token-spielleiter)  
 
-Hier findet ihr das ganze als Video: [Charaktererstellung](https://www.youtube.com/watch?v=NrqvByX3da0)
+Hier findet ihr das Ganze als Video: [Charaktererstellung](https://www.youtube.com/watch?v=NrqvByX3da0)
 
 ## Grundsätzliches
 ### [Inhalte aus der Bibliothek verwenden](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Bibliothek) 
@@ -64,13 +64,13 @@ Die Kultur wird ebenfalls einfach auf den Charakterbogen gezogen. Dann öffnet s
 ![Kultur VorNachteile](https://user-images.githubusercontent.com/80099175/112460234-f4e4a700-8d5e-11eb-88e0-383c9c9c9de7.png)
 
 ## 5. Eigenschaftspunkte verteilen
-Im [Eigeschaftstab des Charakterbogens](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#4-eigenschaften) können die Eigenschaftswerte festgelegt werden. Um eine AP Berechnung hier korrekt zu verwenden müssen die Eigenschaften über das + und - gesteigert werden.  
-**ACHTUNG**: Aktuell werden die Eigenschaftswerte nicht nach den Regeln begrenzt. Das bedeutet, dass auch über den Wert von 14 gesteigert werden kann. Außerdem gibt es keine Grenze bei den 100 Eigenschaftspunkten die maxmial laut Regelwerk verteilt werden dürfen.  
+Im [Eigenschaftstab des Charakterbogens](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#4-eigenschaften) können die Eigenschaftswerte festgelegt werden. Um eine AP Berechnung hier korrekt zu verwenden müssen die Eigenschaften über das + und - gesteigert werden.  
+**ACHTUNG**: Aktuell werden die Eigenschaftswerte nicht nach den Regeln begrenzt. Das bedeutet, dass auch über den Wert von 14 gesteigert werden kann. Außerdem gibt es keine Grenze bei den 100 Eigenschaftspunkten die maximal laut Regelwerk verteilt werden dürfen.  
   
 ![Eigenschaften](https://user-images.githubusercontent.com/80099175/112467092-e601f280-8d66-11eb-8b62-916bca0cc4d0.png)
 
 ## 6. Profession wählen
-Auch bei der Profession erscheint nach den Ziehen auf den Charakterbogen ein Fenster.
+Auch bei der Profession erscheint nach dem Ziehen auf den Charakterbogen ein Fenster.
 1. **Beschreibung**: Informationen zur Profession
 2. **Vor/-Nachteile**: Auch hier werden wieder empfohlene oder geeignete Vorteile vorgeschlagen und können per Anhaken ausgewählt werden.  
 Alle weiteren Werte werden automatisch in den Charakter übertragen und gegen die Abenteuerpunkte verrechnet.  

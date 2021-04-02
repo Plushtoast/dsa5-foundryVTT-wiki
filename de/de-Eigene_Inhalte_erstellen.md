@@ -3,12 +3,12 @@ Auf Basis der Vorlagen aus dem DSA5 System und den Regelwerken lasse sich viele 
 Euch fehlt ein Zauber aus dem AM II? Ihr Braucht einen Geweihten aus dem AG I? Kein Problem erstellt euch die Inhalte selbst.  
 
 ## Import einer Vorlage aus den Kompendien
-Am einfachsten ist es wenn man sich eine Vorlage aus einem dem Kompendien [importiert](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Bibliothek.md#inhalte-verwenden).
+Am einfachsten ist es, wenn man sich eine Vorlage aus einem der Kompendien [importiert](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Bibliothek#inhalte-verwenden).
 Danach schaut ihr euch an wie diese Vorlage geschrieben ist und passt sie euren wünschen an.
 
 ### Beispiel: Ritual Adamantium aus AM II
-Diese Methode hat den Vorteil, dass die selbst erstellten Inhalte wieder verwendet oder sogar in ein eingeges Kompendium importiert werden können.
-1. Ein belibiges Ritual aus dem Kompendium *Zauber, Rituale und Zaubertricks* importieren  
+Diese Methode hat den Vorteil, dass die selbst erstellten Inhalte wieder verwendet oder sogar in ein eingenes Kompendium importiert werden können.
+1. Ein beliebiges Ritual aus dem Kompendium *Zauber, Rituale und Zaubertricks* importieren  
   
 ![Ritual Arcanovi](https://user-images.githubusercontent.com/80099175/112989660-6f4d6680-9165-11eb-8dc8-3791c4bf4843.png)  
   
@@ -19,6 +19,6 @@ Diese Methode hat den Vorteil, dass die selbst erstellten Inhalte wieder verwend
 3. Ziehen des Rituals auf den Charakterbogen des Helden
 
 ## Eintrag im Charakter ändern
-Möchtet ihr die neuen Inhalte nur für einen Charakter neu erstellen, dann zieht ihr das passende Gegenstück auf den Charakter und ändert dort die Beschreibung und Details. Dies funktioniert aber nicht mit Spezies, Kultur und Profession. Diese werden direkt auf den Charakter angewendetn und müssen [Importiert](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/de-Eigene-Inhalte-erstellen.md#import-einer-vorlage-aus-den-kompendien) werden.
+Möchtet ihr die neuen Inhalte nur für einen Charakter neu erstellen, dann zieht ihr das passende Gegenstück auf den Charakter und ändert dort die Beschreibung und Details. Dies funktioniert aber nicht mit Spezies, Kultur und Profession. Diese werden direkt auf den Charakter angewendet und müssen [Importiert](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Eigene-Inhalte-erstellen.md#import-einer-vorlage-aus-den-kompendien) werden.
   
 ![Neuer Zauber](https://user-images.githubusercontent.com/80099175/112993339-68285780-9169-11eb-81c6-8fb219ce5356.png)  

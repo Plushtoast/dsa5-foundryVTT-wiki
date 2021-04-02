@@ -6,7 +6,7 @@ Die Kompendium Pakete finden sich über das Menü (1) und beinhalten alles was e
 
 ## Kompendium erstellen und Bibliothek
 Oben in der Leiste befinden sich 2 Buttons:
-1. **Kompendium**: Hiermit lassen sich Kompendien zur Ablage eingener Inhalte anlegen. (Siehe [Eigene Inhalte erstellen]())
+1. **Kompendium**: Hiermit lassen sich Kompendien zur Ablage eingener Inhalte anlegen. (Siehe [Eigene Inhalte erstellen](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Eigene-Inhalte-erstellen))
 2. **Bibliothek**: Hier können alle DSA Kompendien durchsucht werden. Die Suche bietet Tabs (3), ein Suchfeld (4) und Checklisten (5) damit das Finden der Inhalte einfach und schnell von der Hand geht.  
   
 ![Bibliothek](https://user-images.githubusercontent.com/80099175/112984572-56da4d80-915f-11eb-85bf-7763d893ecee.png)
@@ -19,7 +19,7 @@ Oben in der Leiste befinden sich 2 Buttons:
 ![Kompendien](https://user-images.githubusercontent.com/80099175/112983800-64430800-915e-11eb-96bb-41d01ad4931a.png)
 
 ## Inhalte verwenden
-Alles aus dem Kompendium kann dann direkt im Spiel verwendet werden über die folgenden Wege: 
+Alles aus dem Kompendium kann dann direkt im Spiel über die folgenden Wege verwendet werden: 
 1. Drag and Drop: Vieles kann per Drag and Drop direkt ins Spiel gezogen werden. 
   1.1: Bsp: Spezies auf neuen Aktor ziehen:  
     
@@ -31,6 +31,6 @@ Alles aus dem Kompendium kann dann direkt im Spiel verwendet werden über die fo
     
   ![Eintrag Importieren](https://user-images.githubusercontent.com/80099175/112987113-a53d1b80-9162-11eb-89df-894266a1105a.png)  
 
-3. Ihr findet sie dann in unter dem jeweiligen Menüpunkt. Dies ist nützlich zum [Erstellen eigener Inhalte]()  
+3. Ihr findet sie dann in unter dem jeweiligen Menüpunkt. Dies ist nützlich zum [Erstellen eigener Inhalte](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Eigene-Inhalte-erstellen)  
   
 ![Importierter Eintrag](https://user-images.githubusercontent.com/80099175/112987512-17adfb80-9163-11eb-88cc-d22980314b7f.png)

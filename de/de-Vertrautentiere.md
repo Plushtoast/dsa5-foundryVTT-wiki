@@ -2,10 +2,10 @@
 
 Um einen Vertrauten anzulegen muss als erstes über neuen Actor erstellen -> eine *Kreatur* erstellt werden. Alternativ kann eine Kreatur aus dem Core Modul importiert werden (Bsp. die Katze)
 
-Danach muss dieser Kreatur die Tiersonderfertigkeit *Vertrautenbindung* hinzugefügt aus dem Core Regelwerk hinzugefügt werden.  
-Dadurch bekommt die Kreatur die Bonuswerte eines Vertrautentieres automatisch zugeordnet:  
+Danach muss dieser Kreatur die Tierfähigkeit *Vertrauter* aus dem Kompendium Sonderfertigkeiten (Item (dsa5-core)) hinzugefügt werden.  
+Dadurch bekommt die Kreatur die Bonuswerte eines Vertrautentieres automatisch zugeordnet und kann mit Abenteuerpunkten gesteigert werden:  
   
-![grafik](https://user-images.githubusercontent.com/80099175/112754331-db03c800-8fdb-11eb-984b-bd92a9c4d9b5.png)
+![Vertrauter](https://user-images.githubusercontent.com/80099175/113439395-c6b03880-93ea-11eb-9416-405fdf03edcb.png)  
   
 **Anmerkung**: Damit der Spieler diesen Vertrauten selbst steuern kann, benötigt er noch die Berechtigung *Besitzer* auf den Actor.
 Ein Vertrautentier als Extra Token kann zu sehr lustigen Situationen führen :)

@@ -16,16 +16,16 @@ und kann etwas einfacher in das System einarbeiten.
 
 # DSA 5 Welt erstellen
 Um eine neue Welt zu erstellen wird im Foundry Admin Menü unter *Spielwelten* (1) -> *Welt erstellen* (2) ausgewählt.
-Hier muss der Name der Welt (3) , der Pfad in dem die Welt gespeichert wird (4) und das Regelsystem 
+Hier muss der Name der Welt (3), der Pfad in dem die Welt gespeichert wird (4) und das Regelsystem 
 (Wichtig: Für DSA *Das Schwarze Auge/The Dark Eye (5th Edition)*) gewählt (5).
 ![Welt erstellen](https://user-images.githubusercontent.com/80099175/111475867-d282d600-872d-11eb-814f-79482293ad78.png)
 
 # DSA 5 Schnellstarter und Regelwerk initialisieren
 Nach dem Starten einer Welt, kann man sich als Gamemaster (*Select Player*) anmelden (*Join Game Session*).
-Es kann danach zu der Meldung Spracheinstellungen kommen. Hier kann zwischen *de* für deutsch und *en* für englisch gewählt werden.
+Es kann danach zu der Meldung Spracheinstellungen kommen. Hier kann zwischen *de* für Deutsch und *en* für Englisch gewählt werden.
 ![Auswahl Sprache](https://user-images.githubusercontent.com/80099175/111479150-001d4e80-8731-11eb-9b5c-753ad24bd892.png)
 
-Als nächstes muss das Modul Schnellstarter aktiviert werden. Ansonsten sind die DSA 5 Charakterbögen und ein paar Kompendiuminhalte zwar vorhanden, 
+Als nächstes muss das Modul Schnellstarter aktiviert werden. Ansonsten sind die DSA 5 Charakterbögen und ein paar Kompendium Inhalte zwar vorhanden, 
 aber es muss alles neu aufgebaut werden.
 1. Rechts oben auf das Zahnrad (*Spieleinstellungen*) -> *Module verwalten*
 2. Den Haken vor *The Dark Eye - Introduction Adventure* setzen und auf *Module aktualisieren* klicken  
@@ -37,6 +37,6 @@ Dadurch werden alle Inhalte des Moduls in die jeweiligen Kategorien (Szenen, Akt
 ![Initialisieren](https://user-images.githubusercontent.com/80099175/111483176-db2ada80-8734-11eb-9600-5dc837899aa4.png)
 Die initialisierung kann auch Wiederholt werden über das Zahnrad (*Einstellungen*) oben rechts -> *Einstellungen anpassen* -> *Moduleinstellungen* 
 -> *The Dark Eye - Introduction Adventure* -> *Initialisieren*  
-Dies ist aber nur notwendig, falls man den Dialog beim ersten mal weg geklickt hat. 
+Dies ist aber nur notwendig, falls man den Dialog beim ersten Mal weg geklickt hat. 
 Wenn dies einfach so erneut durchgeführt wird, werden die Einträge erneut in die Kategorien kopiert und sind dann doppelt vorhanden.
 ![Manuell Initialisieren](https://user-images.githubusercontent.com/80099175/111482945-a7e84b80-8734-11eb-8ed0-247b453de842.png)

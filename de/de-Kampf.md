@@ -6,7 +6,7 @@ Der Kampfablauf unterscheidet sich zwischen Spieler und SL insoweit, dass der SL
 Außerdem kann das **4. Schaden anwenden** bei NSCs und Kreaturen nur durch Personen mit dem Recht *Besitzer* durchgeführt werden. Das bedeutet in der Regel kann nur der SL den Schaden auf NSCs und Kreaturen anwenden.
 
 ## 1. Token zum Angriff markieren
-**Spieler:** um einen Gegnerischen Token als Ziel auszuwählen führt ihr entweder einen doppel-Rechtsklick auf den gewünschten Token durch, oder markiert diesen über die linke Menüleiste als Ziel (Token auswählen (1) und auf die Zielscheibe klicken (2))
+**Spieler:** um einen Gegnerischen Token als Ziel auszuwählen führt ihr entweder einen doppel-Rechtsklick auf den gewünschten Token durch, oder markiert diesen über die linke Menüleiste als Ziel (Token auswählen (1) und auf die Zielscheibe klicken (2))  
 **Anmerkung:** Kontrolliert ihr mehrere Akteuere (Vertraute, Tierbegleiter, usw.) müsst ihr vorher auch auswählen welcher euerer Token angreifen soll.
   
   ![Ziel markieren](https://user-images.githubusercontent.com/80099175/113664976-fc844400-96ac-11eb-9495-3343ef85a55b.png)

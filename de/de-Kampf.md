@@ -60,4 +60,6 @@ Als SL klickt ihr auf die weiter oder zurück Pfeile im *Combat Tracker*:
   ![Zug beenden SL](https://user-images.githubusercontent.com/80099175/113665923-9dbfca00-96ae-11eb-9b8b-28fbe446d549.png)
 
 ### Aktion verzögern
-Aktuell gibt es nur eine Möglichkeit seinen Zug zu verzögern. Hier muss der Spielleiter manuell über den *Combat Tracker* mit den Pfeilen vor und zurück in den Kampf eingreifen.  
+Um die Aktion *verzögern* umzusetzen, kann der SL die INI der Akteuere beliebig ändern. Dafür macht ihr im *Combat Tracker* einen Rechtsklick auf den jeweiligen Charakter und  klickt auf *Teilnehmer* bearbeiten. Hier kann dann die gewüfelte INI und der Basiswert bearbeitet werden:
+  
+  ![INI bearbeiten](https://user-images.githubusercontent.com/80099175/113668462-8da9e980-96b2-11eb-9c85-be0480c6671f.png)

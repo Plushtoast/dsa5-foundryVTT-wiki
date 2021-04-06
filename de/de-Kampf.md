@@ -10,7 +10,7 @@ Außerdem kann das **4. Schaden anwenden** bei NSCs und Kreaturen nur durch Pers
   
   ![Ziel markieren](https://user-images.githubusercontent.com/80099175/113664976-fc844400-96ac-11eb-9495-3343ef85a55b.png)
   
-**Spielleiter:** ihr verwendet das Token Kontextmenü der Token um euer Ziel zu markieren. Klickt hierfür einmal mit der rechten Maustaste auf den Token und klickt dann mit Links auf die Zielscheibe 
+**Spielleiter:** Ihr verwendet das Token Kontextmenü der Token um euer Ziel zu markieren. Klickt hierfür einmal mit der rechten Maustaste auf den Token und klickt dann mit Links auf die Zielscheibe 
     
   ![SL Ziel markieren](https://user-images.githubusercontent.com/80099175/113664250-b7134700-96ab-11eb-908a-f04368f3cf32.png)
   
@@ -21,14 +21,14 @@ Das Ziel wird dann durch 4 kleine orangene Pfeile markiert. Die anderen Spieler 
 **Tipp:** Es können auch mehrere Ziele markiert werden. (Stichwort: Rundumschlag)
   
 ## 2.1 Aktion - Angriff durchführen
-Sobald der Token markiert ist, wählt führt ihr den Angriff über den Kampfbogen des Charakters aus.
+Sobald der Token markiert ist, führt ihr den Angriff über den Kampfbogen des Charakters aus.
 Das Ergebnis des Angriffs wird im Chat dargestellt. Hierüber kann die Reaktion des angegriffenen Akteurs ausgeführt werden.  
   
   ![Angriff](https://user-images.githubusercontent.com/80099175/113664761-a1525180-96ac-11eb-87c9-ed45d04dd0eb.png)
 
 ## 2.2 Aktion durchführen (Zauber, Liturgie, nachladen, usw.
-Neben Angriffen gibt es weitere Aktionen welche ihr ausführen könnt: zaubern, eine Liturgie wirken, nachladen usw.  
-Bisher haben diese Aktionen aber keine Spielmechanischen Auswirkungen auf den Kampf und das Ergebnis muss von euch selbst verwaltet werden.   
+Neben Angriffen gibt es weitere Aktionen, welche ihr ausführen könnt: zaubern, eine Liturgie wirken, nachladen usw.  
+Bisher haben diese Aktionen aber keine spielmechanischen Auswirkungen auf den Kampf und das Ergebnis muss von euch selbst verwaltet werden.   
 
 ## 3.1 Reaktion 
 Um auf einen Angriff zu reagieren, muss vorher vom Angreifer ein *Token zum Angriff markiert* worden sein. Ist dies nicht passiert, würfelt ihr einfach eine  Reaktion über den Charakterbogen. Dann kann aber der Schaden nicht mehr über den Chat angewendet werden.  

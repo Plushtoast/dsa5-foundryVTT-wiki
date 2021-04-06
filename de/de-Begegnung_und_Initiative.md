@@ -31,3 +31,8 @@ Als Spieler kann man die Initiative der Figuren würfeln, die man auch kontrolli
 Wenn die Initiative ausgewürfel ist, erscheinen 2 Werte die durch einen Punkt voneinander getrennt sind. Der erste Wert ist die INI die erwürfelt wurde (1). Der zweite Wert ist der INI Basiswert (2). Dies dient dazu, bei gleicher erwürfelter INI, denjenigen zuerst agieren zu lassen der den höheren Basiswert hat.  
   
 ![INI Reihenfolge](https://user-images.githubusercontent.com/80099175/111443691-eae0f980-8709-11eb-88aa-8f2d6dd383a7.png)
+
+## Initiative bearbeiten
+Ihr könnt die Initiative als SL auch bearbeiten (Bsp.: Aktion verzögern oder Axxelleratus). Dazu klickt ihr mit der rechten Maustaste auf den jeweiligen Charakter und wählt *Teilnehmer bearbeiten* aus. Der erste Wert vor dem Komma ist die gewürfelte INI und der zweite der Basiswert.
+  
+  ![INI bearbeiten](https://user-images.githubusercontent.com/80099175/113668653-dbbeed00-96b2-11eb-9afe-28c8bb6d79d2.png)

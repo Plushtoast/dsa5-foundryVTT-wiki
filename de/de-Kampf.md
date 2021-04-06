@@ -62,4 +62,4 @@ Als SL klickt ihr auf die weiter oder zurück Pfeile im *Combat Tracker*:
 ### Aktion verzögern
 Um die Aktion *verzögern* umzusetzen, kann der SL die INI der Akteuere beliebig ändern. Dafür macht ihr im *Combat Tracker* einen Rechtsklick auf den jeweiligen Charakter und  klickt auf *Teilnehmer* bearbeiten. Hier kann dann die gewüfelte INI und der Basiswert bearbeitet werden:
   
-  ![INI bearbeiten](https://user-images.githubusercontent.com/80099175/113668462-8da9e980-96b2-11eb-9c85-be0480c6671f.png)
+  ![INI bearbeiten](https://user-images.githubusercontent.com/80099175/113668704-ec6f6300-96b2-11eb-94e1-93c9abb1f049.png)

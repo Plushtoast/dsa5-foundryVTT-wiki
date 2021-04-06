@@ -51,13 +51,13 @@ War der Angriff erfolgreich und ist die Reaktion fehlgeschlagen oder wurde nicht
 **Tipp:** ob die Meldung der Schadensberechnung von den Spielern gesehen wird, kann in den Systemeinstellungen eingestellt werden.
 
 ## 5. Zug beenden
-Um seinen Zug zu beenden klickt ihr als Spieler auf *Zug beenden* unten in der Initiativeleiste:
+Um seinen Zug zu beenden klickt ihr als Spieler auf *Zug beenden* unten im *Combat Tracker*:
   
   ![Zug beenden](https://user-images.githubusercontent.com/80099175/113665819-723cdf80-96ae-11eb-8231-3fe98c61b67c.png)
 
-Als SL klickt ihr auf die weiter oder zurück Pfeile in der Initiativeleiste:
+Als SL klickt ihr auf die weiter oder zurück Pfeile im *Combat Tracker*:
   
   ![Zug beenden SL](https://user-images.githubusercontent.com/80099175/113665923-9dbfca00-96ae-11eb-9b8b-28fbe446d549.png)
 
 ### Aktion verzögern
-Aktuell gibt es nur eine Möglichkeit seinen Zug zu verzögern. Hier muss der Spielleiter manuell über die Initiativeleiste mit den Pfeilen vor und zurück in den Kampf eingreifen.  
+Aktuell gibt es nur eine Möglichkeit seinen Zug zu verzögern. Hier muss der Spielleiter manuell über den *Combat Tracker* mit den Pfeilen vor und zurück in den Kampf eingreifen.  

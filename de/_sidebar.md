@@ -17,9 +17,9 @@ de | [en](Home)
 * [Sicht und Licht](de-Sicht_und_Licht)
 * [Händler](de-Haendler)
 * [Gestaltwandlung](de-Gestaltwandlung)
-* [Eigene Inhalte](de-Eigene-Inhalte-erstellen)
+* [Eigene Inhalte](de-Eigene_Inhalte_erstellen)
 * [Bibliothek](de-Bibliothek)
-* [Händler](de-Haendler_Person_und_Schatz_Bogen)
+* [Händler](de-Haendler)
 
 **Fortgeschrittene Mechanismen**
 * [Journal Probe anfordern](de-Journal-probe_anfordern)

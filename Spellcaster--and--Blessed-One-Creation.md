@@ -23,3 +23,6 @@ For the latter make sure to enter in the effect field
 * +20 AE or +20 KP (english)
 This will add the number to your maximum Arcane Energy or Karma Points.
 
+
+For Zauberbarde/Magical Bards and similar traditions enter manually a factor in the "primary attribute factor" field on the magic tab of 0.5.
+

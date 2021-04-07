@@ -13,11 +13,13 @@ de | [en](Home)
 
 **Spielmechanismen**
 * [Begegnung und Initiative](de-Begegnung_und_Initiative)
+* [Kampf](de-Kampf)
 * [Sicht und Licht](de-Sicht_und_Licht)
 * [Händler](de-Haendler)
 * [Gestaltwandlung](de-Gestaltwandlung)
 * [Eigene Inhalte](de-Eigene-Inhalte-erstellen)
 * [Bibliothek](de-Bibliothek)
+* [Händler](de-Haendler_Person_und_Schatz_Bogen)
 
 **Fortgeschrittene Mechanismen**
 * [Journal Probe anfordern](de-Journal-probe_anfordern)

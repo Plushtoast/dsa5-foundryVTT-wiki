@@ -2,20 +2,20 @@
 Der Kampf beginnt damit, dass der SL eine [Begegnung erstellt und die Initiative](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Begegnung_und_Initiative) ausgewürfelt wird.  
 
 ## Unterschiede SL und Spieler
-Der Kampfablauf unterscheidet sich zwischen Spieler und SL insoweit, dass der SL den Token mit dem er angreifen möchte auch vorher auswählen muss. An einfachsten ist dies mit einem Doppelklick des aktiven Akteurs in der INI Liste. Dadurch wird der Token der angeklickt wird markiert und der Charakterbogen geöffnet.  
-Außerdem kann das **4. Schaden anwenden** bei NSCs und Kreaturen nur durch Personen mit dem Recht *Besitzer* durchgeführt werden. Das bedeutet in der Regel kann nur der SL den Schaden auf NSCs und Kreaturen anwenden.
+Der Kampfablauf unterscheidet sich zwischen Spieler und SL insoweit, dass der SL den Token mit dem er angreifen möchte, auch vorher auswählen muss. Am einfachsten erfolgt dies mit einem Doppelklick des aktiven Akteurs in der INI Liste. Dadurch wird der angeklickte Token markiert und der Charakterbogen geöffnet.  
+Außerdem kann das **4. Schaden anwenden** bei NSCs und Kreaturen nur durch Personen mit dem Recht *Besitzer* durchgeführt werden. Das bedeutet in der Regel,dass nur der SL den Schaden auf NSCs und Kreaturen anwenden.
 
 ## 1. Token zum Angriff markieren
-**Spieler:** um einen Gegnerischen Token als Ziel auszuwählen führt ihr entweder einen doppel-Rechtsklick auf den gewünschten Token durch, oder markiert diesen über die linke Menüleiste als Ziel (Token auswählen (1) und auf die Zielscheibe klicken (2))  
-**Anmerkung:** Kontrolliert ihr mehrere Akteuere (Vertraute, Tierbegleiter, usw.) müsst ihr vorher auch auswählen welcher euerer Token angreifen soll.
+**Spieler:** Um einen gegnerischen Token als Ziel auszuwählen führt ihr entweder einen Doppel-Rechtsklick auf den gewünschten Token durch, oder markiert diesen über die linke Menüleiste als Ziel (Token auswählen (1) und auf die Zielscheibe klicken (2))  
+**Anmerkung:** Kontrolliert ihr mehrere Akteuere (Vertraute, Tierbegleiter, usw.) müsst ihr vorher auswählen, welcher euerer Token angreifen soll.
   
   ![Ziel markieren](https://user-images.githubusercontent.com/80099175/113664976-fc844400-96ac-11eb-9495-3343ef85a55b.png)
   
-**Spielleiter:** Ihr verwendet das Token Kontextmenü der Token um euer Ziel zu markieren. Klickt hierfür einmal mit der rechten Maustaste auf den Token und klickt dann mit Links auf die Zielscheibe 
+**Spielleiter:** Ihr verwendet das Token Kontextmenü der Token um euer Ziel zu markieren. Klickt hierfür einmal mit der rechten Maustaste auf den Token und klickt dann mit der linken Maustaste auf die Zielscheibe 
     
   ![SL Ziel markieren](https://user-images.githubusercontent.com/80099175/113664250-b7134700-96ab-11eb-908a-f04368f3cf32.png)
   
-Das Ziel wird dann durch 4 kleine orangene Pfeile markiert. Die anderen Spieler (SL) sehen einen Punkt in der Farbe des Spielers (nicht des Tokens) der diesen Token markiert hat.
+Das Ziel wird dann durch 4 kleine orangene Pfeile markiert. Die anderen Spieler (SL) sehen einen Punkt in der Farbe des Spielers (nicht des Tokens), der diesen Token markiert hat.
   
   ![Markiert](https://user-images.githubusercontent.com/80099175/113664857-c941b500-96ac-11eb-8f82-c99a59523735.png)
   
@@ -27,19 +27,19 @@ Das Ergebnis des Angriffs wird im Chat dargestellt. Hierüber kann die Reaktion 
   
   ![Angriff](https://user-images.githubusercontent.com/80099175/113664761-a1525180-96ac-11eb-87c9-ed45d04dd0eb.png)
 
-## 2.2 Aktion durchführen (Zauber, Liturgie, nachladen, usw.
-Neben Angriffen gibt es weitere Aktionen, welche ihr ausführen könnt: zaubern, eine Liturgie wirken, nachladen usw.  
+## 2.2 Aktion durchführen (Zauber, Liturgie, Nachladen, usw.)
+Neben Angriffen gibt es weitere Aktionen, welche ihr ausführen könnt: Zaubern, eine Liturgie wirken, Nachladen usw.  
 Bisher haben diese Aktionen aber keine spielmechanischen Auswirkungen auf den Kampf und das Ergebnis muss von euch selbst verwaltet werden.   
 
 ## 3.1 Reaktion 
 Um auf einen Angriff zu reagieren, muss vorher vom Angreifer ein *Token zum Angriff markiert* worden sein. Ist dies nicht passiert, würfelt ihr einfach eine  Reaktion über den Charakterbogen. Dann kann aber der Schaden nicht mehr über den Chat angewendet werden.  
-Im Chatfenster erschreint nach einem **erfolgreichen** Angriff bei allen Besitzern des Tokens ein Button *Reaktion*. Durch einen klick öffnet sich das Reaktionsfenster in dem ihr Zugriff auf alle Reaktionsmöglichkeiten des angegriffenen Akteurs habt:
+Im Chatfenster erschreint nach einem **erfolgreichen** Angriff bei allen Besitzern des Tokens ein Button *Reaktion*. Durch einen Klick öffnet sich das Reaktionsfenster in dem ihr Zugriff auf alle Reaktionsmöglichkeiten des angegriffenen Akteurs habt:
   
   ![Reaktion](https://user-images.githubusercontent.com/80099175/113664454-0e191c00-96ac-11eb-8517-c29201d34cd6.png)
   
-## 3.2 keine Reaktion
+## 3.2 Keine Reaktion
 Ihr habt außerdem die Möglichkeit nicht auf einen Angriff zu reagieren. Dies kann notwendig sein, wenn ihr keine Reaktionen mehr in dieser Kampfrunde habt, oder lieber ohne Erschwernisse auf den Gegner reagieren wollt, der vermutlich mehr Schaden verursacht. Dafür wählt ihr im Reaktionsfenster *keine Reaktion* aus.
-
+g sein, wenn ihr keine Reaktionen mehr in dieser Kampfrunde habt oder lieber ohne Erschwernisse auf den Gegner 
   ![Keine Reaktion](https://user-images.githubusercontent.com/80099175/113666128-0a3ac900-96af-11eb-81c9-335d59962939.png)
 
 ## 4. Schaden anwenden

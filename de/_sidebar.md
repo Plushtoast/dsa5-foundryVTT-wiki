@@ -25,7 +25,7 @@ de | [en](Home)
 * [Journal Probe anfordern](de-Journal-probe_anfordern)
 * [Journal DSA Icons](de-Journal-DSA_Icons_Auge)
 * [Effektfeld](de-Effekt_Feld)
-* [Selbsterstellte Effekte](de-Selbst-erstellte-Effekte)
+* [Selbsterstellte Effekte](de-Status-Selbst-erstellte-Effekte)
 
 **Empfehlungen**
 * [Module](de-Module)

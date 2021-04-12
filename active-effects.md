@@ -29,5 +29,11 @@ Save the effect and enable it until you regained your lost points.
 ![grafik](https://user-images.githubusercontent.com/44941845/112887282-441a3700-90d3-11eb-8d86-58271d4275eb.png)
 
 
+## Duration
+If you want to let effects run out by themselves checkout these modules:
+* [about-time](https://gitlab.com/tposney/about-time)
+* [times-up](https://gitlab.com/tposney/times-up)
+
+
 ## ToDo
 We plan to faciliate the selection of the right attribute key. Also spells, items, specialabilities and so one will gain that feature too.

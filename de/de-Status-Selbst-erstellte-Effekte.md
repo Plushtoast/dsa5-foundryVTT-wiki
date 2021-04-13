@@ -19,8 +19,13 @@ So kannst du verschiedene Armatrutz Effekte mit verschiedenen Rüstungswerten an
 #### Permanenter Verlust von Astralenergie
 Wenn ein Charakter Astralpunkte aufgrund eines Rituals oder durch das Binden des Traditionsartefaktes permanent verliert, könnt ihr diesen Verlust mit einem Status darstellen. Erstellt einen neuen Status und füge das Attribut "data.status.astralenergy.gearmodifier" hinzu, setze den Mode auf "Add" und den Wert in Höhe der verlorenen Astralpunkte (Bsp.: -2).
 
-![ASP Verlust](https://user-images.githubusercontent.com/80099175/113255951-c61f8100-92c8-11eb-9eaf-66eb68ac172a.png) 
-
+![ASP Verlust](https://user-images.githubusercontent.com/80099175/113255951-c61f8100-92c8-11eb-9eaf-66eb68ac172a.png)  
+  
+## Effektdauer
+Wenn ihr die Dauer der Effekte automatisch ablaufen lassen wollt, schaut euch einmal die folgenden Module an:
+* [about-time](https://gitlab.com/tposney/about-time)
+* [times-up](https://gitlab.com/tposney/times-up)
+  
 ## ToDo
 Folgende Features planen wir aktuell:
   * Die Auswahl des Attributs über eine Liste

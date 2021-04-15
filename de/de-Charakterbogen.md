@@ -84,10 +84,10 @@ Der Magiebogen erscheint erst, wenn dem Charakter eine magische Sonderfertigkeit
 1. **Zaubersprüche und Rituale**: Hier werden alle Zauber und Rituale des Charakters aufgelistet.
   1.1 Die Sprechblase teilt den Zauber/das Ritual über den Chat, der Pfeil öffnet Details (Wirkungsdauer, Kosten) und die Tonne löscht den Zauber/das Ritual.   
 2. **Magische Sonderfertigkeiten**: Alle dem Charakter zugeordneten magischen Sonderfertigkeiten.
-3. **Tradition, Leiteigenschaft, Merkmal**: die Leiteigenschaft muss hier angegeben werden, da sich darüber auch die AsP in den [Eigenschaften](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#4-eigenschaften) berechnen.
+3. **Tradition, Leiteigenschaft, Merkmal, Leiteig. Multiplikator**: die Leiteigenschaft muss hier angegeben werden, da sich darüber auch die AsP in den [Eigenschaften](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#4-eigenschaften) berechnen. Außerdem kann über den *Leiteigenschaft Multiplikator* der Einfluss der Leiteigenschaft auf die Astralpunkte eingestellt werden (Bsp: Zauberbarde 0.5).
 4. **Zaubertricks**  
   
-![Magie](https://user-images.githubusercontent.com/80099175/112474961-8a3c6700-8d70-11eb-9f3b-900c64e1a2b8.png) 
+![Magie](https://user-images.githubusercontent.com/80099175/114888610-b1370780-9e09-11eb-92e3-3b3a7efe629f.png)
 
 ## 9. Religion
 1. **Liturgien und Zeremonien**: Hier werden alle Liturgien und Zeremonien des Charakters aufgelistet.

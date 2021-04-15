@@ -9,6 +9,15 @@ Um selbst erstellte Effekte zu verwenden, öffne den Charakterbogen und gehe auf
 
 ![Effekt hinzufügen](https://user-images.githubusercontent.com/44941845/112887103-0d442100-90d3-11eb-8ee5-aa056fcbe8e7.png)
 
+### Auswahlliste der wichtigsten Effekte
+Ihr könnt zwischen den wichtisten Attributen und Eigenschaften aus einer Auswahlliste auswählen:
+1. Erstellt einen neuen Effekt
+2. Öffnet diesen zur Bearbeitung
+3. Im Reiter Effekte einen neuen über das + erstellen
+4. Hier habt ihr unter Attributsschlüssel jetzt eine Auswahl an gängigen Effekten
+  
+  ![Liste Effekte](https://user-images.githubusercontent.com/80099175/114892038-b0ec3b80-9e0c-11eb-827b-7dbd0e2ff9ba.png)
+
 ### Beispiel
 #### Armatrutz
 Erstelle einen neuen Status im Charakterbogen unter Status und füge ein neues Attribut mit der Bezeichnung "data.totalArmor" hinzu. Setze den Modus auf *"Add"* und gib als Wert den gewünschten Rüstungswert ein (Bsp.: 1)

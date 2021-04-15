@@ -31,6 +31,7 @@ Es ist möglich mit den Akteuer der laut Combat Tracker an der Reihe ist, direkt
   
   ![Angriff Combat Tracker](https://user-images.githubusercontent.com/80099175/114890076-fdcf1280-9e0a-11eb-8b4b-aad8be13ab2e.png)
   
+### Ergebnis
 Das Ergebnis des Angriffs wird im Chat dargestellt. Hierüber kann die Reaktion des angegriffenen Akteurs ausgeführt werden.  
   
   ![Angriff](https://user-images.githubusercontent.com/80099175/113664761-a1525180-96ac-11eb-87c9-ed45d04dd0eb.png)

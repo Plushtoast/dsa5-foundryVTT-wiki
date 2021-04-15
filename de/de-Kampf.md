@@ -22,11 +22,19 @@ Das Ziel wird dann durch 4 kleine orangene Pfeile markiert. Die anderen Spieler 
 **Tipp:** Es können auch mehrere Ziele markiert werden. (Stichwort: Rundumschlag)
   
 ## 2.1 Aktion - Angriff durchführen
-Sobald der Token markiert ist, führt ihr den Angriff über den Kampfbogen des Charakters aus.
+Sobald der Token markiert ist, führt ihr den Angriff über den Kampfbogen oder aber direkt über den Combat Tracker (siehe unten) des Charakters aus.  
+
+### Angriff über Combat Tracker
+Es ist möglich mit den Akteuer der laut Combat Tracker an der Reihe ist, direkt mit Nah- oder Fernkampfangriff den markierten Gegner anzugreifen.
+1. Kampf Symbol im Combat Tracker anklicken
+2. Handlung auswählen und ok klicken.  
+  
+  ![Angriff Combat Tracker](https://user-images.githubusercontent.com/80099175/114890076-fdcf1280-9e0a-11eb-8b4b-aad8be13ab2e.png)
+  
 Das Ergebnis des Angriffs wird im Chat dargestellt. Hierüber kann die Reaktion des angegriffenen Akteurs ausgeführt werden.  
   
   ![Angriff](https://user-images.githubusercontent.com/80099175/113664761-a1525180-96ac-11eb-87c9-ed45d04dd0eb.png)
-
+  
 ## 2.2 Aktion durchführen (Zauber, Liturgie, Nachladen, usw.)
 Neben Angriffen gibt es weitere Aktionen, welche ihr ausführen könnt: Zaubern, eine Liturgie wirken, Nachladen usw.  
 Bisher haben diese Aktionen aber keine spielmechanischen Auswirkungen auf den Kampf und das Ergebnis muss von euch selbst verwaltet werden.   

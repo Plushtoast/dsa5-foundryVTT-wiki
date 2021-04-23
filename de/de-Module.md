@@ -45,3 +45,33 @@ Dieses Modul fügt einen Fackel Schalter im Kontextmenü des Charakters hinzu. I
 2. Radius helles und dämmriges Licht der Fackel
 3. Fackelschalter im Kontextmenü mit dem die Fackel aktiviert und deaktiviert werden kann.  
 ![grafik](https://user-images.githubusercontent.com/80099175/111770465-beb0ae80-88aa-11eb-88fe-3fd1be700b0b.png)
+
+## T is for Target
+Das Modul macht genau das was der Name verspricht. Geht mit der Maus über einen Token und drückt *t*, dadurch wird der Token als Ziel markiert. Seid ihr wieder mit der Maus über einem markierten Token und drückt *t*, dann wird die Markierung entfernt.
+
+## Pings
+Ihr könnt ein Symbol auf dem Bildschirm erscheinen lassen um zu verdeutlichen wovon ihr sprecht. Mit einer konfigurierbaren Tastenkombination lässt sich auch der Fokus der Spieler dorthin verschieben.
+
+## FXMaster
+Hiermit werden weitere Wettereffekte zum Spiel hinzugefügt. Außerdem gibt es noch eine Handvoll Zaubereffekte.
+
+## PopOut!
+Mit PopOut! könnt ihr jedes Fenster in Foundry aus dem Browser in ein separates Fenster verschieben. Sehr nützlich bei 2 Monitoren. Dies Funktioniert aber nicht in der Lokalinstallation von Foundry.
+
+## Calendar/Weather und About Time
+Solltet ihr nach einer Möglichkeit suchen den DSA Kalender in Foundry einzubauen, sowie eine Uhr im Spiel zu haben, dann sind dies 2 Module die ihre Aufgabe sehr gut erfüllen. Es lässt sich mit etwas Arbeit der komplette DSA Kalender umsetzen.
+
+## Torchlight
+Dieses Modul funktioniert ähnlich wie Torch, nur kann man gleich 3 Lichtquellen voreinstellen (Magisches Licht, Laterne und Fackel).
+
+## Permission Viewer
+Bildet über ein Symbol in der Farbe der Spieler die Berechtigungen auf verschiedene Objekte ab. So seht ihrr als Spielleiter welche Spieler worauf Zugriff haben.
+
+## Quick Insert - Search Widget
+Ihr könnt über STRG+Leertaste ein kleines Suchfenster öffnen, welches alle Elemente in eurer Welt durchsucht. So habt ihr schnellen Zugriff auf verschiedene Elemente ohne rechts im Menü suchen zu müssen. Es lässt sich sehr kleinteilig einstellen wer was durchsuchen darf und was überhaupt durchsucht wird.
+
+## Laptop Form Fix
+Wenn euch die Meldung über eine zu geringe Auflösung nervt, dann ist das hier das Modul welches die Meldung entfernt und ein paar Optimierungen an der Oberfläche durchführt. Allerdings ist Foundry dadurch in kleineren Auflösungen immer noch nicht optimal zu bedienen. Allerdings lassen sich jetzt alle Schaltflächen erreichen und bedienen.
+
+## DF Curvy Walls
+Solltet ihr eine Karte mit einem Runden Turm haben, dann wisst ihr wie unbefriedigend Foundry diese Wände umsetzt. Mit dem Modul Curvy Walls könnt ihr ohne Probleme runde Wände ziehen.

@@ -75,3 +75,8 @@ Wenn euch die Meldung über eine zu geringe Auflösung nervt, dann ist das hier 
 
 ## DF Curvy Walls
 Solltet ihr eine Karte mit einem Runden Turm haben, dann wisst ihr wie unbefriedigend Foundry diese Wände umsetzt. Mit dem Modul Curvy Walls könnt ihr ohne Probleme runde Wände ziehen.
+
+## Drag Ruler
+Hiermit lässt sich die Geschwindigkeit der Charaktere für die maximale Bewegungsrate einstellen. Diese wird dann bei Szenen mit Grid farblich dargestellt. In den *Moduleinstellungen* unter *Drag Ruler* -> *Einstellungen zur Systemintegration* beim *Geschwindigkeitsattribut* `actor.data.data.status.speed.max` und bei *Sprint Multiplikator* eine 2 eingeben.  
+  
+  ![Drag Ruler Einstellungen](https://user-images.githubusercontent.com/80099175/115960451-d7e3f500-a511-11eb-8388-78dfa12a69d4.png)

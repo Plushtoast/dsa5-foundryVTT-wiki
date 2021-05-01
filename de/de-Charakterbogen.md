@@ -30,7 +30,7 @@ Auf dem Talentbogen werden die Talentwerte des Charakters festgehalten und es k�
 
 ## 3. Kampf
 Der Kampfbogen beinhaltet alle Daten die zum [Kampf](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Kampf) in DSA 5 verwendet werden.
-1. **Nah-, Fernkampfwaffen und Rüstungen**: Listet alle Waffen und Rüstungen auf, die im Reiter [Ausrüstung](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#5-ausr%C3%BCstung) vorhanden sind **und ausgerüstet** (=für den Kampfbogen aktiviert) wurden. Dazu muss auf der Ausrüstungs-Seite neben dem Gegenstand ein Haken gesetzt werden.  
+1. **Nah-, Fernkampfwaffen und Rüstungen**: Listet alle Waffen und Rüstungen auf, die im Reiter [Ausrüstung](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#5-ausr%C3%BCstung) vorhanden sind **und ausgerüstet** (=für den Kampfbogen aktiviert) wurden. Dazu muss auf der Ausrüstungs-Seite neben dem Gegenstand ein Haken gesetzt werden, siehe [Ausrüstung](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#5-ausr%C3%BCstung)
 
    1.1 **Ausweichen, waffenloser Angriff und Parade**: Hinter den Symbolen verbergen sich das Ausweichen sowie der waffenlose Angriff und die Parade.  
 
@@ -48,15 +48,16 @@ In diesem Bogen werden die Grundwerte des Charakters festgelegt und gesteigert. 
 1. **Vorteile, Nachteile, Sonderfertigkeiten, Sprache und Schicksalspunktsonderfertigkeiten**: Hier werden die dem Helden zugeordneten Items aufgelistet
 die bei der Erstellung oder später aus der Bibliothek auf den Helden gezogen werden. 
 1. **Grundwerte**: Alles in der Spalte *Wert* wird automatisch nach DSA 5 Regeln berechnet. Die Werte Astral- und Karmaenergie erscheinen nur, wenn der Charakter einen magische, karmale Sonderfertigkeit, einen Zauber, eine Liturgie oder ähnliches zugeordnet hat. Die Vorteile Zauberer und Geweihter reichen dafür nicht.
-1. **Erfahrungsgrad**: hier werden die Verfügbaren und Ausgegebenen Abenteuerpunkte verwaltet. Details hierzu in der Charaktererstellung LINK  
+1. **Erfahrungsgrad**: hier werden die Verfügbaren und Ausgegebenen Abenteuerpunkte verwaltet. Details hierzu in der [Charaktererstellung](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung)
   
 ![Eigenschaften](https://user-images.githubusercontent.com/80099175/112108651-c759fb00-8bb0-11eb-9854-697551f5f667.png)  
 
 ## 5. Ausrüstung
-Im Ausrütungsbogen wird das Inventar des Charakters verwaltet. Hier werden Items aus der Bibliothek abgelegt die in den Charakter gezogen werden.
-1. **Ausrüstung**: Alle vom Charakter ausgerüteten Gegenstände sortiert in Kategorien
-1.1 **Verwenden im Kampf**: Nur wenn hier der Haken gesetzt ist, kann der Gegenstand im Kampf verwendet werden (Nur: Nahkampf-, Fernkampfwaffen und Rüstungen) 
-1.2 **Anzahl**: Durch einen Linksklick kann die Zahl erhöht, durch einen Linksklick verringert werden.
+Im Ausrütungsbogen wird das Inventar des Charakters verwaltet. Hier sind alle Items sichtbar, die dem Charakter zugewiesen sind.
+Um neue Items hinzuzufügen, können diese aus der Bibliothek auf den Charakterbogen gezogen werden. Alternativ können [ Inhalte erstellt werden.](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Eigene_Inhalte_erstellen)
+1. **Ausrüstung**: Alle vom Charakter ausgerüteten Gegenstände sortiert in Kategorien (Nahkampfwaffe, Rüstung, Behältnis, Munition etc.).
+1.1 **Verwenden im Kampf**: Nur wenn hier der Haken gesetzt ist, kann der Gegenstand im Kampf verwendet werden (Nur: Nahkampf-, Fernkampfwaffen und Rüstungen). Rüstungen, die nicht für den Kampf ausgerüstet sind (=angezogen sind), deren Gewicht muss man herumtragen. Bei schweren Rüstungen kann das zu Abzügen führen, aufgrund von Belastung.
+1.2 **Anzahl**: Durch einen Linksklick kann die Zahl erhöht, durch einen Rechtsklick verringert werden.
 1.3 **Gewicht**: Berechnet auf Basis der Anzahl und des Einzelgewichts
 1.4 **Bearbeiten, teilen, Details**: Das Bearbeiten Symbol öffnet den Gegenstand zur Bearbeitung. Die Sprechblase teilt die Infos des Gegenstandes im Chat. 
 Über den Pfeil können die Details auf- und zugeklappt werden.
@@ -68,24 +69,26 @@ Im Ausrütungsbogen wird das Inventar des Charakters verwaltet. Hier werden Item
 ## 6. Status
 Das Statusfenster beinhaltet alle für den Charakter aktiven Zustände und Status. Ein paar davon werden automatisch gehandhabt (Bsp.: Schmerz durch Lebenspunkte,
 Belastung durch Rüstung und Ausrüstung.) Soll ein Zustand oder Status entfernt werden, reicht ein Rechtsklick auf den Namen. Dies funktioniert aber nur, wenn der Auslöser eines automatischen Zustands nicht mehr vorhanden ist (Bsp.: Sind die Lebenspunkte unter 1/2 lassen sich die zwei Stufen Schmerz nicht einfach so entfernen)
-1. **Wert**: Bei Status wird nur angegeben dass dieser Status aktiviert ist (Haken). Bei Zuständen wird hier die Höhe des Zustandes angegeben.
-2. **Mod.**: Hierüber kann der Zustand durch einen Linksklick erhöht oder einen Rechtsklick verringert werden.
-3. **Plus (Hinzufügen)**: öffnet ein Kontextmenü über dass ein Status/Zustand gesucht und dem Charakter hinzugefügt werden kann.  
+1. **Wert**: Bei Status wird nur angegeben dass dieser Status aktiviert ist (Haken). Bei Zuständen wird hier die Höhe des Zustandes angegeben.  
+2. **Mod.**: Hierüber kann der Zustand durch einen Linksklick erhöht oder einen Rechtsklick verringert werden. Dabei sind negative Werte möglich.  
+3. **Plus (Hinzufügen)**: öffnet ein Kontextmenü, über das ein Status/Zustand gesucht und dem Charakter hinzugefügt werden kann. Zudem lassen sich [eigene Stati anlegen.](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Status-Selbst-erstellte-Effekte)
   
 ![Charakterbogen Status](https://user-images.githubusercontent.com/80099175/112144638-c7222580-8bd9-11eb-9696-3aff6af5e145.png)  
   
-**Kontexttmenü**: dieses Menü lässt sich über das + im Charakterbogen-Status oder direkt im Kontextmenü des Tokens öffnen  
+**Kontextmenü**: dieses Menü lässt sich über das + im Charakterbogen-Status oder direkt im Kontextmenü des Tokens öffnen. 
+ - Über das Kontextmenü des Token lassen sich bekannte Stati/Zustände sehr schnell hinzufügen.
+ - Über das  Symbol im Charaktersheet lassen sich Einträge suchen/filtern, zudem kann man [eigene Einträge erstellen](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Status-Selbst-erstellte-Effekte) (+ Symbol neben dem Suchfeld).
   
-![Charakterbogen Status Kontextmenü](https://user-images.githubusercontent.com/80099175/112149436-41a17400-8bdf-11eb-8fd9-f950c18b7196.png)  
+![Charakterbogen Status Kontextmenü](https://user-images.githubusercontent.com/62849695/116782005-f0f72380-aa86-11eb-91e9-1ceefe799deb.png)  
  
 ## 7. Notizen
-In den Notizen finden sicht verschiedene Dinge die über den Charakter eingetragen werden können. Hier wird auch die Kultur abgelegt wenn diese beim Charakterbau in den Charakter gezogen wird. Die **GM Notizen** sind nur für Spielleiter sichtbar.
+In den Notizen finden sich verschiedene Dinge, die über den Charakter eingetragen werden können. Hier wird auch die Kultur abgelegt, wenn diese beim Charakterbau in den Charakter gezogen wird. Die **GM Notizen** sind nur für Spielleiter sichtbar.
 ![Charakterbogen Notizen](https://user-images.githubusercontent.com/80099175/112149840-b4125400-8bdf-11eb-9577-1d78333392ad.png)
 
 ## 8. Magie
 Der Magiebogen erscheint erst, wenn dem Charakter eine magische Sonderfertigkeit, ein Zauber, ein Ritual oder ein Zaubertrick zugeordnet wurde. Der Vorteil Zauberer reicht dafür nicht aus!  
-1. **Zaubersprüche und Rituale**: Hier werden alle Zauber und Rituale des Charakters aufgelistet.
-  1.1 Die Sprechblase teilt den Zauber/das Ritual über den Chat, der Pfeil öffnet Details (Wirkungsdauer, Kosten) und die Tonne löscht den Zauber/das Ritual.   
+1. **Zaubersprüche und Rituale**: Hier werden alle Zauber und Rituale des Charakters aufgelistet.  
+   1.1 Die Sprechblase teilt den Zauber/das Ritual über den Chat, der Pfeil öffnet Details (Wirkungsdauer, Kosten) und die Tonne löscht den Zauber/das Ritual.   
 2. **Magische Sonderfertigkeiten**: Alle dem Charakter zugeordneten magischen Sonderfertigkeiten.
 3. **Tradition, Leiteigenschaft, Merkmal, Leiteig. Multiplikator**: die Leiteigenschaft muss hier angegeben werden, da sich darüber auch die AsP in den [Eigenschaften](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#4-eigenschaften) berechnen. Außerdem kann über den *Leiteigenschaft Multiplikator* der Einfluss der Leiteigenschaft auf die Astralpunkte eingestellt werden (Bsp: Zauberbarde 0.5).
 4. **Zaubertricks**  

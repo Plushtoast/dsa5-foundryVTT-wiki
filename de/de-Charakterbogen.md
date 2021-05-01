@@ -11,31 +11,31 @@ Es gibt darin die Kategorien:
 8. [Magie](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#8-magie)
 9. [Religion](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#9-religion)
   
-**Anmerkung**: Die Punkte [Magie]() und [Religion]() erscheinen nur, wenn dem Charakter mindestens eine magische oder karmale Sonderfertigkeit/Zauber/Ritual/Liturgie/Zeremonie zugeordnet ist. Auch erst dann erscheinen im [Eigenschaftenbogen](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#4-eigenschaften) AsP- und/oder Karmapunkte.
+**Anmerkung**: Die Punkte [Magie](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#8-magie) und [Religion](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#9-religion) erscheinen nur, wenn dem Charakter mindestens eine magische oder karmale Sonderfertigkeit/Zauber/Ritual/Liturgie/Zeremonie zugeordnet ist. Auch erst dann erscheinen im [Eigenschaftenbogen](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#4-eigenschaften) AsP- und/oder Karmapunkte.
   
 ![Charakterbogen](https://user-images.githubusercontent.com/80099175/112130343-adc4ad80-8bc8-11eb-8953-1f82cd10fbf8.png)
 
 ## 1. Kopfbereich
 Dieser Teil des Bogens ist immer sichtbar und wird unter anderem durch die Eingaben in [Eigenschaften](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#4-eigenschaften) beeinflusst. Es handelt sich hier um die aktuellen Werte des Charakters.  
-Außerdem kann hier manuell die Profession eingetragen werden. Es sei denn es wird eine vorgefertigte Profession verwendet (LINK Charakterbau/-steigerung).  
+Außerdem kann hier eine Profession eingetragen werden - entweder eine [vorgefertigte Profession](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#6-profession-w%C3%A4hlen), oder die Bezeichnung für eine eigene Profession.
   
 ![Charakterbogen Kopfbereich](https://user-images.githubusercontent.com/80099175/112131586-faf54f00-8bc9-11eb-887a-8c8cf417bf9f.png)
 
 ## 2. Talente
-Auf dem Talentbogen werden die Talentwerte des Charakters festgehalten und es können Proben abgelegt werden. Außerdem kann der Fertigkeitswert gesteigert (LINK Charakterbau/-steigerung) oder verändert werden.  
+Auf dem Talentbogen werden die Talentwerte des Charakters festgehalten und es können Proben abgelegt werden. Außerdem kann der [Fertigkeitswert gesteigert](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#8-steigerungen-vornehmen) oder verändert werden.  
 1. **Talente durchsuchen**: sucht den eingegebenen Begriff in den Talenten
 1. **Filter**: Blendet alle Talente aus die einen Fw von 0 haben  
   
 ![Charakterbogen Talente](https://user-images.githubusercontent.com/80099175/112131981-6c350200-8bca-11eb-9f89-005632ce6e50.png)
 
 ## 3. Kampf
-Der Kampfbogen beinhaltet alle Daten die zum Kampf in DSA 5 verwendet werden (Kampf LINK).  
-1. **Nah-, Fernkampfwaffen und Rüstungen**: Listet alle Waffen und Rüstungen die auf der [Ausrüstung](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#5-ausr%C3%BCstung) vorhanden sind und für den Kampfbogen aktiviert wurden. 
-1.1 **Ausweichen, waffenloser Angriff und Parade**: Hinter den Symbolen verbergen sich das Ausweichen sowie der waffenlose Angriff und die Parade.   
-1.2 **Munition**: hier kann Munition für die Waffe ausgewählt werden. Diese muss aber im Ausrüstungstab LINK hinterlegt sein. Dann zieht das System die Munition nach einem Angriff automatisch ab.  
-1.3. **Details**: Ein Klick auf den Pfeil zeigt Details wie Recihweite und Ladezeit.
+Der Kampfbogen beinhaltet alle Daten die zum [Kampf](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Kampf) in DSA 5 verwendet werden.
+1. **Nah-, Fernkampfwaffen und Rüstungen**: Listet alle Waffen und Rüstungen auf, die im Reiter [Ausrüstung](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#5-ausr%C3%BCstung) vorhanden sind **und ausgerüstet** (=für den Kampfbogen aktiviert) wurden. Dazu muss auf der Ausrüstungs-Seite neben dem Gegenstand ein Haken gesetzt werden.  
+  1.1 **Ausweichen, waffenloser Angriff und Parade**: Hinter den Symbolen verbergen sich das Ausweichen sowie der waffenlose Angriff und die Parade.  
+  1.2 **Munition**: hier kann Munition für die Waffe ausgewählt werden. Diese muss aber im [Ausrüstungstab](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#5-ausr%C3%BCstung) hinterlegt sein. Dann zieht das System die Munition nach einem Angriff automatisch ab. Für Wurfwaffen zählt die Waffe selbst als Munition, sprich: Wenn man 3 Wurfmesser ausrüstet, reduziert es die Anzahl Wurfmesser nach dem Angriff auf 2 usw., bei Anzahl 0 kann kein Angriff mehr gemacht werden.
+  1.3. **Details**: Ein Klick auf den Pfeil zeigt Details wie Reichweite und Ladezeit.
 2. **Kampfsonderfertigkeiten**: Listet alle Kampfsonderfertigkeiten des Charakters auf.
-3. **Kampftechniken**: Falls ein Wurf auf den Grundwert der Kampftechnik notwendig ist, sind die Werte und Würfel hier zu finden. Das Steigern funktioniert wie bei den Fertigkeiten  
+3. **Kampftechniken**: Falls ein Wurf auf den Grundwert der Kampftechnik notwendig ist, sind die Werte und Würfel hier zu finden. Das Steigern funktioniert wie bei den Fertigkeiten.
   
 ![Charakterbogen Kampf](https://user-images.githubusercontent.com/80099175/112133821-5e807c00-8bcc-11eb-836a-ec9431cb011a.png)
 

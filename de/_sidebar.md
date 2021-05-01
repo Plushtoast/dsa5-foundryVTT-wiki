@@ -2,6 +2,7 @@
 de | [en](Home)
 
 * [Home](de-Home)
+* [Wichtige Konzepte](de-wichtige-Konzepte)
 * [Schnellstart](de-DSA_5_Welt_erstellen)
 * [Tutorialvideos](de-tutorials)
 * [FAQ](de-FAQ)

@@ -99,7 +99,8 @@ Der Magiebogen erscheint erst, wenn dem Charakter eine magische Sonderfertigkeit
 1. **Liturgien und Zeremonien**: Hier werden alle Liturgien und Zeremonien des Charakters aufgelistet.  
    1.1 Die Sprechblase teilt die Liturgie/die Zeremonie über den Chat, der Pfeil öffnet Details (Wirkungsdauer, Kosten) und die Tonne löscht die Liturgie/die Zeremonie.   
 2. **Karmale Sonderfertigkeiten**: Alle dem Charakter zugeordneten karmalen Sonderfertigkeiten.
-3. **Tradition, Leiteigenschaft, Aspekt, Wohlgefällige Talente**: die Leiteigenschaft muss hier angegeben werden, da sich darüber auch die KaP in den [Eigenschaften](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#4-eigenschaften) berechnen.
-4. **Segnungen**  
+3. **Tradition, Leiteigenschaft, Aspekt, Wohlgefällige Talente**: die Leiteigenschaft muss hier angegeben werden, da sich darüber auch die KaP in den [Eigenschaften](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#4-eigenschaften) berechnen.  
+   - Wohlgefällige Talente sollten hier unbedingt eingetragen werden. Achtet auf korrekte Schreibweise. Der Zustand "Entrückung" berücksichtigt diese Einträge.
+5. **Segnungen**  
   
 ![Religion](https://user-images.githubusercontent.com/80099175/112478313-29af2900-8d74-11eb-8344-d68b8f35dbe6.png)

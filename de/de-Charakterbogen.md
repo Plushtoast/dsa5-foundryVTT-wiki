@@ -31,9 +31,12 @@ Auf dem Talentbogen werden die Talentwerte des Charakters festgehalten und es k�
 ## 3. Kampf
 Der Kampfbogen beinhaltet alle Daten die zum [Kampf](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Kampf) in DSA 5 verwendet werden.
 1. **Nah-, Fernkampfwaffen und Rüstungen**: Listet alle Waffen und Rüstungen auf, die im Reiter [Ausrüstung](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#5-ausr%C3%BCstung) vorhanden sind **und ausgerüstet** (=für den Kampfbogen aktiviert) wurden. Dazu muss auf der Ausrüstungs-Seite neben dem Gegenstand ein Haken gesetzt werden.  
-  1.1 **Ausweichen, waffenloser Angriff und Parade**: Hinter den Symbolen verbergen sich das Ausweichen sowie der waffenlose Angriff und die Parade.  
-  1.2 **Munition**: hier kann Munition für die Waffe ausgewählt werden. Diese muss aber im [Ausrüstungstab](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#5-ausr%C3%BCstung) hinterlegt sein. Dann zieht das System die Munition nach einem Angriff automatisch ab. Für Wurfwaffen zählt die Waffe selbst als Munition, sprich: Wenn man 3 Wurfmesser ausrüstet, reduziert es die Anzahl Wurfmesser nach dem Angriff auf 2 usw., bei Anzahl 0 kann kein Angriff mehr gemacht werden.
-  1.3. **Details**: Ein Klick auf den Pfeil zeigt Details wie Reichweite und Ladezeit.
+
+   1.1 **Ausweichen, waffenloser Angriff und Parade**: Hinter den Symbolen verbergen sich das Ausweichen sowie der waffenlose Angriff und die Parade.  
+
+   1.2 **Munition**: hier kann Munition für die Waffe ausgewählt werden. Diese muss aber im [Ausrüstungstab](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#5-ausr%C3%BCstung) hinterlegt sein. Dann zieht das System die Munition nach einem Angriff automatisch ab. Für Wurfwaffen zählt die Waffe selbst als Munition, sprich: Wenn man 3 Wurfmesser ausrüstet, reduziert es die Anzahl Wurfmesser nach dem Angriff auf 2 usw., bei Anzahl 0 kann kein Angriff mehr gemacht werden. 
+ 
+   1.3. **Details**: Ein Klick auf den Pfeil zeigt Details wie Reichweite und Ladezeit.
 2. **Kampfsonderfertigkeiten**: Listet alle Kampfsonderfertigkeiten des Charakters auf.
 3. **Kampftechniken**: Falls ein Wurf auf den Grundwert der Kampftechnik notwendig ist, sind die Werte und Würfel hier zu finden. Das Steigern funktioniert wie bei den Fertigkeiten.
   

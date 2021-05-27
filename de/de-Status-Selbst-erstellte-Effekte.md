@@ -18,7 +18,7 @@ Um selbst erstellte Effekte zu verwenden, öffne den Charakterbogen und gehe auf
 Ihr könnt zwischen den wichtisten Attributen und Eigenschaften aus einer Auswahlliste auswählen:
 1. Erstellt einen neuen Effekt
 2. Öffnet diesen zur Bearbeitung
-3. Im Reiter Effekte einen neuen über das + erstellen
+3. Im Reiter Effekte einen neuen über das + im Rahmen erstellen
 4. Hier habt ihr unter Attributsschlüssel jetzt eine Auswahl an gängigen Effekten
   
   ![Liste Effekt](https://user-images.githubusercontent.com/80099175/119772544-a6b76580-bebf-11eb-863b-9d6d2ceea0d2.png)
@@ -35,7 +35,7 @@ Ihr könnt Irems mit Statuseffekten versehen um so zum Beispiel magische Artefak
 **Achtung:** in Foundry 0.7.X können die Gegenstandseffekte nicht im Charakter angepasst werden. Hierfür muss ihr das Item unter Items verändern und wieder in den Charakterbogen ziehen.
 
 1. Erstellt das gewünschte Item und geht dann in den Statuseffekte Tab
-2. Klickt auf das + und legt den Effekt an.
+2. Klickt auf das + im Rahmen und legt den Effekt an.
 3. Rüstet den Gegenstand aus und der eingetragene Effekt wird direkt angewendet. 
 3.1 Diesen findet ihr dann auch im Charakterbogen unter *Status* -> *Transferierte Statuseffekte*
   

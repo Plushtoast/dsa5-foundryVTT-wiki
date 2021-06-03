@@ -26,3 +26,11 @@ To enjoy all the features of the game you need:
 * Enemies, natural weapons and properties
 
 To be able to use all functions comfortably and quickly and thus have the best experience with DSA Foundry, the basic rulebook and additional modules are available at: https://f-shop.de/ (German) or https://ulissesf-shop.com/ (English). 
+
+
+*Translation information*  
+*[x] updated: 2021-06-03*  
+*[x] german entry [linked](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Home)*  
+*[x] automatic translation*  
+*[ ] proof read*  
+*[x] change pictures with EN version*  

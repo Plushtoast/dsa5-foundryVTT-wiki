@@ -21,7 +21,6 @@ de | [en](Home)
 * [Gestaltwandlung](de-Gestaltwandlung)
 * [Eigene Inhalte](de-Eigene_Inhalte_erstellen)
 * [Bibliothek](de-Bibliothek)
-* [Händler](de-Haendler)
 * [Gift- und Krankheitsprobe](de-Gift-und-Krankheitsprobe)
 * [Systemeinstellungen](de-Systemeinstellungen)
 

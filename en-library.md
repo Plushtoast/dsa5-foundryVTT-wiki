@@ -3,7 +3,7 @@ The Compendium Packages can be found via the menu (1) and contain everything you
 * Actor, Item, Scene, JournalEntry, Macro, RollTable, Playlist   
  
   
-![Compendiums] (https://user-images.githubusercontent.com/80099175/112984187-e0d5e680-915e-11eb-8235-fd107c6f3b14.png)  
+![Compendiums](https://user-images.githubusercontent.com/80099175/112984187-e0d5e680-915e-11eb-8235-fd107c6f3b14.png)  
 
 ## Create Compendium and Library
 At the top of the bar there are 2 buttons:
@@ -36,3 +36,9 @@ Everything from the compendium can then be used directly in the game via the fol
   
 ![Imported entry](https://user-images.githubusercontent.com/80099175/112987512-17adfb80-9163-11eb-88cc-d22980314b7f.png)
 
+*Translation information*  
+*[x] updated: 2021-06-05*  
+*[x] german entry [linked](de/de-Bibliothek.md)*  
+*[x] automatic translation*  
+*[ ] proof read*  
+*[ ] change pictures with EN version*  

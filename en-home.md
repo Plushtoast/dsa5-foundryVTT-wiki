@@ -12,7 +12,7 @@ The Dark Eye implementation is developed by [Ulisses Medien & Spiel Distribution
 ## What do you need to play DSA in Foundry?
 To play with your friends you need at least characters, some enemies (NPCs) and a story. 
 
-To learn how to create a DSA game in Foundry, check out the [Wiki - Create DSA 5 World](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/en-create-world.md).
+To learn how to create a DSA game in Foundry, check out the [Wiki - Create DSA 5 World](en-create-world.md).
   
 To enjoy all the features of the game you need:
 * Advantages
@@ -30,7 +30,7 @@ To be able to use all functions comfortably and quickly and thus have the best e
 
 *Translation information*  
 *[x] updated: 2021-06-03*  
-*[x] german entry [linked](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Home)*  
+*[x] german entry [linked](de/de-Home)*  
 *[x] automatic translation*  
 *[ ] proof read*  
 *[x] change pictures with EN version*  

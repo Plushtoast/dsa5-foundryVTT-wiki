@@ -2,16 +2,16 @@
 **Attention**: Currently there are still one or two bugs, which is why it is currently recommended to create the character by hand or tool and then transfer it to Foundry 
 manually!
 The character creation is relatively modular. But to make it easy you should roughly follow the flow of the basic rulebook. But there are some additional steps which have to be done in Foundry only. In addition, the points with (game master) in the standard rights setting are only to be carried out by the game master:
-1. [Create character (game master)](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#1-charakter-anlegen-spielleiter)
-2. [Enter experience](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#2-erfahrung-eingeben)
-3. [Select species](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#3-spezies-w%C3%A4hlen)
-4. [Select culture](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#4-kultur-w%C3%A4hlen)
-5 [Distribute attribute points](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#5-eigenschaftspunkte-verteilen)
-6. [Select Profession](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#6-profession-w%C3%A4hlen)
-7 [Choose advantages and disadvantages](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#7-vor--und-nachteile-w%C3%A4hlen)
-8. [Make increases](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#8-steigerungen-vornehmen)
-9 [Choose special skills](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#9-sonderfertigkeiten-aussuchen)
-10 [Make final adjustments (notes, equipment, name)](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#10-letzte-anpassungen-vornehmen-notizen-ausr%C3%BCstung-name)
+1. [Create character (game master)](#1-create-character-game-master)
+2. [Enter experience](#2-enter-experience)
+3. [Choose species](#3-choose-species)
+4. [Choose culture](#4-choose-culture)
+5 [Distribute attribute points](#5-distribute-attribute-points)
+6. [Select Profession](#6-choose-profession)
+7 [Choose advantages and disadvantages](#7-select-advantages-and-disadvantages)
+8. [Make increases](#8-improvements)
+9 [Choose special skills](#9-choose-special-skills)
+10 [Make final adjustments (notes, equipment, name)](#10-make-last-adjustments-notes-equipment-name)
 11. [Picture and token (game master)](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#11-bild-und-token-spielleiter)  
 
 Here you can find the whole thing as a video: [Character creation](https://www.youtube.com/watch?v=NrqvByX3da0)
@@ -82,12 +82,12 @@ Next, additional advantages and disadvantages for the character can be pulled fr
   
 ![VorNachteile](https://user-images.githubusercontent.com/80099175/112469777-24e57780-8d6a-11eb-8b6b-4e9f4c6920df.png)   
 
-## 8. make increases
+## 8. Improvements
 In order to increase skills, combat skills, spells, liturgies, etc. To increase the skills, combat skills, spells, liturgies, etc., the + and - must be used. Only then will the increases or decreases be deducted from the adventure points. If you simply enter a value, this will not happen!  
   
 ![Liturgien](https://user-images.githubusercontent.com/80099175/112470154-9c1b0b80-8d6a-11eb-992f-2b38d0efee6e.png) ![Kampftechnik](https://user-images.githubusercontent.com/80099175/112470221-b3f28f80-8d6a-11eb-9264-38ef37412532.png) ![Fertigkeit](https://user-images.githubusercontent.com/80099175/112470303-cbca1380-8d6a-11eb-9267-3051b1505747.png) ![EigenschaftLebenspunkte](https://user-images.githubusercontent.com/80099175/112470404-e7cdb500-8d6a-11eb-9f56-24482e90e764.png)  
 
-## 9. select special skills
+## 9. Choose special skills
 Special skills can also be dragged from the library into the character sheet. They will then be listed where they belong by type:
 * General Special Skills, Languages, Writings, Fate Point Special Skills -> Traits.
   * ![Allgemeine Sonderfertigkeiten](https://user-images.githubusercontent.com/80099175/112471275-f9638c80-8d6b-11eb-9a7e-b4237e026700.png)
@@ -98,10 +98,10 @@ Special skills can also be dragged from the library into the character sheet. Th
 * Combat Special Skills -> Combat
   * ![Kampf Sonderfertigkeiten](https://user-images.githubusercontent.com/80099175/112471191-de911800-8d6b-11eb-944b-891abd205e40.png)
 
-## 10. make last adjustments (notes, equipment, name)
+## 10. Make last adjustments (notes, equipment, name)
 Make final adjustments in the hero document under [Equipment](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#5-ausr%C3%BCstung) and [Notes](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#7-notizen).
 
-## 11. picture and tokens (game master)
+## 11. Portrait and token images (game master)
 ### Customize image
 To customize the image click on the image in the [Header](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#1-kopfbereich) in the character sheet. The Foundry File Manager will open and you can search for and select an image.  
 

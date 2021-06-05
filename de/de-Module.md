@@ -1,4 +1,6 @@
-## Anmerkung: 
+## WICHTIG: Diese Seite wurde für die Foundry Version 0.7.10 erstellt. Sie gilt nicht mehr für Foundry 0.8.6. Hierfür wird es eine weitere Seite geben!
+
+## Anmerkung:
 **Es ist nicht möglich alle Module auf vollständige Kompatibilität zu prüfen. Bitte testet die Module im zweifel in einer Testwelt und setzt sie erst in euren Spielwelte ein, wenn ihr euch sicher seid dass sie funktionieren.**
 
 # **Kompatible Module**

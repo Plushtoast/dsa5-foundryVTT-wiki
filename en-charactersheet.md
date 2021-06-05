@@ -1,4 +1,4 @@
-# Character Sheet - Structure (Actor - Character)
+# Character Sheet - Structure
 The structure of the character sheet is as similar as the sheet of the rulebook.
 There are the categories in it:
 1. [Header](#1-header)
@@ -107,7 +107,8 @@ The magic sheet does not appear until a magic special skill, spell, ritual, or m
 
 *Translation information*  
 *[x] updated: 2021-06-05*  
-*[x] german entry [linked](de/de-Bibliothek.md)*  
+*[x] german entry [linked](de/de-Charakterbogen.md)*  
 *[x] automatic translation*  
 *[ ] proof read*  
 *[ ] change pictures with EN version*  
+*[ ] change links and anchors

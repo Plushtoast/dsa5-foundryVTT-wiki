@@ -2,23 +2,23 @@
 **Attention**: Currently there are still one or two bugs, which is why it is currently recommended to create the character by hand or tool and then transfer it to Foundry 
 manually!
 The character creation is relatively modular. But to make it easy you should roughly follow the flow of the basic rulebook. But there are some additional steps which have to be done in Foundry only. In addition, the points with (game master) in the standard rights setting are only to be carried out by the game master:
-1. [Create character (game master)](#1-create-character-game-master)
-2. [Enter experience](#2-enter-experience)
-3. [Choose species](#3-choose-species)
-4. [Choose culture](#4-choose-culture)
-5 [Distribute attribute points](#5-distribute-attribute-points)
-6. [Select Profession](#6-choose-profession)
-7 [Choose advantages and disadvantages](#7-select-advantages-and-disadvantages)
-8. [Make increases](#8-improvements)
-9 [Choose special skills](#9-choose-special-skills)
-10 [Make final adjustments (notes, equipment, name)](#10-make-last-adjustments-notes-equipment-name)
-11. [Picture and token (game master)](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#11-bild-und-token-spielleiter)  
+1. [Create character (game master)](#1-create-character-game-master)  
+2. [Enter experience](#2-enter-experience)  
+3. [Choose species](#3-choose-species)  
+4. [Choose culture](#4-choose-culture)  
+5. [Distribute attribute points](#5-distribute-attribute-points)  
+6. [Select Profession](#6-choose-profession)  
+7. [Choose advantages and disadvantages](#7-select-advantages-and-disadvantages)  
+8. [Make increases](#8-improvements)  
+9. [Choose special skills](#9-choose-special-skills)  
+10. [Make final adjustments (notes, equipment, name)](#10-make-last-adjustments-notes-equipment-name)  
+11. [Portrait and token images (game master)](#11-portrait-and-token-images-game-master)  
 
-Here you can find the whole thing as a video: [Character creation](https://www.youtube.com/watch?v=NrqvByX3da0)
+Here you can find the whole thing as a video (german only): [Character creation](https://www.youtube.com/watch?v=NrqvByX3da0)
 
 ## Basics
-### [Using content from the library](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Bibliothek) 
-### [Create your own content (spells, special skills, equipment, etc.)](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Eigene-Inhalte-erstellen)
+### [Using content from the library](en-library.md)
+### [Create your own content (spells, special skills, equipment, etc.)](en-create-personal-entries.md)
 
 ## 1. create character (game master)
 The game master must create a character using the Actors menu:

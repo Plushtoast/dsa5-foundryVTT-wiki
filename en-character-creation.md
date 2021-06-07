@@ -1,7 +1,11 @@
 # Character creation
-**Attention**: Currently there are still one or two bugs, which is why it is currently recommended to create the character by hand or tool and then transfer it to Foundry 
-manually!
-The character creation is relatively modular. But to make it easy you should roughly follow the flow of the basic rulebook. But there are some additional steps which have to be done in Foundry only. In addition, the points with (game master) in the standard rights setting are only to be carried out by the game master:
+**Attention**: There are still one or two bugs, which is why it's currently recommended to create the character externally and then transfer it to Foundry manually.
+The character creation is relatively modular.  
+To make it easier, you should roughly follow the flow of the basic rulebook, even tough there are some additional steps which have to be done in Foundry only.  
+The chapters with (game master) can only to be carried out by the game master when the Foundry permission settings are set to the standard options.
+
+**Note:** If you are looking for a external tool to create (and maintain) your characters, check out the [ressources section.](en-ressources)
+
 1. [Create character (game master)](#1-create-character-game-master)  
 2. [Enter experience](#2-enter-experience)  
 3. [Choose species](#3-choose-species)  

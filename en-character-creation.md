@@ -21,15 +21,15 @@ The chapters with (game master) can only to be carried out by the game master wh
 Here you can find the whole thing as a video (german only): [Character creation](https://www.youtube.com/watch?v=NrqvByX3da0)
 
 ## Basics
-### [Using content from the library](en-library.md)
-### [Create your own content (spells, special skills, equipment, etc.)](en-create-personal-entries.md)
+### [Using content from the library](en-library)
+### [Create your own content (spells, special skills, equipment, etc.)](en-create-personal-entries)
 
 ## 1. create character (game master)
 The game master must create a character using the Actors menu:
 1. create actor
-2. set name, type character and click on create actor  
+2. set name, type "Character" and click on "create new" actor  
     
-![Akteur erstellen](https://user-images.githubusercontent.com/80099175/112155744-e32bc400-8be5-11eb-97ba-02d49c812720.png)  
+![Create Actor](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-01.jpg)
 
 After that the rights over the actor have to be given to the player: 
 1. right click on the character -> *Customize rights*.

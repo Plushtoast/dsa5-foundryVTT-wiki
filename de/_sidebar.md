@@ -1,5 +1,5 @@
 
-de | [en](../en-home.md)
+de | [en](Home)
 
 * [Home](de-Home)
 * [Wichtige Konzepte](de-wichtige-Konzepte)

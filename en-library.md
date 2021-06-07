@@ -5,12 +5,16 @@ The Compendium Packages can be found via the menu (1) and contain everything you
   
 ![Compendiums](https://user-images.githubusercontent.com/80099175/112984187-e0d5e680-915e-11eb-8235-fd107c6f3b14.png)  
 
-## Create Compendium and Library
+## Compendium and Library
 At the top of the bar there are 2 buttons:
-1. **Compendium**: This allows you to create compendiums to store your own content. (See [Create your own content](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Eigene-Inhalte-erstellen)).
-2. **Library**: All DSA compendiums can be searched here. The search offers tabs (3), a search field (4) and checklists (5) so that finding the content is easy and fast.  
+1. **Compendium**: This allows you to browse compendiums, or to create them so you can store your own content. (See [Create your own content](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Eigene-Inhalte-erstellen)).
+2. **Library**: All DSA compendiums can be searched here simultaneously, as the library combines all the entries in one place. You have category tabs (3), a search field (4) and checklists (5) so that finding the content is easy and fast. Building up the search index can take several seconds, depending on the number of installed modules.
   
 ![Library](https://user-images.githubusercontent.com/80099175/112984572-56da4d80-915f-11eb-85bf-7763d893ecee.png)
+
+3. **From character sheet** You can access the library directly from every character sheet. Just click the small "library" icon in the top right corner.  
+
+![Library from sharsheet](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-library-01.jpg)
 
 ## Compendiums
 1. the entries are so called compendiums to a certain topic (ex. compendium: equipment). 

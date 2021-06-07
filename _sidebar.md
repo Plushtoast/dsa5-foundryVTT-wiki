@@ -1,7 +1,7 @@
 
-[de](de/de-Home) | en
+[de](de-Home) | en
 
-* [Home](en-home)
+* [Home](Home.md)
 * [Important concepts](en-important-concepts.md)
 * [Quickstart](en-create-world.md)
 * [Tutorial videos](en-tutorials.md)

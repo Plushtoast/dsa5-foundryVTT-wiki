@@ -20,7 +20,7 @@ The chapters with (game master) can only to be carried out by the game master wh
 
 Here you can find the whole thing as a video (german only): [Character creation](https://www.youtube.com/watch?v=NrqvByX3da0)
 
-## Basics
+## General informations before we start
 ### [Using content from the library](en-library)
 ### [Create your own content (spells, special skills, equipment, etc.)](en-create-personal-entries)
 
@@ -41,7 +41,7 @@ After that the rights over the actor have to be given to the player:
 
 Now the player can edit this character himself.
 
-## 2. enter experience / Adventure Points
+## 2. enter experience
 The experience is entered on the character sheet, in the *Attributes* tab.  
 If this step is skipped, there will be a query for the experience level when adding a culture or profession, which then will add the right amount of adventure points to the sheet.
   
@@ -50,7 +50,7 @@ If this step is skipped, there will be a query for the experience level when add
 ![select ap by exp level](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-04.jpg)
 
 ## 3. choose species
-After the species has been dragged onto the character sheet, a window opens in which the following things can be selected:
+After the species has been [dragged onto the character sheet](en-library#compendium-and-library), a window opens in which the following things can be selected:
 1. **Description**: Information about the species
 2. **General**: Selection of trait changes
 3. **Advantages/Disadvantages**: The recommended or suitable advantages/disadvantages can be selected directly via a check mark. They are then directly assigned to the character and automatically calculated in the adventure points. 

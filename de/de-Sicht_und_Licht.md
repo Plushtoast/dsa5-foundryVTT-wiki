@@ -1,3 +1,5 @@
+## WICHTIG: Diese Seite wurde für die Foundry Version 0.7.10 erstellt. Sie gilt nicht mehr für Foundry 0.8.X. Diese Seite wird zeitnah überarbeitet und an 0.8.X angepasst.
+
 # Sicht und Licht
 **Anmerkung: Dieses Thema ist nicht ganz so einfach und kurz zu erklären, deshalb ist diese Anleitung deutlich länger als andere!**
 **Um das Thema etwas griffiger zu machen, hier einmal ein Video von Encounter Library 

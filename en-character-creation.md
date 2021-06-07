@@ -31,22 +31,23 @@ The game master must create a character using the Actors menu:
     
 ![Create Actor](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-01.jpg)
 
-After that the rights over the actor have to be given to the player: 
-1. right click on the character -> *Customize rights*.
-2. select the right *owner* for the player and *save changes  
+After that the rights over the actor have to be given to the player:  
+1. right click on the character  
+2. configure permissions  
+3. select the permission *owner* for the corresponding player  
+4. save changes  
   
-![Akteur Rechte](https://user-images.githubusercontent.com/80099175/112156197-4ddcff80-8be6-11eb-8fbf-676be85cb2c4.png)  
+![Actor permissions](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-02.jpg)  
 
 Now the player can edit this character himself.
 
-## 2. enter experience
-The experience is set on the character sheet under *Properties*.  
+## 2. enter experience / Adventure Points
+The experience is entered on the character sheet, in the *Attributes* tab.  
+If this step is skipped, there will be a query for the experience level when adding a culture or profession, which then will add the right amount of adventure points to the sheet.
   
-![Erfahrungsgrad](https://user-images.githubusercontent.com/80099175/112157133-30f4fc00-8be7-11eb-8aed-4d167ffb4ae1.png)
-
-If this step is skipped, there will be a query for the experience level when adding species, culture, etc.. This will automatically add the adventure points to the arc. 
+![enter ap manually](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-03.jpg)
   
-![Abenteuerpunkte hinzufügen](https://user-images.githubusercontent.com/80099175/112157700-c7c1b880-8be7-11eb-8f16-56b24cc9e6af.png)
+![select ap by exp level](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-04.jpg)
 
 ## 3. choose species
 After the species has been dragged onto the character sheet, a window opens in which the following things can be selected:

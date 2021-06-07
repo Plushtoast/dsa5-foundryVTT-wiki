@@ -1,35 +1,35 @@
 
-[de](de-Home) | en
+[de](de/de-Home) | en
 
 * [Home](en-home)
-* [Important concepts](en-important-concepts)
-* [Quickstart](en-create-world)
-* [Tutorial videos](en-tutorials)
-* [FAQ](en-faq)
+* [Important concepts](en-important-concepts.md)
+* [Quickstart](en-create-world.md)
+* [Tutorial videos](en-tutorials.md)
+* [FAQ](en-faq.md)
 
 **Character**
-* [Character sheet](en-charactersheet)
-* [Character creation](en-character-creation)
-* [Familiars](en-familiar)
+* [Character sheet](en-charactersheet.md)
+* [Character creation](en-character-creation.md)
+* [Familiars](en-familiar.md)
 
 **Game mechanics**
-* [Encounters and initiative](en-encounter-initiative)
-* [Combat](en-combat)
-* [Sight and Light](en-sight-light)
-* [Chat commands](en-chat-commands)
-* [Merchants](en-merchant)
-* [Shape shifting](en-shapeshifting)
-* [Self created entries / items](en-create-personal-entries)
-* [The library](en-library)
-* [Poison and sickness checks](en-poison-sickness-checks)
-* [System settings](en-system-settings)
+* [Encounters and initiative](en-encounter-initiative.md)
+* [Combat](en-combat.md)
+* [Sight and Light](en-sight-light.md)
+* [Chat commands](en-chat-commands.md)
+* [Merchants](en-merchant.md)
+* [Shape shifting](en-shapeshifting.md)
+* [Self created entries / items](en-create-personal-entries.md)
+* [The library](en-library.md)
+* [Poison and sickness checks](en-poison-sickness-checks.md)
+* [System settings](en-system-settings.md)
 
 **Advanced mechanisms**
-* [Request checks/rolls in journal entries](en-journals-request-checks)
-* [TDE icons for lists](en-journals-TDA-icons-list)
-* [Effects via "Effect" field](en-effects-field)
-* [Self created effects](en-status-self-created-effects)
-* [Macros - Request checks/rolls](en-macro-request-checks)
+* [Request checks/rolls in journal entries](en-journals-request-checks.md)
+* [TDE icons for lists](en-journals-TDA-icons-list.md)
+* [Effects via "Effect" field](en-effects-field.md)
+* [Self created effects](en-status-self-created-effects.md)
+* [Macros - Request checks/rolls](en-macro-request-checks.md)
 
 **Recommendations**
-* [Additional modules](en-modules)
+* [Additional modules](en-modules.md)

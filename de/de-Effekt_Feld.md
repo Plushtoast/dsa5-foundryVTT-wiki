@@ -36,3 +36,17 @@ Erst bei der Probe taucht die Modifikation im Feld *Bedingte Modifikation* auf.
 
 Hier noch ein Beispiel für einen Zauber:
 ![Effekt Zauber](https://user-images.githubusercontent.com/80099175/111606154-38776800-87d7-11eb-8039-0f2b31a775a1.png)
+
+# Effekt Feld - Kampfsonderfertigkeiten.
+Bei den Kampfsonderfertigkeiten können aktuell auch einige Modifikatoren eingetragen werden. Sollen mehrere angegeben werden, müssen diese mit `,` getrennt werden.  
+Als wert sind positive, negative Zahlen aber auch Würfel (Bsp. `1d6`) erlaubt.
+| Bedeutung | ATTRIBUT Deutsch | ATTRIBUG Englisch | 
+| ------------- | ------------- | ------------- |
+| Attacke Angreifer | AT | AT |
+| Verteidigung Gegner| VM | DM |
+| Trefferpunkt Angreifer | TP | DP |
+| Geschwindigkeit | GS | MOV |
+| Initiative | INI | INI |
+  
+### Beispiele: Finte `-1 AT, -2 VM`, Wuchtschlag `-2 AT, -2 TP`, Eigen `-2 AT, +1d6 DP`
+Für weitere Beispiele, schaut echt die Kampfsonderfertigkeiten aus den Kompendien an.

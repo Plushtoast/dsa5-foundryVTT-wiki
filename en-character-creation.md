@@ -84,14 +84,19 @@ You should get the hang of it by now:
 ![profession](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-10.jpg)
 
 ## 7. select advantages and disadvantages
-Next, additional advantages and disadvantages for the character can be pulled from the library into the character sheet.  
-  
-![VorNachteile](https://user-images.githubusercontent.com/80099175/112469777-24e57780-8d6a-11eb-8b6b-4e9f4c6920df.png)   
+Next, additional advantages and disadvantages for the character can be pulled from the library.  
+Some entries allow different levels (like "Luck", "Darksight", "Good Looks" etc.). You can recognize them easily, because they have a number (roman numeral) behind them, even if they are only on level 1.  
+To change the level, assign the dis-/advantage to the char. Then click to open it, and change the level in the tab "Details" tab of the entry (by using + and -).  
+![char-dis-advantages](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-11.jpg)
 
 ## 8. Improvements
-In order to increase skills, combat skills, spells, liturgies, etc. To increase the skills, combat skills, spells, liturgies, etc., the + and - must be used. Only then will the increases or decreases be deducted from the adventure points. If you simply enter a value, this will not happen!  
-  
-![Liturgien](https://user-images.githubusercontent.com/80099175/112470154-9c1b0b80-8d6a-11eb-992f-2b38d0efee6e.png) ![Kampftechnik](https://user-images.githubusercontent.com/80099175/112470221-b3f28f80-8d6a-11eb-9264-38ef37412532.png) ![Fertigkeit](https://user-images.githubusercontent.com/80099175/112470303-cbca1380-8d6a-11eb-9267-3051b1505747.png) ![EigenschaftLebenspunkte](https://user-images.githubusercontent.com/80099175/112470404-e7cdb500-8d6a-11eb-9f56-24482e90e764.png)  
+Change the values for skills, combat techniques, spells, liturgies etc.
+1. **Use the + / - buttons** for AP calculation (as always)
+2. You can buy Life / Karmal Energy / Astral Energy points, too
+3. For combat techniques, you see the derived base values as well  
+![char-improvements1](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-12.jpg)  
+![char-improvements2](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-13.jpg)  
+![char-improvements3](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-14.jpg)
 
 ## 9. Choose special skills
 Special skills can also be dragged from the library into the character sheet. They will then be listed where they belong by type:

@@ -10,7 +10,7 @@ The chapters with (game master) can only to be carried out by the game master wh
 2. [Enter experience](#2-enter-experience)  
 3. [Choose species](#3-choose-species)  
 4. [Choose culture](#4-choose-culture)  
-5. [Distribute attribute points](#5-distribute-attribute-points)  
+5. [Distribute attribute points](#5-attribute-points)  
 6. [Select Profession](#6-choose-profession)  
 7. [Choose advantages and disadvantages](#7-select-advantages-and-disadvantages)  
 8. [Make increases](#8-improvements)  
@@ -34,54 +34,54 @@ Here you can find the whole thing as a video (german only): [Character creation]
 1. right click on the character  
 2. configure permissions  
 3. select the permission *owner* for the corresponding player  
-4. save changes
+4. save changes  
 ![Actor permissions](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-02.jpg)  
 
 Now the player can edit this character himself.
 
 ## 2. enter experience
-The experience (in form of adventure points) is entered on the character sheet, in the *Attributes* tab.  
+The experience (in form of adventure points) is entered on the character sheet, in the *Attributes* tab.   
 ![enter ap manually](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-03.jpg)  
 
-If this step is skipped, there will be a query for the experience level (when adding the first item that costs AP), which then will add the right amount of adventure points to the sheet.
+If this step is skipped, there will be a query for the experience level (when adding the first item that costs AP), which then will add the right amount of adventure points to the sheet.  
 ![select ap by exp level](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-04.jpg)
 
 ## 3. choose species
 After the species has been [dragged onto the character sheet](en-library), a window opens with the following tabs/information:
-1. **Description**: Information, Flufftext and background information about the species
+1. **Description**: Information, Flufftext and background information about the species  
 ![species description](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-05.jpg)
 
-2. **General**: Selection of trait changes. Note: This does NOT change your attribute values, but it changes the allowed maximum values for these attributes, according to TDA rules for character generation.
+2. **General**: Selection of trait changes. Note: This does NOT change your attribute values, but it changes the allowed maximum values for these attributes, according to TDA rules for character generation.  
 ![species general](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-06.jpg)
 
-3. **Advantages/Disadvantages**: The recommended or suitable advantages/disadvantages can be selected directly via check marks. They are then assigned to the character and costs (AP) are calculated accordingly.
+3. **Advantages/Disadvantages**: The recommended or suitable advantages/disadvantages can be selected directly via check marks. They are then assigned to the character and costs (AP) are calculated accordingly.  
 ![species dis-advantages](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-07.jpg)
 
 Based on your selections, the derived values are calculated (Life points, movement, initiative etc).  
-They will automatically be updated when you change the character values later on (attributes, dis-/advantages, special abilities etc.), but please note that you **can't change the species afer you set it**.  
+They will automatically be updated when you change the character values later on (attributes, dis-/advantages, special abilities etc.), but please note that you **can't change the species after you set it**.  
 
 ## 4. choose culture
-The culture is also simply dragged onto the character sheet. Then the following window opens:
-1. **Description**: Information about the culture
-2. **General**: Input of local knowledge, selection of languages and scripts.
-3. **Advantages/Disadvantages**: The recommended or suitable advantages/disadvantages can be selected directly via a check mark. They are then directly assigned to the character and automatically calculated in the adventure points.  
-  
-![Kultur Allgemein](https://user-images.githubusercontent.com/80099175/112459951-adf6b180-8d5e-11eb-876d-7fda17f45033.png)
-![Kultur VorNachteile](https://user-images.githubusercontent.com/80099175/112460234-f4e4a700-8d5e-11eb-88e0-383c9c9c9de7.png)
+The culture is also simply dragged onto the character sheet. Tabs and information are similar to the [species](#3-choose-species) and the same rules apply.
+Differences are:
+1. Some entries are pre-selected and can't be de-selected (like languages)
+2. Area Knowledge is a must-have entry. You can write any bogus entry and change it later if you don't know that detail right now.
+3. You can get rid of must-have entries after character creation if they don't fit your char concept. Have an eye on your AP before you do that, and correct the values afterwards if necessary.  
+![species culture](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-08.jpg)
 
-## 5. distribute attribute points
-In the [trait tab of the character sheet](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#4-eigenschaften) the trait values can be set. To use an AP calculation correctly here the traits must be increased via the + and -.  
-**CAUTION**: Currently, the property values are not limited according to the rules. This means that they can be increased above the value of 14. Also, there is no limit to the 100 attribute points that can be distributed according to the rules.  
-  
-![Eigenschaften](https://user-images.githubusercontent.com/80099175/112467092-e601f280-8d66-11eb-8b62-916bca0cc4d0.png)
 
-## 6. choose profession
-After dragging the profession onto the character sheet, a window appears.
-1. **Description**: Information about the profession
-2. **Advantages/Disadvantages**: Again, recommended or suitable advantages are suggested and can be selected by ticking them.  
-All other values are automatically transferred to the character and offset against the adventure points.  
-  
-![Profession](https://user-images.githubusercontent.com/80099175/112469186-76d9cd80-8d69-11eb-85a6-0d4be54ecdbb.png)  
+## 5. attribute points  
+In the Attributes tab, you can change the values by using the + and - buttons.  
+**If you enter the values directly into the fields, there is no AP calculation. If you use the + / - buttons, there is AP calculation.**  
+
+**CAUTION**: Currently, the attributes are not monitored or restricted according to the rules. This means that you can level them higher than the experience level, species or dis-/advantages would allow. The total points (usually 100 points for experience level "Experienced") are not checked, either.    
+![char-attributes](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-09.jpg)
+
+## 6. choose profession  
+You should get the hang of it by now:  
+1. choose a profession in the library, drag & drop it onto the character sheet.  
+2. you receive some must-have entries, and you can select additional entries which are recommended by the TDE system.  
+3. **Alternatively,** you can skip this step completely and create your own profession. Just write its name and then set skills, special abilites etc. as you see fit (Remember: Professions are just a collection of values and abilities, regularly paid with AP).   
+![profession](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-10.jpg)
 
 ## 7. select advantages and disadvantages
 Next, additional advantages and disadvantages for the character can be pulled from the library into the character sheet.  

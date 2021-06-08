@@ -25,39 +25,40 @@ Here you can find the whole thing as a video (german only): [Character creation]
 ### [Create your own content (spells, special skills, equipment, etc.)](en-create-personal-entries)
 
 ## 1. create character (game master)
-The game master must create a character using the Actors menu:
+### The game master must create a character using the Actors menu:
 1. create actor
-2. set name, type "Character" and click on "create new" actor  
-    
+2. set name, type "Character" and click on "create new" actor
 ![Create Actor](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-01.jpg)
 
-After that the rights over the actor have to be given to the player:  
+### If the player should be able to edit and maintain his character (recommended), we have to adjust the permissions:
 1. right click on the character  
 2. configure permissions  
 3. select the permission *owner* for the corresponding player  
-4. save changes  
-  
+4. save changes
 ![Actor permissions](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-02.jpg)  
 
 Now the player can edit this character himself.
 
 ## 2. enter experience
-The experience is entered on the character sheet, in the *Attributes* tab.  
-If this step is skipped, there will be a query for the experience level when adding a culture or profession, which then will add the right amount of adventure points to the sheet.
-  
-![enter ap manually](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-03.jpg)
-  
+The experience (in form of adventure points) is entered on the character sheet, in the *Attributes* tab.  
+![enter ap manually](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-03.jpg)  
+
+If this step is skipped, there will be a query for the experience level (when adding the first item that costs AP), which then will add the right amount of adventure points to the sheet.
 ![select ap by exp level](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-04.jpg)
 
 ## 3. choose species
-After the species has been [dragged onto the character sheet](en-library#compendium-and-library), a window opens in which the following things can be selected:
-1. **Description**: Information about the species
-2. **General**: Selection of trait changes
-3. **Advantages/Disadvantages**: The recommended or suitable advantages/disadvantages can be selected directly via a check mark. They are then directly assigned to the character and automatically calculated in the adventure points. 
-After assigning all other values from the species are automatically calculated with: LeP, soul power, toughness, speed, etc.  
-   
-![Spezies Allgemein](https://user-images.githubusercontent.com/80099175/112458313-f319e400-8d5c-11eb-8e0d-53171c5dc38c.png)
-![Spezies VorNachteile](https://user-images.githubusercontent.com/80099175/112458128-c239af00-8d5c-11eb-9d56-b43085d061e7.png)
+After the species has been [dragged onto the character sheet](en-library), a window opens with the following tabs/information:
+1. **Description**: Information, Flufftext and background information about the species
+![species description](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-05.jpg)
+
+2. **General**: Selection of trait changes. Note: This does NOT change your attribute values, but it changes the allowed maximum values for these attributes, according to TDA rules for character generation.
+![species general](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-06.jpg)
+
+3. **Advantages/Disadvantages**: The recommended or suitable advantages/disadvantages can be selected directly via check marks. They are then assigned to the character and costs (AP) are calculated accordingly.
+![species dis-advantages](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-07.jpg)
+
+Based on your selections, the derived values are calculated (Life points, movement, initiative etc).  
+They will automatically be updated when you change the character values later on (attributes, dis-/advantages, special abilities etc.), but please note that you **can't change the species afer you set it**.  
 
 ## 4. choose culture
 The culture is also simply dragged onto the character sheet. Then the following window opens:

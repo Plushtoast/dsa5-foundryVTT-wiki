@@ -1,21 +1,22 @@
 ## The following should be familiar to any game master using Foundry with the DSA modules.
 
-## DSA specific
+## DSA specific  
  - **Language  
-   - The modules are language dependent. Decide **before initializing,** which language you want to use (when creating the world in Foundry). Do not change the language afterwards.
-   - Entries can only be imported/exported between worlds that use the same language.  
+   - The modules are language dependent. Decide **before initializing / importing,** which language you want to use (when creating the world in Foundry).
+     Do not change the language afterwards.
+   - Entries should only be imported/exported between worlds that use the same language, else you will run into problems.  
 
 
 ## Foundry specific
  - **Compendium vs. directory vs. character sheet**  
-   - **Compendium (1)** 
+   - **Compendium (1)**  
      - A compendium is a container that can contain a variety of entries. The entries are predetermined by the compendium creator and should not be modified by the user.
        - Compendiums can be opened and individual entries can be imported into the Foundry directories by right-clicking (3). Alternatively, a complete compendium can be imported by right-clicking on the main folder (instead of an entry in it).
        - *This data resides on the server, but is not actively loaded by Foundry - and thus does not consume resources.  
-    - **Directories (2)**
+    - **Directories (2)**  
         - The directories contain the active entries, sorted by category (Scenes, Characters, Items, Journal Entries, Rollable Tables, Playlists).
         - Importing from a compendium creates a **independent copy**. After updates, the entries may have to be re-imported and replaced, or added manually.
-    - Character sheet
+    - **Character sheet (3)**  
       - Entries in a character sheet are **independent copies**. For example, if you drag an advantage from the directory into a character, the advantage can be changed in the character sheet afterwards. The entry in the directory (and compendium) is not affected by this change.
 ![Vergleich-Komp-Verz-Char](https://user-images.githubusercontent.com/62849695/116784133-e17dd780-aa92-11eb-9aef-f989914b7f38.png)
 
@@ -34,10 +35,10 @@
 
 
 *Translation information*  
-*[x] updated: 2021-06-07*  
+*[x] updated: 2021-06-09*  
 *[x] german entry [linked](de/de-wichtige-Konzepte.md)*  
 *[x] automatic translation*  
-*[ ] proof read*  
-*[ ] change pictures with EN version*
-*[ ] change links*  
+*[x] proof read (kind of)*  
+*[x] change pictures with EN version (not necessary)*
+*[x] change links (not necessary)*  
 

@@ -15,8 +15,8 @@ The chapters with (game master) can only to be carried out by the game master wh
 7. [Choose advantages and disadvantages](#7-select-advantages-and-disadvantages)  
 8. [Make increases](#8-improvements)  
 9. [Choose special skills](#9-choose-special-abilities)  
-10. [Make final adjustments (notes, equipment, name)](#10-make-last-adjustments-notes-equipment-name)  
-11. [Portrait and token images (game master)](#11-portrait-and-token-images-game-master)  
+10. [Final adjustments (notes, equipment, name)](#10-final-adjustments)  
+11. [Portrait and token images (game master)](#11-portrait-and-token)  
 
 Here you can find the whole thing as a video (german only): [Character creation](https://www.youtube.com/watch?v=NrqvByX3da0)
 
@@ -109,23 +109,23 @@ Special abilities can also be dragged from the library into the character sheet.
 * Combat abilities -> Combat Tab  
   * ![combat abilities](images/en-character-creation-17.jpg) 
 
-## 10. Make last adjustments (notes, equipment, name)
-Make final adjustments in the hero document under [Equipment](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#5-ausr%C3%BCstung) and [Notes](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#7-notizen).
+## 10. Final Adjustments
+Time for the finetuning, so lets make sure to check or change:
+ * **Name of the character and token**. Open the sheet via character menu (not by clicking on the token). Change the name in the top left corner. Then, change the name you want to display on your token by accessing the Prototype Token Config in the top right corner.
+ * **Notes** You  can add a Bio, additional notes and stats on the "Notes" Tab. There is a separate field for GM notes, and only players with higher permissions can see them. See [this page](en-charactersheet#5-equipment) for more info on that.
+ * **Equipment** You can add single items or packages to your chars inventory. Please check [this page](en-charactersheet#7-notes) for detailed information about that process. Most importantly: If you want to use a weapon or armor, you have to equip it. To do so, tick that little circle in the "worn" column. 
 
-## 11. Portrait and token images (game master)
-### Customize image
-To customize the image click on the image in the [Header](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#1-kopfbereich) in the character sheet. The Foundry File Manager will open and you can search for and select an image.  
+## 11. Portrait and token  
+**There are 2 different approaches to this, either with or without additional module "Tokenizer" installed**  
 
-### Select standard token
-It is important for this that the character sheet is opened from the side menu under.
-1. via the menu under *Actors* (1) -> double click on the character (2) -> *Configure token* (3)  
+###  1. Foundry only, without module
+#### 1.1 Character Artwork
+this is text
+and text
 
-![Token konfigurieren](https://user-images.githubusercontent.com/80099175/112472976-11d4a680-8d6e-11eb-803d-a9ccab15cb70.png)  
 
-2. in the head of the opened window must be *prototype character*. Then select the token via Image (1) -> *Search files* and apply it.  
-**Note**: If *Prototype-Figure* is not here, the character sheet was opened via a token in a scene. Then only the token in this scene changes. If the character is dragged into another scene, the old token appears again.   
 
-![Token zuordnen](https://user-images.githubusercontent.com/80099175/112473291-73951080-8d6e-11eb-9618-975a933dc282.png)  
+
 
 *Translation information*  
 *[x] updated: 2021-06-03*  

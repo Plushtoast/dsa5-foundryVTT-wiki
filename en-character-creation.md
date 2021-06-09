@@ -14,7 +14,7 @@ The chapters with (game master) can only to be carried out by the game master wh
 6. [Select Profession](#6-choose-profession)  
 7. [Choose advantages and disadvantages](#7-select-advantages-and-disadvantages)  
 8. [Make increases](#8-improvements)  
-9. [Choose special skills](#9-choose-special-skills)  
+9. [Choose special skills](#9-choose-special-abilities)  
 10. [Make final adjustments (notes, equipment, name)](#10-make-last-adjustments-notes-equipment-name)  
 11. [Portrait and token images (game master)](#11-portrait-and-token-images-game-master)  
 
@@ -96,18 +96,18 @@ Change the values for skills, combat techniques, spells, liturgies etc.
 3. For combat techniques, you see the derived base values as well  
 ![char-improvements1](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-12.jpg)  
 ![char-improvements2](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-13.jpg)  
-![char-improvements3](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-14.jpg)
+![char-improvements3](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-character-creation-14.jpg)  
 
-## 9. Choose special skills
-Special skills can also be dragged from the library into the character sheet. They will then be listed where they belong by type:
-* General Special Skills, Languages, Writings, Fate Point Special Skills -> Traits.
-  * ![Allgemeine Sonderfertigkeiten](https://user-images.githubusercontent.com/80099175/112471275-f9638c80-8d6b-11eb-9a7e-b4237e026700.png)
-* Clerical/Sanctified Special Skills, Traditions -> Religion
-  * ![Klerikale Sonderfertigkeiten](https://user-images.githubusercontent.com/80099175/112471320-07b1a880-8d6c-11eb-834d-4a46cadc46c4.png)
-* Magic Special Skills, Traditions -> Magic
-  * ![Magische Sonderfertigkeiten](https://user-images.githubusercontent.com/80099175/112471050-b6091e00-8d6b-11eb-9753-5a07ed08f2f4.png) 
-* Combat Special Skills -> Combat
-  * ![Kampf Sonderfertigkeiten](https://user-images.githubusercontent.com/80099175/112471191-de911800-8d6b-11eb-944b-891abd205e40.png)
+## 9. Choose special abilities
+Special abilities can also be dragged from the library into the character sheet. They will then be listed where they belong by type:
+* General special abilities, languages, writings, fate point abilities -> Attributes Tab  
+  * ![special abilities](images/en-character-creation-15.jpg) 
+* Clerical abilities, traditions -> Religion Tab  
+  * ![clerical abilities](images/en-character-creation-16.jpg)  
+* Magic  abilities, traditions -> Magic Tab  
+  * ![magic abilities](images/en-character-creation-18.jpg)   
+* Combat abilities -> Combat Tab  
+  * ![combat abilities](images/en-character-creation-17.jpg) 
 
 ## 10. Make last adjustments (notes, equipment, name)
 Make final adjustments in the hero document under [Equipment](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#5-ausr%C3%BCstung) and [Notes](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#7-notizen).

@@ -63,7 +63,7 @@ Mit PopOut! könnt ihr jedes Fenster in Foundry aus dem Browser in ein separates
 ## Calendar/Weather und About Time
 Solltet ihr nach einer Möglichkeit suchen den DSA Kalender in Foundry einzubauen, sowie eine Uhr im Spiel zu haben, dann sind dies 2 Module die ihre Aufgabe sehr gut erfüllen. Es lässt sich mit etwas Arbeit der komplette DSA Kalender umsetzen.
 
-Alternativ könnt Ihr die Kalendersettings auch importieren, aus [dieser Datei](https://github.com/mckee14/dsa5-foundryVTT-wiki/files/6384236/Kalendersettings.txt). Die Jahreszeiten, Mondphasen, Monate und Daten sind hinterlegt. **Das aktuelle Tagesdatum ist der 18. Ingerimm 1029 BF im Zwölfgötterkalender**. 
+Alternativ könnt Ihr die Kalendersettings auch importieren, aus [dieser Datei](files/calendar-weather-settings.txt). Die Jahreszeiten, Mondphasen, Monate und Daten sind hinterlegt. **Das aktuelle Tagesdatum ist der 18. Ingerimm 1029 BF im Zwölfgötterkalender**. 
 
 Natürlich könnt Ihr das Datum anpassen, entweder über die GUI (wobei Tag/Datum/Mond automatisch zusammenpassen) oder direkt in den Einstellungen des Kalenders. Dabei muss man recherchieren, an was für einem Datum welcher Wochentag und welche Mondphase ist. [Das hier ist eine gute Anlaufstelle.](https://de.wiki-aventurica.de/wiki/Datum)
 

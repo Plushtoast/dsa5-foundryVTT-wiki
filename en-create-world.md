@@ -1,5 +1,20 @@
 There is also a video to go with this tutorial: [Installing The Dark Eye in Foundry VTT](https://www.youtube.com/watch?v=bzgb_pmw-bs) (german only)
 
+# What is what
+When you start up Foundry for the first time, you see the main GUI. Before we can start a TDE game, we have to install the needed parts
+1. Game Worlds
+   This is where you can create one (or many) worlds, based on a game system. Every world has ONE designated game system. A game system can have many worlds based on it. The world contains your scenes, characters, journal entries etc.
+   It also contains a setup: selected options, player logins and password settings.
+2. Game Systems
+   Here, you can install and update game systems. They contain basic rules, character sheet templates etc.
+   It's quite technical, what you have to know: you NEED at least one game system, in our case that's DSA/TDE.
+3. Add-on Modules
+   There are hundreds of modules available. They can contain functionalities, token, scenes, sounds etc.  
+   - Learn to use Foundry without modules first
+   - Test for compatibility before you use a module at all (in a separate test world)
+   - Additional content may be available as "Premium" modules for money. That's the case for TDE modules like Magic. After you purchase them, you have to enter the license information on the Foundry website. Afterwards, you can download it in here.
+
+
 # Preparation: Install game system and modules.
 Before creating a new world for DSA5, the game system must be installed. 
 1. first *game systems* -> *install system*.

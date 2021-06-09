@@ -118,18 +118,47 @@ Time for the finetuning, so lets make sure to check or change:
 ## 11. Portrait and token  
 **There are 2 different approaches to this, either with or without additional module "Tokenizer" installed**  
 
-###  1. Foundry only, without module
-#### 1.1 Character Artwork
-this is text
-and text
+###  1. Foundry only, without module  
+  
+#### 1.1 Character artwork / image  
+1. Open your character via menue (**not** via token)
+2. Click on the generic image below the characters name and a window will pop up. You can upload an image file from your computer and choose where to store it, or you can select an image already stored in the foundry directory. Always use the USER DATA area to store own content, not the CORE DATA area. Save the changes with "Select File".  
+  
+#### 1.2 Token artwork / image
+3. Open the Prototype Token Configuration. Switch to the "Image" Tab. Klick the symbol next to the "Token Image Path" field to pop up a window which lets you upload/select the file you want to use as the token image. This will be visible when you drag the character onto a scene background.
+![image-basic](images/en-character-creation-20.jpg)  
+  
+### 2. With "Tokenizer" module installed and enabled  
+  
+#### 2.1 Character AND token artwork / image  
+With the module installed, you set both images in one step, with more options.  
+Editing Layers: drag (click and drag), zoom (mousewheel), rotate (shift+mousewheel)
 
-
-
+1. Open your character via menue (**not** via token)  
+2. Click on the generic image below the characters name and the Tokenizer window will pop up.
+3. On the left side, you can set the character image first.
+  - Add Layer(s): You can add images by entering a URL, upload it from your computer, or select one stored in Foundry already.
+    - You could add several layers (with transparency) and mix them
+    - Sort them with the arrow up/down buttons if needed
+    - Click the lock-symbol of a layer to unlock and edit it if needed
+  - Delete the base layer  
+  
+4. Now we can set the token image on the right side  
+  - Add Layers(s)  
+    - You can add the avatar image from the left side as layer for the token image (plus the other options URL/upload/server-folder as well)  
+  - Delete layers you dont need anymore. DON'T DELETE THE RING, that's the frame we need.  
+  - Sort the layers, so the ring is on top  
+  - Unlock and edit the layers below the ring until you are satisfied  
+  - Click OK to save the images  
+![image-tokenizer1](images/en-character-creation-21.jpg)  
+![image-tokenizer2](images/en-character-creation-22.jpg)  
+![image-tokenizer3](images/en-character-creation-23.jpg)  
+![image-tokenizer4](images/en-character-creation-24.jpg)  
 
 
 *Translation information*  
 *[x] updated: 2021-06-03*  
 *[x] german entry [linked](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung)*  
 *[x] automatic translation*  
-*[ ] proof read*  
-*[ ] change pictures with EN version*  
+*[x] proof read*  
+*[x] change pictures with EN version*  

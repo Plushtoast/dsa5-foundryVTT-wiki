@@ -1,33 +1,47 @@
 There is also a video to go with this tutorial: [Installing The Dark Eye in Foundry VTT](https://www.youtube.com/watch?v=bzgb_pmw-bs) (german only)
 
 # What is what
-When you start up Foundry for the first time, you see the main GUI. Before we can start a TDE game, we have to install the needed parts
-1. Game Worlds
+When you start up Foundry for the first time, you see the main GUI. Before we can start a TDE game, we have to install the needed parts  
+
+![overview](images/en-create-world-01.jpg)
+**1. Game Worlds**  
    This is where you can create one (or many) worlds, based on a game system. Every world has ONE designated game system. A game system can have many worlds based on it. The world contains your scenes, characters, journal entries etc.
-   It also contains a setup: selected options, player logins and password settings.
-2. Game Systems
+   It also contains a setup: selected options, player logins and password settings.  
+**2. Game Systems**  
    Here, you can install and update game systems. They contain basic rules, character sheet templates etc.
-   It's quite technical, what you have to know: you NEED at least one game system, in our case that's DSA/TDE.
-3. Add-on Modules
+   It's quite technical, what you have to know: you NEED at least one game system, in our case that's DSA/TDE.  
+**3. Add-on Modules**  
    There are hundreds of modules available. They can contain functionalities, token, scenes, sounds etc.  
    - Learn to use Foundry without modules first
    - Test for compatibility before you use a module at all (in a separate test world)
-   - Additional content may be available as "Premium" modules for money. That's the case for TDE modules like Magic. After you purchase them, you have to enter the license information on the Foundry website. Afterwards, you can download it in here.
+   - Additional content may be available as "Premium" modules for money. That's the case for TDE modules like Magic. After you purchase them, you have to enter the license information on the Foundry website. Afterwards, you can download it in here.  
 
+# Preparation: Install game system and modules
+## Game System
+Before creating a new world for DSA5, the game system must be installed.  
 
-# Preparation: Install game system and modules.
-Before creating a new world for DSA5, the game system must be installed. 
-1. first *game systems* -> *install system*.
-2. then enter dsa in the field *search packages*.
-3. via *install* the character sheet and the associated rules will be installed  
-![Spielsystem installieren](https://user-images.githubusercontent.com/80099175/111484055-aec38e00-8735-11eb-9c3c-670bdc66fbf5.png)
- 
-The quick starter is free as a module and can also be installed directly. With this you have already created a few characters and an adventure 
-and you can get into the system a little bit easier.
-1. first *Add-on Module* -> *Install Module*.
-2. then you enter dsa in the field *search packages*.
-3. about *install* the module is installed must be activated then however in the world still manually! See **Initialize DSA 5 Quickstarter and Rules**.
-![Modul installieren](https://user-images.githubusercontent.com/80099175/111478613-86856080-8730-11eb-9e8e-05978534ad63.png)  
+![install system](images/en-create-world-02.jpg)  
+1. first *game systems* -> *install system*  
+2. then enter DSA or "dark eye* in the field *search packages*  
+3. click the install button next to the game system's entry.  
+
+## Modules
+**"The Dark Eye - Introduction Adventure"** is a free module for TDE. It comes with scenes, a story and pre-made characters. It can help you getting into the system, or to try out TDE as a system at all.
+If you purchased other modules, you can install them instead, or you can install them all together. The installation process is always the same.  
+
+![module installation](images/en-create-world-03.jpg)  
+1. *Add-on Modules* -> *Install Module*.
+2. Enter text in the field *search packages* to find what you are looking for
+  - Purchased modules can be found in the "Premium Content" category
+  - In general, you can search for "DSA" or "dark eye". 
+3. These modules are good for a start
+    - The Dark Eye - Introduction Adventure (free / perfect  to check out everything)
+    - The Dark Eye 5th Ed. - Core Rules (purchase / all the base rules and entries from the base rule book)
+      - additional modules can be bought from Ulisses, depending on what you want to do (Magic, Gods, Creatures etc.)
+      - alternatively, you can create additional entries by hand. It takes time, but could suffice if you only need a few things.
+    - FXMaster (free / allows for some effects used in the introduction adventure
+    - Game Audio Bundle 1 - 4 (free / allows for some effects used in the introduction adventure)
+    - Tokenizer (free / allows to create nice token for TDE characters
 
 # Create DSA 5 world
 To create a new world, go to the Foundry Admin menu and select *Game Worlds* (1) -> *Create World* (2).

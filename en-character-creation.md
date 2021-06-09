@@ -157,7 +157,7 @@ Editing Layers: drag (click and drag), zoom (mousewheel), rotate (shift+mousewhe
 
 
 *Translation information*  
-*[x] updated: 2021-06-03*  
+*[x] updated: 2021-06-09*  
 *[x] german entry [linked](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung)*  
 *[x] automatic translation*  
 *[x] proof read*  

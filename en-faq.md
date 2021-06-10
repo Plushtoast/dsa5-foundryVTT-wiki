@@ -20,24 +20,27 @@ For more details, see the [Character Creation](en-character-creation) and the [c
 See above, point 3 under [Why is ... not working?](#why-is-insert-any-function-here-not-working)
 
 ## I can't find my weapons under combat in the character sheet.
-Make sure you have the weapons assigned under character's equipment. There you can equip the weapon for combat by placing a check mark in the *Shield* column. For details, check out the guide: [Character Sheet - Equipment](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#5-ausr%C3%BCstung).  
+Make sure you have the weapons equipped in the equipment tab. You can do that by placing a check mark in the *Shield* column. For details, check out the guide: [Character Sheet - Equipment](en-charactersheet#5-equipment).  
 
 ## How can I create tokens that look like from the DSA books?
-For that there is the module [Tokenizer](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Module#tokenizer).
+With the module "Tokenizer". You can find a short how-to in [this section.](en-character-creation#11-portrait-and-token)
 
-## Why does the attribute adjustment of the species not change the attribute in the character sheet attributes?
-According to the DSA rules, the attribute adjustment does not mean that this value is adjusted directly. It only adjusts the maximum value during character creation.
-For example, if the character gets GE+1 from the species, he may directly improve this value to 15 instead of 14. For CH-2, the maximum during creation is 12.
+## Why does the attribute adjustment of the species not change the values in the character sheet attributes tab?
+According to the DSA rules, the attribute adjustment does not mean that this value is adjusted directly. It only adjusts the maximum value allowed during character creation.
+For example, if the character gets COU+1 from the species, he may directly improve this value to 15 instead of 14. For CHA-2, the maximum during creation is 12.  
+(Values in this example are based on a character with experience level *experienced* / 1100 AP)
 
 ## Changes of the skill values directly in the field are not counted towards the adventure points!
-The input fields should give the player/game master full control over their values to be able to implement house rules etc. if necessary. This also allows you to work around possible mistakes in character creation in the short term. To calculate the AP, you must always use the +- buttons here.
+The input fields should give the player/game master full control over their values to be able to implement house rules if necessary. This also allows you to work around possible mistakes in character creation in the short term.  
+**To calculate the AP, you must always use the +/- buttons.** You can lock / unlock the charsheet, this will hide / show these buttons (for spells, talents, attributes etc.)  
+![lock and unlock](images/en-faq-01.jpg)
 
 
 *Translation information*  
-*[x] updated: 2021-06-07*  
+*[x] updated: 2021-06-10*  
 *[x] german entry [linked](de/de-FAQ.md)*  
 *[x] automatic translation*  
-*[ ] proof read*  
-*[ ] change pictures with EN version*
-*[ ] change links*  
+*[x] proof read*  
+*[x] change pictures with EN version*
+*[x] change links*  
 

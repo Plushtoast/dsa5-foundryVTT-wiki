@@ -1,16 +1,23 @@
-## Foundry does not update its modules and game systems automatically. Therefore, check regularly if updates are available and install them.
-Many problems can often be fixed with an update.
+## Why is [insert any function here] not working?  
+
+1. Have you installed any (non TDE) modules? If so, please de-activate them and try again. Module incompabilities can happen.
+2. Foundry doesn't update itself. So try to update.  
+	* **make a backup first**  
+	* Update the game system  
+	* Update the modules  
+	* Check if there is a update for the Foundry Software itself. Before you update, check if the TDE modules are marked as compatible for that version beforehand. 
+3. If the problem persists, you can get help in the [Discord Channel](https://discord.com/channels/170995199584108546/807029112215830588) or submit an [issue on github](https://github.com/Plushtoast/dsa5-foundryVTT/issues)
 
 ## How can I activate my purchased Foundry products at Foundry?
 Open the page of [Foundry VTT](https://foundryvtt.com/) and log in with your Foundry account. Click on your name in the upper right corner of the page and then click on 
-*Premium Content*. Here you enter your key, which you got from Ulisses (By mail and in the F-Shop under: *My Account* -> *Orders* -> click on *Show* when ordering). After that the module is available in Foundry under *Modules* (Category "Premium").
+*Premium Content*. Here you enter your key, which you got from Ulisses (By mail and in the F-Shop under: *My Account* -> *Orders* -> click on *Show* when ordering). After that the module is available in Foundry under *Modules* (Category "Premium Content").
 
 ## How do I create a wizard/blessed one?
-Basically you have to assign the advantage *blessed one* or *spellcaster* to your character. But this is not enough to see magic or religion in the character sheet. You have to add one of the following items to the character: magic/karmic special skill, spell, cantrip, ritual, liturgy, ceremony, blessing.
-For more details, see the [Character Creation](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung) and the [Character Sheet](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen). 
+Basically you have to assign the advantage *Blessed* or *Spellcaster* to your character. But this is not enough to see the magic or religion tab in the character sheet. You have to add one of the following items to the character: magic/karmic special skill, spelsl, cantrip, ritual, liturgy, ceremony, blessing.
+For more details, see the [Character Creation](en-character-creation) and the [character sheet](en-character-sheet).
 
 ## Where can I ask questions or get support for problems?
-Please leave an *issue* here on [Github](https://github.com/Plushtoast/dsa5-foundryVTT/issues) or come to [Foundry VTT's Discord Server](https://discord.gg/foundryvtt) and report to the ulisses-dsa channel. 
+See above, point 3 under [Why is ... not working?](#why-is-insert-any-function-here-not-working)
 
 ## I can't find my weapons under combat in the character sheet.
 Make sure you have the weapons assigned under character's equipment. There you can equip the weapon for combat by placing a check mark in the *Shield* column. For details, check out the guide: [Character Sheet - Equipment](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#5-ausr%C3%BCstung).  

@@ -59,12 +59,12 @@ To test out modules, I have another world named "TEST ONLY".
 **Can NOT be changed after creation**
 3. **Game System** - choose The Dark Eye 5 which we downloaded for this  
 **Can NOT be changed after creation**
-4. **Background image** - choose whatever you like. Will be the background for the login-page of this world.
+4. **Background image** - choose whatever you like. Will be the background for the login-page of this world.  
 **Can be changed after creation**
-5. **Next Session** - if you already know this, you can set the date and time for the next session. Can be seen on the login-page of this world.
+5. **Next Session** - if you already know this, you can set the date and time for the next session. Can be seen on the login-page of this world.  
 **Can be changed after creation**
 6. **World description** - Use the editor to write some flavour text, summarize the adventure, you can write whatever you want and use links, embedd images (from URLs only) etc. Be aware, you can see this on the login-page of your world, but the window is rather small, so don't go overboard with big pictures and dozens of lines of text. Save that effort for in-world :).  
-Warning: When you hit the SAVE button in that text editor, it instantly creates the server (Foundry 0.8.6). This may be a bug, but do this as a last step in the process.  
+**Warning:** When you hit the SAVE button in that text editor, it instantly creates the server (Foundry 0.8.6). This may be a bug, but do this as a last step in the process.  
 **Can be changed after creation**
 7. **Create World** - click the magic button and feel the power of creation running trough your fingertips!  
 In reality, it's quite underwhelming, but if everything went well, you should see your world in the list now.  
@@ -79,32 +79,42 @@ Login as GM (default password is empty).
 The very first thing you should do within Foundry is go and set a GM password.
 
 
-# Initialize DSA 5 Quickstarter and Rulebook
-After starting a world, you can log in as Gamemaster (*Select Player*) (*Join Game Session*).
-After that you may get the message Language settings. Here you can choose between *de* for German and *en* for English.
-![Auswahl Sprache](https://user-images.githubusercontent.com/80099175/111479150-001d4e80-8731-11eb-9b5c-753ad24bd892.png)
+# Initialize the introduction adventure 
+When you start the world for the first time, you will get a prompt about languages. Please note, the different items are NOT compatible between languages. You can switch the language in the settings menu, but as soon as you create or import any char/item/journal entry/rule, you have to stick with it.  
+Basically, the TDE System runs in the language you set and expects all the items, abilities etc. to be in that language. Setting it to english and handing it the item STURMANGRIFF, it has no idea what it should do with that.
 
-Next the Quickstarter module must be activated. Otherwise the DSA 5 character sheets and a few compendium contents are available, 
-but everything has to be rebuilt.
-1. click on the cogwheel (*game settings*) -> *manage modules*.
-2. check the box in front of *The Dark Eye - Introduction Adventure* and click on *Update Modules*.  
-![DSA Introducion aktivieren](https://user-images.githubusercontent.com/80099175/111480273-1aa3f780-8732-11eb-941c-07547fe1f1b3.png)
-3. when setting the checkmark a dependency message may appear. This should always be confirmed with *Yes*:  
-![Abhängigkeiten](https://user-images.githubusercontent.com/80099175/111480895-bd5c7600-8732-11eb-8fe8-554389cd4839.png)
-4. as soon as the world has reloaded, a window appears with short instructions and an initialization. Here click on *Initialize*. 
-This will copy all the contents of the module into the respective categories (scenes, actors, notes, etc.).  
-![Initialisieren](https://user-images.githubusercontent.com/80099175/111483176-db2ada80-8734-11eb-9600-5dc837899aa4.png)
-The initialization can also be repeated via the gear wheel (*Settings*) on the top right -> *Customize Settings* -> *Module Settings* 
--> *The Dark Eye - Introduction Adventure* -> *Initialize*.  
-This is only necessary if you clicked away the dialog the first time. 
-If you just do this again, the entries will be copied to the categories again and will be duplicated.
-![Manuell Initialisieren](https://user-images.githubusercontent.com/80099175/111482945-a7e84b80-8734-11eb-8ed0-247b453de842.png)
+**IMPORTANT**: The language setting can be set by every player.   
+**Make sure your players set the same language as the server runs on!** Otherwise, strange things will happen.  
+
+## Select the language you want
+![select language](images/en-create-world-07.jpg)  
+
+## Activate the modules you want  
+Open the settings tab -> *Manage Modules*  
+![modules01](images/en-create-world-08.jpg)
+
+Then, activate the modules you want. In our case, that's the "Introduction Adventure".  
+To see and hear effects in this adventure (weather, waterstreams etc), you can additionally activate "FXMaster" and "Game Audio Bundle 1 - 4".
+![modules02](images/en-create-world-11.jpg)
+
+## Initialize the adventure module  
+
+Foundry will reload, then it's time to initialize the adventure. With regular modules, you don't have to initialize anything, but adventures contain many linked entities, journal entries and so on, making this necessary.  
+Journals tab -> *Journal Browser*  
+Click on *Introduction Adventure*  
+![initialize01](images/en-create-world-13.jpg)  
+
+You will see an index on the left side and information on the right. Choose *Readme -> Preparation* and scroll down.  
+Click *Import*, in the next window click *Initialization*  
+**And yes, you should really read all that stuff**  
+![initialize02](images/en-create-world-15.jpg)
+
 
 
 *Translation information*  
 *[x] updated: 2021-06-07*  
 *[x] german entry [linked](de/de-DSA_5_Welt_erstellen.md)*  
 *[x] automatic translation*  
-*[ ] proof read*  
-*[ ] change pictures with EN version*
-*[ ] change links*  
+*[x] proof read*  
+*[x] change pictures with EN version*
+*[x] change links*  

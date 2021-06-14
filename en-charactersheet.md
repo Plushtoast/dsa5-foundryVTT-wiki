@@ -27,11 +27,11 @@ This part of the sheet is always visible and shows a characters base information
 - **Fate Points:** Base value plus dis-/advantages. Maximum can't be changed, but you can add/spend FtP by clicking on them. (When you spend FtP via chatlog by right clicking a roll, the FtP is deducted/spent automatically)
 
 ## 2. Skills
-On the talent sheet, the character's talent values are recorded and checks can be taken. Also, the [skill value can be improved](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#8-steigerungen-vornehmen) or changed.  
+The skills
 1. **Search talents**: searches the entered term in the talents
 1. **Filter**: Hides all talents that have a Fw of 0.  
   
-![Charakterbogen Talente](https://user-images.githubusercontent.com/80099175/112131981-6c350200-8bca-11eb-9f89-005632ce6e50.png)
+![charsheet skills](images/en-charactersheet-06.jpg)  
 
 ## 3. Combat
 The combat sheet contains all data used for [Combat](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Kampf) in DSA 5.

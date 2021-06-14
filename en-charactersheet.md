@@ -13,13 +13,18 @@ There are the categories in it:
   
 **Note**: The *magic* and *religion* tabs only appear if the character has at least one magical or karmal special skill/spell/ritual/liturgy/ceremony assigned. Also, only then do AE (astral energy) or KP (karma points) appear in the character sheet.
   
-![Charakterbogen](https://user-images.githubusercontent.com/80099175/112130343-adc4ad80-8bc8-11eb-8953-1f82cd10fbf8.png)
+![charsheet overview](images/en-charactersheet-01.jpg)  
 
 ## 1. Header
-This part of the sheet is always visible and is influenced, among other things, by the entries in [Attributes](#4-attributes). These are the current values of the character.  
-In addition, a profession can be entered here - either a [predefined profession](en-character-creation.md#6-choose-profession), or the name for your own profession.
-  
-![Charakterbogen Kopfbereich](https://user-images.githubusercontent.com/80099175/112131586-faf54f00-8bc9-11eb-887a-8c8cf417bf9f.png)
+This part of the sheet is always visible and shows a characters base information. Many values are calculated and derived from the settings in the [Attributes tab](#4-attributes).  
+![charsheet header](images/en-charactersheet-02.jpg)  
+
+- **Name & picture:** Can be edited. When you change the name, make sure to update that information in the token settings as well
+- **Species:** FYI only, can't be changed
+- **Profession:** Can be edited. It's text only. See [here](en-character-creation#6-choose-profession) for more information on choosing / entering professions.
+- **Attribute values:** derived from the [Attributes tab](#4-attributes), where it can be changed
+- **Life/Astral/Karmal points** (current and max): can be edited. You have to enter the new number, not the changes (fe: you have 30 LP and you lose 5 LP, enter 25 LP). You CAN enter the changes on the token (fe: you have 30 LP and you lose 5 LP, enter -5, hit Enter and char has 25 LP as a result)
+- **Fate Points:** Base value plus dis-/advantages. Maximum can't be changed, but you can add/spend FtP by clicking on them. (When you spend FtP via chatlog by right clicking a roll, the FtP is deducted/spent automatically)
 
 ## 2. Skills
 On the talent sheet, the character's talent values are recorded and checks can be taken. Also, the [skill value can be improved](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#8-steigerungen-vornehmen) or changed.  

@@ -27,25 +27,39 @@ This part of the sheet is always visible and shows a characters base information
 - **Fate Points:** Base value plus dis-/advantages. Maximum can't be changed, but you can add/spend FtP by clicking on them. (When you spend FtP via chatlog by right clicking a roll, the FtP is deducted/spent automatically)
 
 ## 2. Skills
-The skills
-1. **Search talents**: searches the entered term in the talents
-1. **Filter**: Hides all talents that have a Fw of 0.  
-  
+This tab shows you all available skills, their skill rating and several options to use them in Foundry.  
+
 ![charsheet skills](images/en-charactersheet-06.jpg)  
 
+1. **Search/Filter** When you activate the filter (right side symbol), you see all your skills with a SR higher than zero. To search for a skill, you can enter text into the search filed on the left side.  
+2. **Description/Information** Klick on a skill to open a pop-up window with detailed description. You can send that to the chat (chat bubble symbol in the top right corner). Make sure you don't change anything, except you know what you are doing.
+3. **+/- Buttons** To change your SR (= "level your skills") with correct AP calculation.
+4. **Roll a check** Click on the dice symbols to initiate a roll. A pop-up window opens up with modifiers and options.
+5. **ENC** Does encumbrance influence this skill? If you are encumbered and you check this skill, it will or will not add the encumbrance level as a malus to the roll. You can de-select the encumbrance in the pop-up window to ignore it on a per-roll basis.
+6. **SR** Skill Rating. To change it, use the +/- buttons. If you set a value directly in this row, no AP calculation will be made by Foundry.
+7. **Cumulative Checks** You can add a cummulative check for a certain skill here. That way, you can quickly roll several checks and keep track of your collected QS, including critical successes and botches.  
+  ![charsheet cumulative01](images/en-charactersheet-04.jpg)  
+ 
+  - Add a new entry with the + symbol  
+  - Click the edit-button to open the entry and change its settings  
+  - Select the skill you want to check, enter the allowed amount of checks and the interval (pure text field, can be left empty) and maybe set a name.  
+  If you already used that cumulative check before, reset the value fields to 0 to re-use it.  
+  - Now you can roll with the dice-symbol and it will send the results to the chat (indivdual rolls and a separate message for the accumulated QS and modifiers)  
+    ![charsheet cumulative02](images/en-charactersheet-05.jpg)  
+
+
 ## 3. Combat
-The combat sheet contains all data used for [Combat](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Kampf) in DSA 5.
-1. **Melee, Ranged Weapons and Armor**: Lists all weapons and armor that are **and have been equipped** (=activated for the combat sheet) in the [Equipment](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#5-ausr%C3%BCstung) tab. This requires a check mark next to the item on the equipment page, see [Equipment](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#5-ausr%C3%BCstung).
+The combat sheet contains all data used for [Combat](en-combat) in TDE 5.  
+![charsheet combat](images/en-charactersheet-07.jpg)  
 
-   1.1 **Dodge, unarmed attack and parry**: Behind the symbols hide the dodge and the unarmed attack and parry.  
-
-   1.2 **Ammunition**: here you can select ammunition for the weapon. However, this must be stored in the [Equipment bar](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#5-ausr%C3%BCstung). Then the system will automatically draw the ammunition after an attack. For throwing weapons, the weapon itself counts as ammunition, i.e. if you equip 3 throwing knives, it reduces the number of throwing knives after the attack to 2 etc., if the number is 0, no more attacks can be made. 
+1. **Weapons and Armor**: Lists all weapons and armor that are equipped **and have been marked as "worn"** (=activated for the combat sheet) in the [equipment tab](#5-equipment) tab.  
+  **1. a) Dodge, unarmed attack and parry**: The symbols represent the actions for unarmed combat: dodge, attack, parry... but never parry with bare hands when the enemy wields some sharp weapon ;-)  
+ 
+    1.2 **Ammunition**: here you can select ammunition for the weapon. However, this must be stored in the [Equipment bar](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#5-ausr%C3%BCstung). Then the system will automatically draw the ammunition after an attack. For throwing weapons, the weapon itself counts as ammunition, i.e. if you equip 3 throwing knives, it reduces the number of throwing knives after the attack to 2 etc., if the number is 0, no more attacks can be made. 
  
    1.3 **Details**: Clicking on the arrow shows details like range and charge time.
 2. **Combat Special Skills**: Lists all of the character's combat special skills.
 3. **Combat Techniques**: If a roll on the basic combat technique value is required, the values and dice can be found here. Improving works the same as with skills.
-  
-![Character Sheet Combat](https://user-images.githubusercontent.com/80099175/112133821-5e807c00-8bcc-11eb-836a-ec9431cb011a.png)
 
 ## 4. Attributes
 In this sheet the basic values of the character are set and improved. Some of the values here are calculated completely automatically.

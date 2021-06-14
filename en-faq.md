@@ -42,5 +42,4 @@ The input fields should give the player/game master full control over their valu
 *[x] automatic translation*  
 *[x] proof read*  
 *[x] change pictures with EN version*
-*[x] change links*  
-*[just a demonstration]*
+*[x] change links*

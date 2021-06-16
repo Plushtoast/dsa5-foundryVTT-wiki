@@ -10,13 +10,22 @@ Um den Charakterbogen zu verwenden müsst ihr wie folgt vorgehen:
 ![Händlerbogen auswählen](https://user-images.githubusercontent.com/80099175/113250611-1a266780-92c1-11eb-86a2-7edcfccd878e.png)  
 ![Händler Typ auswählen](https://user-images.githubusercontent.com/80099175/113250735-5b1e7c00-92c1-11eb-875c-65eb7f752800.png)  
 
-## Einstellungen durch den Spielleiter:
+## Einstellungen durch den Spielleiter in Foundry 7.X:
 * Damit die Spieler Zugriff auf den Akteur haben müssen sie das Recht *Beschränkt* auf den Händler haben.
 * Sie können dann über den Token auf dem Bildschirm oder im Akteurmenü auf den Händler zugreifen
 * Beachtet, dass der Token auf der Szene nicht den Akteur im Menü verändert. So könnt ihr den Händler/das Loot wiederverwenden wenn sie nur über die Szene darauf zugreifen.
 * Interaktion mit dem Händler sind nur erlaubt, wenn ein Spielleiter ins Spiel eingelogt ist.
 
 ![Beschränkt](https://user-images.githubusercontent.com/80099175/113254135-7f308c00-92c6-11eb-8950-700abcba55e6.png)
+
+## Einstellungen durch den Spielleiter in Foundry 8.X:
+* Es gibt im Händlertab jetzt 2 Funktionen über die der Händler konfiguriert werden kann.  
+1. Wird der Haken beim jeweiligen Spieler gesetzt hat er das Recht beschränkt für den Akteur. Er sieht ihn im Akteurmenü und kann über den Token in der Szene auf das Händlermenü zugreifen.
+2. Über den Haken bei *Für Spieler verbergen* wird der Akteur im Akteurmenü des Spielers nicht mehr angezeigt.
+  
+  ![Haendler Berechtigungen](images/Haendler_Berechtigungen_8.jpg)
+  
+## Spielleiter: Umschalten zu Spieleransicht
 
 Der Spielleiter kann den *Begrenzte Ansicht umschalten (Spieleransicht)* Button in der rechten oberen Ecke des Charakterbogens verwenden um die Sicht der Spieler auf den Händler zu bekommen.  
   

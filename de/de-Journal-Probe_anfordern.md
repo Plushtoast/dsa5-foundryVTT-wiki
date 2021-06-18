@@ -6,7 +6,7 @@ Dies kann ebenfalls in Journaleinträgen verwendet werden.
 Befehl der in den Text eingebettet werden muss: @Rq[TALENT MODIFIKATOR] oder @Gc[TALENT MODIFIKATOR] 
 Der Modifikator muss immer mit dazu geschrieben werden. Wird die Probe nicht modifiziert muss eine 0 eingetragen werden (Bsp.: @Rq[Sinnesschärfe -1]/@Gc[Kraftakt -1]). Ein positiver Modifikator wird immer ohne das Vorzeichen eingetragen (Bsp.: @Rq[Körperbeherrschung 2]/@Gc[Wildnisleben 2]/@Rq[Bekehren & Überzeugen 0]).
 
-|![Journal Request Code](images/Journal Request Code.jpg)|![Journal Request](images/Journal Request.jpg)|
+|![Journal Request Code](images/Journal_Request_Code.jpg)|![Journal Request](images/Journal_Request.jpg)|
 
 ### Beispiel Spieleiter-Vorbereitung:
 Dies ist nützlich um direkt zum Beispiel diesen Journaleintrag direkt auf der Karte in einem Raum zu platzieren.

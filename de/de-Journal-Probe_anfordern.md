@@ -1,14 +1,12 @@
 # Journal - Probe im Chat durch einfachen Klick anfordern
 
-Als Spielleiter gibt es im Chatfenser über den Befehl /rq TALENTNAME die Möglichkeit eine Nachricht zu erstellen in der eine Schaltfläche angeklickt werden kann
-um die gewünschte Probe direkt ausführen zu können. 
+Als Spielleiter gibt es im Chatfenster über die Befehle /rq (einfache Probe) und /gc (Gruppenprobe) die Möglichkeit eine Nachricht zu erstellen, in der eine Schaltfläche angeklickt werden kann, um die gewünschte Probe direkt ausführen zu können.
 
 Dies kann ebenfalls in Journaleinträgen verwendet werden.  
-Befehl der in den Text eingebettet werden muss: @Rq[TALENT MODIFIKATOR]  
-Der Modifikator muss immer mit dazu geschrieben werden. Wird die Probe nicht modifiziert muss eine 0 eingetragen werden (Bsp.: @Rq[Sinnesschärfe -1]). Ein positiver Modifikator wird immer ohne das Vorzeichen eingetragen (Bsp.: @Rq[Körperbeherrschung 2]
-Außerdem funktionieren Sonderzeichen wie & nicht im Befehl und werden bei den Fertigkeiten einfach weg gelassen (Bsp.: @Rq[Bekehren Überzeugen 0]).
+Befehl der in den Text eingebettet werden muss: @Rq[TALENT MODIFIKATOR] oder @Gc[TALENT MODIFIKATOR] 
+Der Modifikator muss immer mit dazu geschrieben werden. Wird die Probe nicht modifiziert muss eine 0 eingetragen werden (Bsp.: @Rq[Sinnesschärfe -1]/@Gc[Kraftakt -1]). Ein positiver Modifikator wird immer ohne das Vorzeichen eingetragen (Bsp.: @Rq[Körperbeherrschung 2]/@Gc[Wildnisleben 2]/@Rq[Bekehren & Überzeugen 0]).
 
-|![Journal Request Code](https://user-images.githubusercontent.com/80099175/111426443-f4ac3200-86f4-11eb-8bbf-37e432ea5aa5.png)|![Journal Request](https://user-images.githubusercontent.com/80099175/111426400-e9590680-86f4-11eb-99be-35fde739953f.png)|
+|![Journal Request Code](images/Journal Request Code.jpg)|![Journal Request](images/Journal Request.jpg)|
 
 ### Beispiel Spieleiter-Vorbereitung:
 Dies ist nützlich um direkt zum Beispiel diesen Journaleintrag direkt auf der Karte in einem Raum zu platzieren.
@@ -21,3 +19,6 @@ Diese ist verschlossen und muss mit einer @Rq[Schlösserknacken -1] Probe geöff
 
 Klickt der Spielleiter auf die Schaltfläche erscheint ein Chat Eintrag welchen die Spieler direkt nutzen um den Wurf direkt abzulegen.
 ![grafik](https://user-images.githubusercontent.com/80099175/111427023-c3803180-86f5-11eb-97e9-3e83ccbac049.png)
+
+*Informationen:  
+[x]updated: 18.06.2021*

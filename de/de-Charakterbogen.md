@@ -13,20 +13,52 @@ Es gibt darin die Kategorien:
   
 **Anmerkung**: Die Punkte [Magie](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#8-magie) und [Religion](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#9-religion) erscheinen nur, wenn dem Charakter mindestens eine magische oder karmale Sonderfertigkeit/Zauber/Ritual/Liturgie/Zeremonie zugeordnet ist. Auch erst dann erscheinen im [Eigenschaftenbogen](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#4-eigenschaften) AsP- und/oder Karmapunkte.
   
-![Charakterbogen](https://user-images.githubusercontent.com/80099175/112130343-adc4ad80-8bc8-11eb-8953-1f82cd10fbf8.png)
+![Charakterbogen](images/Charakterbogen.jpg)
 
 ## 1. Kopfbereich
 Dieser Teil des Bogens ist immer sichtbar und wird unter anderem durch die Eingaben in [Eigenschaften](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#4-eigenschaften) beeinflusst. Es handelt sich hier um die aktuellen Werte des Charakters.  
-Außerdem kann hier eine Profession eingetragen werden - entweder eine [vorgefertigte Profession](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#6-profession-w%C3%A4hlen), oder die Bezeichnung für eine eigene Profession.
+Außerdem kann hier eine Profession eingetragen werden - entweder eine [vorgefertigte Profession](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#6-profession-w%C3%A4hlen), oder die Bezeichnung für eine eigene Profession.  
+Oben rechts findet ihr ein paar Schaltflächen für weitere Funktionen:  
+1. Steigerungen sperren/entsperren 
+2. [Bibliothek](de-Bibliothek) öffnen 
+3. Akteur konfigurieren: Hier findet ihr die [Import Funktion](de-Import-Funktion) 
+4. Blatt konfigurieren: Charakterbogen auswählen - siehe auch [Händler](de-Haendler)
+5. Token konfigurieren: siehe auch [Sicht und Licht - Token Einstellungen](de-Sicht-und-Licht#token-einstellungen)
   
-![Charakterbogen Kopfbereich](https://user-images.githubusercontent.com/80099175/112131586-faf54f00-8bc9-11eb-887a-8c8cf417bf9f.png)
+![Charakterbogen Kopfbereich](images/Charakterbogen_Kopfbereich.jpg) 
+  
+- **Name und Bild:** Können bearbeitet werden. Wenn ihr den Namen ändert, denkt daran dies auch unter Token konfigurieren abzugleichen.
+- **Spezies:** Nur für die Anzeige, kann nicht bearbeitet werden.
+- **Profession:** Kann bearbeitet werden, ist dann aber nur Text. [Hier](de-Charaktererstellung#6-profession-wählen) gibt es weitere Information zum Hinzufügen einer Profession zum Character.
+- **Eigenschaftswerte:** Übertragen vom [Eigenschafts-Tab](#4-eigenschaften), wo sie verändert werden können.
+- **Lebens-/Astral-/Karmapunkte:** (aktuell und max.) Können bearbeitet werden. Es muss der neue Wert eingetragen werden, nicht die Veränderung (Bsp. Ihr habt 30 LeP und verliert 5, tragt hier 25 ein.) Im Tokenmenü könnt ihr die Veränderung eintragen (Bsp. Ihr habt 30 LeP und verliert 5, tragt hier -5 ein. Der Wert wird zu 25)
+- **Schicksalspunkte:** Basiswert plus Vor-/Nachteile. Das Maximum kann nicht verändert werden, aber ihr könnt sie durch anklicken ausgeben oder zurückgewinnen. Die Punkte können aber auch über das Kontextmenü einer Probe ausgegeben werden.
+
 
 ## 2. Talente
-Auf dem Talentbogen werden die Talentwerte des Charakters festgehalten und es können Proben abgelegt werden. Außerdem kann der [Fertigkeitswert gesteigert](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung#8-steigerungen-vornehmen) oder verändert werden.  
-1. **Talente durchsuchen**: sucht den eingegebenen Begriff in den Talenten
-1. **Filter**: Blendet alle Talente aus die einen Fw von 0 haben  
+Auf dem Talentbogen werden die Talentwerte des Charakters festgehalten und es können Proben abgelegt werden.  
   
-![Charakterbogen Talente](https://user-images.githubusercontent.com/80099175/112131981-6c350200-8bca-11eb-9f89-005632ce6e50.png)
+![Charakterbogen Talente](images/Charakterbogen_Talente.jpg)
+
+1. **Suche/Filter:** Mit einem Klick auf das rechte Symbol sehr ihr nur noch die Talente in denen ihr einen FW über 0 habt. Um nach einem Talent zu suchen, gebt einfach einen Begriff in das links Suchfeld ein.
+2. **Beschreibung/Informationen:** Klickt ihr auf ein Talent, öffnet sich ein Fenster mit der Beschreibung. Oben lässt sich die Talentbeschreibung in den Chat posten über das Sprechblasen-Symbol. Hier solltet ihr keine Änderungen durchführen, es sei denn ihr wisst genau was ihr macht.
+3. **+/- Buttons:** Hiermit könnt ihr den FW des Talentes steigern. Dies beeinflusst die Abenteuerpunkte des Charakters!
+4. **Probe durchführen:** Über die Würfel löst ihr die Probe aus. Es öffnet sich ein Popup um Modifikatoren einzugeben.
+5. **Belastung:** Steht hier ein *Ja* wird die Belastung auf die Probe angerechnet. Diese kann manuell im Modifikatoren-Fenster abgewählt werden.
+6. **Fertigkeitswert:** Die Höhe eures Fertigkeitswertes. Ändert ihr hier die Zahl, wird dies nicht bei den Abenteuerpunkten mit berechnet.
+
+### Sammelproben
+Ganz unten auf dem Bogen habt ihr noch die Möglichkeit Sammelproben anzulegen.  
+  
+1. Über das + fügt ihr eine neue Sammelprobe zum Charakterbogen hinzu.
+2. Klickt auf den Namen um die Sammelprobe bearbeiten zu können. Hier könnt ihr neben dem Namen auch alle anderen Werte verändern, insbesondere das verwendete Talent.
+3. Durch einen Klick auf den Würfel, wird die Probe gewürfelt.  
+  
+![Sammelprobe](images/Charakterbogen_Talente_Sammelprobe.jpg) 
+
+1. Zuerst wird die Probe angezeigt und die erreichte QS.
+2. Darunter ist die Zusammenfassung der Sammelprobe. Sie berücksichtigt jede Probe die auf die Sammelprobe ausgeführt wird.
+![Sammelprobe Chat](images/Charakterbogen_Talente_Sammelprobe_Chat.jpg)
 
 ## 3. Kampf
 Der Kampfbogen beinhaltet alle Daten die zum [Kampf](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Kampf) in DSA 5 verwendet werden.

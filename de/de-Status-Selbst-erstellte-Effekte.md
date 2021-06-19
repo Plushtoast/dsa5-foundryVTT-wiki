@@ -1,11 +1,14 @@
 # Status - Selbst erstellte Effekte
-Effekte bieten die Möglichkeit gewisse Charakterwerte zu beeinflussen. Selbst erstellte Effekte sind in verschiedenen Objekten innerhalb von Foundry verfügbar: Charaktere, Zauber, Rituale, Liturgien, Zeremonien, Ausrüstung, usw. Überall da, wo ihr im Fenster des Objektes einen Effekt/Stautseffekte Tab habt. Vom Grundprinzip funktionieren alle ähnlich, deshalb folgen hier 3 Beispiele:
-* [Effekte von Akteuren]()
-* [Effekte von einer Nahkampfwaffe (Item]()  
-* [Talentanpassungen durch Effekte]()
+Effekte bieten die Möglichkeit gewisse Charakterwerte zu beeinflussen. Selbst erstellte Effekte sind in verschiedenen Objekten innerhalb von Foundry verfügbar: Charaktere, Zauber, Rituale, Liturgien, Zeremonien, Ausrüstung, usw. Überall da, wo ihr im Fenster des Objektes einen Effekt/Stautseffekte Tab habt. Vom Grundprinzip funktionieren alle ähnlich, deshalb folgen hier 3 Beispiele:  
 
-Außerdem findet ihr hier die Beschreibung, wie ihr die Dauer von Effekten automatisch behandeln lassen könnt:
-* [Effektdauer]()
+- [Effekte von Akteuren](de-Status-Selbst-erstellte-Effekte#effekte-von-akteuren)
+- [Effekte von einer Nahkampfwaffe (Item)](de-Status-Selbst-erstellte-Effekte#effekt-von-einer-nahkampfwaffe-item)
+- [Talentanpassungen durch Effekte](de-Status-Selbst-erstellte-Effekte#talentanpassungen-durch-effekte)
+- [Teilprobenmodifikatoren](de-Status-Selbst-erstellte-Effekte#teilprobenmodifikatoren)
+
+Außerdem findet ihr hier die Beschreibung, wie ihr die Dauer von Effekten automatisch behandeln lassen könnt:  
+
+- [Effektdauer](de-Status-Selbst-erstellte-Effekte#effektdauer)
 
 ## Effekte von Akteuren
 **Ihr könnt alle Datenwerte der Akteure ändern.** Beachtet dabei, dass einige davon berechnet wurden und deshalb immer wieder überschrieben werden. Deshalb ist diese Funktion mit Vorsicht zu verwenden!  
@@ -57,6 +60,16 @@ Ein Würfelbecher der 2 Fertigkeitspunkte auf Brett- & Glücksspiel gibt:
   
 ![Würfelbecher des Glücks](https://user-images.githubusercontent.com/80099175/119782363-63afbf00-becc-11eb-8fb3-e5552e9ebea0.png)
   
+## Teilprobenmodifikatoren
+Es ist auch möglich nur eine Probe einer 3w20 Talentprobe zu modifizieren.
+
+1. Wählt im Attributsschlüssel *Talent - Teilprobenmodifikator aus* (Nach der Auswahl wird hier: *data.skillModifiers.TPM* angezeigt)
+2. Änderungsart auf *Eigenes*
+3. Unter Wert tragt ihr TALENT WERT|WERT|WERT ein. Achtet dabei auf das richtige Trennzeichen (STRG+ALT+>)!
+4. Im Probenfenster wird dann der Modifikator angezeigt und muss manuell ausgewählt werden.
+
+![Teilprobenmodifikatoren](images/Selbst_erstellte_Effekte_Teilprobenmodifikatoren.jpg)
+
 ## Effektdauer
 Wenn ihr die Dauer der Effekte automatisch ablaufen lassen wollt, benötigt ihr die folgenden Module:
 * [about-time](https://gitlab.com/tposney/about-time)

@@ -13,7 +13,7 @@ Es gibt darin die Kategorien:
   
 **Anmerkung**: Die Punkte [Magie](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#8-magie) und [Religion](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#9-religion) erscheinen nur, wenn dem Charakter mindestens eine magische oder karmale Sonderfertigkeit/Zauber/Ritual/Liturgie/Zeremonie zugeordnet ist. Auch erst dann erscheinen im [Eigenschaftenbogen](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#4-eigenschaften) AsP- und/oder Karmapunkte.
   
-![Charakterbogen](images/Charakterbogen.jpg)
+![Charakterbogen](de/images/Charakterbogen.jpg)
 
 ## 1. Kopfbereich
 Dieser Teil des Bogens ist immer sichtbar und wird unter anderem durch die Eingaben in [Eigenschaften](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#4-eigenschaften) beeinflusst. Es handelt sich hier um die aktuellen Werte des Charakters.  
@@ -25,7 +25,7 @@ Oben rechts findet ihr ein paar Schaltflächen für weitere Funktionen:
 4. Blatt konfigurieren: Charakterbogen auswählen - siehe auch [Händler](de-Haendler)
 5. Token konfigurieren: siehe auch [Sicht und Licht - Token Einstellungen](de-Sicht-und-Licht#token-einstellungen)
   
-![Charakterbogen Kopfbereich](images/Charakterbogen_Kopfbereich.jpg) 
+![Charakterbogen Kopfbereich](de/images/Charakterbogen_Kopfbereich.jpg) 
   
 - **Name und Bild:** Können bearbeitet werden. Wenn ihr den Namen ändert, denkt daran dies auch unter Token konfigurieren abzugleichen.
 - **Spezies:** Nur für die Anzeige, kann nicht bearbeitet werden.
@@ -38,7 +38,7 @@ Oben rechts findet ihr ein paar Schaltflächen für weitere Funktionen:
 ## 2. Talente
 Auf dem Talentbogen werden die Talentwerte des Charakters festgehalten und es können Proben abgelegt werden.  
   
-![Charakterbogen Talente](images/Charakterbogen_Talente.jpg)
+![Charakterbogen Talente](de/images/Charakterbogen_Talente.jpg)
 
 1. **Suche/Filter:** Mit einem Klick auf das rechte Symbol sehr ihr nur noch die Talente in denen ihr einen FW über 0 habt. Um nach einem Talent zu suchen, gebt einfach einen Begriff in das links Suchfeld ein.
 2. **Beschreibung/Informationen:** Klickt ihr auf ein Talent, öffnet sich ein Fenster mit der Beschreibung. Oben lässt sich die Talentbeschreibung in den Chat posten über das Sprechblasen-Symbol. Hier solltet ihr keine Änderungen durchführen, es sei denn ihr wisst genau was ihr macht.
@@ -54,11 +54,11 @@ Ganz unten auf dem Bogen habt ihr noch die Möglichkeit Sammelproben anzulegen.
 2. Klickt auf den Namen um die Sammelprobe bearbeiten zu können. Hier könnt ihr neben dem Namen auch alle anderen Werte verändern, insbesondere das verwendete Talent.
 3. Durch einen Klick auf den Würfel, wird die Probe gewürfelt.  
   
-![Sammelprobe](images/Charakterbogen_Talente_Sammelprobe.jpg) 
+![Sammelprobe](de/images/Charakterbogen_Talente_Sammelprobe.jpg) 
 
 1. Zuerst wird die Probe angezeigt und die erreichte QS.
 2. Darunter ist die Zusammenfassung der Sammelprobe. Sie berücksichtigt jede Probe die auf die Sammelprobe ausgeführt wird.
-![Sammelprobe Chat](images/Charakterbogen_Talente_Sammelprobe_Chat.jpg)
+![Sammelprobe Chat](de/images/Charakterbogen_Talente_Sammelprobe_Chat.jpg)
 
 ## 3. Kampf
 Der Kampfbogen beinhaltet alle Daten die zum [Kampf](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Kampf) in DSA 5 verwendet werden.

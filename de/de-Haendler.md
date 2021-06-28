@@ -32,16 +32,15 @@ Der Spielleiter kann den *Begrenzte Ansicht umschalten (Spieleransicht)* Button 
 3. Ihr könnt die Ausrüstung einfach aus der Bibliothek zu dem Händler hinzufügen oder über das + einen Dummy hinzufügen und ändern 
 4. Außerdem gibt es einen Zufällige Auswahl Button um den Händler Random zu befüllen.  
 5. Wird der Haken beim jeweiligen Spieler gesetzt hat er das Recht beschränkt für den Akteur. Er sieht ihn im Akteurmenü und kann über den Token in der Szene auf das Händlermenü zugreifen.
-6. Über den Haken bei *Für Spieler verbergen* wird der Akteur im Akteurmenü des Spielers nicht mehr angezeigt.
-  
-![Händler](images/Haendler.jpg) 
+6. Über den Haken bei *Für Spieler verbergen* wird der Akteur im Akteurmenü des Spielers nicht mehr angezeigt.  
+![Haendler](images/Haendler.jpg)  
 
 ### Händlermenü (Spielersicht)
 Die Spieler können entweder über das Actor Menü auf den Händler zugreifen oder aber direkt in der Szene über den Token. Es öffnet sich dann ein Handelsfenster:  
 1. **Verkaufen**: Verkauft das Item an den Händler zum Preis von dem Wert des Gegenstandes verrechnet mit dem Kauffaktor.  
 2. **Kaufen**: Kauft den Gegenstand mit der Anzahl 1 zu dem angegebenen Preis
   
-![Händlermenü](images/Haendlermenue.jpg)  
+![Haendlermenü](images/Haendlermenue.jpg)  
 
 ## Schatz
 1. Die Spieler haben kompletten Zugriff auf alles was im Schatz zugeordnet ist, auch das Geld.

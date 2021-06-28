@@ -33,14 +33,14 @@ Der Spielleiter kann den *Begrenzte Ansicht umschalten (Spieleransicht)* Button 
 4. Außerdem gibt es einen Zufällige Auswahl Button um den Händler Random zu befüllen.  
 5. Wird der Haken beim jeweiligen Spieler gesetzt hat er das Recht beschränkt für den Akteur. Er sieht ihn im Akteurmenü und kann über den Token in der Szene auf das Händlermenü zugreifen.
 6. Über den Haken bei *Für Spieler verbergen* wird der Akteur im Akteurmenü des Spielers nicht mehr angezeigt.  
-![Haendler](images/Haendler.jpg)  
+![Haendler](de/images/Haendler.jpg)  
 
 ### Händlermenü (Spielersicht)
 Die Spieler können entweder über das Actor Menü auf den Händler zugreifen oder aber direkt in der Szene über den Token. Es öffnet sich dann ein Handelsfenster:  
 1. **Verkaufen**: Verkauft das Item an den Händler zum Preis von dem Wert des Gegenstandes verrechnet mit dem Kauffaktor.  
 2. **Kaufen**: Kauft den Gegenstand mit der Anzahl 1 zu dem angegebenen Preis
   
-![Haendlermenü](images/Haendlermenue.jpg)  
+![Haendlermenü](de/images/Haendlermenue.jpg)  
 
 ## Schatz
 1. Die Spieler haben kompletten Zugriff auf alles was im Schatz zugeordnet ist, auch das Geld.
@@ -50,14 +50,14 @@ Die Spieler können entweder über das Actor Menü auf den Händler zugreifen od
 5. Über den Haken bei *Für Spieler verbergen* wird der Akteur im Akteurmenü des Spielers nicht mehr angezeigt.
 6. Ist der Haken bei abgeschlossen gesetzt, kann kein Spieler das Schatzmenü öffnen. Beim SL ist der Token mit einem Schloss Symbol gekennzeichnet. 
 
-![Schatz](images/Schatz.jpg)  
+![Schatz](de/images/Schatz.jpg)  
   
 ### Schatzmenü (Spielersicht)
 Die Spieler können entweder über das Actor Menü auf den Schatz zugreifen oder aber direkt in der Szene über den Token. Es öffnet sich dann ein Tauschfenster:  
 1. Hier können nach Belieben Gegenstände aus dem Inventar des Schatzes genommen werden.  
 2. Oder ihr legt Gegenstände aus dem Inventar eures Helden darin ab.  
 
-![Schatzmenü](images/Schatzmenue.jpg)
+![Schatzmenü](de/images/Schatzmenue.jpg)
 
 ## Person
 Eine Normale Person hat aus Spielleitersicht alle Charakterwerte eines NSCs. Dieser Bogen kann aber auch von den Spielern geöffnet werden und zeigt dann nur sehr wenig von dem NSC. Dies kann nützlich sein um den Spielern zumindest ein paar Infos zur Verfügung zu stellen.

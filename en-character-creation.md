@@ -105,6 +105,7 @@ Special abilities can also be dragged from the library into the character sheet.
 * Clerical abilities, traditions -> Religion Tab  
   * ![clerical abilities](images/en-character-creation-16.jpg)  
 * Magic  abilities, traditions -> Magic Tab  
+
   * ![magic abilities](images/en-character-creation-18.jpg)   
 * Combat abilities -> Combat Tab  
   * ![combat abilities](images/en-character-creation-17.jpg) 
@@ -132,7 +133,7 @@ Time for the finetuning, so lets make sure to check or change:
   
 #### 2.1 Character AND token artwork / image  
 With the module installed, you set both images in one step, with more options.  
-Editing Layers: drag (click and drag), zoom (mousewheel), rotate (shift+mousewheel)
+**Editing Layers**: drag (click and drag), zoom (mousewheel), rotate (shift+mousewheel)
 
 1. Open your character via menue (**not** via token)  
 2. Click on the generic image below the characters name and the Tokenizer window will pop up.

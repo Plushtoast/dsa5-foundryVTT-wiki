@@ -29,6 +29,7 @@ This part of the sheet is always visible and shows a characters base information
 ## 2. Skills
 This tab shows you all available skills, their skill rating and several options to use them in Foundry.  
 
+
 ![charsheet skills](images/en-charactersheet-06.jpg)  
 
 1. **Search/Filter** When you activate the filter (right side symbol), you see all your skills with a SR higher than zero. To search for a skill, you can enter text into the search filed on the left side.  
@@ -79,7 +80,7 @@ In this tab, the base values of the character are set and maintained. Many of th
 1. **Base Values**: The *Value* column is automatically calculated according to TDE 5 rules, but doesn't take additional factors into account like encumbrance, being fat etc.  
 The *Mod.* column is for temporary modifiers you want to set.  
 The _Advance_ column shows the points you bought with AP (you _knew_ you can buy LP, AP and KP with AP, right?). Do so by using the +/- symbols **a)** next to Life / AE / KE points. The AE and KE values only appear if the character has a magic or karmic special skill, spell, liturgy, or similar assigned.  
-The moon symbol **b)** lets you rest. A pop-up will open and you can select some environmental factors. Roll for the rest, and all the possible energies are rolled upon and shown in chat. **RIGHT CLICK on the chat message to apply the rest** (but only once! Or the GM may take a finger from you, know that he knows how to do so).  
+The moon symbol **b)** lets you rest. A pop-up will open and you can select some environmental factors. Roll for the rest, and all the possible energies are rolled upon and shown in chat. **RIGHT CLICK on the chat message to apply the rest** (but only once! Or the GM may take a finger from you, now that he knows how to do so).  
 
 1. **Experience level**: Here, the available and spent adventure points are managed. Details about this in the [character creation.](en-character-creation). You can always overwrite the existing numbers manually. We strongly recommend to use a external [tool](en-ressources) to keep track of your character and AP, and only mirror the char within Foundry.  
 

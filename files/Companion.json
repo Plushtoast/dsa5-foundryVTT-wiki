@@ -1,0 +1,149 @@
+{
+  "name": "Companion",
+  "type": "trait",
+  "img": "systems/dsa5/icons/categories/trait.webp",
+  "data": {
+    "description": {
+      "value": "<p>This ability deducts the bonuses from the \"Familiar\" ability.</p>\n<p>You can use it to create regular animal companions which are able to recieve AP, but have no special bonuses.</p>\n<p><strong>Only use it together with the \"Familiar\" ability</strong></p>"
+    },
+    "gmdescription": {
+      "value": ""
+    },
+    "APValue": {
+      "value": ""
+    },
+    "traitType": {
+      "value": "familiar"
+    },
+    "at": {
+      "value": ""
+    },
+    "pa": 0,
+    "reach": {
+      "value": ""
+    },
+    "damage": {
+      "value": ""
+    },
+    "reloadTime": {
+      "value": ""
+    },
+    "AsPCost": {
+      "value": ""
+    },
+    "duration": {
+      "value": ""
+    },
+    "aspect": {
+      "value": ""
+    },
+    "effect": {
+      "value": ""
+    }
+  },
+  "effects": [
+    {
+      "_id": "oYwfD0m1WnL2rHUm",
+      "changes": [
+        {
+          "key": "data.status.astralenergy.gearmodifier",
+          "mode": 2,
+          "value": "-15"
+        },
+        {
+          "key": "data.characteristics.ch.gearmodifier",
+          "mode": 2,
+          "value": "-1"
+        },
+        {
+          "key": "data.characteristics.ko.gearmodifier",
+          "mode": 2,
+          "value": "-1"
+        },
+        {
+          "key": "data.characteristics.mu.gearmodifier",
+          "mode": 2,
+          "value": "-1"
+        },
+        {
+          "key": "data.characteristics.ff.gearmodifier",
+          "mode": 2,
+          "value": "-1"
+        },
+        {
+          "key": "data.characteristics.in.gearmodifier",
+          "mode": 2,
+          "value": "-1"
+        },
+        {
+          "key": "data.status.wounds.gearmodifier",
+          "mode": 2,
+          "value": "-10"
+        },
+        {
+          "key": "data.characteristics.kl.gearmodifier",
+          "mode": 2,
+          "value": "-1"
+        },
+        {
+          "key": "data.characteristics.kk.gearmodifier",
+          "mode": 2,
+          "value": "-1"
+        },
+        {
+          "key": "data.characteristics.ge.gearmodifier",
+          "mode": 2,
+          "value": "-1"
+        },
+        {
+          "key": "data.totalArmor",
+          "mode": 2,
+          "value": "-1"
+        },
+        {
+          "key": "data.status.soulpower.gearmodifier",
+          "mode": 2,
+          "value": "-1"
+        },
+        {
+          "key": "data.status.toughness.gearmodifier",
+          "mode": 2,
+          "value": "-1"
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": null
+      },
+      "icon": "icons/svg/aura.svg",
+      "label": "companion",
+      "origin": "Item.tRILRJDRDacUFIxX",
+      "transfer": true,
+      "flags": {
+        "dsa5": {
+          "value": null,
+          "editable": true,
+          "description": "companion",
+          "custom": true,
+          "auto": null,
+          "manual": 0,
+          "hideOnToken": true,
+          "hidePlayers": true
+        }
+      },
+      "tint": ""
+    }
+  ],
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sourceId": "Compendium.dsa5-core.coreenspecialabilities.a7DPUzYuKaoUPwaN"
+    },
+    "exportSource": {
+      "world": "english",
+      "system": "dsa5",
+      "coreVersion": "0.8.8",
+      "systemVersion": "2.0.4"
+    }
+  }
+}

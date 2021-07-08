@@ -106,6 +106,7 @@ Special abilities can also be dragged from the library into the character sheet.
   * ![clerical abilities](images/en-character-creation-16.jpg)  
 * Magic  abilities, traditions -> Magic Tab  
 
+
   * ![magic abilities](images/en-character-creation-18.jpg)   
 * Combat abilities -> Combat Tab  
   * ![combat abilities](images/en-character-creation-17.jpg) 

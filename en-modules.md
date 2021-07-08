@@ -6,7 +6,7 @@ If you want to check out the (outdated) modules we recommended, please see the [
 
 *Translation information*  
 *[ ] updated: 2021-06-07*  
-*[x] german entry [linked](de/de-Module.md)*  
+*[x] german entry [linked](de-Module)*  
 *[ ] automatic translation*  
 *[ ] proof read*  
 *[ ] change pictures with EN version*

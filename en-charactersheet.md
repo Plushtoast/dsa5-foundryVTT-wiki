@@ -30,6 +30,7 @@ This part of the sheet is always visible and shows a characters base information
 This tab shows you all available skills, their skill rating and several options to use them in Foundry.  
 
 
+
 ![charsheet skills](images/en-charactersheet-06.jpg)  
 
 1. **Search/Filter** When you activate the filter (right side symbol), you see all your skills with a SR higher than zero. To search for a skill, you can enter text into the search filed on the left side.  
@@ -102,23 +103,30 @@ To add new items, they can be dragged onto the character sheet from the library.
 2. **Carrying Capacity**: The carrying capacity is automatically calculated according to TDE 5 rules. As soon as the carrying power is exceeded, the character receives encumbrance levels.  
 
 3. **Purse**: This is where the chars money is stored. In the Foundry module, all money values are in silver. So 20 Ducats are entered as 200, 5 Haler are entered as 0.5.  
-**GM tipp**: via  chat command /getPaid the SL can pay a/some/all character/s money as a reward. Select the corresponding token before you enter the command.
+**GM tipp**: via  chat command /getPaid the SL can pay a/some/all character/s money as a reward. Select the corresponding token/s before you enter the command.
 
 
 ## 6. State
-The status window contains all the states and statuses active for the character. A few of them are handled automatically (Ex: pain from health,
-Burden by armor and equipment). If you want to remove a state or status, just right-click on its name. However, this only works if the trigger of an automatic state is no longer present (Ex: If the life points are below 1/2, the two levels of pain cannot be removed simply like that).
-1. **Value**: For statuses, only indicates that this status is activated (check mark). For states, the level of the state is indicated here.  
-2. **Mod.**: Here the state can be increased by a left click or decreased by a right click. Negative values are possible.  
-3. **Plus (Add)**: opens a context menu that can be used to search for a status/state and add it to the character. In addition, [own statuses can be created.](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Status-Selbst-erstellte-Effekte)
+The status window contains all the conditions and statuses for the character. Some of them are handled automatically (e.g.: pain by health points, encumbrance by armor and equipment.) Some actions are limited to the GM.  
+**Handling:**  
+  - **Right-click on a name:** Removes the entry (only if the source allows it. You can't remove pain if you still have lost 85% of your life points etc.)  
+  - **Left-click on a name:** Shows you the description for that entry. You can click on the icon in the description to send it to the chat for everyone to see.  
+![state](images/en-charactersheet-10.jpg)
+
+1. **Status effects**: Shows you stati and conditions directly added to (or coming from) your character, f.e: pain, encumbrance etc. 
+2. **Transferred status effects.**: Shows stati and conditions which were tranferred to the character from other sources, f.e: spells, equipment, enemy attacks.
+3. **Modifiers**: Shows you different active modifiers, what they influence and where they come from, f.e: advantage "Luck" gives 2 extra fate points to the char.  
+
+  a) Name of a condition/status. Right-click to remove it, left-click to show description.  
+  b) Value shows you the currently active level of a condition. f.e: pain lvl 3.  
+  b) Mod allow you to modify the level manually by left/right clicking on it.  
+  c) Notepad opens the entry to edit it if needed (advanced users function)  
+  c) Checkmark allows you to de-activate an entry until re-activated. Recommended for self-created entries instead of deleting them.  
+  d) Plus opens a filter to search and select available effects. You can click the PLUS sign in the opening window to [create your own stati](en-status-self-created-effects).
+
   
-![Charakterbogen Status](https://user-images.githubusercontent.com/80099175/112144638-c7222580-8bd9-11eb-9696-3aff6af5e145.png)  
-  
-**Context menu**: this menu can be opened via the + in the character sheet status or directly in the context menu of the token. 
- - Via the context menu of the token known statuses/states can be added very quickly.
- - Via the symbol in the character sheet entries can be searched/filtered, furthermore one can [create own entries](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Status-Selbst-erstellte-Effekte) (+ symbol next to the search field).
-  
-![Charakterbogen Status Kontextmenü](https://user-images.githubusercontent.com/62849695/116782005-f0f72380-aa86-11eb-91e9-1ceefe799deb.png)  
+**Context menu**: Right-click on the token and you can add conditions very quickly - if you remember the icon for it. Personally, I prefer to open up the charsheet and add it there, but your brain may be better in memorizing icons.  
+![context menu](images/en-charactersheet-11.jpg)
  
 ## 7. Notes
 In the notes you will find various things that can be entered about the character. This is also where the culture is put if it is pulled into the character during character building. The **GM Notes** are only visible to game masters.
@@ -146,8 +154,8 @@ The magic sheet does not appear until a magic special skill, spell, ritual, or m
 
 *Translation information*  
 *[x] updated: 2021-06-05*  
-*[x] german entry [linked](de/de-Charakterbogen.md)*  
+*[x] german entry [linked](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen)*  
 *[x] automatic translation*  
 *[ ] proof read*  
 *[ ] change pictures with EN version*  
-*[ ] change links and anchors
+*[ ] change links and anchors*

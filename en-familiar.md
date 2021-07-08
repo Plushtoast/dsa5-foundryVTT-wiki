@@ -1,21 +1,27 @@
-## Creation of a familiar (witch*er)
+## Creation of a familiar
 
-To create a familiar you first have to create a *creature* via Create new actor ->. Alternatively you can import a creature from the core module (e.g. the cat).
+When you play a witch\*er, you may need a familiar. You can transform any crature into a familiar and give it the corresponding bonuses.
+Either use an existing entry from the library (must be a "creature" type), or create a new one from scratch.
 
-After that you have to add the animal ability *Familiar* from the compendium special skills (item (dsa5-core)) to this creature.  
-This automatically gives the creature the bonus stats of a familiar animal and allows it to be improved with adventure points:  
-  
-![Vertrauter](https://user-images.githubusercontent.com/80099175/113439436-db8ccc00-93ea-11eb-8d32-09a7c71c9c13.png)
-  
-**Note**: In order for the player to control this familiar themselves, they still need the *Owner* permission on the Actor.
-A familiar as an extra token can lead to very funny situations :)
+**IMPORTANT:** When you create your own, make sure to add "Natural Armor" to it, even if the value is zero. The "Familiar" ability needs this entry to work properly. *You can copy this entry from the "cat (barn cat)", so you don't have to create it by yourself.*
+
+Add the ability "Familiar" to the character sheet (use the library to search for it). The creature gets the bonuses according to the rules, and you can add adventure points to it.  
+![familiar](images/en-familiar-01.jpg)  
+
+**Notes**:  
+
++ In order for the player to control this familiar, the GM has to set the permissions accordingly for that character. Otherwise, only the GM can control the familiar.
++ To create a regular animal companion (without the bonuses), you can add the "Familiar" ability. Then, you have to create a new ability which deducts the bonuses from "Familiar" again. This will leave you with a creature with AP, but no special bonuses.   
+Alternatively, you can [download](files/Companion.json) and import this "Companion" item. It works by today (08.07.2021), but may not be updated in the future.
+
+
 
 
 *Translation information*  
-*[x] updated: 2021-06-07*  
-*[x] german entry [linked](de/de-Vertrautentiere.md)*  
+*[x] updated: 2021-07-08*  
+*[x] german entry [linked](de-Vertrautentiere)*  
 *[x] automatic translation*  
-*[ ] proof read*  
-*[ ] change pictures with EN version*
-*[ ] change links*  
+*[x] proof read*  
+*[x] change pictures with EN version*
+*[x] change links*  
 

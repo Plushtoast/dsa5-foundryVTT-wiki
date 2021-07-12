@@ -19,3 +19,5 @@ Dadurch, dass an dem System und den Modulen immer weiter gearbeitet wird, verän
 Der Zauber Armatrutz hat mit einem Update einen neuen Effekt bekommen. Importiert ihr über die Funktion *Zauber migrieren* die Zauber, wird der alte Armatrutz (1) durch den neuen Armatrutz (2) ersetzt.
   
   ![Import Armatrutz](de/images/Import_Funktion_Beispiel.jpg)
+  
+*[x]Zuletzt bearbeitet: 29.06.2021*

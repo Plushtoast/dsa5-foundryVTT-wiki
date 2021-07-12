@@ -136,3 +136,5 @@ Der Magiebogen erscheint erst, wenn dem Charakter eine magische Sonderfertigkeit
 5. **Segnungen**  
   
 ![Religion](https://user-images.githubusercontent.com/80099175/112478313-29af2900-8d74-11eb-8344-d68b8f35dbe6.png)
+
+*[x]Zuletzt bearbeitet: 29.06.2021*

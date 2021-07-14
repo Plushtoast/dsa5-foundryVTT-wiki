@@ -10,7 +10,7 @@ de | [en](Home)
 **Character**
 * [Charakterbogen](de-Charakterbogen)
 * [Charaktererstellung](de-Charaktererstellung)
-* [Import Funktion (migration)](de-Import-Funktion)
+* [Import Funktion (migration)](de-Import-Funktion) **neu**
 * [Vertrautentiere](de-Vertrautentiere)
 
 **Spielmechanismen**
@@ -24,6 +24,7 @@ de | [en](Home)
 * [Bibliothek](de-Bibliothek)
 * [Gift- und Krankheitsprobe](de-Gift-und-Krankheitsprobe)
 * [Systemeinstellungen](de-Systemeinstellungen)
+* [Meister-Menü](de-Meister-Menue) **neu**
 
 **Fortgeschrittene Mechanismen**
 * [Journal Probe anfordern](de-Journal-probe_anfordern)
@@ -34,6 +35,10 @@ de | [en](Home)
 
 **Empfehlungen**
 * [Module](de-Module)
+
+*[x]Zuletzt bearbeitet: 12.07.2021*  
+*Neu: Meister Menü, Import Funktion*  
+*Überarbeitet: Chrakterbogen, Händler, Module*
 
 
 

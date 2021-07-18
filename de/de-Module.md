@@ -44,7 +44,7 @@ Unter *Adminsetup -> Configuration -> Default Language* Deutsch - German [Core] 
 ![grafik](https://user-images.githubusercontent.com/80099175/111421703-bb23f880-86ed-11eb-94ee-92a71189353e.png)
 
 ## Optolith to Foundry
-Ein Modul um die exportierten Charaktere (als .json) direkt zu Foundry zu importieren. Hierzu gibt es ein Video welches die Funktion erklärt: [Link zum Youtube Tutorial]()
+Ein Modul um die exportierten Charaktere (als .json) direkt zu Foundry zu importieren. Hierzu gibt es ein Video welches die Funktion erklärt: [Link zum Youtube Tutorial](https://youtu.be/SHqkSU1rQoQ)
 **Achtung**, muss über die Manifest URL installiert werden, welche ihr hier findet:[https://github.com/ntfoster/optolith-to-foundry](https://github.com/ntfoster/optolith-to-foundry)
 
 ## Pings
@@ -66,13 +66,17 @@ Bietet die Möglichkeit aus dem Hochgeladenen Charakterbild einen Token mit der 
 # Persönliche Empfehlungen von *Tom*
 Hier liste ich kurz die Module auf, die ich (*Tom*) in meinen Sitzungen verwende. Auch bei diesen gibt es keine Garantie auf Kompatibilität.
 
-## Calendar/Weather und About Time (SmallTime und Simplecalendar)
-**Achtung hier befindet sich gerade einiges in Arbeit durch die vielen Updates und einem Entwicklerwechsel bei Calendar/Weather. Aktuell benutze ich ebenfalls Smalltime, sowie Simplecalendar.**  
-Solltet ihr nach einer Möglichkeit suchen den DSA Kalender in Foundry einzubauen, sowie eine Uhr im Spiel zu haben, dann sind dies 2 Module die ihre Aufgabe sehr gut erfüllen. Es lässt sich mit etwas Arbeit der komplette DSA Kalender umsetzen.
+## Zeit und Kalender: TimesUp, SmallTime, Simplecalendar, Calendar/Weather und About Time 
+**Achtung hier befindet sich gerade einiges in Arbeit durch die vielen Updates und einem Entwicklerwechsel bei Calendar/Weather. Aktuell benutze ich ebenfalls Smalltime, sowie Simplecalendar. Ich werde diesen Abschnitt immer wieder überarbeiten in den nächsten Wochen**  
+Aktuell gibt es 2 mögliche Konstellationen die Uhrzeit und den Kalender in Foundry abzubilden:
 
-Alternativ könnt Ihr die Kalendersettings auch importieren, aus [dieser Datei](files/calendar-weather-settings.txt). Die Jahreszeiten, Mondphasen, Monate und Daten sind hinterlegt. **Das aktuelle Tagesdatum ist der 18. Ingerimm 1029 BF im Zwölfgötterkalender**. 
+### SmallTime und Simplecalendar
+In dieser Kombination steuert ihr die Zeit über SmallTime und den Kalender über SimpleCalendar. Eine Datei zum Import des DSA Kalenders findet ihr hier: [SimpleCalender - DSA Kalender](de/files/simple-calendar-export.json).
 
-Natürlich könnt Ihr das Datum anpassen, entweder über die GUI (wobei Tag/Datum/Mond automatisch zusammenpassen) oder direkt in den Einstellungen des Kalenders. Dabei muss man recherchieren, an was für einem Datum welcher Wochentag und welche Mondphase ist. [Das hier ist eine gute Anlaufstelle.](https://de.wiki-aventurica.de/wiki/Datum)
+### AboutTime, Calendar/Weather und Simplecalendar
+Da Calendar/Weather seit ein paar Versionen direkt abhängig von SimpleCalendar ist, könnt ihr AboutTime und Calendar/Weather nicht mehr eigenständig benutzen. Ihr könnt die Module aber so einstellen, dass Zeit und Datum von AboutTime und SimpleCalendar vorgegeben werden.  
+Die Datei zum Import des DSA Kalenders in Calendar/Weahter findet ihr hier: [Calendar/Weather - DSA Kalender](de/files/Calendar-Weather-Settings.txt)
+
 
 ## DF Curvy Walls
 Solltet ihr eine Karte mit einem Runden Turm haben, dann wisst ihr wie unbefriedigend Foundry diese Wände umsetzt. Mit dem Modul Curvy Walls könnt ihr ohne Probleme runde Wände ziehen.

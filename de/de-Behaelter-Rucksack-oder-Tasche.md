@@ -8,12 +8,15 @@ Folgende Einstellungen müssen am Gegenstand gesetzt sein:
 2. Ausrüstungskategorie: Behälter
 3. Ausrüstbar: aktiviert
   
-  ![Einstellungen Behältnis](https://user-images.githubusercontent.com/80099175/120540406-f24e9f80-c3e8-11eb-87ef-cde5eeecb987.png)
+  ![Einstellungen Behältnis](https://user-images.githubusercontent.com/80099175/140276512-c82f2d1c-fe3b-4b2f-8d6f-d6586007ad17.png)
   
-4.1 Danach könnt ihr die Gegenstände die in den Behälter sollen entweder auf das geöffnete Fenster des Behälters ziehen. Hier werden dann die Bilder der Items in dem neuen Tab *Behältnis* angezeigt.
+Danach könnt ihr die Gegenstände die in den Behälter sollen entweder auf das geöffnete Fenster des Behälters ziehen.
+1. Hier werden dann die Bilder der Items in dem neuen Tab *Behältnis* angezeigt.
+2. Habt ihr unter *Details* des Gegenstandes die Tragkraft eingegeben, zeigt der Balken an wie voll das Behältnis ist.
+3. Die Auflistung der Gegenstände. Fahrt ihr mit der Maus auf einen Gegenstand, erscheint ein Tooltip mit der Bezeichnung. Ein Rechtsklick entfernt den Gegenstand aus dem Behältnis und fügt diesen wieder dem Ausrüstungsmenü hinzu.
   
-  ![Items im Behältnis Bogen](https://user-images.githubusercontent.com/80099175/120540747-4fe2ec00-c3e9-11eb-9f5b-1d6922121c03.png)
+  ![Items im Behältnis Bogen](https://user-images.githubusercontent.com/80099175/140276781-24ce08cf-fe8f-4fb1-873b-753eb6accdf6.png)
   
-4.2 Oder ihr zieht die Items direkt im Ausrüstungstab des Charakterbogens in das Behältnis. Dieses muss dann um die Items zu sehen aufgeklappt werden (4.2.1).
+1. Oder ihr zieht die Items direkt im Ausrüstungstab des Charakterbogens in das Behältnis. Dieses muss dann um die Items zu sehen aufgeklappt werden (2).
   
-  ![Items im Ausrüstungstab im Behältnis](https://user-images.githubusercontent.com/80099175/120541419-25ddf980-c3ea-11eb-810e-c5f96e9c3a6c.png)
+  ![Items im Ausrüstungstab im Behältnis](https://user-images.githubusercontent.com/80099175/140277280-5d7ee42d-b18a-4387-a9d8-4d73e1de97a3.png)

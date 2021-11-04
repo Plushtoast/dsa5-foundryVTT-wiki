@@ -21,7 +21,7 @@ Ich findet es auf der linken Seite unter *Meister Menü* -> *Meister Menü*
 11. **Gruppenprobe:** Löst eine Gruppenprobe auf Basis des ausgewählten Talents (1) aus.  
 12. **Details:** Die Details öffnet ihr mit einem Klick in die Zeile des Charakters. Dort befinden sich der Geldbeutel, der Erfahrungsgrad, die Vorteile und Nachteile des Charakters.
 13. **Gruppenschips**: Können vom SL über +- für die ganze Gruppe vergeben werden. Diese lassen sich dann im Chat über das Kontextmenü verwenden.
-14. **Zuchtgrube**: Wird auf dieser Seite näher beschrieben:[Meister-Menü-Zuchtgrube](de-Meister-Menue-Zuchtgrube) 
+14. **Zuchtgrube**: Wird auf dieser Seite näher beschrieben: [Meister-Menü-Zuchtgrube](de-Meister-Menue-Zuchtgrube) 
 15. **Szeneneinstellungen**: Wird auf dieser Seite näher beschrieben: [Meister-Menü-Szeneneinstellungen](de-Meister-Menue-Szeneneinstellungen)  
 
 ![Meister Menü](https://user-images.githubusercontent.com/80099175/140310657-23442a59-3e09-4fbc-a6ba-fb171aa8eabc.png)

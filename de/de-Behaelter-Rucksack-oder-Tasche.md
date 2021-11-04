@@ -20,3 +20,6 @@ Danach könnt ihr die Gegenstände die in den Behälter sollen entweder auf das 
 1. Oder ihr zieht die Items direkt im Ausrüstungstab des Charakterbogens in das Behältnis. Dieses muss dann um die Items zu sehen aufgeklappt werden (2).
   
   ![Items im Ausrüstungstab im Behältnis](https://user-images.githubusercontent.com/80099175/140277280-5d7ee42d-b18a-4387-a9d8-4d73e1de97a3.png)
+  
+*[x]Zuletzt bearbeitet: 04.11.2021*    
+*Änderung: Bilder neu erstellt, Text überarbeitet*  

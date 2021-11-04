@@ -8,6 +8,7 @@ Viele Probleme lassen sich oft mit einem Update beheben.
 ## Wie erstelle ich einen Zauberer/Geweihten?
 Grundsätzlich muss dem jeweiligen Charakter zum einen der Vorteil *Geweiht/Zauberer* zugeordnet werden. Das reicht aber nicht um im Charakterbogen Magie oder Religion zu sehen. Dafür muss dem Charakter eins der folgenden Items hinzugefügt werden: magische/karmale Sonderfertigkeit, Zauber, Zaubertrick, Ritual, Liturgie, Zeremonie, Segnung.
 Weitere Details findet ihr in der [Charaktererstellung](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charaktererstellung) und dem [Charakterbogen](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen). 
+Und hier das passende Video dazu: https://youtu.be/-cuWOYTwUCg
 
 ## Wo kann ich Fragen stellen oder bekomme Support bei Problemen?
 Bitte hinterlasst ein *Issue* hier im [Github](https://github.com/Plushtoast/dsa5-foundryVTT/issues) oder kommt auf den [Foundry VTT's Discord Server](https://discord.gg/foundryvtt) und meldet euch im ulisses-dsa Channel. 
@@ -24,3 +25,6 @@ Bsp.: Bekommt der Charakter durch die Spezies GE+1 darf er diesen Wert anstatt a
 
 ## Änderungen der Fertigkeitswerte direkt im Feld werden nicht auf die Abenteuerpunkte angerechnet!
 Die Eingabefelder sollen dem Spieler/Spielleiter die volle Kontrolle über ihre Werte geben um ggf. Hausregeln usw. umsetzen zu können. So könnt ihr auch mögliche Fehler in der Charaktererstellung kurzfristig umgehen. Um die AP berechnen zu lassen, müsst ihr hier immer die +- Buttons verwenden.
+
+*[x]Zuletzt bearbeitet: 04.11.2021*  
+*Neu: Youtube Link*  

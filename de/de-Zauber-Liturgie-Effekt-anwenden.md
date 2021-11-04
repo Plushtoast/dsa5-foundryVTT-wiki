@@ -1,6 +1,4 @@
 # Zauber/Liturgie Effekt anwenden
-**Achtung: funktioniert erst ab System Version 2.0.0 und Foundry Version 0.8.6  
-Außerdem sind diese Effekte nur in den zum Kauf zur verfügung stehenden Modulen bei den Zaubern/Liturgien eingetragen.**  
   
 Viele Zauber/Liturgien wurden mit Effekten versehen, die ihr bei Gelingen des Zaubers direkt auf das Ziel anwenden könnt. Dies funktioniert sowohl im, als auch außerhalb vom Kampf.  
 1. Token als Ziel markieren (doppelrechtsklick oder über das linke Menü)
@@ -13,3 +11,6 @@ Viele Zauber/Liturgien wurden mit Effekten versehen, die ihr bei Gelingen des Za
 Ihr seht dann bei dem Token des Ziels ein Symbol welches den Effekt symbolisiert (1). Außerdem findet ihr den Effekt im Statustab des Charakterbogens (2).  
   
 ![Effekt auf Token](https://user-images.githubusercontent.com/80099175/120538454-d1854a80-c3e6-11eb-9fc9-671ded2017bf.png)
+
+*[x]Zuletzt bearbeitet: 04.11.2021*  
+*Inhalte kontrolliert*

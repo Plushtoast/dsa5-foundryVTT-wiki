@@ -33,14 +33,14 @@ Der Spielleiter kann den *Begrenzte Ansicht umschalten (Spieleransicht)* Button 
 4. Außerdem gibt es einen Zufällige Auswahl Button um den Händler Random zu befüllen.  
 5. Wird der Haken beim jeweiligen Spieler gesetzt hat er das Recht beschränkt für den Akteur. Er sieht ihn im Akteurmenü und kann über den Token in der Szene auf das Händlermenü zugreifen.
 6. Über den Haken bei *Für Spieler verbergen* wird der Akteur im Akteurmenü des Spielers nicht mehr angezeigt.  
-![Haendler](de/images/Haendler.jpg)  
+![Haendler](https://user-images.githubusercontent.com/80099175/140302198-7c632ac0-3fcb-42de-af3b-891cee769add.png)
 
 ### Händlermenü (Spielersicht)
 Die Spieler können entweder über das Actor Menü auf den Händler zugreifen oder aber direkt in der Szene über den Token. Es öffnet sich dann ein Handelsfenster:  
 1. **Verkaufen**: Verkauft das Item an den Händler zum Preis von dem Wert des Gegenstandes verrechnet mit dem Kauffaktor.  
 2. **Kaufen**: Kauft den Gegenstand mit der Anzahl 1 zu dem angegebenen Preis
   
-![Haendlermenü](de/images/Haendlermenue.jpg)  
+![Haendlermenü](https://user-images.githubusercontent.com/80099175/140302261-0b821f88-dbac-4561-8be9-c75a27487e1a.png) 
 
 ## Schatz
 1. Die Spieler haben kompletten Zugriff auf alles was im Schatz zugeordnet ist, auch das Geld.
@@ -50,14 +50,14 @@ Die Spieler können entweder über das Actor Menü auf den Händler zugreifen od
 5. Über den Haken bei *Für Spieler verbergen* wird der Akteur im Akteurmenü des Spielers nicht mehr angezeigt.
 6. Ist der Haken bei abgeschlossen gesetzt, kann kein Spieler das Schatzmenü öffnen. Beim SL ist der Token mit einem Schloss Symbol gekennzeichnet. 
 
-![Schatz](de/images/Schatz.jpg)  
+![Schatz](https://user-images.githubusercontent.com/80099175/140302311-6cbfb64a-06e4-4767-95f0-48fde942314d.png)
   
 ### Schatzmenü (Spielersicht)
 Die Spieler können entweder über das Actor Menü auf den Schatz zugreifen oder aber direkt in der Szene über den Token. Es öffnet sich dann ein Tauschfenster:  
 1. Hier können nach Belieben Gegenstände aus dem Inventar des Schatzes genommen werden.  
 2. Oder ihr legt Gegenstände aus dem Inventar eures Helden darin ab.  
 
-![Schatzmenü](de/images/Schatzmenue.jpg)
+![Schatzmenü](https://user-images.githubusercontent.com/80099175/140302333-08e58873-9950-46c4-ac22-8b1f6876885f.png)
 
 ## Person
 Eine Normale Person hat aus Spielleitersicht alle Charakterwerte eines NSCs. Dieser Bogen kann aber auch von den Spielern geöffnet werden und zeigt dann nur sehr wenig von dem NSC. Dies kann nützlich sein um den Spielern zumindest ein paar Infos zur Verfügung zu stellen.
@@ -69,3 +69,6 @@ Die Spieler können entweder über das Actor Menü auf die Person zugreifen oder
 ![Personenmenü](https://user-images.githubusercontent.com/80099175/113253083-109efe80-92c5-11eb-8837-b49f032b7802.png)
 
 **Anmerkung**: Gebt uns ein Feedback wie wir dieses Feature in der Zukunft verbessern können.
+
+*[x]Zuletzt bearbeitet: 04.11.2021*   
+*Überarbeitet: Bilder ausgetauscht.*

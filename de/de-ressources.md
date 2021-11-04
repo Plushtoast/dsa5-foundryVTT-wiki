@@ -17,4 +17,5 @@ Das Schwarze Auge umfasst sehr viele Optionen und Erweiterungsregeln. Um den Üb
 [5]: https://github.com/ntfoster/optolith-to-foundry
 
 
-*Last updated: 2021-06-07*
+*[x]Zuletzt bearbeitet: 04.11.2021*  
+*Inhalte geprüft*

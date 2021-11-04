@@ -10,7 +10,7 @@
 	- [Tokenizer](de-Module#tokenizer)
 
 * [Persönliche Empfehlungen von Tom](de-Module#persönliche-empfehlungen-von-tom)
-	- [Calendar/Weather und About Time](de-Module#calendarweather-und-about-time-smalltime-und-simplecalendar)
+	- [Calendar/Weather und About Time](de-Module#Zeit, Kalender und Wetter: TimesUp, SmallTime, Simplecalendar, Weather Control )
 	- [DF Curvy Walls](de-Module#df-curvy-walls)
 	- [Drag Ruler](de-Module#drag-ruler)
 	- [FXMaster](de-Module#fxmaster)
@@ -33,7 +33,7 @@ Dabei wird der Wurf direkt in den Chat geschrieben und kann dort noch weiter mod
 ![Dice Tray](de/images/Module_Dice_Tray.jpg)
 
 ## Dice so nice
-Wirf 3D Würfel über den virtuellen Spieltisch. Dabei kann sogar zwischen verschiedenen DSA5 Themen gewählt werden.
+Wirf 3D Würfel über den virtuellen Spieltisch. Dabei kann sogar zwischen verschiedenen DSA5 Themen gewählt werden. Mitlerweile gibt es in den [Systemeinstellungen](de-Systemeinstellungen) auch die Möglichkeit die Dice so Nice Würfel für die Proben über den Charakterbogen zu verwenden. 
 ![Dice so nice Wurf](https://user-images.githubusercontent.com/80099175/111422410-f3780680-86ee-11eb-8edc-6f9ce4d14364.png)
 **Achtung:** diese Würfel können bei älteren Geräte zu Performace Problemen führen. Um die Würfel für den einzelnen Spieler zu deaktivieren geht man in *Einstellungen anpassen -> Moduleinstellungen -> Abschnitt Dice so Nice -> My Dice Settings -> Appearance -> Haken bei Enable 3D Dice raus*  
 ![Dice so nice Einstellungen](https://user-images.githubusercontent.com/80099175/111422629-4356cd80-86ef-11eb-938c-32f944a713fd.png)
@@ -66,17 +66,24 @@ Bietet die Möglichkeit aus dem Hochgeladenen Charakterbild einen Token mit der 
 # Persönliche Empfehlungen von *Tom*
 Hier liste ich kurz die Module auf, die ich (*Tom*) in meinen Sitzungen verwende. Auch bei diesen gibt es keine Garantie auf Kompatibilität.
 
-## Zeit und Kalender: TimesUp, SmallTime, Simplecalendar, Calendar/Weather und About Time 
-**Achtung hier befindet sich gerade einiges in Arbeit durch die vielen Updates und einem Entwicklerwechsel bei Calendar/Weather. Aktuell benutze ich ebenfalls Smalltime, sowie Simplecalendar. Ich werde diesen Abschnitt immer wieder überarbeiten in den nächsten Wochen**  
-Aktuell gibt es 2 mögliche Konstellationen die Uhrzeit und den Kalender in Foundry abzubilden:
+## Zeit, Kalender und Wetter: TimesUp, SmallTime, Simplecalendar, Weather Control 
+Die Verwendung von Zeit und Kalenderfunktionen ist nicht unkompliziert, weshalb ich empfehle die Wiki Seiten der Module zur Hilfe zu nehmen.
 
-### SmallTime und Simplecalendar
-In dieser Kombination steuert ihr die Zeit über SmallTime und den Kalender über SimpleCalendar. Eine Datei zum Import des DSA Kalenders findet ihr hier: [SimpleCalender - DSA Kalender](de/files/simple-calendar-export.json).
+### SmallTime
+Smalltime erzeugt eine kleine Systemuhr über welche die Tageszeit abgebildet wird. Diese Zeiteinstellung lässt sich in den Moduleinstellungen auf das 24 Stunden Format ändern.
+[Github Seite](https://github.com/unsoluble/smalltime)
 
-### AboutTime, Calendar/Weather und Simplecalendar
-Da Calendar/Weather seit ein paar Versionen direkt abhängig von SimpleCalendar ist, könnt ihr AboutTime und Calendar/Weather nicht mehr eigenständig benutzen. Ihr könnt die Module aber so einstellen, dass Zeit und Datum von AboutTime und SimpleCalendar vorgegeben werden.  
-Die Datei zum Import des DSA Kalenders in Calendar/Weahter findet ihr hier: [Calendar/Weather - DSA Kalender](de/files/Calendar-Weather-Settings.txt)
+### Simplecalendar
+Simplecalendar ist eine Kalender Lösung für Foundry, die sich in den Einstellungen an Smalltime anbinden lässt. Dann übernimmt Smalltime die Steuerung der Uhrzeit und Simplecalendar steuert Tage, Wochen, Monate und Jahre.  
+Eine Datei zum Import des DSA Kalenders findet ihr hier: [SimpleCalender - DSA Kalender](de/files/simple-calendar-export.json).
+[Github Seite](https://github.com/donatj/SimpleCalendar)
 
+### Timesup
+Bindet die Zeit an die Effekte so, dass diese nach bestimmter Zeit und Kampfrunden automatisch beendet werden. Dieses Modul funktioniert ohne irgendwelche Einstellungen und arbeitet perfekt mit Smalltime zusammen.
+
+### Weather Control
+Ist der Nachfolger zu Calendar/Weather. Die Kalenderfunktion wurde deaktiviert und übernimmt dann Simplecalendar. Weather Controll übernimmt dann nur noch die Steuerung des Wetters auf Basis der Einstellungn in Simplecalendar.  
+**Anmerkung:** Aktuell wird das Wetter dabei nur im Chat ausgegeben. Das Modul ist recht frisch im Umbau und die Funktionen sollen sich laut Entwickler noch weiter entwickeln. Bis dahin könnt ihr darauf aber auch verzichten.  
 
 ## DF Curvy Walls
 Solltet ihr eine Karte mit einem Runden Turm haben, dann wisst ihr wie unbefriedigend Foundry diese Wände umsetzt. Mit dem Modul Curvy Walls könnt ihr ohne Probleme runde Wände ziehen.
@@ -118,10 +125,7 @@ Dieses Modul fügt drei Lichtquellen (Zauberspruch, Laterne, Fackel) im Kontextm
 3. Lichtschalter im Kontextmenü mit dem die Lichtquelle aktiviert und deaktiviert werden kann.  
 ![Torchlight](de/images/Module_Torchlight.jpg)
 
-## Quick Insert - Search Widget
-Ihr könnt über STRG+Leertaste ein kleines Suchfenster öffnen, welches alle Elemente in eurer Welt durchsucht. So habt ihr schnellen Zugriff auf verschiedene Elemente ohne rechts im Menü suchen zu müssen. Es lässt sich sehr kleinteilig einstellen wer was durchsuchen darf und was überhaupt durchsucht wird.
-
-*[x]Zuletzt bearbeitet: 12.07.2021*
+*[x]Zuletzt bearbeitet: 04.11.2021*
 
 
 

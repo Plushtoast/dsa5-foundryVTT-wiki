@@ -14,3 +14,8 @@ Um die Gestaltwandlung rückgängig zu machen, öffnet den Charakterbogen der Kr
 ![grafik](https://user-images.githubusercontent.com/44941845/112885087-99087e00-90d0-11eb-8449-351baa74d970.png)
 
 Es kann außerdem das Modul *Token Magic FX* verwendet werden um eine Animation während der Gestaltwandlung darzustellen.
+
+Siehe auch das folgende Video: https://youtu.be/-cuWOYTwUCg
+
+*[x]Zuletzt bearbeitet: 04.11.2021*  
+*Inhalte gepürft, keine Änderung*  

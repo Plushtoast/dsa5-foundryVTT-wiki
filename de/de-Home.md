@@ -20,3 +20,6 @@ Damit ihr alle Features des Spiels genießen könnt, benötigt ihr:
 * Gegner, natürliche Waffen und Eigenschaften
 
 Um alle Funktionen komfortabel und schnell verwenden zu können und damit die beste Erfahrung mit DSA Foundry zu haben, ist das Grundregelwerk verfügbar unter: https://f-shop.de/ (deutsch) oder https://ulissesf-shop.com/ (englisch) 
+
+*[x]Zuletzt bearbeitet: 04.11.2021*  
+*Neu: Letzte Zeile hinzugefügt*  

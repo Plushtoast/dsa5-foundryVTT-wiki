@@ -10,7 +10,7 @@
 	- [Tokenizer](de-Module#tokenizer)
 
 * [Persönliche Empfehlungen von Tom](de-Module#persönliche-empfehlungen-von-tom)
-	- [Calendar/Weather und About Time](de-Module#Zeit, Kalender und Wetter: TimesUp, SmallTime, Simplecalendar, Weather Control )
+	- [Calendar/Weather und About Time](de-Module#Zeit, Kalender und Wetter: TimesUp, SmallTime, Simplecalendar, Weather Control)
 	- [DF Curvy Walls](de-Module#df-curvy-walls)
 	- [Drag Ruler](de-Module#drag-ruler)
 	- [FXMaster](de-Module#fxmaster)

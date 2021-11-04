@@ -6,7 +6,8 @@ Dies kann ebenfalls in Journaleinträgen verwendet werden.
 Befehl der in den Text eingebettet werden muss: @Rq[TALENT MODIFIKATOR] oder @Gc[TALENT MODIFIKATOR] 
 Der Modifikator muss immer mit dazu geschrieben werden. Wird die Probe nicht modifiziert muss eine 0 eingetragen werden (Bsp.: @Rq[Sinnesschärfe -1]/@Gc[Kraftakt -1]). Ein positiver Modifikator wird immer ohne das Vorzeichen eingetragen (Bsp.: @Rq[Körperbeherrschung 2]/@Gc[Wildnisleben 2]/@Rq[Bekehren & Überzeugen 0]).
 
-|![Journal Request Code](images/Journal_Request_Code.jpg)|![Journal Request](images/Journal_Request.jpg)|
+|![Journal Request Code](https://user-images.githubusercontent.com/80099175/140304354-7cd7a721-38b9-4f9b-9319-8c98acdd7a50.png)|![Journal Request](https://user-images.githubusercontent.com/80099175/140304384-21c0f250-8cc2-4009-bf34-97ba417e7835.png)
+|
 
 ### Beispiel Spieleiter-Vorbereitung:
 Dies ist nützlich um direkt zum Beispiel diesen Journaleintrag direkt auf der Karte in einem Raum zu platzieren.
@@ -20,5 +21,5 @@ Diese ist verschlossen und muss mit einer @Rq[Schlösserknacken -1] Probe geöff
 Klickt der Spielleiter auf die Schaltfläche erscheint ein Chat Eintrag welchen die Spieler direkt nutzen um den Wurf direkt abzulegen.
 ![grafik](https://user-images.githubusercontent.com/80099175/111427023-c3803180-86f5-11eb-97e9-3e83ccbac049.png)
 
-*Informationen:  
-[x]updated: 18.06.2021*
+*[x]Zuletzt bearbeitet: 04.11.2021*  
+*Änderung: Inhalt kontrolliert und Bilder ausgetauscht*

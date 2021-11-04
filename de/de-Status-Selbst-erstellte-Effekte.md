@@ -72,8 +72,8 @@ Es ist auch möglich nur eine Probe einer 3w20 Talentprobe zu modifizieren.
 
 ## Effektdauer
 Wenn ihr die Dauer der Effekte automatisch ablaufen lassen wollt, benötigt ihr die folgenden Module:
-* [about-time](https://gitlab.com/tposney/about-time)
-* [times-up](https://gitlab.com/tposney/times-up)  
+* [times-up](https://gitlab.com/tposney/times-up): Zählt ohne weiteres Module zumindest die verstrichenen Kampfrunden.
+* [smalltime](https://github.com/unsoluble/smalltime): Blendet unten links eine "Uhr" ein mit der sich die Zeit verändern lässt uvm.
 
 Weitere Einstellungen in den Modulen sind nicht notwendig, da die Grundeinstellungen von About-Time schon ganz gut passen mit 6 Sekunden pro KR.  
   
@@ -90,3 +90,6 @@ Wer sich ein bisschen mit der Console auskennt (F12 im Browser) kann die Spielda
 Markiert einen Token und gebt in die Konsole: *_token.actor.data* ein. Dann seht ihr die Werte die sich hierdurch beeinflussen lassen. Weitere Infos hierzu folgen.
   
 ![Console](https://user-images.githubusercontent.com/80099175/113256355-5e1d6a80-92c9-11eb-9e02-b52ea1c371b6.png)
+
+*[x]Zuletzt bearbeitet: 04.11.2021*   
+*Überarbeitet: Hinweis auf Module in Effektdauer*

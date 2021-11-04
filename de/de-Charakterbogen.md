@@ -13,7 +13,7 @@ Es gibt darin die Kategorien:
   
 **Anmerkung**: Die Punkte [Magie](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#8-magie) und [Religion](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#9-religion) erscheinen nur, wenn dem Charakter mindestens eine magische oder karmale Sonderfertigkeit/Zauber/Ritual/Liturgie/Zeremonie zugeordnet ist. Auch erst dann erscheinen im [Eigenschaftenbogen](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#4-eigenschaften) AsP- und/oder Karmapunkte.
   
-![Charakterbogen](de/images/Charakterbogen.jpg)
+![Charakterbogen](https://user-images.githubusercontent.com/80099175/140281971-e2a3efd8-2268-481a-8faa-4ecebbb5b309.png)
 
 ## 1. Kopfbereich
 Dieser Teil des Bogens ist immer sichtbar und wird unter anderem durch die Eingaben in [Eigenschaften](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#4-eigenschaften) beeinflusst. Es handelt sich hier um die aktuellen Werte des Charakters.  
@@ -25,7 +25,7 @@ Oben rechts findet ihr ein paar Schaltflächen für weitere Funktionen:
 4. Blatt konfigurieren: Charakterbogen auswählen - siehe auch [Händler](de-Haendler)
 5. Token konfigurieren: siehe auch [Sicht und Licht - Token Einstellungen](de-Sicht-und-Licht#token-einstellungen)
   
-![Charakterbogen Kopfbereich](de/images/Charakterbogen_Kopfbereich.jpg) 
+![Charakterbogen Kopfbereich](https://user-images.githubusercontent.com/80099175/140282027-db0a0e4d-a03b-48e7-bb7b-7afaed17823b.png)
   
 - **Name und Bild:** Können bearbeitet werden. Wenn ihr den Namen ändert, denkt daran dies auch unter Token konfigurieren abzugleichen.
 - **Spezies:** Nur für die Anzeige, kann nicht bearbeitet werden.
@@ -38,7 +38,7 @@ Oben rechts findet ihr ein paar Schaltflächen für weitere Funktionen:
 ## 2. Talente
 Auf dem Talentbogen werden die Talentwerte des Charakters festgehalten und es können Proben abgelegt werden.  
   
-![Charakterbogen Talente](de/images/Charakterbogen_Talente.jpg)
+![Charakterbogen Talente](https://user-images.githubusercontent.com/80099175/140282064-e44acd64-8a2b-4d1c-86fe-9aac1faf32e0.png)
 
 1. **Suche/Filter:** Mit einem Klick auf das rechte Symbol sehr ihr nur noch die Talente in denen ihr einen FW über 0 habt. Um nach einem Talent zu suchen, gebt einfach einen Begriff in das links Suchfeld ein.
 2. **Beschreibung/Informationen:** Klickt ihr auf ein Talent, öffnet sich ein Fenster mit der Beschreibung. Oben lässt sich die Talentbeschreibung in den Chat posten über das Sprechblasen-Symbol. Hier solltet ihr keine Änderungen durchführen, es sei denn ihr wisst genau was ihr macht.
@@ -54,11 +54,11 @@ Ganz unten auf dem Bogen habt ihr noch die Möglichkeit Sammelproben anzulegen.
 2. Klickt auf den Namen um die Sammelprobe bearbeiten zu können. Hier könnt ihr neben dem Namen auch alle anderen Werte verändern, insbesondere das verwendete Talent.
 3. Durch einen Klick auf den Würfel, wird die Probe gewürfelt.  
   
-![Sammelprobe](de/images/Charakterbogen_Talente_Sammelprobe.jpg) 
+![Sammelprobe](https://user-images.githubusercontent.com/80099175/140282114-2cbdd2e0-4155-4024-8ef6-1405a40a3d2c.png)
 
 1. Zuerst wird die Probe angezeigt und die erreichte QS.
 2. Darunter ist die Zusammenfassung der Sammelprobe. Sie berücksichtigt jede Probe die auf die Sammelprobe ausgeführt wird.
-![Sammelprobe Chat](de/images/Charakterbogen_Talente_Sammelprobe_Chat.jpg)
+![Sammelprobe Chat](https://user-images.githubusercontent.com/80099175/140282421-77e4ccf5-3ded-43b1-b805-ae7e8b71972e.png)
 
 ## 3. Kampf
 Der Kampfbogen beinhaltet alle Daten die zum [Kampf](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Kampf) in DSA 5 verwendet werden.
@@ -87,16 +87,17 @@ die bei der Erstellung oder später aus der Bibliothek auf den Helden gezogen we
 ## 5. Ausrüstung
 Im Ausrütungsbogen wird das Inventar des Charakters verwaltet. Hier sind alle Items sichtbar, die dem Charakter zugewiesen sind.
 Um neue Items hinzuzufügen, können diese aus der Bibliothek auf den Charakterbogen gezogen werden. Alternativ können [ Inhalte erstellt werden.](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Eigene_Inhalte_erstellen)
-1. **Ausrüstung**: Alle vom Charakter ausgerüteten Gegenstände sortiert in Kategorien (Nahkampfwaffe, Rüstung, Behältnis, Munition etc.).
-1.1 **Verwenden im Kampf**: Nur wenn hier der Haken gesetzt ist, kann der Gegenstand im Kampf verwendet werden (Nur: Nahkampf-, Fernkampfwaffen und Rüstungen). Rüstungen, die nicht für den Kampf ausgerüstet sind (=angezogen sind), deren Gewicht muss man herumtragen. Bei schweren Rüstungen kann das zu Abzügen führen, aufgrund von Belastung.
-1.2 **Anzahl**: Durch einen Linksklick kann die Zahl erhöht, durch einen Rechtsklick verringert werden.
-1.3 **Gewicht**: Berechnet auf Basis der Anzahl und des Einzelgewichts
-1.4 **Bearbeiten, teilen, Details**: Das Bearbeiten Symbol öffnet den Gegenstand zur Bearbeitung. Die Sprechblase teilt die Infos des Gegenstandes im Chat. 
-Über den Pfeil können die Details auf- und zugeklappt werden.
-2. **Tragekraft**: Die Tragkraft wird automatisch nach DSA 5 Regeln berechnet. Sobald die Tragkraft überschritten wird, erhält der Charakter Belastungsstufen.
-3. **Geldbeutel**: Hier wird das Geld des Charakters verwendet. (SL Tipp: über den Chat Befehl /getPaid kann der SL allen Charakteren (Token markieren!) Geld als Belohnung auszahlen)  
+1. **Ausrüstung**: Alle vom Charakter ausgerüteten Gegenstände sortiert in Kategorien (Nahkampfwaffe, Rüstung, Behältnis, Munition etc.).  
+2. **Tragen/Ausrüsten**: Hier wird Ausrüstung auch als "getragen" markiert. Nur so können Waffen und Rüstungen im Kampf verwendet werden. Behälter belasten den Charakter nur, wenn sie auch ausgerüstet sind. 
+3. **Tragkraft Behälter**: Gibt die aktuelle Belastung und maximale Tragkraft eines Behältnises an.   
+4. **Anzahl**: Durch einen Linksklick kann die Zahl erhöht, durch einen Rechtsklick verringert werden.  
+5 **Gewicht**: Berechnet auf Basis der Anzahl und des Einzelgewichts das Gesamtgewicht.  
+6 **Bearbeiten, teilen, Details**: Das Bearbeiten Symbol öffnet den Gegenstand zur Bearbeitung. Die Sprechblase teilt die Infos des Gegenstandes im Chat.   
+Über den Pfeil können die Details auf- und zugeklappt werden.  
+7. **Tragekraft**: Die Tragkraft wird automatisch nach DSA 5 Regeln berechnet. Sobald die Tragkraft überschritten wird, erhält der Charakter Belastungsstufen.  
+8. **Geldbeutel**: Hier wird das Geld des Charakters verwendet. (SL Tipp: über den Chat Befehl /getPaid kann der SL allen Charakteren (Token markieren!) Geld als Belohnung auszahlen)    
   
-![Charakterbogen Ausrüstung](https://user-images.githubusercontent.com/80099175/112141398-86281200-8bd5-11eb-8e58-b2aa7633b982.png)
+![Charakterbogen Ausrüstung](https://user-images.githubusercontent.com/80099175/140283338-e1d17f69-aac5-40b6-ac14-15d5ad0ff9d6.png)
 
 ## 6. Status
 Das Statusfenster beinhaltet alle für den Charakter aktiven Zustände und Status. Ein paar davon werden automatisch gehandhabt (Bsp.: Schmerz durch Lebenspunkte,
@@ -137,4 +138,5 @@ Der Magiebogen erscheint erst, wenn dem Charakter eine magische Sonderfertigkeit
   
 ![Religion](https://user-images.githubusercontent.com/80099175/112478313-29af2900-8d74-11eb-8344-d68b8f35dbe6.png)
 
-*[x]Zuletzt bearbeitet: 29.06.2021*
+*[x]Zuletzt bearbeitet: 04.11.2021*
+*Überarbeitet: Ausrüstung neues Bild und Text*

@@ -29,5 +29,12 @@ Ihr könnt auch Makros schreiben um schnell eine Probe von den Spielern im Chatf
   
   ![Makro Gruppenprobe anfordern](https://user-images.githubusercontent.com/80099175/120631694-709e5680-c468-11eb-991f-9463a6e7de15.png)
 
+## Check
+1. Legt ein neues Makro an und stellt es auf *script*  
+2. Dann schreibt ihr den Code `game.dsa5.macro.rollCh("TALENT", MODIFIKATOR);` in das *Command* Feld (Beispiel: `game.dsa5.macro.rollCh("Sinnesschärfe", 0);`)
+   
+![grafik](https://user-images.githubusercontent.com/80099175/140309072-32cd1b45-0272-417e-989a-402e28585dfc.png)  
+  
+
 *[x]Zuletzt bearbeitet: 04.11.2021*  
-*Inhalte kontrolliert*
+*Neu: Check*

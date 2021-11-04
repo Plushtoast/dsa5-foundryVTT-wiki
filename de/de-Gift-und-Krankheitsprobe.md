@@ -12,3 +12,6 @@ Das Ergebnis findet ihr dann im Chatfenster.
 **Anmerkung:** Der Effekt muss von euch noch manuell angewendet werden.  
 
   ![Gift Chatfenster](https://user-images.githubusercontent.com/80099175/114893997-88654100-9e0e-11eb-8f20-c7892270dfae.png)
+
+*[x]Zuletzt bearbeitet: 04.11.2021*  
+*Inhalt geprüft, keien Änderungen notwendig*

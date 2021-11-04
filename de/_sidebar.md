@@ -10,7 +10,7 @@ de | [en](Home)
 **Character**
 * [Charakterbogen](de-Charakterbogen)
 * [Charaktererstellung](de-Charaktererstellung)
-* [Import Funktion (migration)](de-Import-Funktion) **neu**
+* [Import Funktion (migration)](de-Import-Funktion)
 * [Vertrautentiere](de-Vertrautentiere)
 
 **Spielmechanismen**

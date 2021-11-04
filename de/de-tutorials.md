@@ -12,11 +12,7 @@ Der User NEGD hat Videos erstellt, die sich direkt an die Spieler in euren Runde
 
 - [Playlist Spieler Tutorials](https://www.youtube.com/playlist?list=PLzE7w5gckJo1L0d1sFCfqElzrwyuJLAqg)
 
-# Tutorials/Changelogs von Tom
-Hier findet ihr Tutorials die auch die Spielleitersicht betrachten und sich teilweise auf Artikel in diesem Wiki stützen:  
+# Youtube Kanal VTTom
+Hier findet ihr alles Rund um das Thema Foundry DSA aber auch allgemein über Foundry, sowie das ein oder andere Video über weitere Tools.:  
 
-- [Playlist Tutorials](https://youtube.com/playlist?list=PLGyb6RcE5AmXjljMRuiqJmMUsIhOKGx58)
-
-Und hier werden zu den Patches Videos zum Changelog hoch geladen:
-
-- [Playlist Changelogs](https://youtube.com/playlist?list=PLGyb6RcE5AmUT9zJaG1QBH-VbiS1wzRb9)
+- [VTTOMs Kanal](https://www.youtube.com/c/VTTom)

@@ -2,23 +2,15 @@
 Es gibt einen neuen Charakterbogen. mit diesem lassen sich Händler, Schätze und einfache Personen abbilden.  
 **Anmerkung**: Der Kauf und Austausch der Items zwischen Spieler und Händler/Schatz ist nur möglich, wenn ein Spielleiter im Spiel angemeldet ist! Sonst passiert nichts beim Klick auf kaufen/verkaufen/nehmen!   
   
-Um den Charakterbogen zu verwenden müsst ihr wie folgt vorgehen:
-1. Erstellt einen neuen Akteur -> *Nichtspielercharakter*
-2. Ändert den Charakterbogen über das Zahnrad *Blatt konfigurieren* zu *MerchantSheetDSA5*. **Achtung** bitte nicht bei Standard Bogen den Bogen ändern!
-3. Auf dem Händler Tab des Charakters könnt ihr zwischen *normale Person*, *Händler* oder *Schatz* auswählen.
+Um den Charakterbogen zu verwenden müsst ihr wie folgt vorgehen:  
+1. Erstellt einen neuen Akteur -> *Nichtspielercharakter*  
+2. Ändert den Charakterbogen über das Zahnrad *Blatt konfigurieren* zu *MerchantSheetDSA5*. **Achtung** bitte nicht bei Standard Bogen den Bogen ändern!  
 
-![Händlerbogen auswählen](https://user-images.githubusercontent.com/80099175/113250611-1a266780-92c1-11eb-86a2-7edcfccd878e.png)  
-![Händler Typ auswählen](https://user-images.githubusercontent.com/80099175/113250735-5b1e7c00-92c1-11eb-875c-65eb7f752800.png)  
-
-## Einstellungen durch den Spielleiter in Foundry 7.X:
-**Diese Einstellungen sind nur noch in Foundry Version 7.X notwendig. Ab 8.X befinden sich die Einstellungen direkt auf dem Händlertab. Die Beschreibungen unten wurden darauf angepasst**  
-* Damit die Spieler Zugriff auf den Akteur haben müssen sie das Recht *Beschränkt* auf den Händler haben.
-* Sie können dann über den Token auf dem Bildschirm oder im Akteurmenü auf den Händler zugreifen
-* Beachtet, dass der Token auf der Szene nicht den Akteur im Menü verändert. So könnt ihr den Händler/das Loot wiederverwenden wenn sie nur über die Szene darauf zugreifen.
-* Interaktion mit dem Händler sind nur erlaubt, wenn ein Spielleiter ins Spiel eingelogt ist.
-
-![Beschränkt](https://user-images.githubusercontent.com/80099175/113254135-7f308c00-92c6-11eb-8950-700abcba55e6.png)
-
+![Händlerbogen auswählen](https://user-images.githubusercontent.com/80099175/140302754-e7b17732-e407-43fc-bbf4-f7c9d078462e.png)  
+  
+1. Auf dem Händler Tab des Charakters könnt ihr zwischen *normale Person*, *Händler* oder *Schatz* auswählen (2).  
+  
+![Händler Typ auswählen](https://user-images.githubusercontent.com/80099175/140302879-5559fd2a-ed6b-414a-8120-e880ab18f723.png)  
   
 ## Spielleiter: Umschalten zu Spieleransicht
 
@@ -33,6 +25,7 @@ Der Spielleiter kann den *Begrenzte Ansicht umschalten (Spieleransicht)* Button 
 4. Außerdem gibt es einen Zufällige Auswahl Button um den Händler Random zu befüllen.  
 5. Wird der Haken beim jeweiligen Spieler gesetzt hat er das Recht beschränkt für den Akteur. Er sieht ihn im Akteurmenü und kann über den Token in der Szene auf das Händlermenü zugreifen.
 6. Über den Haken bei *Für Spieler verbergen* wird der Akteur im Akteurmenü des Spielers nicht mehr angezeigt.  
+  
 ![Haendler](https://user-images.githubusercontent.com/80099175/140302198-7c632ac0-3fcb-42de-af3b-891cee769add.png)
 
 ### Händlermenü (Spielersicht)
@@ -68,7 +61,12 @@ Die Spieler können entweder über das Actor Menü auf die Person zugreifen oder
   
 ![Personenmenü](https://user-images.githubusercontent.com/80099175/113253083-109efe80-92c5-11eb-8837-b49f032b7802.png)
 
-**Anmerkung**: Gebt uns ein Feedback wie wir dieses Feature in der Zukunft verbessern können.
+## Garadan
+Wählt ihr Garadan aus, dann erscheint neben den einfachen Personendaten noch eins der Garadan Symboble in der Spieleransicht. Dies ist nützlich um ikonische Charaktere wie Rohaja von Gareth anzulegen.   
+**Anmerkung**: Gebt uns ein Feedback wie wir dieses Feature in der Zukunft verbessern können.  
+![Garadan - Einstellung](https://user-images.githubusercontent.com/80099175/140303361-03874fd3-22be-469d-8147-9ea1fd965a22.png)  
+![Garadan - Ansicht](https://user-images.githubusercontent.com/80099175/140303407-3f6c1508-2ff3-4203-97e4-336993f02127.png)  
 
-*[x]Zuletzt bearbeitet: 04.11.2021*   
+*[x]Zuletzt bearbeitet: 04.11.2021*  
+*Neu: Garadan beschreibung hinzugefügt*
 *Überarbeitet: Bilder ausgetauscht.*

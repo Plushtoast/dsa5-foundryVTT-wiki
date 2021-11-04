@@ -3,7 +3,8 @@ Die Systemeinstellungen findet ihr im Menü unter Einstellungen anpassen und dan
  
  ![Menü](https://user-images.githubusercontent.com/80099175/114196817-024e8380-9952-11eb-88f0-06f6f3e3dcf2.png)  
  
- ![Systemeinstellugen](https://user-images.githubusercontent.com/80099175/114200158-35dedd00-9955-11eb-97bc-2bf6c36ec92b.png)
+ ![Systemeinstellugen1](https://user-images.githubusercontent.com/80099175/140312442-7c5bd75b-1d20-4494-be8a-8ccd9ac52837.png) | ![Systemeinstellungen2](https://user-images.githubusercontent.com/80099175/140312633-54daca48-0016-442a-b2c9-35458cde9e4c.png)
+
   
 ## Mogliche Systemeinstellungen:  
 * **Nahkampf-Patzertabelle** 

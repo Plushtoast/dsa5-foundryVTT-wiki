@@ -24,7 +24,7 @@ Um ein Talisman herzustellen, zieht ihr eine Liturgie auf einen Gegensand im Aus
 
 ![GEgenstand Talisman](https://user-images.githubusercontent.com/80099175/140273437-f91992ea-f53e-4039-aecc-59e9c91a8cd6.png)
 
-*[x]Zuletzt bearbeitet: 04.11.2021*  
-*Neu: Seitentitel überarbeitet*
-*Änderung: Bilder neu erstellt und verlinkt*
-*Neu: Talismane hinzugefügt*
+*[x]Zuletzt bearbeitet: 04.11.2021*   
+*Neu: Seitentitel überarbeitet*  
+*Änderung: Bilder neu erstellt und verlinkt*  
+*Neu: Talismane hinzugefügt*  

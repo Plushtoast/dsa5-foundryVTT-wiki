@@ -41,6 +41,6 @@ de | [en](Home)
 * [Module](de-Module)
 
 *[x]Zuletzt bearbeitet: 04.11.2021*  
-*Neu: Artefakte und Talismane, Behälter: Rucksack und Tasche*
-*Platzhalter: Szeneneinstellungen und Zuchtgrube*
-*Überarbeitet: Spielmechanismen alphabetisch sortiert.*
+*Neu: Artefakte und Talismane, Behälter: Rucksack und Tasche*  
+*Platzhalter: Szeneneinstellungen und Zuchtgrube*  
+*Überarbeitet: Spielmechanismen alphabetisch sortiert.*  

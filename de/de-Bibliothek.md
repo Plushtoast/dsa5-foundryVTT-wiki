@@ -33,3 +33,6 @@ Importieren: Ihr könnte Objekte aus der Bibliothek importieren um sie dann in e
 3. Ihr findet sie dann in unter dem jeweiligen Menüpunkt. Dies ist nützlich zum [Erstellen eigener Inhalte](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Eigene-Inhalte-erstellen)  
   
 ![Importierter Eintrag](https://user-images.githubusercontent.com/80099175/140281181-a6b26197-9e08-41df-aa04-4944f8ac74cf.png)
+  
+*[x]Zuletzt bearbeitet: 04.11.2021*  
+*Überarbeitet: Bilder und Text*

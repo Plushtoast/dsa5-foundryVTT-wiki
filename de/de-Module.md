@@ -10,7 +10,7 @@
 	- [Tokenizer](de-Module#tokenizer)
 
 * [Persönliche Empfehlungen von Tom](de-Module#persönliche-empfehlungen-von-tom)
-	- [Calendar/Weather und About Time](de-Module#Zeit, Kalender und Wetter: TimesUp, SmallTime, Simplecalendar, Weather Control)
+	- [Calendar/Weather und About Time](de-Module#zeit-kalender-und-wetter-timesup-smalltime-simplecalendar-weather-control)
 	- [DF Curvy Walls](de-Module#df-curvy-walls)
 	- [Drag Ruler](de-Module#drag-ruler)
 	- [FXMaster](de-Module#fxmaster)
@@ -67,19 +67,19 @@ Bietet die Möglichkeit aus dem Hochgeladenen Charakterbild einen Token mit der 
 Hier liste ich kurz die Module auf, die ich (*Tom*) in meinen Sitzungen verwende. Auch bei diesen gibt es keine Garantie auf Kompatibilität.
 
 ## Zeit, Kalender und Wetter: TimesUp, SmallTime, Simplecalendar, Weather Control 
-Die Verwendung von Zeit und Kalenderfunktionen ist nicht unkompliziert, weshalb ich empfehle die Wiki Seiten der Module zur Hilfe zu nehmen.
+Die Verwendung von Zeit und Kalenderfunktionen ist nicht unkompliziert, weshalb ich empfehle die Wiki Seiten der Module zur Hilfe zu nehmen.  
 
 ### SmallTime
-Smalltime erzeugt eine kleine Systemuhr über welche die Tageszeit abgebildet wird. Diese Zeiteinstellung lässt sich in den Moduleinstellungen auf das 24 Stunden Format ändern.
+Smalltime erzeugt eine kleine Systemuhr über welche die Tageszeit abgebildet wird. Diese Zeiteinstellung lässt sich in den Moduleinstellungen auf das 24 Stunden Format ändern.  
 [Github Seite](https://github.com/unsoluble/smalltime)
 
 ### Simplecalendar
-Simplecalendar ist eine Kalender Lösung für Foundry, die sich in den Einstellungen an Smalltime anbinden lässt. Dann übernimmt Smalltime die Steuerung der Uhrzeit und Simplecalendar steuert Tage, Wochen, Monate und Jahre.  
-Eine Datei zum Import des DSA Kalenders findet ihr hier: [SimpleCalender - DSA Kalender](de/files/simple-calendar-export.json).
+Simplecalendar ist eine Kalender Lösung für Foundry, die sich in den Einstellungen an Smalltime anbinden lässt. Dann übernimmt Smalltime die Steuerung der Uhrzeit und Simplecalendar steuert Tage, Wochen, Monate und Jahre.   
+Eine Datei zum Import des DSA Kalenders findet ihr hier: [SimpleCalender - DSA Kalender](de/files/simple-calendar-export.json).  
 [Github Seite](https://github.com/donatj/SimpleCalendar)
 
 ### Timesup
-Bindet die Zeit an die Effekte so, dass diese nach bestimmter Zeit und Kampfrunden automatisch beendet werden. Dieses Modul funktioniert ohne irgendwelche Einstellungen und arbeitet perfekt mit Smalltime zusammen.
+Bindet die Zeit an die Effekte so, dass diese nach bestimmter Zeit und Kampfrunden automatisch beendet werden. Dieses Modul funktioniert ohne irgendwelche Einstellungen und arbeitet perfekt mit Smalltime zusammen.  
 
 ### Weather Control
 Ist der Nachfolger zu Calendar/Weather. Die Kalenderfunktion wurde deaktiviert und übernimmt dann Simplecalendar. Weather Controll übernimmt dann nur noch die Steuerung des Wetters auf Basis der Einstellungn in Simplecalendar.  

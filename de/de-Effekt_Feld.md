@@ -2,8 +2,8 @@
 Das Effekt Feld von Items kann verwendet werden um die Attribute eines Helden zu erhöhen oder zu senken.  
 Dafür muss in das Effekt Feld eines Items `WERT ATTRIBUT` eingetragen werden (Bsp.: +1 GS um die Geschwindigkeit um 1 zu erhöhen). 
 Sollen mehrere Attribute durch ein Effekt Feld beeinflusst werden, können diese hintereinander getrennt durch ein `,` eingetragen werden:  
-![Effekt Attribut](https://user-images.githubusercontent.com/80099175/111598459-89835e00-87cf-11eb-9bb7-929d0024c51c.png)  
-**Dies Funktioniert im Effekt Feld folgender ITEMS: Vorteile, Nachteile, Sonderfertigkeiten, Nahkampfwaffen, Fernkampfwaffen und Rüstungen.**  
+![Effekt Attribut](https://user-images.githubusercontent.com/80099175/140291822-1882514b-e738-4143-a058-3353ec199b15.png) 
+**Dies Funktioniert im Effekt Feld folgender ITEMS**: Vorteile, Nachteile, Sonderfertigkeiten, Nahkampfwaffen, Fernkampfwaffen und Ausrüstung. Ausrüstung muss ausrüstbar sein, denn nur wenn diese Ausgewürstet wird, ist der Effekt aktiv.
 
 Aktuelle verwendbare Attribute je Sprache des Systems:
 | Deutsch |  ATTRIBUT Deutsch | Englisch | ATTRIBUT Englisch |
@@ -28,18 +28,17 @@ Aktuelle verwendbare Attribute je Sprache des Systems:
 # Effekt Feld - Fertigkeitspunkte für Talente/Zauber/Rituale/Liturgien/Zeremonien modifizieren
 Um die Fertigkeitspunkte der oben genannten Fertigkeiten zu modifizieren kann ebenfalls das Effekt Feld verwendet werden.
 Dafür muss in das Effekt Feld eines Items `FERTIGKEIT FPWERT` eingetragen werden (Bsp.: Kraftakt FP2). Auch hier können mehrere Fertigkeiten durch ein `,` getrennt angegeben werden.   
-![Effekt Fertigkeit](https://user-images.githubusercontent.com/80099175/111601462-aa00e780-87d2-11eb-93d6-3fbec9a717c1.png)  
-Dies führt aber nicht wie bei den Attributen dazu, dass der Wert automatisch im Charakterbogen steigt/sinkt.
-Erst bei der Probe taucht die Modifikation im Feld *Bedingte Modifikation* auf.  
-![Bedingte Modifikation](https://user-images.githubusercontent.com/80099175/111600712-f8fa4d00-87d1-11eb-906d-22d8902671ca.png)  
-**Dies funktioniert im Effekt Feld folgender ITEMS: Vorteile, Nachteile, Sonderfertigkeiten und Ausrüstung**
+Dies führt aber nicht wie bei den Attributen dazu, dass der Wert automatisch im Charakterbogen steigt/sinkt. Erst bei der Probe taucht die Modifikation im Feld *Bedingte Modifikation* auf.  
+![Bedingte Modifikation](https://user-images.githubusercontent.com/80099175/140292592-aef29489-6ba3-437a-b47f-24a355f0552c.png)
+**Dies funktioniert im Effekt Feld folgender ITEMS**: Vorteile, Nachteile, Sonderfertigkeiten und Ausrüstung. Ausrüstung muss ausrüstbar sein, denn nur wenn diese Ausgewürstet wird, ist der Effekt aktiv.
 
-Hier noch ein Beispiel für einen Zauber:
-![Effekt Zauber](https://user-images.githubusercontent.com/80099175/111606154-38776800-87d7-11eb-8039-0f2b31a775a1.png)
+Hier noch ein Beispiel für einen Ausrüstungsgegenstand mit Zauberverbesserung:
+![Effekt Zauber](https://user-images.githubusercontent.com/80099175/140293769-9e968f37-cb6a-4652-808a-57b1ecacbdf0.png)  
 
 # Effekt Feld - Kampfsonderfertigkeiten.
 Bei den Kampfsonderfertigkeiten können aktuell auch einige Modifikatoren eingetragen werden. Sollen mehrere angegeben werden, müssen diese mit `,` getrennt werden.  
-Als wert sind positive, negative Zahlen aber auch Würfel (Bsp. `1d6`) erlaubt.
+Als wert sind positive, negative Zahlen aber auch Würfel (Bsp. `1d6`) erlaubt.  
+**Anmerkung**: Nur wenn im Effekt Feld etwas angegeben ist, taucht die Sonderfertigkeit zur Auswahl bei der Kampfprobe auf! (Tipp: Es geht auch `+1 AT,-1 AT`)
 | Bedeutung | ATTRIBUT Deutsch | ATTRIBUG Englisch | 
 | ------------- | ------------- | ------------- |
 | Attacke Angreifer | AT | AT |
@@ -49,4 +48,7 @@ Als wert sind positive, negative Zahlen aber auch Würfel (Bsp. `1d6`) erlaubt.
 | Initiative | INI | INI |
   
 ### Beispiele: Finte `-1 AT, -2 VM`, Wuchtschlag `-2 AT, -2 TP`, Eigen `-2 AT, +1d6 DP`
-Für weitere Beispiele, schaut echt die Kampfsonderfertigkeiten aus den Kompendien an.
+Für weitere Beispiele, schaut euch die Kampfsonderfertigkeiten aus den Kompendien an.
+
+*[x]Zuletzt bearbeitet: 04.11.2021*  
+*Überarbeitet: Inhalte und Bilder*

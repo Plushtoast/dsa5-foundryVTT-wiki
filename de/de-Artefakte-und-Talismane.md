@@ -14,7 +14,7 @@ Um einen Gegenstand mit einem Zauber auszustatten, zieht ihr den Zauber direkt a
 
 ## Talismane
 Um ein Talisman herzustellen, zieht ihr eine Liturgie auf einen Gegensand im Ausrüstungsmenü oder direkt im [Charakter-Ausrüstungstab](de-Charakterbogen#5-ausr%C3%BCstung).  
-1. Habt ihr das korrekt durchgeführt, erscheint im Ausrüstungsgegenstand der Tab *Verzauberung*.  
+1. Habt ihr das korrekt durchgeführt, erscheint im Ausrüstungsgegenstand der Tab *Talisman*.  
 2. Mit einem Klick auf den Namen der Liturgie öffnet sich diese mit Beschreibung und Details.
 3. Über den Würfel führt ihr die Probe der Liturgie aus.  
 4. Liturgien haben standardmäßig den FW 18 wenn sie auf einen Gegenstand gezogen werden. Dieser Wert kann aber noch verändert werden.

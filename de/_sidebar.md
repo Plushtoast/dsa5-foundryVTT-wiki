@@ -25,7 +25,7 @@ de | [en](Home)
 * [Gift- und Krankheitsprobe](de-Gift-und-Krankheitsprobe)
 * [Systemeinstellungen](de-Systemeinstellungen)
 * [Meister-Menü](de-Meister-Menue) 
-* [Artefakte und Talismane](de-Artefakte-und-Talismane)**neu**
+* [Artefakte und Talismane](de-Artefakte-und-Talismane) **neu**
 
 **Fortgeschrittene Mechanismen**
 * [Journal Probe anfordern](de-Journal-probe_anfordern)

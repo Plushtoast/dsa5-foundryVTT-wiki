@@ -115,3 +115,5 @@ Wichtig ist hierfür, dass der Charakterbogen aus dem Seitenmenü unter geöffne
 **Anmerkung**: Steht hier nicht *Prototyp-Figur* wurde der Charakterbogen über einen Token in einer Szene geöffnet. Dann ändert sich nur der Token in dieser Szene. Wird der Charakter in eine andere Szene gezogen, erscheint wieder der alte Token.   
 
 ![Token zuordnen](https://user-images.githubusercontent.com/80099175/112473291-73951080-8d6e-11eb-9618-975a933dc282.png)  
+
+*[x] Zuletzt bearbeitet: wird aufgrund eines Updates was die Charaktererstellung nochmal verändert aktuell nicht angepasst.*

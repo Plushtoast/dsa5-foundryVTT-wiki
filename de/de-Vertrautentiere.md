@@ -9,3 +9,8 @@ Dadurch bekommt die Kreatur die Bonuswerte eines Vertrautentieres automatisch zu
   
 **Anmerkung**: Damit der Spieler diesen Vertrauten selbst steuern kann, benötigt er noch die Berechtigung *Besitzer* auf den Actor.
 Ein Vertrautentier als Extra Token kann zu sehr lustigen Situationen führen :)
+
+Ergänzend folgendes Video: https://youtu.be/-cuWOYTwUCg
+
+*[x]Zuletzt bearbeitet: 04.11.2021*  
+*Inhalt geprüft und Youtube Link hinzugefügt.*

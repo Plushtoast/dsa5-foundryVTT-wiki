@@ -22,3 +22,6 @@ Diese Methode hat den Vorteil, dass die selbst erstellten Inhalte wieder verwend
 Möchtet ihr die neuen Inhalte nur für einen Charakter neu erstellen, dann zieht ihr das passende Gegenstück auf den Charakter und ändert dort die Beschreibung und Details. Dies funktioniert aber nicht mit Spezies, Kultur und Profession. Diese werden direkt auf den Charakter angewendet und müssen [Importiert](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Eigene-Inhalte-erstellen.md#import-einer-vorlage-aus-den-kompendien) werden.
   
 ![Neuer Zauber](https://user-images.githubusercontent.com/80099175/112993339-68285780-9169-11eb-81c6-8fb219ce5356.png)  
+
+*[x]Zuletzt bearbeitet: 04.11.2021*  
+*Inhalt geprüft, keine Änderung*  

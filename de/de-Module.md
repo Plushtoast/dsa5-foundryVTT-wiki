@@ -76,7 +76,7 @@ Smalltime erzeugt eine kleine Systemuhr über welche die Tageszeit abgebildet wi
 ### Simplecalendar
 Simplecalendar ist eine Kalender Lösung für Foundry, die sich in den Einstellungen an Smalltime anbinden lässt. Dann übernimmt Smalltime die Steuerung der Uhrzeit und Simplecalendar steuert Tage, Wochen, Monate und Jahre.   
 Eine Datei zum Import des DSA Kalenders findet ihr hier: [SimpleCalender - DSA Kalender](de/files/simple-calendar-export.json).  
-[Github Seite](https://github.com/donatj/SimpleCalendar)
+[Github Seite](https://github.com/vigoren/foundryvtt-simple-calendar)
 
 ### Timesup
 Bindet die Zeit an die Effekte so, dass diese nach bestimmter Zeit und Kampfrunden automatisch beendet werden. Dieses Modul funktioniert ohne irgendwelche Einstellungen und arbeitet perfekt mit Smalltime zusammen.  

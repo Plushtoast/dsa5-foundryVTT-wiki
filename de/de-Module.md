@@ -10,7 +10,9 @@
 	- [Tokenizer](de-Module#tokenizer)
 
 * [Persönliche Empfehlungen von Tom](de-Module#persönliche-empfehlungen-von-tom)
-	- [Calendar/Weather und About Time](de-Module#zeit-kalender-und-wetter-timesup-smalltime-simplecalendar-weather-control)
+	- [Automated Animations & JB2A - Jules and Ben's Animated Assets](de-Module#Automated-Animations-JB2A-Jules-and-Bens-Animated-Assets)
+	- [Zeit & Kalender: SmallTime, Simplecalendar, TimesUp](de-Module#Zeit-Kalender-SmallTime-Simplecalendar-TimesUp)
+	- [Clipboard Image](de-Module#clipboard-image)
 	- [DF Curvy Walls](de-Module#df-curvy-walls)
 	- [Drag Ruler](de-Module#drag-ruler)
 	- [FXMaster](de-Module#fxmaster)
@@ -20,9 +22,14 @@
 	- [Pings](de-Module#pings)
 	- [Polyglot](de-Module#polyglot)
 	- [Popout!](de-Module#popout)
-	- [T is for Target](de-Module#t-is-for-target)
-	- [Torchlight](de-Module#torchlight)
-	- [Quick Insert](de-Module#quick-insert)
+	- [Turnmarker](de-Module#turnmarker)
+	- [Window Controls](de-Module#Window-Controls)
+* [Persönliche Empfehlungen von Nellkir](de-Module#persönliche-empfehlungen-von-Nellkir)
+	- [Combat Tracker Effect Icon Tooltips](de-Module#Combat-Tracker-Effect-Icon-Tooltips)
+	- [Forien's Quest Log](de-Module#Foriens-Quest-Log)
+	- [Popout Resizer](de-Module#Popout-Resizer)
+
+
 
 # **Kompatible Module**
 Diese Module funktionieren mit dem DSA 5 Regelwerk, es kann aber den ein oder anderen Bug geben (Bsp.: Bei Dice so nice werden die 3D Würfel für alle Spieler angezeigt obwohl der Spielleiter verdeckt würfelt (Stand vom 17.03.2021))
@@ -37,6 +44,8 @@ Wirf 3D Würfel über den virtuellen Spieltisch. Dabei kann sogar zwischen versc
 ![Dice so nice Wurf](https://user-images.githubusercontent.com/80099175/111422410-f3780680-86ee-11eb-8edc-6f9ce4d14364.png)
 **Achtung:** diese Würfel können bei älteren Geräte zu Performace Problemen führen. Um die Würfel für den einzelnen Spieler zu deaktivieren geht man in *Einstellungen anpassen -> Moduleinstellungen -> Abschnitt Dice so Nice -> My Dice Settings -> Appearance -> Haken bei Enable 3D Dice raus*  
 ![Dice so nice Einstellungen](https://user-images.githubusercontent.com/80099175/111422629-4356cd80-86ef-11eb-938c-32f944a713fd.png)
+
+[Link zum Youtube Tutorial](https://www.youtube.com/watch?v=o8tlbTe42WM&list=PLGyb6RcE5AmVHzCZSKEN00cenwkB3LxTC&index=5)
 
 ## German [Core]
 Durch dieses Modul kann die Standardsprache im Foundry Setup auf Deutsch umgestellt werden. Übersetz die komplette Oberfläche auf Deutsch.
@@ -63,27 +72,51 @@ Bietet die Möglichkeit aus dem Hochgeladenen Charakterbild einen Token mit der 
 1. Ist man mit dem Ergebnis zufrieden kann man das Bild Speichern und dann mit OK bestätigen.
 ![Tokennizer](https://user-images.githubusercontent.com/80099175/111424712-6c2c9200-86f2-11eb-8343-6c56e0d20c6f.png)
 
+[Link zum Youtube Tutorial](https://youtu.be/137LU0GtvEI?list=PLGyb6RcE5AmVHzCZSKEN00cenwkB3LxTC&t=1393)
+
 # Persönliche Empfehlungen von *Tom*
 Hier liste ich kurz die Module auf, die ich (*Tom*) in meinen Sitzungen verwende. Auch bei diesen gibt es keine Garantie auf Kompatibilität.
 
-## Zeit, Kalender und Wetter: TimesUp, SmallTime, Simplecalendar, Weather Control 
+## Automated Animations & JB2A - Jules and Ben's Animated Assets
+Für animierte lebendigere Kämpfe sind diese beiden Module ein Muss.
+
+[Link zum Youtube Tutorial](https://www.youtube.com/watch?v=ltWiQ4EsFJA&t=2s)
+
+### Automated Animations
+Mit diesem Modul könnt ihr Waffen und Zaubern bestimmte Effekte und Sounds zuweisen, welche beim anwenden automatisch ausgeführt werden.
+Dieses Modul ist vom Modul **sequencer** abhängig.
+
+### JB2A - Jules and Ben's Animated Assets
+Dieses Modul bietet eine große Datenbank an Animationen für **Automated Animations**
+
+## Zeit & Kalender: SmallTime, Simplecalendar, TimesUp
 Die Verwendung von Zeit und Kalenderfunktionen ist nicht unkompliziert, weshalb ich empfehle die Wiki Seiten der Module zur Hilfe zu nehmen.  
 
 ### SmallTime
 Smalltime erzeugt eine kleine Systemuhr über welche die Tageszeit abgebildet wird. Diese Zeiteinstellung lässt sich in den Moduleinstellungen auf das 24 Stunden Format ändern.  
 [Github Seite](https://github.com/unsoluble/smalltime)
 
+Nellkirs Trick, um den Mond in der Zeitleiste als Madamal darzustellen [Madamal-Bilder-Download](de/files/moon-phases.zip):
+
+![image](https://user-images.githubusercontent.com/82062265/155390350-c16cf877-cdcb-4ec4-a33e-0c382539223d.png)
+
 ### Simplecalendar
 Simplecalendar ist eine Kalender Lösung für Foundry, die sich in den Einstellungen an Smalltime anbinden lässt. Dann übernimmt Smalltime die Steuerung der Uhrzeit und Simplecalendar steuert Tage, Wochen, Monate und Jahre.   
-Eine Datei zum Import des DSA Kalenders findet ihr hier: [SimpleCalender - DSA Kalender](de/files/simple-calendar-export.json).  
+Eine Datei zum Import des DSA Kalenders findet ihr hier: 
+
+[SimpleCalender - DSA Kalender](de/files/simple-calendar-export-Sonnenzeiten.json)
+
+[SimpleCalender - DSA Thorwaler Kalender](de/files/simple-calendar-export-Thorwalsch-Sonnenzeiten.json)
+
 [Github Seite](https://github.com/vigoren/foundryvtt-simple-calendar)
 
 ### Timesup
 Bindet die Zeit an die Effekte so, dass diese nach bestimmter Zeit und Kampfrunden automatisch beendet werden. Dieses Modul funktioniert ohne irgendwelche Einstellungen und arbeitet perfekt mit Smalltime zusammen.  
 
-### Weather Control
-Ist der Nachfolger zu Calendar/Weather. Die Kalenderfunktion wurde deaktiviert und übernimmt dann Simplecalendar. Weather Controll übernimmt dann nur noch die Steuerung des Wetters auf Basis der Einstellungn in Simplecalendar.  
-**Anmerkung:** Aktuell wird das Wetter dabei nur im Chat ausgegeben. Das Modul ist recht frisch im Umbau und die Funktionen sollen sich laut Entwickler noch weiter entwickeln. Bis dahin könnt ihr darauf aber auch verzichten.  
+## Clipboard Image
+Lässt euch schnell und einfach Bilder aus dem Web oder PDF's auf die Foundry Oberfläche legen.
+
+[Link zum Youtube Tutorial](https://www.youtube.com/watch?v=bBQ5t7OEGeA&list=PLGyb6RcE5AmVHzCZSKEN00cenwkB3LxTC&index=3)
 
 ## DF Curvy Walls
 Solltet ihr eine Karte mit einem Runden Turm haben, dann wisst ihr wie unbefriedigend Foundry diese Wände umsetzt. Mit dem Modul Curvy Walls könnt ihr ohne Probleme runde Wände ziehen.
@@ -92,6 +125,8 @@ Solltet ihr eine Karte mit einem Runden Turm haben, dann wisst ihr wie unbefried
 Hiermit lässt sich die Geschwindigkeit der Charaktere für die maximale Bewegungsrate einstellen. Diese wird dann bei Szenen mit Grid farblich dargestellt. In den *Moduleinstellungen* unter *Drag Ruler* -> *Einstellungen zur Systemintegration* beim *Geschwindigkeitsattribut* `actor.data.data.status.speed.max` und bei *Sprint Multiplikator* eine 2 eingeben.  
   
   ![Drag Ruler Einstellungen](https://user-images.githubusercontent.com/80099175/115960451-d7e3f500-a511-11eb-8388-78dfa12a69d4.png)
+  
+  [Link zum Youtube Tutorial](https://youtu.be/137LU0GtvEI?list=PLGyb6RcE5AmVHzCZSKEN00cenwkB3LxTC&t=17)
 
 ## FXMaster
 Hiermit werden weitere Wettereffekte zum Spiel hinzugefügt. Außerdem gibt es noch eine Handvoll Zaubereffekte.
@@ -105,27 +140,46 @@ Wenn euch die Meldung über eine zu geringe Auflösung nervt, dann ist das hier 
 ## Permission Viewer
 Bildet über ein Symbol in der Farbe der Spieler die Berechtigungen auf verschiedene Objekte ab. So seht ihrr als Spielleiter welche Spieler worauf Zugriff haben.
 
+[Link zum Youtube Tutorial](https://www.youtube.com/watch?v=g1RSPkPOi4Q)
+
 ## Pings
 Ihr könnt ein Symbol auf dem Bildschirm erscheinen lassen um zu verdeutlichen wovon ihr sprecht. Mit einer konfigurierbaren Tastenkombination lässt sich auch der Fokus der Spieler dorthin verschieben.
 
 ## Polyglot
 Über Polyglot könnt ihr verschiedene Aventurische Sprachen für eure Chatnachrichten auswählen. Diese können dann nur von den Charakteren gelesen werden, die diese Sprache beherrschen.
 
+[Link zum Youtube Tutorial](https://youtu.be/137LU0GtvEI?list=PLGyb6RcE5AmVHzCZSKEN00cenwkB3LxTC&t=1238)
+
 ## PopOut!
 Mit PopOut! könnt ihr jedes Fenster in Foundry aus dem Browser in ein separates Fenster verschieben. Sehr nützlich bei 2 Monitoren. Dies Funktioniert aber nicht in der Lokalinstallation von Foundry.
 
-## T is for Target
-Das Modul macht genau das was der Name verspricht. Geht mit der Maus über einen Token und drückt *t*, dadurch wird der Token als Ziel markiert. Seid ihr wieder mit der Maus über einem markierten Token und drückt *t*, dann wird die Markierung entfernt.
+## Turnmarker
+Mit diesem simplen Modul könnt ihr den Rundenmarker übersichtlicher und schöner gestalten.
 
-## Torchlight
-Dieses Modul fügt drei Lichtquellen (Zauberspruch, Laterne, Fackel) im Kontextmenü des Charakters hinzu. In den Moduleinstellungen kann die Reichweite der Lichtquellen definiert werden.
+[Link zum Youtube Tutorial](https://youtu.be/137LU0GtvEI?list=PLGyb6RcE5AmVHzCZSKEN00cenwkB3LxTC&t=1529)
 
-1. Bei aktiviertem Haken können auch die Spieler auf die Lichtquellen im Kontextmenü zugreifen.   
-2. Radius helles und dämmriges Licht des Zauberspruchs (Die anderen Lichtquellen können genauso eingestellt werden)  
-3. Lichtschalter im Kontextmenü mit dem die Lichtquelle aktiviert und deaktiviert werden kann.  
-![Torchlight](de/images/Module_Torchlight.jpg)
+## Window Controls
+Mit diesem kleinen Modul könnt ihr die geöffneten/minimierten Fenster im Foundry ordentlich aufreihen und verwalten.
 
-*[x]Zuletzt bearbeitet: 04.11.2021*
+[Link zum Youtube Tutorial](https://www.youtube.com/watch?v=YQOuo3tRkpE&list=PLGyb6RcE5AmVHzCZSKEN00cenwkB3LxTC&index=4)
+
+# Persönliche Empfehlungen von *Nellkir*
+Zu den bereits oben genannten Modulen, empfiehlt und benutzt *Nellkir* folgende Module. Auch bei diesen gibt es keine Garantie auf Kompatibilität.
+
+## Combat Tracker Effect Icon Tooltips
+Habt ihr keine Ahnung, was die Effektesymbole auf den Charakteren bedeuten? Dieses kleine Modul öffnet einen nützlichen Tooltip auf den Effekt im Begegnungstracker.
+
+![image](https://user-images.githubusercontent.com/82062265/155386099-c2d7c7ff-afbf-41e4-8b02-940efc1d54bb.png)
+
+## Forien's Quest Log
+Eine sehr nützliche Rückverfolgung der Questen, wenn ihr mit umfangreichen Kampagnen oder openworld sandboxing spielt.
+
+## Popout Resizer
+Ein kleines Modul, welches erlaubt die mit **PopOut!** extrahierten Fenster, in ihrer Größe zu verändern.
+
+
+
+*[x]Zuletzt bearbeitet: 23.02.2022 by Nellkir*
 
 
 

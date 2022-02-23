@@ -1,4 +1,9 @@
 # Seite noch im Aufbau
 
-*[x]Zuletzt bearbeitet: 04.11.2021*  
-*Wird noch erstellt*
+# Zuchtgrube
+Die Zuchtgrube ist nur über den Kauf des Moduls "Werkstatt des Meisters" verfügbar. Erst wenn das Modul aktiviert wird, stehen diese Funktionen zur Verfügung.
+
+
+
+*[x]Zuletzt bearbeitet: 23.02.2022*  
+*Neu: Einleitungstext und Screenshot*

@@ -14,9 +14,9 @@ de | [en](Home)
 * [Vertrautentiere](de-Vertrautentiere)
 
 **Spielmechanismen**
-* [Artefakte und Talismane](de-Artefakte-und-Talismane) **neu**
+* [Artefakte und Talismane](de-Artefakte-und-Talismane)
 * [Begegnung und Initiative](de-Begegnung_und_Initiative)
-* [Behälter: Rucksack oder Tasche](de-Behaelter-Rucksack-oder-Tasche) **neu**
+* [Behälter: Rucksack oder Tasche](de-Behaelter-Rucksack-oder-Tasche)
 * [Bibliothek](de-Bibliothek)
 * [Chatbefehle](de-Chatbefehle)
 * [Eigene Inhalte](de-Eigene_Inhalte_erstellen)
@@ -28,6 +28,7 @@ de | [en](Home)
 * [Sicht und Licht](de-Sicht_und_Licht)
 * [Systemeinstellungen](de-Systemeinstellungen)
 * [Szeneneinstellungen](de-Meister-Menue-Szeneneinstellungen) **in Arbeit**
+* [Szeneneinstellungen - Sichtautomatisierung](de-Meister-Menue-Sichtautomatisierung.md) **In Arbeit**
 * [Zuchtgrube](de-Meister-Menue-Zuchtgrube) **in Arbeit**
 
 **Fortgeschrittene Mechanismen**
@@ -40,7 +41,7 @@ de | [en](Home)
 **Empfehlungen**
 * [Module](de-Module)
 
-*[x]Zuletzt bearbeitet: 04.11.2021*  
-*Neu: Artefakte und Talismane, Behälter: Rucksack und Tasche*  
-*Platzhalter: Szeneneinstellungen und Zuchtgrube*  
-*Überarbeitet: Spielmechanismen alphabetisch sortiert.*  
+*[x]Zuletzt bearbeitet: 23.02.2022*  
+*Neu:*  
+*Platzhalter: Szeneneinstellung - Sichtautomatisierung*  
+*Überarbeitet:*  

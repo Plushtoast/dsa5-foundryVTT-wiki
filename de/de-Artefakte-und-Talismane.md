@@ -22,7 +22,7 @@ Um ein Talisman herzustellen, zieht ihr eine Liturgie auf einen Gegensand im Aus
 6. Anzahl der Ladungen. Ist die Liturgie nicht permanent, verschwindet sie nach der Probe komplett. Ist sie permanent, dann wir hier nur das Feld geleert und kann durch einen Klick wieder aufgeladen werden.  
 7. Über die Tonne wird die Liturgie gelöscht.  
 
-![GEgenstand Talisman](https://user-images.githubusercontent.com/80099175/140273437-f91992ea-f53e-4039-aecc-59e9c91a8cd6.png)
+![Gegenstand Talisman](https://user-images.githubusercontent.com/80099175/140273437-f91992ea-f53e-4039-aecc-59e9c91a8cd6.png)
 
 *[x]Zuletzt bearbeitet: 04.11.2021*   
 *Neu: Seitentitel überarbeitet*  

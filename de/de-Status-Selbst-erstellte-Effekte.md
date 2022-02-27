@@ -3,6 +3,7 @@ Effekte bieten die Möglichkeit gewisse Charakterwerte zu beeinflussen. Selbst e
 
 - [Effekte von Akteuren](de-Status-Selbst-erstellte-Effekte#effekte-von-akteuren)
 - [Effekte von einer Nahkampfwaffe (Item)](de-Status-Selbst-erstellte-Effekte#effekt-von-einer-nahkampfwaffe-item)
+- [Anpassung der AsP/KaP Kosten durch Effekte](de-Status-Selbst-erstellte-Effekte#anpassung-der-asp/kap-kosten-durch-effekte)
 - [Talentanpassungen durch Effekte](de-Status-Selbst-erstellte-Effekte#talentanpassungen-durch-effekte)
 - [Teilprobenmodifikatoren](de-Status-Selbst-erstellte-Effekte#teilprobenmodifikatoren)
 
@@ -32,7 +33,7 @@ Erstelle einen neuen Status im Charakterbogen unter Status und füge ein neues A
 So kannst du verschiedene Armatrutz Effekte mit verschiedenen Rüstungswerten anlegen, sodass der Spieler den passenden nur noch aktivieren muss, wenn er den Zauber erfolgreich spricht. Der geänderte Rüstungswert wird dann unter Kampf im Charakterbogen angezeigt.
   
 ![Armatrutz](https://user-images.githubusercontent.com/80099175/119772692-dcf4e500-bebf-11eb-80fe-8bb6c245f719.png)
-  
+
 ## Effekt von einer Nahkampfwaffe (Item)
 Ihr könnt Irems mit Statuseffekten versehen um so zum Beispiel magische Artefakte zu erstellen. Dies funktioniert nur bei Gegenständen die Ausrüstbar oder Verbrauchsgegenstände sind!
 **Achtung:** in Foundry 0.7.X können die Gegenstandseffekte nicht im Charakter angepasst werden. Hierfür muss ihr das Item unter Items verändern und wieder in den Charakterbogen ziehen.
@@ -45,6 +46,17 @@ Ihr könnt Irems mit Statuseffekten versehen um so zum Beispiel magische Artefak
 ![Item Effekt Magisches Schwert](https://user-images.githubusercontent.com/80099175/119779619-2d247500-bec9-11eb-933c-17eb62e79078.png)
   
 ![Transferierte Statuseffekte](https://user-images.githubusercontent.com/80099175/119779705-4a594380-bec9-11eb-8bd2-cf7daf4eeb3f.png)
+
+## Anpassung der AsP/KaP Kosten durch Effekte
+Wollt ihr die beim Zaubern oder Beten zu bezahlenden AsP bzw. KaP über "Astralpunktkosten" (data.aspModifier) / "Karmalpunktkosten" (data.KapModifier) verändern, müsst ihr bedenken, dass der Modifier die übrigbehaltenen Punkte des Akteurs verändert.
+
+  Sollen z.B. die Kosten von Zaubern um eins gesenkt werden, so muss der data.aspModifier also mit 1 addiert werden, um den gewünschten Effekt zu erzielen.
+
+  ![Verringerung AsP Kosten](https://user-images.githubusercontent.com/82062265/155872840-a0190c9e-e80b-415a-a4e4-46e3a2116f02.png)
+
+  Umgekehrt wird eine Erhöhung der Kosten erreicht, indem man mit Minuswerten addiert.
+
+  ![Erhöhung AsP Kosten](https://user-images.githubusercontent.com/82062265/155872887-511cccaa-a13e-415f-bad2-8273d882ecc1.png)
 
 ## Talentanpassungen durch Effekte
 Um in Effekten die *Talent - XY* zu verwenden, müsst ihr wie folgt vorgehen. 
@@ -91,5 +103,5 @@ Markiert einen Token und gebt in die Konsole: *_token.actor.data* ein. Dann seht
   
 ![Console](https://user-images.githubusercontent.com/80099175/113256355-5e1d6a80-92c9-11eb-9e02-b52ea1c371b6.png)
 
-*[x]Zuletzt bearbeitet: 04.11.2021*   
-*Überarbeitet: Hinweis auf Module in Effektdauer*
+*[x]Zuletzt bearbeitet: 27.02.2022*   
+*Überarbeitet: Anpassung der AsP/KaP Kosten durch Effekte*

@@ -192,15 +192,5 @@ Ein kleines Modul, welches erlaubt die mit **PopOut!** extrahierten Fenster, in 
 
 
 
-*[x]Zuletzt bearbeitet: 23.02.2022 by Nellkir*
-
-
-
-
-
-
-
-
-
-
-
+*[x]Zuletzt bearbeitet: 03.03.2022 by Tom*
+*Neu: Automated Animations Anleitung und Beispieldatei*

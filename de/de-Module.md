@@ -86,10 +86,18 @@ Für animierte lebendigere Kämpfe sind diese beiden Module ein Muss.
 Mit diesem Modul könnt ihr Waffen und Zaubern bestimmte Effekte und Sounds zuweisen, welche beim anwenden automatisch ausgeführt werden.
 Dieses Modul ist vom Modul **sequencer** abhängig.  
   
-Ihr könnt die folgende Datei einfach importieren: [Automated Animations - DSA Vorlagen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/c7b63c9912e6b4a53a5f50305ada2c82dbf50920/de/files/fvtt-autoanimations-autorecognition_3.json)
+Ihr könnt die folgende Datei einfach importieren: [Automated Animations - DSA Vorlagen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/c7b63c9912e6b4a53a5f50305ada2c82dbf50920/de/files/fvtt-autoanimations-autorecognition_4.json)
 
-Diese Datei importiert ihr über:
+Diese Datei importiert ihr über:  
+1. Einstellungen
+2. Einstellungen anpassen
+3. Moduleinstellungen
+4. Automated Animations einstellungen -> Automatische Erkennung konfigurieren
+5. Ganz nach unten Scrollen -> Einstellungen Importieren
+6. Datei auswählen -> die oben herunter geladene Datei auswählen
+7. Abschließen mit Import
 
+![Automated Animations import](https://raw.githubusercontent.com/Plushtoast/dsa5-foundryVTT-wiki/master/de/images/Module_Automated_Animations_import.jpg)
 
 ### JB2A - Jules and Ben's Animated Assets
 Dieses Modul bietet eine große Datenbank an Animationen für **Automated Animations**

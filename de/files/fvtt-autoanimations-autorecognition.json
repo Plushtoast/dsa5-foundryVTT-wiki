@@ -3192,7 +3192,7 @@
     "52": {
       "hidden": true,
       "anim2d": false,
-      "name": "waffenloser Schlag",
+      "name": "waffenloser Angriff",
       "meleeType": "weapon",
       "animation": "unarmedstrike",
       "variant": "physical",

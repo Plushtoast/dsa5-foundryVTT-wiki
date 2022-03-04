@@ -10,8 +10,8 @@
 	- [Tokenizer](de-Module#tokenizer)
 
 * [Persönliche Empfehlungen von Tom](de-Module#persönliche-empfehlungen-von-tom)
-	- [Automated Animations & JB2A - Jules and Ben's Animated Assets](de-Module#Automated-Animations-JB2A-Jules-and-Bens-Animated-Assets)
-	- [Zeit & Kalender: SmallTime, Simplecalendar, TimesUp](de-Module#Zeit-Kalender-SmallTime-Simplecalendar-TimesUp)
+	- [Automated Animations & JB2A - Jules and Ben's Animated Assets](de-Module#automated-animations--jb2a---jules-and-bens-animated-assets)
+	- [Zeit & Kalender: SmallTime, Simplecalendar, TimesUp](de-Module#zeit--kalender-smalltime-simplecalendar-timesup)
 	- [Clipboard Image](de-Module#clipboard-image)
 	- [DF Curvy Walls](de-Module#df-curvy-walls)
 	- [Drag Ruler](de-Module#drag-ruler)
@@ -86,7 +86,10 @@ Für animierte lebendigere Kämpfe sind diese beiden Module ein Muss.
 Mit diesem Modul könnt ihr Waffen und Zaubern bestimmte Effekte und Sounds zuweisen, welche beim anwenden automatisch ausgeführt werden.
 Dieses Modul ist vom Modul **sequencer** abhängig.  
   
-Ihr könnt die folgende Datei einfach importieren: [Automated Animations - DSA Vorlagen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/files/fvtt-autoanimations-autorecognition_4.json)
+Ihr könnt die folgende Datei einfach importieren: [Automated Animations - DSA Vorlagen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/files/fvtt-autoanimations-autorecognition_4.json)   
+<a href="https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/50308ca686143724df9e10ad96ee54089deae9fb/de/files/fvtt-autoanimations-autorecognition_4.json" download>Zweiter Versuch</a>  
+<a href="de/files/fvtt-autoanimations-autorecognition_4.json" download>Dritter Versuch</a>
+
 
 Diese Datei importiert ihr über:  
 1. Einstellungen

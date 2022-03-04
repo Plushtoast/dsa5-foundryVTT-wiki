@@ -42,7 +42,7 @@ de | [en](Home)
 * [Macros](de-Makro-Probe-anfordern)
 
 **Empfehlungen**
-* [Module](de-Module)
+* [Module](de-Module) *überarbeitet*
 
 *[x]Zuletzt bearbeitet: 04.03.2022*  
 *Seite überarbeitet und neu gegliedert*  

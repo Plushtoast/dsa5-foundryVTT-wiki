@@ -86,9 +86,10 @@ Für animierte lebendigere Kämpfe sind diese beiden Module ein Muss.
 Mit diesem Modul könnt ihr Waffen und Zaubern bestimmte Effekte und Sounds zuweisen, welche beim anwenden automatisch ausgeführt werden.
 Dieses Modul ist vom Modul **sequencer** abhängig.  
   
-Ihr könnt die folgende Datei einfach importieren: [Automated Animations - DSA Vorlagen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/files/fvtt-autoanimations-autorecognition_4.json)   
-<a href="https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/50308ca686143724df9e10ad96ee54089deae9fb/de/files/fvtt-autoanimations-autorecognition_4.json" download>Zweiter Versuch</a>  
-<a href="de/files/fvtt-autoanimations-autorecognition_4.json" download>Dritter Versuch</a>
+Ihr könnt die folgende Datei einfach importieren: [Automated Animations - DSA Vorlagen](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/de/files/fvtt-autoanimations-autorecognition.json)  
+[Erster Versuch](https://raw.githubusercontent.com/Plushtoast/dsa5-foundryVTT-wiki/master/de/files/fvtt-autoanimations-autorecognition.json)   
+<a href="https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/50308ca686143724df9e10ad96ee54089deae9fb/de/files/fvtt-autoanimations-autorecognition.json" download>Zweiter Versuch</a>  
+<a href="de/files/fvtt-autoanimations-autorecognition.json" download>Dritter Versuch</a>
 
 
 Diese Datei importiert ihr über:  
@@ -195,5 +196,5 @@ Ein kleines Modul, welches erlaubt die mit **PopOut!** extrahierten Fenster, in 
 
 
 
-*[x]Zuletzt bearbeitet: 03.03.2022 by Tom*
+*[x]Zuletzt bearbeitet: 04.03.2022 by Tom*
 *Neu: Automated Animations Anleitung und Beispieldatei*

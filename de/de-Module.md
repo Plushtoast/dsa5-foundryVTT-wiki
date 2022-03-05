@@ -109,7 +109,7 @@ Die Verwendung von Zeit und Kalenderfunktionen ist nicht unkompliziert, weshalb 
 Smalltime erzeugt eine kleine Systemuhr über welche die Tageszeit abgebildet wird. Diese Zeiteinstellung lässt sich in den Moduleinstellungen auf das 24 Stunden Format ändern.  
 [Github Seite](https://github.com/unsoluble/smalltime)
 
-Nellkirs Trick, um den Mond in der Zeitleiste als Madamal darzustellen [Madamal-Bilder-Download](de/files/moon-phases.zip):
+Nellkirs Trick, um den Mond in der Zeitleiste als Madamal darzustellen [Madamal-Bilder-Download](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/raw/master/de/files/moon-phases.zip):
 
 ![image](https://user-images.githubusercontent.com/82062265/155390350-c16cf877-cdcb-4ec4-a33e-0c382539223d.png)
 
@@ -117,9 +117,9 @@ Nellkirs Trick, um den Mond in der Zeitleiste als Madamal darzustellen [Madamal-
 Simplecalendar ist eine Kalender Lösung für Foundry, die sich in den Einstellungen an Smalltime anbinden lässt. Dann übernimmt Smalltime die Steuerung der Uhrzeit und Simplecalendar steuert Tage, Wochen, Monate und Jahre.   
 Eine Datei zum Import des DSA Kalenders findet ihr hier: 
 
-[SimpleCalender - DSA Kalender](de/files/simple-calendar-export-Sonnenzeiten.json)
+[SimpleCalender - DSA Kalender](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/raw/master/de/files/simple-calendar-export-Sonnenzeiten.zip)
 
-[SimpleCalender - DSA Thorwaler Kalender](de/files/simple-calendar-export-Thorwalsch-Sonnenzeiten.json)
+[SimpleCalender - DSA Thorwaler Kalender](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/raw/master/de/files/simple-calendar-export-Thorwalsch-Sonnenzeiten.zip)
 
 [Github Seite](https://github.com/vigoren/foundryvtt-simple-calendar)
 

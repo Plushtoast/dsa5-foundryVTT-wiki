@@ -28,6 +28,10 @@
 	- [Combat Tracker Effect Icon Tooltips](de-Module#Combat-Tracker-Effect-Icon-Tooltips)
 	- [Forien's Quest Log](de-Module#Foriens-Quest-Log)
 	- [Popout Resizer](de-Module#Popout-Resizer)
+* [Persönliche Empfehlungen von Hüpfklotz](de-Module#persönliche-empfehlungen-von-Hüpfklotz)
+	- [Health Estimate](de-Module#Health Estimate)
+	- [Splatter](de-Module#Splatter)
+
 
 
 
@@ -190,7 +194,18 @@ Eine sehr nützliche Rückverfolgung der Questen, wenn ihr mit umfangreichen Kam
 ## Popout Resizer
 Ein kleines Modul, welches erlaubt die mit **PopOut!** extrahierten Fenster, in ihrer Größe zu verändern.
 
+# Persönliche Empfehlungen von *Hüpfklotz*
+Zu den bereits oben genannten Modulen, empfiehlt und benutzt *Hüpfklotz* folgende Module.
 
+## Health Estimate
+Zeigt den Spielern eine ungefähre Einschätzung des Zustands ihrer Gegner an ohne zu viel zu verraten.
+
+![Health Estimate](https://raw.githubusercontent.com/Plushtoast/dsa5-foundryVTT-wiki/master/de/images/healthestimate.jpg)
+
+## Splatter
+Zeigt Blutspritzer und -spuren auf Grund von Verletzungen.
+
+![Splatter](https://raw.githubusercontent.com/Plushtoast/dsa5-foundryVTT-wiki/master/de/images/splatter.jpg)
 
 *[x]Zuletzt bearbeitet: 04.03.2022 by Tom*
 *Neu: Automated Animations Anleitung und Beispieldatei*

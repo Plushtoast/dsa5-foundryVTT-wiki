@@ -29,7 +29,7 @@
 	- [Forien's Quest Log](de-Module#Foriens-Quest-Log)
 	- [Popout Resizer](de-Module#Popout-Resizer)
 * [Persönliche Empfehlungen von Hüpfklotz](de-Module#persönliche-empfehlungen-von-Hüpfklotz)
-	- [Health Estimate](de-Module#Health Estimate)
+	- [Health Estimate](de-Module#Health-Estimate)
 	- [Splatter](de-Module#Splatter)
 
 
@@ -204,6 +204,12 @@ Zeigt den Spielern eine ungefähre Einschätzung des Zustands ihrer Gegner an oh
 
 ## Splatter
 Zeigt Blutspritzer und -spuren auf Grund von Verletzungen.
+
+```
+Settings:
+Current HP: data.status.wounds.value
+Max HP:		data.status.wounds.max
+```
 
 ![Splatter](https://raw.githubusercontent.com/Plushtoast/dsa5-foundryVTT-wiki/master/de/images/splatter.jpg)
 

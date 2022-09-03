@@ -207,8 +207,8 @@ Zeigt Blutspritzer und -spuren auf Grund von Verletzungen.
 
 ```
 Settings:
-Current HP: data.status.wounds.value
-Max HP:		data.status.wounds.max
+Current HP: status.wounds.value
+Max HP:	    status.wounds.max
 ```
 
 ![Splatter](https://raw.githubusercontent.com/Plushtoast/dsa5-foundryVTT-wiki/master/de/images/splatter.jpg)

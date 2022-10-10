@@ -16,7 +16,7 @@
 	- [DF Curvy Walls](de-Module#df-curvy-walls)
 	- [Drag Ruler](de-Module#drag-ruler)
 	- [FXMaster](de-Module#fxmaster)
-	- [GMScreen](de-Module#gmscreen)
+	- [GMScreen](de-Module#gmscreen (Wird nicht für v10 weiter entwickelt))
 	- [Laptop Form Fix](de-Module#laptop-form-fix)
 	- [Permission Viewer](de-Module#permission-viewer)
 	- [Pings](de-Module#pings)
@@ -117,6 +117,18 @@ Nellkirs Trick, um den Mond in der Zeitleiste als Madamal darzustellen [Madamal-
 
 ![image](https://user-images.githubusercontent.com/82062265/155390350-c16cf877-cdcb-4ec4-a33e-0c382539223d.png)
 
+**Hinweis von Danii0206:** 
+Nellkirs Tipp mit den alternativen images für die gedrehte Mondansicht funktioniert soweit, muss aber nach jedem Update des Moduls angewendet werden. Den gleichen Effekt kann man über das Modul Custom CSS erreichen, wenn man als globale Regeln folgendes festlegt:
+
+`#smalltime-app .moon::-webkit-slider-thumb {
+  transform: rotate(90deg);
+}
+#smalltime-app .moon::-moz-range-thumb {
+  transform: rotate(90deg);
+}`
+
+Der Vorteil daran ist, dass das auch bei einem Update von Smalltime bestehen bleibt und eine Einstellung pro Spielwelt ist - nützlich, falls man auch andere Systeme spielt.  
+
 ### Simplecalendar
 Simplecalendar ist eine Kalender Lösung für Foundry, die sich in den Einstellungen an Smalltime anbinden lässt. Dann übernimmt Smalltime die Steuerung der Uhrzeit und Simplecalendar steuert Tage, Wochen, Monate und Jahre.   
 Eine Datei zum Import des DSA Kalenders findet ihr hier: 
@@ -149,6 +161,7 @@ Hiermit lässt sich die Geschwindigkeit der Charaktere für die maximale Bewegun
 Hiermit werden weitere Wettereffekte zum Spiel hinzugefügt. Außerdem gibt es noch eine Handvoll Zaubereffekte.
 
 ## GMScreen
+**Achtung, das Modul wir nicht mehr für v10 weiter Entwickelt**
 Bietet einen aufklappbaren und selbst konfigurierbaren GM Screen, wie ihr ihn vom Tisch kennt. Dort könnt ihr euch Notizen aus dem Journal rein ziehen um Regeln schnell auf einen Blick zu haben oder eure Abenteuernotizen zu platzieren. Der Vorteil gegenüber dem Öffnen einzelner Einträge ist, dass ihr mehrere auf einen Klick öffnen und wieder schließen könnt. 
 
 ## Laptop Form Fix

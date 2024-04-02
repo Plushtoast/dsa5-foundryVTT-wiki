@@ -15,24 +15,24 @@ Oben in der Leiste befinden sich 2 Buttons:
 7. **Filter**: Suchfilter um das Ergebnisfeld (8) weiter einzuschränken.
 8. **Ergebnisfeld**: Anzeige der Suchergebnisse auf Basis der Suche.
   
-![Bibliothek](de/images/de-bibliothek_0.png)  
+![Bibliothek](de/images/de-bibliothek_1.png)  
 
 ## Inhalte verwenden
 Alles aus dem Kompendium kann dann direkt im Spiel über die folgenden Wege verwendet werden: 
 1. Drag and Drop: Vieles kann per Drag and Drop direkt ins Spiel gezogen werden. 
   1.1: Bsp: Spezies auf neuen Aktor ziehen:  
     
-  ![Spezies verwenden](de/images/de-bibliothek_0.png)
+  ![Spezies verwenden](de/images/de-bibliothek_2.png)
   
 Importieren: Ihr könnte Objekte aus der Bibliothek importieren um sie dann in eurer Welt zu verändern:  
 1. GEgenstand suchen und über Rechtsklick öffnen.
 2. Oben rechts befindet sich dann immer ein Symbol um das geöffnete Objekt zu importieren. 
     
-  ![Eintrag Importieren](de/images/de-bibliothek_1.png)
+  ![Eintrag Importieren](de/images/de-bibliothek_3.png)
 
 3. Ihr findet sie dann in unter dem jeweiligen Menüpunkt. Dies ist nützlich zum [Erstellen eigener Inhalte](de-eigene_inhalte_erstellen)  
   
-![Importierter Eintrag](de/images/de-bibliothek_2.png)
+![Importierter Eintrag](de/images/de-bibliothek_4.png)
   
 *[x]Zuletzt bearbeitet: 04.11.2021*  
 *Überarbeitet: Bilder und Text*

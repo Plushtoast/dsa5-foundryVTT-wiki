@@ -29,7 +29,7 @@ Ich findet es auf der linken Seite unter *Meister Menü* -> *Meister Menü*
 ## Charaktere entfernen/hinzufügen
 Um einen Charakter aus dem Menü zu entfernen klickt ihr auf das X am hinter dem Char:  
   
-  ![MM - Char entfernen](de/images/de-meister-menue_0.png)
+  ![MM - Char entfernen](de/images/de-meister-menue_1.png)
   
 Wollt ihr einen Char oder NSC hinzufügen, könnt ihr ihn einfach per Drag and Drop dort hineinziehen. Auch die Reihenfolge könnt ihr per Drag and Drop verändern.
 

@@ -29,17 +29,20 @@ Aktuelle verwendbare Attribute je Sprache des Systems:
 Um die Fertigkeitspunkte der oben genannten Fertigkeiten zu modifizieren kann ebenfalls das Effekt Feld verwendet werden.
 Dafür muss in das Effekt Feld eines Items `FERTIGKEIT FPWERT` eingetragen werden (Bsp.: Kraftakt FP2). Auch hier können mehrere Fertigkeiten durch ein `,` getrennt angegeben werden.   
 Dies führt aber nicht wie bei den Attributen dazu, dass der Wert automatisch im Charakterbogen steigt/sinkt. Erst bei der Probe taucht die Modifikation im Feld *Bedingte Modifikation* auf.  
-![Bedingte Modifikation](de/images/de-effekt_feld_0.png)
+![Bedingte Modifikation](de/images/de-effekt_feld_1.png)
 **Dies funktioniert im Effekt Feld folgender ITEMS**: Vorteile, Nachteile, Sonderfertigkeiten und Ausrüstung. Ausrüstung muss ausrüstbar sein, denn nur wenn diese Ausgewürstet wird, ist der Effekt aktiv.
 
 Hier noch ein Beispiel für einen Ausrüstungsgegenstand mit Zauberverbesserung:
-![Effekt Zauber](de/images/de-effekt_feld_1.png)  
+![Effekt Zauber](de/images/de-effekt_feld_2.png)  
 
 ## Effekt Feld - Kampfsonderfertigkeiten.
+
 Bei den Kampfsonderfertigkeiten können aktuell auch einige Modifikatoren eingetragen werden. Sollen mehrere angegeben werden, müssen diese mit `,` getrennt werden.  
-Als wert sind positive, negative Zahlen aber auch Würfel (Bsp. `1d6`) erlaubt.  
+Als wert sind positive, negative Zahlen aber auch Würfel (Bsp. `1d6`) erlaubt.
+
 **Anmerkung**: Nur wenn im Effekt Feld etwas angegeben ist, taucht die Sonderfertigkeit zur Auswahl bei der Kampfprobe auf! (Tipp: Es geht auch `+1 AT,-1 AT`)
-| Bedeutung | ATTRIBUT Deutsch | ATTRIBUG Englisch | 
+
+| Bedeutung | ATTRIBUT Deutsch | ATTRIBUT Englisch | 
 | ------------- | ------------- | ------------- |
 | Attacke Angreifer | AT | AT |
 | Verteidigung Gegner| VM | DM |

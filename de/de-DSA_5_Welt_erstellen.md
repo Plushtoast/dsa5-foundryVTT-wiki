@@ -18,11 +18,11 @@ und kann etwas einfacher in das System einarbeiten.
 Um eine neue Welt zu erstellen wird im Foundry Admin Menü unter *Spielwelten* (1) -> *Welt erstellen* (2) ausgewählt.
 Hier muss der Name der Welt (3), der Pfad in dem die Welt gespeichert wird (4) und das Regelsystem 
 (Wichtig: Für DSA *Das Schwarze Auge/The Dark Eye (5th Edition)*) gewählt (5).
-![Welt erstellen](de/images/de-dsa_5_welt_erstellen_0.png)  
+![Welt erstellen](de/images/de-dsa_5_welt_erstellen_2.png)  
   
 Nach dem **Starten** einer Welt, kann man sich als Gamemaster (*Select Player*) anmelden (*Join Game Session*).  
 Es kann danach zu der Meldung Spracheinstellungen kommen. Hier kann zwischen *de* für Deutsch und *en* für Englisch gewählt werden.  
-![Auswahl Sprache](de/images/de-dsa_5_welt_erstellen_1.png)  
+![Auswahl Sprache](de/images/de-dsa_5_welt_erstellen_3.png)  
 
 ## Module aktivieren und DSA 5 Abenteuer importieren
 Um DSA Abenteuer wie das Introduction Adventure verwenden zu können müssen diese aktiviert und importiert werden.
@@ -30,19 +30,19 @@ Um DSA Abenteuer wie das Introduction Adventure verwenden zu können müssen die
 ### Modul aktivieren
 1. Rechts oben auf das Zahnrad (*Spieleinstellungen*) -> *Module verwalten*
 2. Den Haken vor *The Dark Eye - Introduction Adventure* setzen und auf *Module aktualisieren* klicken  
-![DSA Introducion aktivieren](de/images/de-dsa_5_welt_erstellen_0.png)
+![DSA Introducion aktivieren](de/images/de-dsa_5_welt_erstellen_4.png)
 3. Beim Haken setzen **kann** es zu einer Abhängigkeitsmeldung kommen. Diese solle immer mit *Ja* bestätigt werden:  
-![Abhängigkeiten](de/images/de-dsa_5_welt_erstellen_1.png)
+![Abhängigkeiten](de/images/de-dsa_5_welt_erstellen_5.png)
 
 ### Abenteuer importieren
 Wird ein Abenteuer das erste mal in der Welt aktiviert, dann erscheint im Chat eine Nachricht mit den Verweis auf den Journal Browser.  
 
-![Chatnachricht - Journal Browser](de/images/de-dsa_5_welt_erstellen_2.png)
+![Chatnachricht - Journal Browser](de/images/de-dsa_5_welt_erstellen_6.png)
 
 In diesem findet ihr zu jedem offiziellen DSA 5 Abenteuer einen Abschnitt Vorbereitung. Mit einem Klick auf Import werden alle notwendigen sachen in der Welt angelegt und die erste Szene des Abenteuers aktiviert. In diesem Abschnitt ist auch immer noch angegeben ob weitere Module dieses Abenteuer unterstützen.  
 
-![Journal Browser Start](de/images/de-dsa_5_welt_erstellen_3.png)  
-![Abenteuer Importieren](de/images/de-dsa_5_welt_erstellen_4.png)
+![Journal Browser Start](de/images/de-dsa_5_welt_erstellen_7.png)  
+![Abenteuer Importieren](de/images/de-dsa_5_welt_erstellen_8.png)
 
 *[x]Zuletzt bearbeitet: 04.11.2021*  
 *Neu: Module aktivieren und DSA 5 Abenteuer importieren*  

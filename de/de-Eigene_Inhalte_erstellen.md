@@ -21,7 +21,7 @@ Diese Methode hat den Vorteil, dass die selbst erstellten Inhalte wieder verwend
 ## Eintrag im Charakter ändern
 Möchtet ihr die neuen Inhalte nur für einen Charakter neu erstellen, dann zieht ihr das passende Gegenstück auf den Charakter und ändert dort die Beschreibung und Details. Dies funktioniert aber nicht mit Spezies, Kultur und Profession. Diese werden direkt auf den Charakter angewendet und müssen [Importiert](de-eigene_inhalte_erstellen.md#import-einer-vorlage-aus-den-kompendien) werden.
   
-![Neuer Zauber](de/images/de-eigene_inhalte_erstellen_0.png)  
+![Neuer Zauber](de/images/de-eigene_inhalte_erstellen_2.png)  
 
 *[x]Zuletzt bearbeitet: 04.11.2021*  
 *Inhalt geprüft, keine Änderung*  

@@ -33,6 +33,7 @@ de | [en](Home)
 * [Gegenstände verschleiern](de-gegenstaende-verschleiern)
 * [Prügeleien](de-pruegelei)
 * [Schwarmregeln](de-schwarmregeln)
+* [Dies und Das](de-dies-und-das)
 
 **Modul Mechanismen**
 * [Gestaltwandlung](de-gestaltwandlung)

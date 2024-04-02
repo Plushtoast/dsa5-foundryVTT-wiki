@@ -53,7 +53,7 @@ Wirf 3D Würfel über den virtuellen Spieltisch. Dabei kann sogar zwischen versc
 ## German Core
 Durch dieses Modul kann die Standardsprache im Foundry Setup auf Deutsch umgestellt werden. Übersetz die komplette Oberfläche auf Deutsch.
 Unter *Adminsetup -> Configuration -> Default Language* Deutsch - German [Core] wählen und Server neu starten.
-![grafik](de/images/de-module_0.png)
+![grafik](de/images/de-module_2.png)
 
 ## Optolith to Foundry
 Ein Modul um die exportierten Charaktere (als .json) direkt zu Foundry zu importieren. Hierzu gibt es ein Video welches die Funktion erklärt: [Link zum Youtube Tutorial](https://youtu.be/SHqkSU1rQoQ)
@@ -63,7 +63,7 @@ Ein Modul um die exportierten Charaktere (als .json) direkt zu Foundry zu import
 Um den Spielern einen Hinweis darüber zu geben über was auf der Szene man gerade spricht, kann mit dem Modul Pings ein 
 Signal auf der Szene erzeugt werden (Standard: Linksklick)  
 Mit einer Tastenkombination (Standard: STRG+Linksklick) springt dann die Sicht der Spieler auch zu dem Punkt an die das Signal gesetzt wurde.  
-![Ping](de/images/de-module_0.png)
+![Ping](de/images/de-module_3.png)
 
 ## Tokenizer
 Bietet die Möglichkeit aus dem Hochgeladenen Charakterbild einen Token mit der offiziellen DSA5 Umrandung zu erstellen.
@@ -73,7 +73,7 @@ Bietet die Möglichkeit aus dem Hochgeladenen Charakterbild einen Token mit der 
 1. Über die Pfeile kann die Anordnung der einzelnen Bilder gesteuert werden. Die Vorschau zeigt dabei immer das Ergebnis.
 1. Wird das Schloss deaktiviert kann das einzelne Bild mit der Maus verschoben und über das Mausrad gezoomt werden
 1. Ist man mit dem Ergebnis zufrieden kann man das Bild Speichern und dann mit OK bestätigen.
-![Tokennizer](de/images/de-module_0.png)
+![Tokennizer](de/images/de-module_4.png)
 
 [Link zum Youtube Tutorial](https://youtu.be/137LU0GtvEI?list=PLGyb6RcE5AmVHzCZSKEN00cenwkB3LxTC&t=1393)
 
@@ -114,7 +114,7 @@ Smalltime erzeugt eine kleine Systemuhr über welche die Tageszeit abgebildet wi
 
 Nellkirs Trick, um den Mond in der Zeitleiste als Madamal darzustellen [Madamal-Bilder-Download](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/raw/master/de/files/moon-phases.zip):
 
-![image](de/images/de-module_0.png)
+![image](de/images/de-module_5.png)
 
 **Hinweis von Danii0206:** 
 Nellkirs Tipp mit den alternativen images für die gedrehte Mondansicht funktioniert soweit, muss aber nach jedem Update des Moduls angewendet werden. Den gleichen Effekt kann man über das Modul Custom CSS erreichen, wenn man als globale Regeln folgendes festlegt:
@@ -152,7 +152,7 @@ Solltet ihr eine Karte mit einem Runden Turm haben, dann wisst ihr wie unbefried
 ## Drag Ruler
 Hiermit lässt sich die Geschwindigkeit der Charaktere für die maximale Bewegungsrate einstellen. Diese wird dann bei Szenen mit Grid farblich dargestellt. In den *Moduleinstellungen* unter *Drag Ruler* -> *Einstellungen zur Systemintegration* beim *Geschwindigkeitsattribut* `actor.data.data.status.speed.max` und bei *Sprint Multiplikator* eine 2 eingeben.  
   
-  ![Drag Ruler Einstellungen](de/images/de-module_0.png)
+  ![Drag Ruler Einstellungen](de/images/de-module_6.png)
   
   [Link zum Youtube Tutorial](https://youtu.be/137LU0GtvEI?list=PLGyb6RcE5AmVHzCZSKEN00cenwkB3LxTC&t=17)
 
@@ -194,7 +194,7 @@ Zu den bereits oben genannten Modulen, empfiehlt und benutzt *Nellkir* folgende 
 ## Combat Tracker Effect Icon Tooltips
 Habt ihr keine Ahnung, was die Effektesymbole auf den Charakteren bedeuten? Dieses kleine Modul öffnet einen nützlichen Tooltip auf den Effekt im Begegnungstracker.
 
-![image](de/images/de-module_0.png)
+![image](de/images/de-module_7.png)
 
 ## Forien's Quest Log
 Eine sehr nützliche Rückverfolgung der Questen, wenn ihr mit umfangreichen Kampagnen oder openworld sandboxing spielt.

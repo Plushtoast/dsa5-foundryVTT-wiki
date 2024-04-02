@@ -25,7 +25,7 @@ und mit Lichtquellen im Außenbereich arbeiten). Ist der Haken **aktiv**, ist ü
 wird hier für die Szene der Wert auf 0 für Tag oder auf 1 für Nacht. Dies ist eine rein optische Dunkelheit und hat keinen direkten Einfluss auf die Sichteinschränkungen der Token.  
 4. **Sichtbeschränkungs-Schwellwert**: Wenn die **Dunkelheit** diesen Schwellenwert erreicht und der Haken für **unbeschränkte Sichtreichweite** gesetzt ist, dann wird der Haken dort deaktiviert so, dass bei Dunkelheit die Sicht und Lichteinstellungen der Token greifen. Dies dient zur Simulierung von Tag und Nacht.
   
-![Sicht und Beleuchtung](de/images/de-sicht_und_licht_0.png)
+![Sicht und Beleuchtung](de/images/de-sicht_und_licht_2.png)
 
 ## Token Einstellungen
 Der Token hat noch einmal eine komplett eigene Einstellung für die eigene Sicht bei Dunkelheit (Vorteil: Dunkelsicht) sowie das von ihm 
@@ -35,7 +35,7 @@ Zieht ihr den Token dann aus den Akteuren aufs Spielfeld, hat dieser wieder die 
 1. Öffnet die Einstellungen des gewünschten Tokens über das Akteur Menü. Oben im Fenster muss [Prototyp-Figur] stehen!  
 1. In diesem Fenster wird unter *Vision* die komplette Sicht und das Licht vom Token gesteuert. 
    
-![Prototyp Token Vision](de/images/de-sicht_und_licht_0.png) 
+![Prototyp Token Vision](de/images/de-sicht_und_licht_3.png) 
 
 ### Wichtige Einstellungen für DSA: (persönliche Meinung von *tsaath*)
 1. **Hat Sicht**: Bei aktiviertem Haken gelten alle Sichteinschränkungen durch Licht, Wände, etc. Ist er deaktiviert kann der Akteur über die ganze Szene schauen.    
@@ -52,7 +52,7 @@ Zieht ihr den Token dann aus den Akteuren aufs Spielfeld, hat dieser wieder die 
 12. **Animationsintensität**
 Bsp.: Held mit einer Fackel  
   
-![Elfin Fackel]![grafik](de/images/de-sicht_und_licht_1.png)
+![Elfin Fackel]![grafik](de/images/de-sicht_und_licht_4.png)
 
 ### Tipp: Makro Sicht und Licht im Grundregelwerk
 Wenn ihr das Grundregelwerk besitzt, dann gibt es dort im Makro Kompendium ein Makro, mit dem ihr die Sicht und Licht Einstellungen recht komfortabel umstellen könnt.  

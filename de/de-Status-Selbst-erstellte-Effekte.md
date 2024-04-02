@@ -42,9 +42,9 @@ Ihr könnt Irems mit Statuseffekten versehen um so zum Beispiel magische Artefak
 3. Rüstet den Gegenstand aus und der eingetragene Effekt wird direkt angewendet. 
 3.1 Diesen findet ihr dann auch im Charakterbogen unter *Status* -> *Transferierte Statuseffekte*
   
-![Item Effekt Magisches Schwert](de/images/de-status-selbst-erstellte-effekte_0.png)
+![Item Effekt Magisches Schwert](de/images/de-status-selbst-erstellte-effekte_3.png)
   
-![Transferierte Statuseffekte](de/images/de-status-selbst-erstellte-effekte_1.png)
+![Transferierte Statuseffekte](de/images/de-status-selbst-erstellte-effekte_4.png)
 
 ## Talentanpassungen durch Effekte
 Um in Effekten die *Talent - XY* zu verwenden, müsst ihr wie folgt vorgehen. 
@@ -58,7 +58,7 @@ Um in Effekten die *Talent - XY* zu verwenden, müsst ihr wie folgt vorgehen.
 ### Beispiel: Würfelbecher des Glücks
 Ein Würfelbecher der 2 Fertigkeitspunkte auf Brett- & Glücksspiel gibt:  
   
-![Würfelbecher des Glücks](de/images/de-status-selbst-erstellte-effekte_0.png)
+![Würfelbecher des Glücks](de/images/de-status-selbst-erstellte-effekte_5.png)
   
 ## Teilprobenmodifikatoren
 Es ist auch möglich nur eine Probe einer 3w20 Talentprobe zu modifizieren.
@@ -83,13 +83,13 @@ Um dann die Dauer in einem Effekt hinzu zu fügen geht ihr folgendermaßen vor:
 3. Ihr habt die Auswahl zwischen verschiedenen Optionen. Am häufigsten verwendet werden *Dauer (Sekunden)* und *Dauer (Züge) - Runden*.
    Sobald die Zeit/Runde abgelaufen ist, verschwindet der Effekt automatisch vom Charakterbogen.
    
-  ![Dauer Effekt](de/images/de-status-selbst-erstellte-effekte_0.png)
+  ![Dauer Effekt](de/images/de-status-selbst-erstellte-effekte_6.png)
    
 ## Tipp für Fortgeschrittene:
 Wer sich ein bisschen mit der Console auskennt (F12 im Browser) kann die Spieldaten selbst nach den Werten durchsuchen.  
 Markiert einen Token und gebt in die Konsole: *_token.actor.data* ein. Dann seht ihr die Werte die sich hierdurch beeinflussen lassen. Weitere Infos hierzu folgen.
   
-![Console](de/images/de-status-selbst-erstellte-effekte_0.png)
+![Console](de/images/de-status-selbst-erstellte-effekte_7.png)
 
 *[x]Zuletzt bearbeitet: 04.11.2021*   
 *Überarbeitet: Hinweis auf Module in Effektdauer*

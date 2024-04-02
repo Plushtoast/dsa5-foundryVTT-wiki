@@ -1,5 +1,6 @@
 # Gift und Krankheitsprobe
 Ihr könnt alle Gifte und Krankheiten direkt aus den Kompendien anwenden:
+
 1. Markiert den Token als Ziel
 2. Öffnet die Bibliothek
 3. Sucht euch das gewünschte Gift oder die Krankheit unter *Ausrüstung* -> *Gift* oder *Krankeit* heraus
@@ -9,6 +10,7 @@ Ihr könnt alle Gifte und Krankheiten direkt aus den Kompendien anwenden:
   ![Gift Probe](de/images/de-gift-und-krankheitsprobe_0.png)
   
 Das Ergebnis findet ihr dann im Chatfenster.  
+
 **Anmerkung:** Der Effekt muss von euch noch manuell angewendet werden.  
 
   ![Gift Chatfenster](de/images/de-gift-und-krankheitsprobe_1.png)

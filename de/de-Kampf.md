@@ -9,15 +9,15 @@ Außerdem kann das **4. Schaden anwenden** bei NSCs und Kreaturen nur durch Pers
 **Spieler:** Um einen gegnerischen Token als Ziel auszuwählen führt ihr entweder einen **Doppel-Rechtsklick** auf den gewünschten Token durch, oder markiert diesen über die linke Menüleiste als Ziel (Token auswählen (1) und auf die Zielscheibe klicken (2))  
 **Anmerkung:** Kontrolliert ihr mehrere Akteuere (Vertraute, Tierbegleiter, usw.) müsst ihr vorher auswählen, welcher euerer Token angreifen soll.
   
-  ![Ziel markieren](images/de-kampf_0.png)
+  ![Ziel markieren](de/images/de-kampf_0.png)
   
 **Spielleiter:** Ihr verwendet das Token Kontextmenü der Token um euer Ziel zu markieren. Klickt hierfür einmal mit der rechten Maustaste auf den Token und klickt dann mit der linken Maustaste auf die Zielscheibe 
     
-  ![SL Ziel markieren](images/de-kampf_1.png)
+  ![SL Ziel markieren](de/images/de-kampf_1.png)
   
 Das Ziel wird dann durch 4 kleine orangene Pfeile markiert. Die anderen Spieler (SL) sehen einen Punkt in der Farbe des Spielers (nicht des Tokens), der diesen Token markiert hat.
   
-  ![Markiert](images/de-kampf_2.png)
+  ![Markiert](de/images/de-kampf_2.png)
 
   
 **Tipp:** Es können auch mehrere Ziele markiert werden. (Stichwort: Rundumschlag)
@@ -31,12 +31,12 @@ Es ist möglich mit den Akteuer der laut Combat Tracker an der Reihe ist, direkt
 2. Handlung anklicken.  
 3. Probe durchführen.
   
-  ![Angriff Combat Tracker](images/de-kampf_0.png)
+  ![Angriff Combat Tracker](de/images/de-kampf_0.png)
   
 ### Ergebnis
 Das Ergebnis des Angriffs wird im Chat dargestellt. Hierüber kann die Reaktion des angegriffenen Akteurs ausgeführt werden.  
   
-  ![Angriff - Ergebnis](images/de-kampf_1.png)
+  ![Angriff - Ergebnis](de/images/de-kampf_1.png)
   
 ## 2.2 Aktion durchführen (Zauber, Liturgie, Nachladen, usw.)
 Neben Angriffen gibt es weitere Aktionen, welche ihr ausführen könnt: Zaubern, eine Liturgie wirken, Nachladen usw.  
@@ -44,50 +44,50 @@ Neben Angriffen gibt es weitere Aktionen, welche ihr ausführen könnt: Zaubern,
 ### Zauber/Liturgien
 Ihr könnt einen Zauber zwar nicht direkt im Combat Tracker ansteuern, doch wenn ihr eine Zauberprobe auslöst, dann bekommt ihr im Probenfenster den Button _Konzentrieren_ (1) angezeigt. Klickt ihr darauf, erscheint eine Chatnachricht (2) mit der Angabe wie lange ihr euch bereits konzentriert und im Magie Tab steht es auch hinter dem Zauber (3).  
   
-![Konzentrieren](images/de-kampf_0.png)  
+![Konzentrieren](de/images/de-kampf_0.png)  
   
 ### Fernkampf - Nachladen
 Das Nachladen funktioniert ähnlich wie die Zauber. Ihr wählt den Bogen zum Angriff über den Combat Tracker. Im Probenfenster geht ihr dann auf Nachladen (1), es erscheint im Chat eine Nachricht dass ihr am Nachladen seid und im Kampftab wird dies an der Waffe angezeigt.  
   
-![Nachladen](images/de-kampf_1.png)  
+![Nachladen](de/images/de-kampf_1.png)  
   
 Beide Langfristigen Aktionen wird im Combat Tracker angezeigt wie lange es noch dauert bis die Fernkampfwaffe, Liturgie oder der Zauber einsatzbereit sind.  
   
-![grafik](images/de-kampf_2.png)  
+![grafik](de/images/de-kampf_2.png)  
   
 ## 3.1 Reaktion 
 Um auf einen Angriff zu reagieren, muss vorher vom Angreifer ein *Token zum Angriff markiert* worden sein. Ist dies nicht passiert, würfelt ihr einfach eine Reaktion über den Charakterbogen. Dann kann aber der Schaden nicht mehr über den Chat angewendet werden.  
 Im Chatfenster erschreint nach einem **erfolgreichen** Angriff bei allen Besitzern des Tokens ein Button *Reaktion* (1). Durch einen Klick öffnet sich das Reaktionsfenster in dem ihr Zugriff auf alle Reaktionsmöglichkeiten des angegriffenen Akteurs habt:  
   
-![Reaktion](images/de-kampf_0.png)
+![Reaktion](de/images/de-kampf_0.png)
   
 ## 3.2 Keine Reaktion
 Ihr habt außerdem die Möglichkeit nicht auf einen Angriff zu reagieren. Dies kann notwendig sein, wenn ihr keine Reaktionen mehr in dieser Kampfrunde habt, oder lieber ohne Erschwernisse auf den Gegner reagieren wollt, der vermutlich mehr Schaden verursacht. Dafür wählt ihr im Reaktionsfenster *keine Reaktion* aus.  
   
-![Keine Reaktion](images/de-kampf_0.png)
+![Keine Reaktion](de/images/de-kampf_0.png)
 
 ## 4. Schaden anwenden
 War der Angriff erfolgreich und ist die Reaktion fehlgeschlagen oder wurde nicht reagiert, könnt ihr im Chat auf die Meldung mit der Schadensberechnung einen Rechtsklick durchführen und dann auswählen zwischen:
 * Schaden anwenden als TP
 * Schaden anwenden als SP
   
-  ![Schaden anwenden](images/de-kampf_0.png)
+  ![Schaden anwenden](de/images/de-kampf_0.png)
   
 **Tipp:** ob die Meldung der Schadensberechnung von den Spielern gesehen wird, kann in den Systemeinstellungen eingestellt werden.
 
 ## 5. Zug beenden
 Um seinen Zug zu beenden klickt ihr als Spieler auf *Zug beenden* unten im *Combat Tracker*:
   
-  ![Zug beenden]![grafik](images/de-kampf_0.png)  
+  ![Zug beenden]![grafik](de/images/de-kampf_0.png)  
 
 Als SL klickt ihr auf die weiter oder zurück Pfeile im *Combat Tracker*:
   
-  ![Zug beenden SL](images/de-kampf_1.png)  
+  ![Zug beenden SL](de/images/de-kampf_1.png)  
 
 ### Aktion verzögern
 Um die Aktion *verzögern* umzusetzen, kann der SL die INI der Akteuere beliebig ändern. Dafür macht ihr im *Combat Tracker* einen Rechtsklick auf den jeweiligen Charakter und  klickt auf *Teilnehmer* bearbeiten. Hier kann dann die gewüfelte INI und der Basiswert bearbeitet werden:
   
-  ![INI bearbeiten](images/de-kampf_2.png)
+  ![INI bearbeiten](de/images/de-kampf_2.png)
   
 **Alternativ:** könnt ihr als SL auch einfach über die vor und zurück Pfeile den Kampf steuern.
 

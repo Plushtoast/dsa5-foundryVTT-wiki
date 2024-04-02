@@ -1,7 +1,7 @@
 # Licht und Sicht Makro
 Das Licht Makro ist eine Funktion die direkt über das DSA Modul des Grundregelwerks mitgeliefert wird. 
 Auf das Makro kann zum einen über das Meister Menü ([hier beschrieben](de-meister-menue-szeneneinstellungen)) aber auch über ein Makro aus dem Grundregelwerk Kompendium zugegriffen werden.
-![Licht und Sicht Makro finden](images/Licht-und-Sicht-Makro_Makro.jpg)  
+![Licht und Sicht Makro finden](de/images/Licht-und-Sicht-Makro_Makro.jpg)  
 
 Das Makro zieht ihr dann unten in die Makro Leiste und könnt dann mit der passenden Taste schnell darauf zugreifen.
   
@@ -14,7 +14,7 @@ Das Makro bietet dann verschiedene Einstellungsmöglichkeiten:
 6. Der "Multiplikator" wird verwendet um die Sicht mit dem "Multiplizieren" (7) schnell an Szenen mit anderen Sichtverhältnissen anzupassen.
 7. "Multiplizieren der Sicht der ausgewählten Token anhand des "Multiplikators" (6)  
 
-![Licht und Sicht Makro](images/Token-Licht-Konfiguration_Sicht.jpg)
+![Licht und Sicht Makro](de/images/Token-Licht-Konfiguration_Sicht.jpg)
 
 ## Presets
 In den Presets können die Vorgaben für die einzelnen Einstellungen im Sicht und Licht Makro festgelegt werden.   
@@ -26,7 +26,7 @@ In den Presets können die Vorgaben für die einzelnen Einstellungen im Sicht un
 6. Über das Plus lassen sich weitere Presets festlegen die dann in dem Sicht und Licht Makro verwendet werden können. Zum Löschen einfach hinten auf Zurücksetzen (3) klicken.
 7. Zurücksetzen auf Standardwerte.
 
-![Sicht und Licht Makro - Presets](images/Licht-und-Sicht-Makro_Presets.jpg)
+![Sicht und Licht Makro - Presets](de/images/Licht-und-Sicht-Makro_Presets.jpg)
 
 *Zuletzt bearbeitet: 04.03.2022*
 *Seite fertig gestellt*

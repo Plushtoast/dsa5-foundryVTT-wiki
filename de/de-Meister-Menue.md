@@ -3,7 +3,7 @@ Das Meister Menü bietet Funktionen für den Spielleiter. Es werden alle Akteuer
 
 Ich findet es auf der linken Seite unter *Meister Menü* -> *Meister Menü*
 
-![Meister Menü öffnen](images/de-meister-menue_0.png)
+![Meister Menü öffnen](de/images/de-meister-menue_0.png)
 
 ## Funktionen:  
  
@@ -24,12 +24,12 @@ Ich findet es auf der linken Seite unter *Meister Menü* -> *Meister Menü*
 14. **Zuchtgrube**: Wird auf dieser Seite näher beschrieben: [Meister-Menü-Zuchtgrube](de-meister-menue-zuchtgrube) 
 15. **Szeneneinstellungen**: Wird auf dieser Seite näher beschrieben: [Meister-Menü-Szeneneinstellungen](de-meister-menue-szeneneinstellungen)  
 
-![Meister Menü](images/de-meister-menue_0.png)
+![Meister Menü](de/images/de-meister-menue_0.png)
 
 ## Charaktere entfernen/hinzufügen
 Um einen Charakter aus dem Menü zu entfernen klickt ihr auf das X am hinter dem Char:  
   
-  ![MM - Char entfernen](images/de-meister-menue_0.png)
+  ![MM - Char entfernen](de/images/de-meister-menue_0.png)
   
 Wollt ihr einen Char oder NSC hinzufügen, könnt ihr ihn einfach per Drag and Drop dort hineinziehen. Auch die Reihenfolge könnt ihr per Drag and Drop verändern.
 

@@ -9,8 +9,8 @@ wirkt sich auf die Sicht und Lichtweite einzelner Elemente in dieser Szene aus. 
 macht es einen großen Unterschied ob ein Gitter 2 oder 20 Einheiten groß ist. Bei 2 kann er 5 Kästchen weit sehen, bei 20 nur 2 Kästchen). 
 Diese Einstellung hängt direkt mit den [Einstellungen am Token](de-sicht_und_licht#token-einstellungen) zusammen.  
   
-![Gitter 2](images/de-sicht_und_licht_0.png)
-![Gitter 20](images/de-sicht_und_licht_1.png)
+![Gitter 2](de/images/de-sicht_und_licht_0.png)
+![Gitter 20](de/images/de-sicht_und_licht_1.png)
 
 ## Szeneneinstellungen - Sicht und Beleuchtung
 1. **Figur-Sicht**: Ist der Haken deaktiviert, können alle Spieler immer alles von der Map sehen. Außerdem werden Lichtquellen und Wände bei 
@@ -25,7 +25,7 @@ und mit Lichtquellen im Außenbereich arbeiten). Ist der Haken **aktiv**, ist ü
 wird hier für die Szene der Wert auf 0 für Tag oder auf 1 für Nacht. Dies ist eine rein optische Dunkelheit und hat keinen direkten Einfluss auf die Sichteinschränkungen der Token.  
 4. **Sichtbeschränkungs-Schwellwert**: Wenn die **Dunkelheit** diesen Schwellenwert erreicht und der Haken für **unbeschränkte Sichtreichweite** gesetzt ist, dann wird der Haken dort deaktiviert so, dass bei Dunkelheit die Sicht und Lichteinstellungen der Token greifen. Dies dient zur Simulierung von Tag und Nacht.
   
-![Sicht und Beleuchtung](images/de-sicht_und_licht_0.png)
+![Sicht und Beleuchtung](de/images/de-sicht_und_licht_0.png)
 
 ## Token Einstellungen
 Der Token hat noch einmal eine komplett eigene Einstellung für die eigene Sicht bei Dunkelheit (Vorteil: Dunkelsicht) sowie das von ihm 
@@ -35,7 +35,7 @@ Zieht ihr den Token dann aus den Akteuren aufs Spielfeld, hat dieser wieder die 
 1. Öffnet die Einstellungen des gewünschten Tokens über das Akteur Menü. Oben im Fenster muss [Prototyp-Figur] stehen!  
 1. In diesem Fenster wird unter *Vision* die komplette Sicht und das Licht vom Token gesteuert. 
    
-![Prototyp Token Vision](images/de-sicht_und_licht_0.png) 
+![Prototyp Token Vision](de/images/de-sicht_und_licht_0.png) 
 
 ### Wichtige Einstellungen für DSA: (persönliche Meinung von *tsaath*)
 1. **Hat Sicht**: Bei aktiviertem Haken gelten alle Sichteinschränkungen durch Licht, Wände, etc. Ist er deaktiviert kann der Akteur über die ganze Szene schauen.    
@@ -52,7 +52,7 @@ Zieht ihr den Token dann aus den Akteuren aufs Spielfeld, hat dieser wieder die 
 12. **Animationsintensität**
 Bsp.: Held mit einer Fackel  
   
-![Elfin Fackel]![grafik](images/de-sicht_und_licht_1.png)
+![Elfin Fackel]![grafik](de/images/de-sicht_und_licht_1.png)
 
 ### Tipp: Makro Sicht und Licht im Grundregelwerk
 Wenn ihr das Grundregelwerk besitzt, dann gibt es dort im Makro Kompendium ein Makro, mit dem ihr die Sicht und Licht Einstellungen recht komfortabel umstellen könnt.  

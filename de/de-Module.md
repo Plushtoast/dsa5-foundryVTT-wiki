@@ -44,16 +44,16 @@ Dabei wird der Wurf direkt in den Chat geschrieben und kann dort noch weiter mod
 
 ## Dice so nice
 Wirf 3D Würfel über den virtuellen Spieltisch. Dabei kann sogar zwischen verschiedenen DSA5 Themen gewählt werden. Mitlerweile gibt es in den [Systemeinstellungen](de-systemeinstellungen) auch die Möglichkeit die Dice so Nice Würfel für die Proben über den Charakterbogen zu verwenden. 
-![Dice so nice Wurf](images/de-module_0.png)
+![Dice so nice Wurf](de/images/de-module_0.png)
 **Achtung:** diese Würfel können bei älteren Geräte zu Performace Problemen führen. Um die Würfel für den einzelnen Spieler zu deaktivieren geht man in *Einstellungen anpassen -> Moduleinstellungen -> Abschnitt Dice so Nice -> My Dice Settings -> Appearance -> Haken bei Enable 3D Dice raus*  
-![Dice so nice Einstellungen](images/de-module_1.png)
+![Dice so nice Einstellungen](de/images/de-module_1.png)
 
 [Link zum Youtube Tutorial](https://www.youtube.com/watch?v=o8tlbTe42WM&list=PLGyb6RcE5AmVHzCZSKEN00cenwkB3LxTC&index=5)
 
 ## German Core
 Durch dieses Modul kann die Standardsprache im Foundry Setup auf Deutsch umgestellt werden. Übersetz die komplette Oberfläche auf Deutsch.
 Unter *Adminsetup -> Configuration -> Default Language* Deutsch - German [Core] wählen und Server neu starten.
-![grafik](images/de-module_0.png)
+![grafik](de/images/de-module_0.png)
 
 ## Optolith to Foundry
 Ein Modul um die exportierten Charaktere (als .json) direkt zu Foundry zu importieren. Hierzu gibt es ein Video welches die Funktion erklärt: [Link zum Youtube Tutorial](https://youtu.be/SHqkSU1rQoQ)
@@ -63,7 +63,7 @@ Ein Modul um die exportierten Charaktere (als .json) direkt zu Foundry zu import
 Um den Spielern einen Hinweis darüber zu geben über was auf der Szene man gerade spricht, kann mit dem Modul Pings ein 
 Signal auf der Szene erzeugt werden (Standard: Linksklick)  
 Mit einer Tastenkombination (Standard: STRG+Linksklick) springt dann die Sicht der Spieler auch zu dem Punkt an die das Signal gesetzt wurde.  
-![Ping](images/de-module_0.png)
+![Ping](de/images/de-module_0.png)
 
 ## Tokenizer
 Bietet die Möglichkeit aus dem Hochgeladenen Charakterbild einen Token mit der offiziellen DSA5 Umrandung zu erstellen.
@@ -73,7 +73,7 @@ Bietet die Möglichkeit aus dem Hochgeladenen Charakterbild einen Token mit der 
 1. Über die Pfeile kann die Anordnung der einzelnen Bilder gesteuert werden. Die Vorschau zeigt dabei immer das Ergebnis.
 1. Wird das Schloss deaktiviert kann das einzelne Bild mit der Maus verschoben und über das Mausrad gezoomt werden
 1. Ist man mit dem Ergebnis zufrieden kann man das Bild Speichern und dann mit OK bestätigen.
-![Tokennizer](images/de-module_0.png)
+![Tokennizer](de/images/de-module_0.png)
 
 [Link zum Youtube Tutorial](https://youtu.be/137LU0GtvEI?list=PLGyb6RcE5AmVHzCZSKEN00cenwkB3LxTC&t=1393)
 
@@ -100,7 +100,7 @@ Diese Datei importiert ihr über:
 6. Datei auswählen -> die oben herunter geladene Datei auswählen
 7. Abschließen mit Import
 
-![Automated Animations import](images/Module_Automated_Animations_import.jpg)
+![Automated Animations import](de/images/Module_Automated_Animations_import.jpg)
 
 ### JB2A - Jules and Ben's Animated Assets
 Dieses Modul bietet eine große Datenbank an Animationen für **Automated Animations**
@@ -114,7 +114,7 @@ Smalltime erzeugt eine kleine Systemuhr über welche die Tageszeit abgebildet wi
 
 Nellkirs Trick, um den Mond in der Zeitleiste als Madamal darzustellen [Madamal-Bilder-Download](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/raw/master/de/files/moon-phases.zip):
 
-![image](images/de-module_0.png)
+![image](de/images/de-module_0.png)
 
 **Hinweis von Danii0206:** 
 Nellkirs Tipp mit den alternativen images für die gedrehte Mondansicht funktioniert soweit, muss aber nach jedem Update des Moduls angewendet werden. Den gleichen Effekt kann man über das Modul Custom CSS erreichen, wenn man als globale Regeln folgendes festlegt:
@@ -152,7 +152,7 @@ Solltet ihr eine Karte mit einem Runden Turm haben, dann wisst ihr wie unbefried
 ## Drag Ruler
 Hiermit lässt sich die Geschwindigkeit der Charaktere für die maximale Bewegungsrate einstellen. Diese wird dann bei Szenen mit Grid farblich dargestellt. In den *Moduleinstellungen* unter *Drag Ruler* -> *Einstellungen zur Systemintegration* beim *Geschwindigkeitsattribut* `actor.data.data.status.speed.max` und bei *Sprint Multiplikator* eine 2 eingeben.  
   
-  ![Drag Ruler Einstellungen](images/de-module_0.png)
+  ![Drag Ruler Einstellungen](de/images/de-module_0.png)
   
   [Link zum Youtube Tutorial](https://youtu.be/137LU0GtvEI?list=PLGyb6RcE5AmVHzCZSKEN00cenwkB3LxTC&t=17)
 
@@ -194,7 +194,7 @@ Zu den bereits oben genannten Modulen, empfiehlt und benutzt *Nellkir* folgende 
 ## Combat Tracker Effect Icon Tooltips
 Habt ihr keine Ahnung, was die Effektesymbole auf den Charakteren bedeuten? Dieses kleine Modul öffnet einen nützlichen Tooltip auf den Effekt im Begegnungstracker.
 
-![image](images/de-module_0.png)
+![image](de/images/de-module_0.png)
 
 ## Forien's Quest Log
 Eine sehr nützliche Rückverfolgung der Questen, wenn ihr mit umfangreichen Kampagnen oder openworld sandboxing spielt.
@@ -208,7 +208,7 @@ Zu den bereits oben genannten Modulen, empfiehlt und benutzt *Hüpfklotz* folgen
 ## Health Estimate
 Zeigt den Spielern eine ungefähre Einschätzung des Zustands ihrer Gegner an ohne zu viel zu verraten.
 
-![Health Estimate](images/healthestimate.jpg)
+![Health Estimate](de/images/healthestimate.jpg)
 
 ## Splatter
 Zeigt Blutspritzer und -spuren auf Grund von Verletzungen.
@@ -220,7 +220,7 @@ Max HP:	        status.wounds.max
 Creature type:  creatureType
 ```
 
-![Splatter](images/splatter.jpg)
+![Splatter](de/images/splatter.jpg)
 
 *[x]Zuletzt bearbeitet: 04.03.2022 by Tom*
 *Neu: Automated Animations Anleitung und Beispieldatei*

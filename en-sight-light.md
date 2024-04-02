@@ -8,7 +8,7 @@ which goes into parts of this topic: https://www.youtube.com/watch?v=s60nS56jIH8
 In the scene, besides the section *Sight and Lighting*, there is also the grid scaling. The value entered here 
 affects the visibility and light range of individual elements in this scene. (Ex.: If a token has a 10 at twilight visibility,
 it makes a big difference if a grid is 2 or 20 units. With 2 it can see 5 boxes, with 20 only 2 boxes). 
-This setting is directly related to the [Settings on token](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Sicht_und_Licht#token-einstellungen).  
+This setting is directly related to the [Settings on token](en-sight-light#token-settings).  
   
 ![Gitter 2](https://user-images.githubusercontent.com/80099175/111609623-c9037780-87da-11eb-8cdb-5f75ef20c8a0.png)
 ![Gitter 20](https://user-images.githubusercontent.com/80099175/111629054-2dc9cc80-87f1-11eb-8b8e-43f6482f91c9.png)
@@ -52,8 +52,6 @@ Ex: Hero with a torch
   
 ![Geron Fackel](https://user-images.githubusercontent.com/80099175/111904114-74176980-8a45-11eb-9609-f4d47b2d6446.png)
 
-### Modultip: Torch
-[The module Torch](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Module#torch) offers the possibility to activate and deactivate torches via the context menu of the tokens.  
 
 ## Default settings visibility
 To avoid having to set the visibility settings to your own default for every new actor you create, 

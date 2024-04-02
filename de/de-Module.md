@@ -1,7 +1,7 @@
 ## Anmerkung:
 **Es ist nicht möglich alle Module auf vollständige Kompatibilität zu prüfen. Bitte testet die Module im zweifel in einer Testwelt und setzt sie erst in euren Spielwelten ein, wenn ihr euch sicher seid dass sie funktionieren.**
 
-* [Kompatible Module](de-Module#Kompatible-Module)
+* Kompatible Module
 	- [Dice Tray](de-Module#dice-tray)
 	- [Dice so nice](de-Module#dice-so-nice)
 	- [German (Core)](de-Module#german-core)
@@ -9,28 +9,27 @@
 	- [Pings](de-Module#pings)
 	- [Tokenizer](de-Module#tokenizer)
 
-* [Persönliche Empfehlungen von Tom](de-Module#persönliche-empfehlungen-von-tom)
+* Persönliche Empfehlungen von Tom
 	- [Automated Animations & JB2A - Jules and Ben's Animated Assets](de-Module#automated-animations--jb2a---jules-and-bens-animated-assets)
 	- [Zeit & Kalender: SmallTime, Simplecalendar, TimesUp](de-Module#zeit--kalender-smalltime-simplecalendar-timesup)
 	- [Clipboard Image](de-Module#clipboard-image)
 	- [DF Curvy Walls](de-Module#df-curvy-walls)
 	- [Drag Ruler](de-Module#drag-ruler)
 	- [FXMaster](de-Module#fxmaster)
-	- [GMScreen](de-Module#gmscreen (Wird nicht für v10 weiter entwickelt))
 	- [Laptop Form Fix](de-Module#laptop-form-fix)
 	- [Permission Viewer](de-Module#permission-viewer)
 	- [Pings](de-Module#pings)
 	- [Polyglot](de-Module#polyglot)
 	- [Popout!](de-Module#popout)
 	- [Turnmarker](de-Module#turnmarker)
-	- [Window Controls](de-Module#Window-Controls)
-* [Persönliche Empfehlungen von Nellkir](de-Module#persönliche-empfehlungen-von-Nellkir)
-	- [Combat Tracker Effect Icon Tooltips](de-Module#Combat-Tracker-Effect-Icon-Tooltips)
-	- [Forien's Quest Log](de-Module#Foriens-Quest-Log)
-	- [Popout Resizer](de-Module#Popout-Resizer)
-* [Persönliche Empfehlungen von Hüpfklotz](de-Module#persönliche-empfehlungen-von-Hüpfklotz)
-	- [Health Estimate](de-Module#Health-Estimate)
-	- [Splatter](de-Module#Splatter)
+	- [Window Controls](de-Module#window-controls)
+* Persönliche Empfehlungen von Nellkir
+	- [Combat Tracker Effect Icon Tooltips](de-Module#combat-tracker-effect-icon-tooltips)
+	- [Forien's Quest Log](de-Module#foriens-quest-log)
+	- [Popout Resizer](de-Module#popout-resizer)
+* Persönliche Empfehlungen von Hüpfklotz
+	- [Health Estimate](de-Module#health-estimate)
+	- [Splatter](de-Module#splatter)
 
 
 
@@ -51,7 +50,7 @@ Wirf 3D Würfel über den virtuellen Spieltisch. Dabei kann sogar zwischen versc
 
 [Link zum Youtube Tutorial](https://www.youtube.com/watch?v=o8tlbTe42WM&list=PLGyb6RcE5AmVHzCZSKEN00cenwkB3LxTC&index=5)
 
-## German [Core]
+## German Core
 Durch dieses Modul kann die Standardsprache im Foundry Setup auf Deutsch umgestellt werden. Übersetz die komplette Oberfläche auf Deutsch.
 Unter *Adminsetup -> Configuration -> Default Language* Deutsch - German [Core] wählen und Server neu starten.
 ![grafik](https://user-images.githubusercontent.com/80099175/111421703-bb23f880-86ed-11eb-94ee-92a71189353e.png)
@@ -101,7 +100,7 @@ Diese Datei importiert ihr über:
 6. Datei auswählen -> die oben herunter geladene Datei auswählen
 7. Abschließen mit Import
 
-![Automated Animations import](https://raw.githubusercontent.com/Plushtoast/dsa5-foundryVTT-wiki/master/de/images/Module_Automated_Animations_import.jpg)
+![Automated Animations import](images/Module_Automated_Animations_import.jpg)
 
 ### JB2A - Jules and Ben's Animated Assets
 Dieses Modul bietet eine große Datenbank an Animationen für **Automated Animations**
@@ -160,10 +159,6 @@ Hiermit lässt sich die Geschwindigkeit der Charaktere für die maximale Bewegun
 ## FXMaster
 Hiermit werden weitere Wettereffekte zum Spiel hinzugefügt. Außerdem gibt es noch eine Handvoll Zaubereffekte.
 
-## GMScreen
-**Achtung, das Modul wir nicht mehr für v10 weiter Entwickelt**
-Bietet einen aufklappbaren und selbst konfigurierbaren GM Screen, wie ihr ihn vom Tisch kennt. Dort könnt ihr euch Notizen aus dem Journal rein ziehen um Regeln schnell auf einen Blick zu haben oder eure Abenteuernotizen zu platzieren. Der Vorteil gegenüber dem Öffnen einzelner Einträge ist, dass ihr mehrere auf einen Klick öffnen und wieder schließen könnt. 
-
 ## Laptop Form Fix
 Wenn euch die Meldung über eine zu geringe Auflösung nervt, dann ist das hier das Modul welches die Meldung entfernt und ein paar Optimierungen an der Oberfläche durchführt. Allerdings ist Foundry dadurch in kleineren Auflösungen immer noch nicht optimal zu bedienen. Allerdings lassen sich jetzt alle Schaltflächen erreichen und bedienen.
 
@@ -213,7 +208,7 @@ Zu den bereits oben genannten Modulen, empfiehlt und benutzt *Hüpfklotz* folgen
 ## Health Estimate
 Zeigt den Spielern eine ungefähre Einschätzung des Zustands ihrer Gegner an ohne zu viel zu verraten.
 
-![Health Estimate](https://raw.githubusercontent.com/Plushtoast/dsa5-foundryVTT-wiki/master/de/images/healthestimate.jpg)
+![Health Estimate](images/healthestimate.jpg)
 
 ## Splatter
 Zeigt Blutspritzer und -spuren auf Grund von Verletzungen.
@@ -225,7 +220,7 @@ Max HP:	        status.wounds.max
 Creature type:  creatureType
 ```
 
-![Splatter](https://raw.githubusercontent.com/Plushtoast/dsa5-foundryVTT-wiki/master/de/images/splatter.jpg)
+![Splatter](images/splatter.jpg)
 
 *[x]Zuletzt bearbeitet: 04.03.2022 by Tom*
 *Neu: Automated Animations Anleitung und Beispieldatei*

@@ -12,14 +12,12 @@ Add the ability "Familiar" to the character sheet (use the library to search for
 
 + In order for the player to control this familiar, the GM has to set the permissions accordingly for that character. Otherwise, only the GM can control the familiar.
 + To create a regular animal companion (without the bonuses), you can add the "Familiar" ability. Then, you have to create a new ability which deducts the bonuses from "Familiar" again. This will leave you with a creature with AP, but no special bonuses.   
-Alternatively, you can [download](files/Companion.json) and import this "Companion" item. It works by today (08.07.2021), but may not be updated in the future.
-
 
 
 
 *Translation information*  
 *[x] updated: 2021-07-08*  
-*[x] german entry [linked](de-Vertrautentiere)*  
+*[x] german entry [linked](de/de-Vertrautentiere)*  
 *[x] automatic translation*  
 *[x] proof read*  
 *[x] change pictures with EN version*

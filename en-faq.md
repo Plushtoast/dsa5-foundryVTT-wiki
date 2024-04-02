@@ -1,4 +1,4 @@
-## Why is [insert any function here] not working?  
+## Why is ... not working?  
 
 1. Have you installed any (non TDE) modules? If so, please de-activate them and try again. Module incompabilities can happen.
 2. Foundry doesn't update itself. So try to update.  
@@ -14,10 +14,10 @@ Open the page of [Foundry VTT](https://foundryvtt.com/) and log in with your Fou
 
 ## How do I create a wizard/blessed one?
 Basically you have to assign the advantage *Blessed* or *Spellcaster* to your character. But this is not enough to see the magic or religion tab in the character sheet. You have to add one of the following items to the character: magic/karmic special skill, spelsl, cantrip, ritual, liturgy, ceremony, blessing.
-For more details, see the [Character Creation](en-character-creation) and the [character sheet](en-character-sheet).
+For more details, see the [Character Creation](en-character-creation) and the [character sheet](en-charactersheet).
 
 ## Where can I ask questions or get support for problems?
-See above, point 3 under [Why is ... not working?](#why-is-insert-any-function-here-not-working)
+See above, point 3 under "Why is ... not working?"
 
 ## I can't find my weapons under combat in the character sheet.
 Make sure you have the weapons equipped in the equipment tab. You can do that by placing a check mark in the *Shield* column. For details, check out the guide: [Character Sheet - Equipment](en-charactersheet#5-equipment).  

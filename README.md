@@ -17,8 +17,10 @@ To add wiki pages request access via the issues or create a pull request.
 
 
 ## How To Write on Github
-Edit the corresponding page or create a new one. Make sure to set the filename's ending to .md (for markdown).
-Also add your newly created page to the contents in the `_sidebar.md` file.
+* Edit the corresponding page or create a new one. 
+* Make sure to set the filename's ending to .md (for markdown).
+* Make sure the filename is all lowercases and starts with the appropriate language prefix (de, en)
+* Also add your newly created page to the contents in the `_sidebar.md` file.
 
 ### Formatting
 For headings paragraphs and stuff check out this page:

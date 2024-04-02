@@ -3,7 +3,7 @@ Auf Basis der Vorlagen aus dem DSA5 System und den Regelwerken lasse sich viele 
 Euch fehlt ein Zauber aus dem AM II? Ihr Braucht einen Geweihten aus dem AG I? Kein Problem erstellt euch die Inhalte selbst.  
 
 ## Import einer Vorlage aus den Kompendien
-Am einfachsten ist es, wenn man sich eine Vorlage aus einem der Kompendien [importiert](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Bibliothek#inhalte-verwenden).
+Am einfachsten ist es, wenn man sich eine Vorlage aus einem der Kompendien [importiert](de-Bibliothek#inhalte-verwenden).
 Danach schaut ihr euch an wie diese Vorlage geschrieben ist und passt sie euren wünschen an.
 
 ### Beispiel: Ritual Adamantium aus AM II
@@ -19,7 +19,7 @@ Diese Methode hat den Vorteil, dass die selbst erstellten Inhalte wieder verwend
 3. Ziehen des Rituals auf den Charakterbogen des Helden
 
 ## Eintrag im Charakter ändern
-Möchtet ihr die neuen Inhalte nur für einen Charakter neu erstellen, dann zieht ihr das passende Gegenstück auf den Charakter und ändert dort die Beschreibung und Details. Dies funktioniert aber nicht mit Spezies, Kultur und Profession. Diese werden direkt auf den Charakter angewendet und müssen [Importiert](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Eigene-Inhalte-erstellen.md#import-einer-vorlage-aus-den-kompendien) werden.
+Möchtet ihr die neuen Inhalte nur für einen Charakter neu erstellen, dann zieht ihr das passende Gegenstück auf den Charakter und ändert dort die Beschreibung und Details. Dies funktioniert aber nicht mit Spezies, Kultur und Profession. Diese werden direkt auf den Charakter angewendet und müssen [Importiert](de-Eigene_Inhalte_erstellen.md#import-einer-vorlage-aus-den-kompendien) werden.
   
 ![Neuer Zauber](https://user-images.githubusercontent.com/80099175/112993339-68285780-9169-11eb-81c6-8fb219ce5356.png)  
 

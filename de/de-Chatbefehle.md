@@ -6,10 +6,10 @@ Es gibt ein paar DSA spezifische Chatbefehle die ihr im Spiel nutzen könnt. Die
 * Zustände - `/conditions`
 * Tabellen - `/tables`
 * Wurf anfordern - `/rq`
-* 3w20 Probe - `/ch` [siehe unten](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Chatbefehle#ch-3w20-probe)
-* Gruppenprobe - `/gc` [siehe unten](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Chatbefehle#gc-gruppenprobe)
-* Ausrüstungspakete - `/packages` [siehe unten](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Chatbefehle#packages-ausr%C3%BCstungspakete)  
-* Anwendungsgebiete - `/apps` [siehe unten](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Chatbefehle#Anwendungsgebiete)
+* 3w20 Probe - `/ch` [siehe unten](de-Chatbefehle#ch-3w20-probe)
+* Gruppenprobe - `/gc` [siehe unten](de-Chatbefehle#gc-gruppenprobe)
+* Ausrüstungspakete - `/packages` [siehe unten](de-Chatbefehle#packages-ausrüstungspakete)  
+* Anwendungsgebiete - `/apps` [siehe unten](de-Chatbefehle#anwendungsgebiete)
   
 In dieser Anleitung findet ihr die Befehle, bei denen die genaue Beschreibung des Befehls im Chatfenster zu umfangreich ist.
 

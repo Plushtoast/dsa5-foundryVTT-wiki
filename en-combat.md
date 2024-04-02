@@ -1,5 +1,5 @@
 # Combat
-Combat begins with the GM creating an [encounter and the initiative](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Begegnung_und_Initiative) is rolled.  
+Combat begins with the GM creating an encounter and the initiative is rolled.  
 
 ## Differences between the GM and the player
 The combat process differs between player and GM in that the GM must also select the token to attack with beforehand. The easiest way to do this is to double-click the active player in the INI list. This selects the clicked token and opens the character sheet.  

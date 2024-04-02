@@ -1,28 +1,28 @@
 # Character Sheet - Structure
 The structure of the character sheet is as similar as the sheet of the rulebook.
 There are the categories in it:  
-1. [Header](#1-header)  
-2. [Skills](#2-skills)  
-3. [Combat](#3-combat)  
-4. [Attributes](#4-attributes)  
-5. [Equipment](#5-equipment)  
-6. [State](#6-state)  
-7. [Notes](#7-notes)  
-8. [Magic](#8-magic)  
-9. [Religion](#9-religion)  
+1. [Header](en-charactersheet#1-header)  
+2. [Skills](en-charactersheet#2-skills)  
+3. [Combat](en-charactersheet#3-combat)  
+4. [Attributes](en-charactersheet#4-attributes)  
+5. [Equipment](en-charactersheet#5-equipment)  
+6. [State](en-charactersheet#6-state)  
+7. [Notes](en-charactersheet#7-notes)  
+8. [Magic](en-charactersheet#8-magic)  
+9. [Religion](en-charactersheet#9-religion)  
   
 **Note**: The *magic* and *religion* tabs only appear if the character has at least one magical or karmal special skill/spell/ritual/liturgy/ceremony assigned. Also, only then do AE (astral energy) or KP (karma points) appear in the character sheet.
   
 ![charsheet overview](images/en-charactersheet-01.jpg)  
 
 ## 1. Header
-This part of the sheet is always visible and shows a characters base information. Many values are calculated and derived from the settings in the [Attributes tab](#4-attributes).  
+This part of the sheet is always visible and shows a characters base information. Many values are calculated and derived from the settings in the [Attributes tab](en-charactersheet#4-attributes).  
 ![charsheet header](images/en-charactersheet-02.jpg)  
 
 - **Name & picture:** Can be edited. When you change the name, make sure to update that information in the token settings as well
 - **Species:** FYI only, can't be changed
 - **Profession:** Can be edited. It's text only. See [here](en-character-creation#6-choose-profession) for more information on choosing / entering professions.
-- **Attribute values:** derived from the [Attributes tab](#4-attributes), where it can be changed
+- **Attribute values:** derived from the [Attributes tab](en-charactersheet#4-attributes), where it can be changed
 - **Life/Astral/Karmal points** (current and max): can be edited. You have to enter the new number, not the changes (fe: you have 30 LP and you lose 5 LP, enter 25 LP). You CAN enter the changes on the token (fe: you have 30 LP and you lose 5 LP, enter -5, hit Enter and char has 25 LP as a result)
 - **Fate Points:** Base value plus dis-/advantages. Maximum can't be changed, but you can add/spend FtP by clicking on them. (When you spend FtP via chatlog by right clicking a roll, the FtP is deducted/spent automatically)
 
@@ -54,11 +54,11 @@ This tab shows you all available skills, their skill rating and several options 
 The combat sheet contains all data used for [Combat](en-combat) in TDE 5.  
 ![charsheet combat](images/en-charactersheet-07.jpg)  
 
-1. **Weapons and Armor**: Lists all weapons and armor that are equipped **and have been marked as "worn"** (=activated for the combat sheet) in the [equipment tab.](#5-equipment)  
+1. **Weapons and Armor**: Lists all weapons and armor that are equipped **and have been marked as "worn"** (=activated for the combat sheet) in the [equipment tab.](en-charactersheet#5-equipment)  
   
   **1. a) Dodge, unarmed attack and parry**: The symbols represent the actions for unarmed combat: dodge, attack, parry... but never parry with bare hands when the enemy wields some sharp weapon ;-)  
  
-  **1. b) Ammunition**: here you can select ammunition for the weapon. However, this must be stored in the [Equipment](#5-equipment). Then the system will automatically reduce the ammunition after an attack.  
+  **1. b) Ammunition**: here you can select ammunition for the weapon. However, this must be stored in the [Equipment](en-charactersheet#5-equipment). Then the system will automatically reduce the ammunition after an attack.  
 For throwing weapons, the weapon itself counts as ammunition, i.e. if you equip 3 throwing knives, it reduces the number of throwing knives after the attack to 2 etc., if the number is 0, no more attacks can be made. 
  
   **1. c) Details**: Clicking on the arrow shows details like range and reload time.  
@@ -137,7 +137,7 @@ The magic sheet does not appear until a magic special skill, spell, ritual, or m
 1st **Spells and Rituals**: All of the character's spells and rituals are listed here.  
    1.1 The speech bubble divides the spell/ritual over the chat, the arrow opens details (duration of effect, costs) and the barrel deletes the spell/ritual.   
 2nd **Magical Special Skills**: All special magic skills assigned to the character.
-3. **Tradition, Leiteigenschaft, Merkmal, Leiteig. Multiplier**: the leadership trait must be specified here, since the AsP in the [Traits](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#4-eigenschaften) are also calculated via it. In addition, the influence of the trait on the astral points can be set via the *trait multiplier* (e.g.: Spellbard 0.5).
+3. **Tradition, Leiteigenschaft, Merkmal, Leiteig. Multiplier**: the leadership trait must be specified here, since the AsP in the [Traits](en-charactersheet#4-attributes) are also calculated via it. In addition, the influence of the trait on the astral points can be set via the *trait multiplier* (e.g.: Spellbard 0.5).
 4. **Magic tricks** !  
   
 ![Magie](https://user-images.githubusercontent.com/80099175/114888610-b1370780-9e09-11eb-92e3-3b3a7efe629f.png)
@@ -146,7 +146,7 @@ The magic sheet does not appear until a magic special skill, spell, ritual, or m
 1. **Liturgies and Ceremonies**: All of the character's liturgies and ceremonies are listed here.  
    1.1 The speech bubble shares the liturgy/ceremony via chat, the arrow opens details (effect duration, cost), and the barrel deletes the liturgy/ceremony.   
 2nd **Carmic Special Skills**: All karmic special skills assigned to the character.
-3. **Tradition, Leadership Trait, Aspect, Benevolent Talents**: the Leadership Trait must be specified here, as it is also used to calculate the KaP in the [Traits](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen#4-eigenschaften).  
+3. **Tradition, Leadership Trait, Aspect, Benevolent Talents**: the Leadership Trait must be specified here, as it is also used to calculate the KaP in the [Traits](en-charactersheet#4-attributes).  
    - Benevolent talents should definitely be entered here. Pay attention to correct spelling. The state "Rapture" takes these entries into account.
 5. **Blessings**  
   
@@ -154,7 +154,7 @@ The magic sheet does not appear until a magic special skill, spell, ritual, or m
 
 *Translation information*  
 *[x] updated: 2021-06-05*  
-*[x] german entry [linked](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Charakterbogen)*  
+*[x] german entry [linked](de/de-Charakterbogen)*  
 *[x] automatic translation*  
 *[ ] proof read*  
 *[ ] change pictures with EN version*  

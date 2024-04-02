@@ -1,4 +1,4 @@
-# Effect Field - Modify Attributes
+## Effect Field - Modify Attributes
 The effect field of items can be used to increase or decrease the attributes of a hero.  
 To do this, enter `VALUE ATTRIBUT` in the effect field of an item (e.g. +1 GS to increase speed by 1). 
 If several attributes are to be influenced by an effect field, they can be entered one after the other separated by a `,`:  
@@ -25,7 +25,7 @@ Current usable attributes per system language:
 | Konstitution |KO | Constitution | CON | 
 | Stärke | KK | Strength | STR | 
 
-# Effect Field - Modify Skill Points for Talents/Spells/Rituals/Liturgies/Ceremonies
+## Effect Field - Modify Skill Points for Talents/Spells/Rituals/Liturgies/Ceremonies
 To modify the skill points of the above mentioned skills you can also use the effect field.
 To do this, enter 'SKILL FPVALUE' in the effect field of an item (ex: feat of strength FP2). Also here several skills can be indicated by a `,` separated.   
 ![Effekt Fertigkeit](https://user-images.githubusercontent.com/80099175/111601462-aa00e780-87d2-11eb-93d6-3fbec9a717c1.png)  

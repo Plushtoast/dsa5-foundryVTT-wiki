@@ -33,3 +33,4 @@
 
 **Recommendations**
 * [Additional modules](en-modules)
+* [Additional ressources](en-ressources)

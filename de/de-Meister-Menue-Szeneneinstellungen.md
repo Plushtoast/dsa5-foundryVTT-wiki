@@ -1,5 +1,3 @@
-# Seite noch im Aufbau
-
 # Meister Menü - Szeneneinstellungen
 **Wichtig:** Die Menüpunkte 3 und 4 sind nur verfügbar, wenn das Modul des Grundregelwerks aktiv ist!
 
@@ -10,7 +8,7 @@ Bsp.: Dunkelheit befindet sich hinter Silhouette und vor Schemen. Alle Akteure a
 4. Multiplikator: Diese Multiplikatoren gelten wie auch die "Dunkelheit" (1) für die aktuelle Szene auf der man sich befindet. Hiermit werden die Sicht und Lichtwerte der Token auf der Szene Multipliziert. Ist gut geeignet für Szenen, deren Einheit beim Gitter von 1/2 weit abweicht (Bsp.: Stadt oder Umgebungskarten)
 5. DPS (Dere Positioning System): Ist der Haken hier aktiv, wird auf allen Szenen die Distanz zwischen Angreifer und Ziel gemessen um die Fernkampferschwernis automatisch zu berücksichtigen. Außerdem kann ein Token nur mit einem Händler oder Schatz interagieren, wenn er nah genug dran steht.
 
-![Szeneneinstellungen](https://raw.githubusercontent.com/Plushtoast/dsa5-foundryVTT-wiki/master/de/images/Szeneneinstellungen.jpg)
+![Szeneneinstellungen](images/Szeneneinstellungen.jpg)
 
 *[x]Zuletzt bearbeitet: 04.03.2022*  
 *Neu: ersten Text und Bilder erfasst*

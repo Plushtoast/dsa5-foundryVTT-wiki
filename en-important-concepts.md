@@ -30,7 +30,7 @@
     It is important to know the difference between a token on the scene (=Token Configuration) and a prototype token (=basic setting to the token in the character sheet itself).
        - By double-clicking on a token, the character sheet (of the TOKEN, not of the character) opens. By clicking on the button for the token settings (top right in the charsheet) the settings for this one token will open. Changes only affect this one token that was clicked.
        - Clicking on the character in the directory opens the character sheet (of the character, not of a token). Clicking on the token settings button (top right of the charsheet) opens the settings for the PROTOTYPE token. This prototype is used to generate a token when dragging the character onto a scene.
-       - More information about this, directly on the [Foundry Website[(https://foundryvtt.com/article/tokens/)
+       - More information about this, directly on the [Foundry Website](https://foundryvtt.com/article/tokens/)
 ![Token-settings](https://user-images.githubusercontent.com/62849695/116784842-a67da300-aa96-11eb-8e65-4b9a4c6f035a.png)
 
 

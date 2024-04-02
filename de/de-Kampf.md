@@ -1,5 +1,5 @@
 # Kampf
-Der Kampf beginnt damit, dass der SL eine [Begegnung erstellt und die Initiative](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Begegnung_und_Initiative) ausgewürfelt wird.  
+Der Kampf beginnt damit, dass der SL eine [Begegnung erstellt und die Initiative](de-Begegnung_und_Initiative) ausgewürfelt wird.  
 
 ## Unterschiede SL und Spieler
 Der Kampfablauf unterscheidet sich zwischen Spieler und SL insoweit, dass der SL den Token mit dem er angreifen möchte, auch vorher auswählen muss. Am einfachsten erfolgt dies mit einem Doppelklick des aktiven Akteurs in der INI Liste. Dadurch wird der angeklickte Token markiert und der Charakterbogen geöffnet.  

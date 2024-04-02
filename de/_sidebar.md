@@ -1,48 +1,60 @@
 
 de | [en](Home)
 
-* [Home](de-Home)
-* [Wichtige Konzepte](de-wichtige-Konzepte)
-* [Schnellstart](de-DSA_5_Welt_erstellen)
+* [Home](de-home)
+* [Wichtige Konzepte](de-wichtige-konzepte)
+* [Schnellstart](de-dsa_5_welt_erstellen)
 * [Tutorialvideos](de-tutorials)
-* [FAQ](de-FAQ)
+* [FAQ](de-faq)
 
-**Character**
-* [Charakterbogen](de-Charakterbogen)
-* [Charaktererstellung](de-Charaktererstellung)
-* [Import Funktion (migration)](de-Import-Funktion)
-* [Vertrautentiere](de-Vertrautentiere)
+**Charakter**
+* [Charakterbogen](de-charakterbogen)
+* [Charaktererstellung](de-charaktererstellung)
+* [Migration](de-import-funktion)
+* [Vertrautentiere](de-vertrautentiere)
+* [Behälter: Rucksack oder Tasche](de-behaelter-rucksack-oder-tasche)
 
 **Spielmechanismen**
-* [Artefakte und Talismane](de-Artefakte-und-Talismane)
-* [Begegnung und Initiative](de-Begegnung_und_Initiative)
-* [Behälter: Rucksack oder Tasche](de-Behaelter-Rucksack-oder-Tasche)
-* [Bibliothek](de-Bibliothek)
-* [Chatbefehle](de-Chatbefehle)
-* [Eigene Inhalte](de-Eigene_Inhalte_erstellen)
-* [Gift- und Krankheitsprobe](de-Gift-und-Krankheitsprobe)
-* [Händler](de-Haendler)
-* [Kampf](de-Kampf)
-* [Meister-Menü](de-Meister-Menue)
-* [Sicht und Licht](de-Sicht_und_Licht)
-* [Systemeinstellungen](de-Systemeinstellungen)
-* [Szeneneinstellungen](de-Meister-Menue-Szeneneinstellungen) **in Arbeit**
+* [Artefakte und Talismane](de-artefakte-und-talismane)
+* [Begegnung und Initiative](de-begegnung_und_initiative)
+* [Bibliothek](de-bibliothek)
+* [Chatbefehle](de-chatbefehle)
+* [Eigene Inhalte](de-eigene_inhalte_erstellen)
+* [Gift- und Krankheitsprobe](de-gift-und-krankheitsprobe)
+* [Händler](de-haendler)
+* [Kampf](de-kampf)
+* [Meister-Menü](de-meister-menue)
+* [Sicht und Licht](de-sicht_und_licht)
+* [Systemeinstellungen](de-systemeinstellungen)
+* [Szeneneinstellungen](de-meister-menue-szeneneinstellungen)
+* [Token Hotbar](de-token-hotbar)
+* [Berittener Kampf](de-berittener-kampf)
+* [Beschwörung](de-beschwoerung)
+* [Gegenstände verschleiern](de-gegenstaende-verschleiern)
+* [Prügeleien](de-pruegelei)
+* [Schwarmregeln](de-schwarmregeln)
 
 **Modul Mechanismen**
-* [Gestaltwandlung](de-Gestaltwandlung)
-* [Licht Makro](de-Licht-und-Sicht-Makro) **Neu**
-* [Szeneneinstellungen - Sichtautomatisierung](de-Meister-Menue-Sichtautomatisierung) **In Arbeit**
-* [Zuchtgrube](de-Meister-Menue-Zuchtgrube) **in Arbeit**
+* [Gestaltwandlung](de-gestaltwandlung)
+* [Licht Makro](de-licht-und-sicht-makro)
+* [Szeneneinstellungen - Sichtautomatisierung](de-meister-menue-sichtautomatisierung)
+* [Zuchtgrube](de-meister-menue-zuchtgrube)
+* [Alchimie](de-alchimie)
+* [Nahrungssuche und Jagd](de-nahrungssuche)
+* [Pflanzensuche](de-pflanzensuche)
+* [Treffer- & Rüstungszonen](de-trefferzonen)
+* [Widrige Umstände](de-umstaende)
 
 **Fortgeschrittene Mechanismen**
-* [Journal Probe anfordern](de-Journal-probe_anfordern)
-* [Journal DSA Icons](de-Journal-DSA_Icons_Auge)
-* [Effektfeld](de-Effekt_Feld)
-* [Selbst erstellte Effekte](de-Status-Selbst-erstellte-Effekte)
-* [Macros](de-Makro-Probe-anfordern)
+* [Journal Enricher](de-journal-probe_anfordern)
+* [Journal Styles](de-journal-dsa_icons_auge)
+* [Effektfeld](de-effekt_feld)
+* [Selbst erstellte Effekte](de-status-selbst-erstellte-effekte)
+* [Macros](de-makro-probe-anfordern)
+* [Skins](de-skins)
 
 **Empfehlungen**
-* [Module](de-Module) *überarbeitet*
+* [Module](de-module)
 
-*[x]Zuletzt bearbeitet: 04.03.2022*  
+*[x]Zuletzt bearbeitet: 02.04.2024*  
 *Seite überarbeitet und neu gegliedert*  

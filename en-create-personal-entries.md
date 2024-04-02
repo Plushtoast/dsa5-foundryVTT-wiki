@@ -19,14 +19,14 @@ This method has the advantage that you can reuse the content you have created or
 3. dragging the ritual to the hero's character sheet
 
 ## Change entry in the character
-If you want to recreate the new content for only one character, then drag the matching counterpart onto the character and change the description and details there. However, this does not work with species, culture and profession. These are applied directly to the character and must be [Imported](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Eigene-Inhalte-erstellen.md#import-einer-vorlage-aus-den-kompendien).
+If you want to recreate the new content for only one character, then drag the matching counterpart onto the character and change the description and details there. However, this does not work with species, culture and profession. These are applied directly to the character and must be imported.
   
 ![Neuer Zauber](https://user-images.githubusercontent.com/80099175/112993339-68285780-9169-11eb-81c6-8fb219ce5356.png)  
 
 
 *Translation information*  
 *[x] updated: 2021-06-07*  
-*[x] german entry [linked](de/de-Eigene-Inhalte-erstellen.md)*  
+*[x] german entry [linked](de/de-Eigene_Inhalte_erstellen.md)*  
 *[x] automatic translation*  
 *[ ] proof read*  
 *[ ] change pictures with EN version*

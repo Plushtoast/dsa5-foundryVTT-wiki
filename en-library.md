@@ -7,14 +7,14 @@ The Compendium Packages can be found via the menu (1) and contain everything you
 
 ## Compendium and Library
 At the top of the bar there are 2 buttons:
-1. **Compendium**: This allows you to browse compendiums, or to create them so you can store your own content. (See [Create your own content](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Eigene-Inhalte-erstellen)).
+1. **Compendium**: This allows you to browse compendiums, or to create them so you can store your own content. (See Create your own content).
 2. **Library**: All DSA compendiums can be searched here simultaneously, as the library combines all the entries in one place. You have category tabs (3), a search field (4) and checklists (5) so that finding the content is easy and fast. Building up the search index can take several seconds, depending on the number of installed modules.
   
 ![Library](https://user-images.githubusercontent.com/80099175/112984572-56da4d80-915f-11eb-85bf-7763d893ecee.png)
 
 3. **From character sheet** You can access the library directly from every character sheet. Just click the small "library" icon in the top right corner.  
 
-![Library from sharsheet](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/blob/master/images/en-library-01.jpg)
+![Library from sharsheet](images/en-library-01.jpg)
 
 ## Compendiums
 1. the entries are so called compendiums to a certain topic (ex. compendium: equipment). 
@@ -36,7 +36,7 @@ Everything from the compendium can then be used directly in the game via the fol
     
   ![Import entry](https://user-images.githubusercontent.com/80099175/112987113-a53d1b80-9162-11eb-89df-894266a1105a.png)  
 
-3. you will find it in under the respective menu item. This is useful to [Create own content](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Eigene-Inhalte-erstellen)  
+3. you will find it in under the respective menu item. This is useful to Create own content
   
 ![Imported entry](https://user-images.githubusercontent.com/80099175/112987512-17adfb80-9163-11eb-88cc-d22980314b7f.png)
 

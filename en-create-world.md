@@ -1,6 +1,6 @@
 There is also a video to go with this tutorial: [Installing The Dark Eye in Foundry VTT](https://www.youtube.com/watch?v=bzgb_pmw-bs) (german only)
 
-# What is what
+## What is what
 When you start up Foundry for the first time, you see the main GUI. Before we can start a TDE game, we have to install the needed parts  
 
 ![overview](images/en-create-world-01.jpg)  
@@ -19,8 +19,8 @@ When you start up Foundry for the first time, you see the main GUI. Before we ca
    - Test for compatibility before you use a module at all (in a separate test world)
    - Additional content may be available as "Premium" modules for money. That's the case for TDE modules like Magic. After you purchase them, you have to enter the license information on the Foundry website. Afterwards, you can download it in here.  
 
-# Preparation: Install game system and modules  
-## Game System  
+## Preparation: Install game system and modules  
+### Game System  
 Before creating a new world for DSA5, the game system must be installed.  
   
 ![install system](images/en-create-world-02.jpg)  
@@ -28,7 +28,7 @@ Before creating a new world for DSA5, the game system must be installed.
 2. enter DSA or "dark eye" in the search field
 3. click the install button next to the game system's entry.  
 
-## Modules
+### Modules
 **"The Dark Eye - Introduction Adventure"** is a free module for TDE. It comes with scenes, a story and pre-made characters. It can help you getting into the system, or to try out TDE as a system at all.  
 If you purchased other modules, you can install them instead, or you can install them all together. The installation process is always the same.  
 
@@ -46,7 +46,7 @@ If you purchased other modules, you can install them instead, or you can install
     - Game Audio Bundle 1 - 4 (free / allows for some effects used in the introduction adventure)   
     - Tokenizer (free / allows to create nice token for TDE characters directly in Foundry)  
 
-# Create the world
+## Create the world
 With the game system and possible modules installed, it's time to set up our playground, the place where players connect and play together. In Foundry, that's called a world, so let's create one.  
 
 *Game Worlds* -> *Create World* will open a new window  
@@ -79,17 +79,17 @@ Login as GM (default password is empty).
 The very first thing you should do within Foundry is go and set a GM password.
 
 
-# Initialize the introduction adventure 
+## Initialize the introduction adventure 
 When you start the world for the first time, you will get a prompt about languages. Please note, the different items are NOT compatible between languages. You can switch the language in the settings menu, but as soon as you create or import any char/item/journal entry/rule, you have to stick with it.  
 Basically, the TDE System runs in the language you set and expects all the items, abilities etc. to be in that language. Setting it to english and handing it the item STURMANGRIFF, it has no idea what it should do with that.
 
 **IMPORTANT**: The language setting can be set by every player.   
 **Make sure your players set the same language as the server runs on!** Otherwise, strange things will happen.  
 
-## Select the language you want
+### Select the language you want
 ![select language](images/en-create-world-07.jpg)  
 
-## Activate the modules you want  
+### Activate the modules you want  
 Open the settings tab -> *Manage Modules*  
 ![modules01](images/en-create-world-08.jpg)
 
@@ -97,7 +97,7 @@ Then, activate the modules you want. In our case, that's the "Introduction Adven
 To see and hear effects in this adventure (weather, waterstreams etc), you can additionally activate "FXMaster" and "Game Audio Bundle 1 - 4".
 ![modules02](images/en-create-world-11.jpg)
 
-## Initialize the adventure module  
+### Initialize the adventure module  
 
 Foundry will reload, then it's time to initialize the adventure. With regular modules, you don't have to initialize anything, but adventures contain many linked entities, journal entries and so on, making this necessary.  
 Journals tab -> *Journal Browser*  

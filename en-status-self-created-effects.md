@@ -1,11 +1,11 @@
 # Status - Self-created effects
 Effects offer the possibility to influence certain character values. Self-created effects are available in various objects within Foundry: Characters, Spells, Rituals, Liturgies, Ceremonies, Equipment, etc. Anywhere you have an effect/damage effects tab in the object's window. From the basic principle, they all work similarly, so here are 3 examples:
-* [Effects from Actors](#actor-effects)
-* [Effects from a melee weapon (Item](#effect-of-a-melee-weapon-item)  
-* [Talent adjustments by effects](#talent-adjustments-by-effects)
+* [Effects from Actors](en-status-self-created-effects#actor-effects)
+* [Effects from a melee weapon (Item](en-status-self-created-effects#effect-of-a-melee-weapon-item)  
+* [Talent adjustments by effects](en-status-self-created-effects#talent-adjustments-by-effects)
 
 Also, here is the description of how to have the duration of effects handled automatically:
-* [Effect Duration](#effect-duration)
+* [Effect Duration](en-status-self-created-effects#effect-duration)
 
 ## Actor effects
 **You can change all data values of actors.** Note that some of them are calculated and therefore always overwritten. Therefore, this function should be used with caution!  

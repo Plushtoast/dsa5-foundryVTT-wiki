@@ -1,4 +1,4 @@
-# Effekt Feld - Attribute modifizieren
+## Effekt Feld - Attribute modifizieren
 Das Effekt Feld von Items kann verwendet werden um die Attribute eines Helden zu erhöhen oder zu senken.  
 Dafür muss in das Effekt Feld eines Items `WERT ATTRIBUT` eingetragen werden (Bsp.: +1 GS um die Geschwindigkeit um 1 zu erhöhen). 
 Sollen mehrere Attribute durch ein Effekt Feld beeinflusst werden, können diese hintereinander getrennt durch ein `,` eingetragen werden:  
@@ -25,7 +25,7 @@ Aktuelle verwendbare Attribute je Sprache des Systems:
 | Konstitution |KO | Constitution | CON | 
 | Stärke | KK | Strength | STR | 
 
-# Effekt Feld - Fertigkeitspunkte für Talente/Zauber/Rituale/Liturgien/Zeremonien modifizieren
+## Effekt Feld - Fertigkeitspunkte für Talente/Zauber/Rituale/Liturgien/Zeremonien modifizieren
 Um die Fertigkeitspunkte der oben genannten Fertigkeiten zu modifizieren kann ebenfalls das Effekt Feld verwendet werden.
 Dafür muss in das Effekt Feld eines Items `FERTIGKEIT FPWERT` eingetragen werden (Bsp.: Kraftakt FP2). Auch hier können mehrere Fertigkeiten durch ein `,` getrennt angegeben werden.   
 Dies führt aber nicht wie bei den Attributen dazu, dass der Wert automatisch im Charakterbogen steigt/sinkt. Erst bei der Probe taucht die Modifikation im Feld *Bedingte Modifikation* auf.  
@@ -35,7 +35,7 @@ Dies führt aber nicht wie bei den Attributen dazu, dass der Wert automatisch im
 Hier noch ein Beispiel für einen Ausrüstungsgegenstand mit Zauberverbesserung:
 ![Effekt Zauber](https://user-images.githubusercontent.com/80099175/140293769-9e968f37-cb6a-4652-808a-57b1ecacbdf0.png)  
 
-# Effekt Feld - Kampfsonderfertigkeiten.
+## Effekt Feld - Kampfsonderfertigkeiten.
 Bei den Kampfsonderfertigkeiten können aktuell auch einige Modifikatoren eingetragen werden. Sollen mehrere angegeben werden, müssen diese mit `,` getrennt werden.  
 Als wert sind positive, negative Zahlen aber auch Würfel (Bsp. `1d6`) erlaubt.  
 **Anmerkung**: Nur wenn im Effekt Feld etwas angegeben ist, taucht die Sonderfertigkeit zur Auswahl bei der Kampfprobe auf! (Tipp: Es geht auch `+1 AT,-1 AT`)

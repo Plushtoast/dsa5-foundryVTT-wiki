@@ -6,7 +6,7 @@ Die Kompendium Pakete finden sich über das Menü (1) und beinhalten alles was e
 
 ## Kompendium erstellen und Bibliothek
 Oben in der Leiste befinden sich 2 Buttons:
-1. **Kompendium**: Hiermit lassen sich Kompendien zur Ablage eingener Inhalte anlegen. (Siehe [Eigene Inhalte erstellen](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Eigene-Inhalte-erstellen))
+1. **Kompendium**: Hiermit lassen sich Kompendien zur Ablage eingener Inhalte anlegen. (Siehe [Eigene Inhalte erstellen](de-Eigene_Inhalte_erstellen))
 2. **Bibliothek**: Hier können alle DSA Kompendien durchsucht werden.
 3. **Bibliothekstabs**: Die Tabs für die verschiedenen Suchen
 4. **Suche**: Darunter kann ein Suchbegriff eingegeben werden um im Ergebnisfeld (8) die Anzahl der Ergebnisse einzuschränken.
@@ -30,7 +30,7 @@ Importieren: Ihr könnte Objekte aus der Bibliothek importieren um sie dann in e
     
   ![Eintrag Importieren](https://user-images.githubusercontent.com/80099175/140280655-6bf0a2dc-f714-44b2-912c-4a8561f08acf.png)
 
-3. Ihr findet sie dann in unter dem jeweiligen Menüpunkt. Dies ist nützlich zum [Erstellen eigener Inhalte](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/de-Eigene-Inhalte-erstellen)  
+3. Ihr findet sie dann in unter dem jeweiligen Menüpunkt. Dies ist nützlich zum [Erstellen eigener Inhalte](de-Eigene_Inhalte_erstellen)  
   
 ![Importierter Eintrag](https://user-images.githubusercontent.com/80099175/140281181-a6b26197-9e08-41df-aa04-4944f8ac74cf.png)
   

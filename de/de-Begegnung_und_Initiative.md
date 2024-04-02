@@ -10,7 +10,7 @@
 * Für alle weiteren Kampfbeteiligten (egal wann sie in den Kampf kommen) kann wie in Schritt 2 erklärt vorgegangen werden.  
 * **TIPP**: Mit einem Rechtsklick auf die Faust (Begegnungen) kann die Initiative-Liste herausgelöst werden. So kann man im Menü den Chat öffnen um die Proben im Blick zu behalten.   
   
- ![Begegnungsmenü](de/images/de-begegnung_und_initiative_1.png)  
+![Begegnungsmenü](de/images/de-begegnung_und_initiative_1.png)  
  
 ## Initiative auswürfeln
 

@@ -10,7 +10,7 @@ Um einen Gegenstand mit einem Zauber auszustatten, zieht ihr den Zauber direkt a
 6. Anzahl der Ladungen. Ist der Zauber nicht permanent, verschwindet er nach der Probe komplett. Ist er permanent, dann wir hier nur das Feld geleert und kann durch einen Klick wieder aufgeladen werden.  
 7. Über die Tonne wird der Zauber gelöscht.  
 
-![Gegenstand-Artefakt](de/images/de-artefakte-und-talismane_0.png)
+![Gegenstand-Artefakt](images/de-artefakte-und-talismane_0.png)
 
 ## Talismane
 Um ein Talisman herzustellen, zieht ihr eine Liturgie auf einen Gegensand im Ausrüstungsmenü oder direkt im [Charakter-Ausrüstungstab](de-charakterbogen#5-ausrüstung).  

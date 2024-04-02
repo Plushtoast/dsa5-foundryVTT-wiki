@@ -1,7 +1,6 @@
 # Behälter: Rucksack oder Tasche
-**Achtung: dies funktioniert nur ab System Version 2.0.0 und Foundry 0.8.6**
 
-Ihr könnt jetzt Gegenstände als Behälter benutzen und eure Gegenstände hineinpacken. Diesen Behälter könnt ihr dann ganz einfach aus- und abrüsten um bei einigen Aktionen eine Behinderung zu vermeiden.  
+Ihr könnt Gegenstände als Behälter benutzen und eure Gegenstände hineinpacken. Diesen Behälter könnt ihr dann ganz einfach aus- und abrüsten um bei einigen Aktionen eine Behinderung zu vermeiden.  
   
 Folgende Einstellungen müssen am Gegenstand gesetzt sein:
 1. Geht bei einem Gegenstand unter Details
@@ -11,9 +10,10 @@ Folgende Einstellungen müssen am Gegenstand gesetzt sein:
   ![Einstellungen Behältnis](de/images/de-behaelter-rucksack-oder-tasche_0.png)
   
 Danach könnt ihr die Gegenstände die in den Behälter sollen entweder auf das geöffnete Fenster des Behälters ziehen.
+
 1. Hier werden dann die Bilder der Items in dem neuen Tab *Behältnis* angezeigt.
 2. Habt ihr unter *Details* des Gegenstandes die Tragkraft eingegeben, zeigt der Balken an wie voll das Behältnis ist.
-3. Die Auflistung der Gegenstände. Fahrt ihr mit der Maus auf einen Gegenstand, erscheint ein Tooltip mit der Bezeichnung. Ein Rechtsklick entfernt den Gegenstand aus dem Behältnis und fügt diesen wieder dem Ausrüstungsmenü hinzu.
+3. Hier findet ihr die Auflistung der Gegenstände. Fahrt ihr mit der Maus auf einen Gegenstand, erscheint ein Tooltip mit der Bezeichnung. Ein Rechtsklick entfernt den Gegenstand aus dem Behältnis und fügt diesen wieder dem Ausrüstungsmenü hinzu.
   
   ![Items im Behältnis Bogen](de/images/de-behaelter-rucksack-oder-tasche_1.png)
   
@@ -21,5 +21,7 @@ Danach könnt ihr die Gegenstände die in den Behälter sollen entweder auf das 
   
   ![Items im Ausrüstungstab im Behältnis](de/images/de-behaelter-rucksack-oder-tasche_2.png)
   
+Ein solches Behältnis lässt sich ggf. als Lastentier verwenden. Legt einfach ein entsprechendes Item an und schiebt alle Gegenstände die euer Lastentier oder Lastenfahrzeug transportiert in dieses Item.
+
 *[x]Zuletzt bearbeitet: 04.11.2021*    
 *Änderung: Bilder neu erstellt, Text überarbeitet*  

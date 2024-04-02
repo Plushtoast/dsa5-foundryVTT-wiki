@@ -50,7 +50,7 @@ Als wert sind positive, negative Zahlen aber auch Würfel (Bsp. `1d6`) erlaubt.
 | Geschwindigkeit | GS | MOV |
 | Initiative | INI | INI |
   
-### Beispiele: Finte `-1 AT, -2 VM`, Wuchtschlag `-2 AT, -2 TP`, Eigen `-2 AT, +1d6 DP`
+*Beispiele*: Finte `-1 AT, -2 VM`, Wuchtschlag `-2 AT, -2 TP`, Eigen `-2 AT, +1d6 DP`
 Für weitere Beispiele, schaut euch die Kampfsonderfertigkeiten aus den Kompendien an.
 
 *[x]Zuletzt bearbeitet: 04.11.2021*  

@@ -1,5 +1,5 @@
 # Sicht und Licht
-**Anmerkung: Dieses Thema ist nicht ganz so einfach und kurz zu erklären, deshalb ist diese Anleitung deutlich länger als andere!**
+**Anmerkung**: Dieses Thema ist nicht ganz so einfach und kurz zu erklären, deshalb ist diese Anleitung deutlich länger als andere!
 **Passend zu dem Thema hier noch ein Video von VTTom: [Sicht und Licht](https://youtu.be/Y86e-juqVAo)** 
 
 
@@ -31,7 +31,7 @@ wird hier für die Szene der Wert auf 0 für Tag oder auf 1 für Nacht. Dies ist
 Der Token hat noch einmal eine komplett eigene Einstellung für die eigene Sicht bei Dunkelheit (Vorteil: Dunkelsicht) sowie das von ihm 
 ausgestrahlte Licht (Stichwort: Fackel).  
 **Kurze Anmerkung** Öffnet ihr die folgenden Einstellungen über einen Token auf dem Spielfeld, gilt die Änderung auch nur für den dort platzierten Token.
-Zieht ihr den Token dann aus den Akteuren aufs Spielfeld, hat dieser wieder die "alten" Werte. (Siehe auch dieses [Video](https://youtu.be/CO7F7wi9Gz4)   
+Zieht ihr den Token dann aus den Akteuren aufs Spielfeld, hat dieser wieder die "alten" Werte. Siehe auch dieses [Video](https://youtu.be/CO7F7wi9Gz4)   
 1. Öffnet die Einstellungen des gewünschten Tokens über das Akteur Menü. Oben im Fenster muss [Prototyp-Figur] stehen!  
 1. In diesem Fenster wird unter *Vision* die komplette Sicht und das Licht vom Token gesteuert. 
    
@@ -52,10 +52,11 @@ Zieht ihr den Token dann aus den Akteuren aufs Spielfeld, hat dieser wieder die 
 12. **Animationsintensität**
 Bsp.: Held mit einer Fackel  
   
-![Elfin Fackel]![grafik](de/images/de-sicht_und_licht_4.png)
+![Elfin Fackel](de/images/de-sicht_und_licht_4.png)
 
 ### Tipp: Makro Sicht und Licht im Grundregelwerk
 Wenn ihr das Grundregelwerk besitzt, dann gibt es dort im Makro Kompendium ein Makro, mit dem ihr die Sicht und Licht Einstellungen recht komfortabel umstellen könnt.  
+Siehe auch [Licht-Makro](de-licht-und-sicht-makro)
 
 *[x]Zuletzt bearbeitet: 04.11.2021*     
 *Überarbeitet: Kompletten Inhalt für Foundry 8 überarbeitet*  

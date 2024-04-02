@@ -1,7 +1,7 @@
 # Meister Menü
 Das Meister Menü bietet Funktionen für den Spielleiter. Es werden alle Akteuere vom Typ Spieler angezeigt, die mindestens einem Spieler mit den Rechten *Besitzer* zugeordnet wurden. Danach können diese aber beliebig verschoben oder sogar aus dem Menü entfernt werden.
 
-Ich findet es auf der linken Seite unter *Meister Menü* -> *Meister Menü*
+Ihr findet es auf der linken Seite unter *Meister Menü* -> *Meister Menü*
 
 ![Meister Menü öffnen](de/images/de-meister-menue_0.png)
 
@@ -32,5 +32,6 @@ Um einen Charakter aus dem Menü zu entfernen klickt ihr auf das X am hinter dem
   ![MM - Char entfernen](de/images/de-meister-menue_1.png)
   
 Wollt ihr einen Char oder NSC hinzufügen, könnt ihr ihn einfach per Drag and Drop dort hineinziehen. Auch die Reihenfolge könnt ihr per Drag and Drop verändern.
+
 
 *[x]Zuletzt bearbeitet: 04.11.2021*

@@ -5,7 +5,7 @@ Auf das Makro kann zum einen über das Meister Menü ([hier beschrieben](de-meis
 
 Das Makro zieht ihr dann unten in die Makro Leiste und könnt dann mit der passenden Taste schnell darauf zugreifen.
   
-Das Makro bietet dann verschiedene Einstellungsmöglichkeiten:  
+Das Makro bietet verschiedene Einstellungsmöglichkeiten:  
 1. Über "Spieler Token auswählen" werden alle sich auf dem Spielfeld befindenen Spieler Token ausgewählt, so dass Änderungen für alle gleichzeitig durchgeführt werden.
 2. Die "Sicht"-Einstellungen bieten die Möglichkeit über einen einfachen Klick die Sicht der ausgewählten Token anzupassen. Dabei wird auf die Werte zurück gegriffen, die unter [Presets](de-licht-und-sicht-makro.md#presets) definiert wurden.
 3. Der "Multiplikator" wird verwendet um die Sicht mit dem "Multiplizieren" (4) schnell an Szenen mit anderen Sichtverhältnissen anzupassen.
@@ -25,6 +25,7 @@ In den Presets können die Vorgaben für die einzelnen Einstellungen im Sicht un
 5. Mit den Zahnrädern habt ihr nochmal die Möglichkeit die Lichteinstellungen (Helligkeit, Farbe, Animation) an euren Geschmack anzupassen.
 6. Über das Plus lassen sich weitere Presets festlegen die dann in dem Sicht und Licht Makro verwendet werden können. Zum Löschen einfach hinten auf Zurücksetzen (3) klicken.
 7. Zurücksetzen auf Standardwerte.
+8. Über den Burger-Bar-Button können die Lichter zusätzlich direkt auf eine Szene gezogen werden. Du kannst passende Lichter vorbereiten und so immer wieder verwenden.
 
 ![Sicht und Licht Makro - Presets](de/images/Licht-und-Sicht-Makro_Presets.jpg)
 

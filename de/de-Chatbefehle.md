@@ -12,6 +12,7 @@ Es gibt ein paar DSA spezifische Chatbefehle die ihr im Spiel nutzen könnt. Die
 * Ausrüstungspakete - `/packages` [siehe unten](de-chatbefehle#packages-ausrüstungspakete)  
 * Anwendungsgebiete - `/apps` [siehe unten](de-chatbefehle#anwendungsgebiete)
 * Zufallsnamen - `/nm` [siehe unten](de-chatbefehle#zufallsnamen)
+* Charakterrechner - `/cc` [siehe unten](de-chatbefehle#charakterrechner)
   
 In dieser Anleitung findet ihr die Befehle, bei denen die genaue Beschreibung des Befehls im Chatfenster zu umfangreich ist.
 
@@ -71,7 +72,10 @@ Gebt den Befehl `/packages`in den Chat ein und schickt ihn mit Enter ab.
 Erzeuge schnell einige Zufallsnamen für die Charaktergenerierung oder improvisierte Nichtspielercharaktere. Tippe dazu `/nm <Kultur>` in den Chat. Die folgenden Namen werden die zugeflüstert und du kannst sie auch direkt in einen NSC Akteur umwandeln.
 
 ![Zufallsnamen](de/images/de-chatbefehle-namen.png)
+
+## Charakterrechner
+
+Sofern du das Grundregelwerk besitzt lässt sich der Charakterrechner z.B. mit dem Befehl `/cc` im Chat öffnen. Der Rechner verschafft dir eine Übersicht über die Abenteuerpunkte-Kosten all deiner Fähigkeiten und kann so bei der Charaktererschaffung oder beim Nachprüfen von Charakteren helfen. 
   
-*[x]Zuletzt bearbeitet: 04.11.2021*  
-*Neu: Anwendungsgebiete*  
-*Überarbeitet: Bilder und Text*
+*[x]Zuletzt bearbeitet: 02.04.2024*  
+*Neu*: Zufallsnamen, Charakterrechner

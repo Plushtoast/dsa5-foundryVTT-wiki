@@ -31,9 +31,6 @@ Ein paar der Punkte sind bereits unter [Licht und Sicht Makro - Presets](de-lich
 
 ![Presets](de/images/Token-Licht-Konfiguration_Presets.jpg)
 
-## VTToms Tipp zur Sichtautomatisierung:
-Hier einmal die von mir verwendeten Einstellungen mit welcher die Sichtautomatisierung gut funktioniert:
-
 
 
 *[x]Zuletzt bearbeitet: 03.03.2022* 

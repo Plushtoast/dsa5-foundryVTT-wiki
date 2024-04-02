@@ -1,4 +1,4 @@
-#Begennung und Initiative
+# Begennung und Initiative
 
 ## Um einen Kampf einzuleiten muss eine Begegnung erstellt werden. 
 1. Gewünschte/n Token markieren.
@@ -34,6 +34,10 @@ Ihr könnt die Initiative als SL auch bearbeiten (Bsp.: Aktion verzögern oder A
   
 ![INI bearbeiten](de/images/de-begegnung_und_initiative_4.png)  
   
+
+## Prügelei
+
+Um eine Prügelei auszulösen siehe auch [Prügeleien](de-pruegelei)
   
 *[x]Zuletzt bearbeitet: 04.11.2021*    
 *Änderung: Bilder neu erstellt, Text überarbeitet*  

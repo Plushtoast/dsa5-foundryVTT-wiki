@@ -11,8 +11,8 @@ de | [en](Home)
 * [Charakterbogen](de-charakterbogen)
 * [Charaktererstellung](de-charaktererstellung)
 * [Migration](de-import-funktion)
-* [Vertrautentiere](de-vertrautentiere)
-* [Behälter: Rucksack oder Tasche](de-behaelter-rucksack-oder-tasche)
+* [Vertrautentiere und Begleiter](de-vertrautentiere)
+* [Behälter](de-behaelter-rucksack-oder-tasche)
 
 **Spielmechanismen**
 * [Artefakte und Talismane](de-artefakte-und-talismane)
@@ -45,6 +45,7 @@ de | [en](Home)
 * [Pflanzensuche](de-pflanzensuche)
 * [Treffer- & Rüstungszonen](de-trefferzonen)
 * [Widrige Umstände](de-umstaende)
+* [Artefakte verzaubern](de-artefakte-verzaubern)
 
 **Fortgeschrittene Mechanismen**
 * [Journal Enricher](de-journal-probe_anfordern)

@@ -1,6 +1,8 @@
 # Charakterbogen - Aufbau (Akteur - Charakter)
+
 Der Aufbau des Charakterbogens ist so ähnlich aufgebaut wie der Bogen des Regelwerkes.
-Es gibt darin die Kategorien:
+Es gibt darin diese Kategorien:
+
 1. [Kopfbereich](de-charakterbogen#1-kopfbereich)
 2. [Talente](de-charakterbogen#2-talente)
 3. [Kampf](de-charakterbogen#3-kampf)
@@ -16,9 +18,11 @@ Es gibt darin die Kategorien:
 ![Charakterbogen](de/images/de-charakterbogen_0.png)
 
 ## 1. Kopfbereich
+
 Dieser Teil des Bogens ist immer sichtbar und wird unter anderem durch die Eingaben in [Eigenschaften](de-charakterbogen#4-eigenschaften) beeinflusst. Es handelt sich hier um die aktuellen Werte des Charakters.  
 Außerdem kann hier eine Profession eingetragen werden - entweder eine [vorgefertigte Profession](de-charaktererstellung#6-profession-wählen), oder die Bezeichnung für eine eigene Profession.  
 Oben rechts findet ihr ein paar Schaltflächen für weitere Funktionen:  
+
 1. Steigerungen sperren/entsperren 
 2. [Bibliothek](de-bibliothek) öffnen 
 3. Akteur konfigurieren: Hier findet ihr die [Import Funktion](de-import-funktion) 
@@ -28,7 +32,7 @@ Oben rechts findet ihr ein paar Schaltflächen für weitere Funktionen:
 ![Charakterbogen Kopfbereich](de/images/de-charakterbogen_1.png)
   
 - **Name und Bild:** Können bearbeitet werden. Wenn ihr den Namen ändert, denkt daran dies auch unter Token konfigurieren abzugleichen.
-- **Spezies:** Nur für die Anzeige, kann nicht bearbeitet werden.
+- **Spezies:** Nur für die Anzeige, kann nicht bearbeitet werden. Eine Spezies muss per Drag & Drop hinzugefügt werden.
 - **Profession:** Kann bearbeitet werden, ist dann aber nur Text. [Hier](de-charaktererstellung#6-profession-wählen) gibt es weitere Information zum Hinzufügen einer Profession zum Character.
 - **Eigenschaftswerte:** Übertragen vom [Eigenschafts-Tab](de-charakterbogen#4-eigenschaften), wo sie verändert werden können.
 - **Lebens-/Astral-/Karmapunkte:** (aktuell und max.) Können bearbeitet werden. Es muss der neue Wert eingetragen werden, nicht die Veränderung (Bsp. Ihr habt 30 LeP und verliert 5, tragt hier 25 ein.) Im Tokenmenü könnt ihr die Veränderung eintragen (Bsp. Ihr habt 30 LeP und verliert 5, tragt hier -5 ein. Der Wert wird zu 25)
@@ -61,7 +65,9 @@ Ganz unten auf dem Bogen habt ihr noch die Möglichkeit Sammelproben anzulegen.
 ![Sammelprobe Chat](de/images/de-charakterbogen_4.png)
 
 ## 3. Kampf
+
 Der Kampfbogen beinhaltet alle Daten die zum [Kampf](de-kampf) in DSA 5 verwendet werden.
+
 1. **Nah-, Fernkampfwaffen und Rüstungen**: Listet alle Waffen und Rüstungen auf, die im Reiter [Ausrüstung](de-charakterbogen#5-ausrüstung) vorhanden sind **und ausgerüstet** (=für den Kampfbogen aktiviert) wurden. Dazu muss auf der Ausrüstungs-Seite neben dem Gegenstand ein Haken gesetzt werden, siehe [Ausrüstung](de-charakterbogen#5-ausrüstung)
 
    1.1 **Ausweichen, waffenloser Angriff und Parade**: Hinter den Symbolen verbergen sich das Ausweichen sowie der waffenlose Angriff und die Parade.  
@@ -85,8 +91,9 @@ die bei der Erstellung oder später aus der Bibliothek auf den Helden gezogen we
 ![Eigenschaften](de/images/de-charakterbogen_6.png)  
 
 ## 5. Ausrüstung
-Im Ausrütungsbogen wird das Inventar des Charakters verwaltet. Hier sind alle Items sichtbar, die dem Charakter zugewiesen sind.
-Um neue Items hinzuzufügen, können diese aus der Bibliothek auf den Charakterbogen gezogen werden. Alternativ können [ Inhalte erstellt werden.](de-eigene_inhalte_erstellen)
+Im Ausrüstungsbogen wird das Inventar des Charakters verwaltet. Hier sind alle Items sichtbar, die dem Charakter zugewiesen sind.
+Um neue Items hinzuzufügen, können diese aus der Bibliothek auf den Charakterbogen gezogen werden. Alternativ können [Inhalte erstellt werden.](de-eigene_inhalte_erstellen)
+
 1. **Ausrüstung**: Alle vom Charakter ausgerüteten Gegenstände sortiert in Kategorien (Nahkampfwaffe, Rüstung, Behältnis, Munition etc.).  
 2. **Tragen/Ausrüsten**: Hier wird Ausrüstung auch als "getragen" markiert. Nur so können Waffen und Rüstungen im Kampf verwendet werden. Behälter belasten den Charakter nur, wenn sie auch ausgerüstet sind. 
 3. **Tragkraft Behälter**: Gibt die aktuelle Belastung und maximale Tragkraft eines Behältnises an.   

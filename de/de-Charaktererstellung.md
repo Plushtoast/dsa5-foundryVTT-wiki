@@ -1,6 +1,5 @@
 # Charaktererstellung
-**Achtung**: Aktuell gibt es noch den ein oder anderen Fehler, weshalb es sich zurzeit anbietet den Charakter per Hand oder Tool zu erstellen und dann in Foundry 
-manuell zu übertragen!
+
 Die Charaktererstellung ist relativ modular. Um es aber einfach zu gestalten sollte man sich grob an den Ablauf des Grundregelwerkes halten. Dabei kommen aber ein paar zusätzliche Schritte hinzu die nur in Foundry gemacht werden müssen. Außerdem sind die Punkte mit (Spielleiter) in der Standard Rechteeinstellung nur vom Spielleiter durchzuführen:
 1. [Charakter anlegen (Spielleiter)](de-charaktererstellung#1-charakter-anlegen-spielleiter)
 2. [Erfahrung eingeben](de-charaktererstellung#2-erfahrung-eingeben)
@@ -16,9 +15,14 @@ Die Charaktererstellung ist relativ modular. Um es aber einfach zu gestalten sol
 
 Hier findet ihr das Ganze als Video: [Charaktererstellung](https://www.youtube.com/watch?v=NrqvByX3da0)
 
+Das Grundregelwerk bietet zusätzlich die Möglichkeit der automatisierten Charaktererschaffung. Schau dir dazu VTToms Video an:
+[Heldenerschaffung](https://www.youtube.com/watch?v=PDenI-po_Rg)
+
 ## Grundsätzliches
-### [Inhalte aus der Bibliothek verwenden](de-bibliothek) 
-### [Eigene Inhalte erstellen (Zauber, Sonderfertigkeiten, Ausrüstung usw.)](de-eigene_inhalte_erstellen)
+
+[Inhalte aus der Bibliothek verwenden](de-bibliothek) 
+
+[Eigene Inhalte erstellen (Zauber, Sonderfertigkeiten, Ausrüstung usw.)](de-eigene_inhalte_erstellen)
 
 ## 1. Charakter anlegen (Spielleiter)
 Der Spielleiter muss über das Akteure Menü einen Charakter anlegen:
@@ -64,7 +68,9 @@ Die Kultur wird ebenfalls einfach auf den Charakterbogen gezogen. Dann öffnet s
 ![Kultur VorNachteile](de/images/de-charaktererstellung_7.png)
 
 ## 5. Eigenschaftspunkte verteilen
+
 Im [Eigenschaftstab des Charakterbogens](de-charakterbogen#4-eigenschaften) können die Eigenschaftswerte festgelegt werden. Um eine AP Berechnung hier korrekt zu verwenden müssen die Eigenschaften über das + und - gesteigert werden.  
+
 **ACHTUNG**: Aktuell werden die Eigenschaftswerte nicht nach den Regeln begrenzt. Das bedeutet, dass auch über den Wert von 14 gesteigert werden kann. Außerdem gibt es keine Grenze bei den 100 Eigenschaftspunkten die maximal laut Regelwerk verteilt werden dürfen.  
   
 ![Eigenschaften](de/images/de-charaktererstellung_8.png)

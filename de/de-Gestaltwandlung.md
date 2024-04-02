@@ -15,7 +15,7 @@ Um die Gestaltwandlung rückgängig zu machen, öffnet den Charakterbogen der Kr
 
 Es kann außerdem das Modul *Token Magic FX* verwendet werden um eine Animation während der Gestaltwandlung darzustellen.
 
-Siehe auch das folgende Video: https://youtu.be/-cuWOYTwUCg
+Siehe auch das folgende Video: [Magier, Geweihte, Vertraute und Gestaltwandlung - DSA 5 Foundry](https://youtu.be/-cuWOYTwUCg)
 
 *[x]Zuletzt bearbeitet: 04.11.2021*  
 *Inhalte gepürft, keine Änderung*  

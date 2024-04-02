@@ -21,6 +21,8 @@ To add wiki pages request access via the issues or create a pull request.
 * Make sure to set the filename's ending to .md (for markdown).
 * Make sure the filename is all lowercases and starts with the appropriate language prefix (de, en)
 * Also add your newly created page to the contents in the `_sidebar.md` file.
+* Only link to pages or Heading2 with a relative link
+* Use Heading1 only once
 
 ### Formatting
 For headings paragraphs and stuff check out this page:

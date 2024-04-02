@@ -1,10 +1,12 @@
 # Händler, Person und Schatz Charakterbogen
-Es gibt einen neuen Charakterbogen. mit diesem lassen sich Händler, Schätze und einfache Personen abbilden.  
+Es gibt einen extra Charakterbogen, mit welchem sich sich Händler, Schätze und einfache Personen abbilden lassen. 
+
 **Anmerkung**: Der Kauf und Austausch der Items zwischen Spieler und Händler/Schatz ist nur möglich, wenn ein Spielleiter im Spiel angemeldet ist! Sonst passiert nichts beim Klick auf kaufen/verkaufen/nehmen!   
   
 Um den Charakterbogen zu verwenden müsst ihr wie folgt vorgehen:  
 1. Erstellt einen neuen Akteur -> *Nichtspielercharakter*  
-2. Ändert den Charakterbogen über das Zahnrad *Blatt konfigurieren* zu *MerchantSheetDSA5*. **Achtung** bitte nicht bei Standard Bogen den Bogen ändern!  
+2. Ändert den Charakterbogen über das Zahnrad *Blatt konfigurieren* zu *MerchantSheetDSA5*. 
+**Achtung** bitte nicht bei Standard Bogen den Bogen ändern!  
 
 ![Händlerbogen auswählen](de/images/de-haendler_0.png)  
   
@@ -63,7 +65,9 @@ Die Spieler können entweder über das Actor Menü auf die Person zugreifen oder
 
 ## Garadan
 Wählt ihr Garadan aus, dann erscheint neben den einfachen Personendaten noch eins der Garadan Symboble in der Spieleransicht. Dies ist nützlich um ikonische Charaktere wie Rohaja von Gareth anzulegen.   
+
 **Anmerkung**: Gebt uns ein Feedback wie wir dieses Feature in der Zukunft verbessern können.  
+
 ![Garadan - Einstellung](de/images/de-haendler_8.png)  
 ![Garadan - Ansicht](de/images/de-haendler_9.png)  
 

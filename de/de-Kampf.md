@@ -3,15 +3,16 @@ Der Kampf beginnt damit, dass der SL eine [Begegnung erstellt und die Initiative
 
 ## Unterschiede SL und Spieler
 Der Kampfablauf unterscheidet sich zwischen Spieler und SL insoweit, dass der SL den Token mit dem er angreifen möchte, auch vorher auswählen muss. Am einfachsten erfolgt dies mit einem Doppelklick des aktiven Akteurs in der INI Liste. Dadurch wird der angeklickte Token markiert und der Charakterbogen geöffnet.  
-Außerdem kann das **4. Schaden anwenden** bei NSCs und Kreaturen nur durch Personen mit dem Recht *Besitzer* durchgeführt werden. Das bedeutet in der Regel,dass nur der SL den Schaden auf NSCs und Kreaturen anwenden.
+Außerdem kann das [Schaden anwenden](de-kampf#4-schaden-anwenden) bei NSCs und Kreaturen nur durch Personen mit dem Recht *Besitzer* durchgeführt werden. Das bedeutet in der Regel,dass nur der SL den Schaden auf NSCs und Kreaturen anwenden.
 
 ## 1. Token zum Angriff markieren
-**Spieler:** Um einen gegnerischen Token als Ziel auszuwählen führt ihr entweder einen **Doppel-Rechtsklick** auf den gewünschten Token durch, oder markiert diesen über die linke Menüleiste als Ziel (Token auswählen (1) und auf die Zielscheibe klicken (2))  
+**Spieler:** Um einen gegnerischen Token als Ziel auszuwählen führt ihr entweder einen **Doppel-Rechtsklick** auf den gewünschten Token durch, markiert diesen über die linke Menüleiste als Ziel (Token auswählen (1) und auf die Zielscheibe klicken (2)) oder durch Hovern über den Token und drücken der Taste `T`.
+
 **Anmerkung:** Kontrolliert ihr mehrere Akteuere (Vertraute, Tierbegleiter, usw.) müsst ihr vorher auswählen, welcher euerer Token angreifen soll.
   
   ![Ziel markieren](de/images/de-kampf_0.png)
   
-**Spielleiter:** Ihr verwendet das Token Kontextmenü der Token um euer Ziel zu markieren. Klickt hierfür einmal mit der rechten Maustaste auf den Token und klickt dann mit der linken Maustaste auf die Zielscheibe 
+**Spielleiter:** Ihr verwendet das Token Kontextmenü der Token um euer Ziel zu markieren. Klickt hierfür einmal mit der rechten Maustaste auf den Token und klickt dann mit der linken Maustaste auf die Zielscheibe (oder Hotkey `T`).
     
   ![SL Ziel markieren](de/images/de-kampf_1.png)
   

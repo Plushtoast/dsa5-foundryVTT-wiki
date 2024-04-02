@@ -13,7 +13,10 @@ Oben in der Leiste befinden sich 2 Buttons:
 5. **Erweiterte Filter**: Sobald das Gehirn angeklickt wird, öffnet sich links eine Leiste mit erweiterten Filtern.
 6. **Welt items indexieren**: Kann deaktiviert werden um die Welt items nicht mit zu durchsuchen. Verbessert ggf. die Performance der Bibliothek.
 7. **Filter**: Suchfilter um das Ergebnisfeld (8) weiter einzuschränken.
-8. **Ergebnisfeld**: Anzeige der Suchergebnisse auf Basis der Suche.
+8. **Ergebnisfeld**: Anzeige der Suchergebnisse auf Basis der Suche. Diese Ergebnisse kannst du per Drag and Drop Akteuren hinzufügen oder auf dem Spielfeld platzieren. Drag and Drop +ber das Münzitem bezahlt dabei gleich den Gegenstand.
+9. **Beschreibung durchsuchen** Durchsuche die Beschreibung ebenfalls. Verbraucht zusätzliche Ressource (RAM) und benötigt einen Reload von Foundry nach dem Ändern.
+10. **Stöber Modus** Durchstöbere die Bibliothek und schau dir die Items direkt mit Beschreibung und Attributen an.
+11. **Ohne Duplikate** Versucht Duplikate bei der Suche auszublenden.
   
 ![Bibliothek](de/images/de-bibliothek_1.png)  
 
@@ -25,7 +28,7 @@ Alles aus dem Kompendium kann dann direkt im Spiel über die folgenden Wege verw
   ![Spezies verwenden](de/images/de-bibliothek_2.png)
   
 Importieren: Ihr könnte Objekte aus der Bibliothek importieren um sie dann in eurer Welt zu verändern:  
-1. GEgenstand suchen und über Rechtsklick öffnen.
+1. Gegenstand suchen und über Rechtsklick öffnen.
 2. Oben rechts befindet sich dann immer ein Symbol um das geöffnete Objekt zu importieren. 
     
   ![Eintrag Importieren](de/images/de-bibliothek_3.png)

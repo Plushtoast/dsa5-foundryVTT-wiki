@@ -160,7 +160,7 @@ With the module installed, you set both images in one step, with more options.
 
 *Translation information*  
 *[x] updated: 2021-06-09*  
-*[x] german entry [linked](de/de-Charaktererstellung)*  
+*[x] german entry [linked](de/de-charaktererstellung)*  
 *[x] automatic translation*  
 *[x] proof read*  
 *[x] change pictures with EN version*  

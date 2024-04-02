@@ -1,9 +1,9 @@
 # System settings
 The system settings can be found in the menu under Customize Settings and then the System Settings tab:  
  
- ![Menü](https://user-images.githubusercontent.com/80099175/114196817-024e8380-9952-11eb-88f0-06f6f3e3dcf2.png)  
+ ![Menü](images/en-system-settings_0.png)  
  
- ![Systemeinstellugen](https://user-images.githubusercontent.com/80099175/114200158-35dedd00-9955-11eb-97bc-2bf6c36ec92b.png)
+ ![Systemeinstellugen](images/en-system-settings_1.png)
   
 ## Possible system settings:  
 * **melee blooper table**. 

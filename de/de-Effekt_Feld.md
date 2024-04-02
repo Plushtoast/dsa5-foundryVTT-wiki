@@ -2,7 +2,7 @@
 Das Effekt Feld von Items kann verwendet werden um die Attribute eines Helden zu erhöhen oder zu senken.  
 Dafür muss in das Effekt Feld eines Items `WERT ATTRIBUT` eingetragen werden (Bsp.: +1 GS um die Geschwindigkeit um 1 zu erhöhen). 
 Sollen mehrere Attribute durch ein Effekt Feld beeinflusst werden, können diese hintereinander getrennt durch ein `,` eingetragen werden:  
-![Effekt Attribut](https://user-images.githubusercontent.com/80099175/140291822-1882514b-e738-4143-a058-3353ec199b15.png) 
+![Effekt Attribut](images/de-effekt_feld_0.png) 
 **Dies Funktioniert im Effekt Feld folgender ITEMS**: Vorteile, Nachteile, Sonderfertigkeiten, Nahkampfwaffen, Fernkampfwaffen und Ausrüstung. Ausrüstung muss ausrüstbar sein, denn nur wenn diese Ausgewürstet wird, ist der Effekt aktiv.
 
 Aktuelle verwendbare Attribute je Sprache des Systems:
@@ -29,11 +29,11 @@ Aktuelle verwendbare Attribute je Sprache des Systems:
 Um die Fertigkeitspunkte der oben genannten Fertigkeiten zu modifizieren kann ebenfalls das Effekt Feld verwendet werden.
 Dafür muss in das Effekt Feld eines Items `FERTIGKEIT FPWERT` eingetragen werden (Bsp.: Kraftakt FP2). Auch hier können mehrere Fertigkeiten durch ein `,` getrennt angegeben werden.   
 Dies führt aber nicht wie bei den Attributen dazu, dass der Wert automatisch im Charakterbogen steigt/sinkt. Erst bei der Probe taucht die Modifikation im Feld *Bedingte Modifikation* auf.  
-![Bedingte Modifikation](https://user-images.githubusercontent.com/80099175/140292592-aef29489-6ba3-437a-b47f-24a355f0552c.png)
+![Bedingte Modifikation](images/de-effekt_feld_0.png)
 **Dies funktioniert im Effekt Feld folgender ITEMS**: Vorteile, Nachteile, Sonderfertigkeiten und Ausrüstung. Ausrüstung muss ausrüstbar sein, denn nur wenn diese Ausgewürstet wird, ist der Effekt aktiv.
 
 Hier noch ein Beispiel für einen Ausrüstungsgegenstand mit Zauberverbesserung:
-![Effekt Zauber](https://user-images.githubusercontent.com/80099175/140293769-9e968f37-cb6a-4652-808a-57b1ecacbdf0.png)  
+![Effekt Zauber](images/de-effekt_feld_1.png)  
 
 ## Effekt Feld - Kampfsonderfertigkeiten.
 Bei den Kampfsonderfertigkeiten können aktuell auch einige Modifikatoren eingetragen werden. Sollen mehrere angegeben werden, müssen diese mit `,` getrennt werden.  

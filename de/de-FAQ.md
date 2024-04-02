@@ -7,17 +7,17 @@ Viele Probleme lassen sich oft mit einem Update beheben.
 
 ## Wie erstelle ich einen Zauberer/Geweihten?
 Grundsätzlich muss dem jeweiligen Charakter zum einen der Vorteil *Geweiht/Zauberer* zugeordnet werden. Das reicht aber nicht um im Charakterbogen Magie oder Religion zu sehen. Dafür muss dem Charakter eins der folgenden Items hinzugefügt werden: magische/karmale Sonderfertigkeit, Zauber, Zaubertrick, Ritual, Liturgie, Zeremonie, Segnung.
-Weitere Details findet ihr in der [Charaktererstellung](de-Charaktererstellung) und dem [Charakterbogen](de-Charakterbogen). 
+Weitere Details findet ihr in der [Charaktererstellung](de-charaktererstellung) und dem [Charakterbogen](de-charakterbogen). 
 Und hier das passende Video dazu: https://youtu.be/-cuWOYTwUCg
 
 ## Wo kann ich Fragen stellen oder bekomme Support bei Problemen?
 Bitte hinterlasst ein *Issue* hier im [Github](https://github.com/Plushtoast/dsa5-foundryVTT/issues) oder kommt auf den [Foundry VTT's Discord Server](https://discord.gg/foundryvtt) und meldet euch im ulisses-dsa Channel. 
 
 ## Ich finde meine Waffen nicht unter Kampf im Charakterbogen
-Stellt sicher, dass ihr die Waffen unter Ausrüstung des Charakters zugeordnet habt. Dort könnt ihr durch das setzen eines Hakens in der *Schild* Spalte die Waffe für den Kampf ausrüsten. Für Details schaut euch die Anleitung: [Charakterbogen - Ausrüstung](de-Charakterbogen#5-ausrüstung) an.  
+Stellt sicher, dass ihr die Waffen unter Ausrüstung des Charakters zugeordnet habt. Dort könnt ihr durch das setzen eines Hakens in der *Schild* Spalte die Waffe für den Kampf ausrüsten. Für Details schaut euch die Anleitung: [Charakterbogen - Ausrüstung](de-charakterbogen#5-ausrüstung) an.  
 
 ## Wie kann ich Token erstellen die so aussehen wie aus den DSA Büchern?
-Dafür gibt es das Modul [Tokenizer](de-Module#tokenizer).
+Dafür gibt es das Modul [Tokenizer](de-module#tokenizer).
 
 ## Warum ändert die Attributs Anpassung der Spezies nicht das Attribut im Charakterbogen-Eigenschaften?
 Die Attributs Anpassung bedeutet laut den DSA Regeln nicht, dass dieser Wert direkt angepasst wird. Sondern sie passt nur den maximalen Wert während der Charaktererstellung an.

@@ -6,7 +6,7 @@ Dies kann ebenfalls in Journaleinträgen verwendet werden.
 Befehl der in den Text eingebettet werden muss: @Rq[TALENT MODIFIKATOR] oder @Gc[TALENT MODIFIKATOR] 
 Der Modifikator muss immer mit dazu geschrieben werden. Wird die Probe nicht modifiziert muss eine 0 eingetragen werden (Bsp.: @Rq[Sinnesschärfe -1]/@Gc[Kraftakt -1]). Ein positiver Modifikator wird immer ohne das Vorzeichen eingetragen (Bsp.: @Rq[Körperbeherrschung 2]/@Gc[Wildnisleben 2]/@Rq[Bekehren & Überzeugen 0]).
 
-|![Journal Request Code](https://user-images.githubusercontent.com/80099175/140304354-7cd7a721-38b9-4f9b-9319-8c98acdd7a50.png)|![Journal Request](https://user-images.githubusercontent.com/80099175/140304384-21c0f250-8cc2-4009-bf34-97ba417e7835.png)
+|![Journal Request Code](images/de-journal-probe_anfordern_0.png)|![Journal Request](images/de-journal-probe_anfordern_1.png)
 |
 
 ### Beispiel Spieleiter-Vorbereitung:
@@ -16,10 +16,10 @@ Dort kann dann zum Beispiel eine verschlossene Truhe stehen die eine Schlösserk
 Journal Eintrag: *Der Raum misst etwa 3x3 Schritt. In ihm stehen ein Bett, ein Nachtschrank, ein Kleiderschrank und ein kleiner Tisch mit einem Stuhl. 
 Am Fußende des Bettes steht eine große Truhe.
 Diese ist verschlossen und muss mit einer @Rq[Schlösserknacken -1] Probe geöffnet werden.*
-![Verschlossene Truhe](https://user-images.githubusercontent.com/80099175/111426706-54a2d880-86f5-11eb-8812-80dedd388d49.png)
+![Verschlossene Truhe](images/de-journal-probe_anfordern_2.png)
 
 Klickt der Spielleiter auf die Schaltfläche erscheint ein Chat Eintrag welchen die Spieler direkt nutzen um den Wurf direkt abzulegen.
-![grafik](https://user-images.githubusercontent.com/80099175/111427023-c3803180-86f5-11eb-97e9-3e83ccbac049.png)
+![grafik](images/de-journal-probe_anfordern_3.png)
 
 *[x]Zuletzt bearbeitet: 04.11.2021*  
 *Änderung: Inhalt kontrolliert und Bilder ausgetauscht*

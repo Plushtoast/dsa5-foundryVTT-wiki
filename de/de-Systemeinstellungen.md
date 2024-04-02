@@ -1,7 +1,7 @@
 # Systemeinstellungen
 Die Systemeinstellungen findet ihr im Menü unter Einstellungen anpassen und dann der Reiter Systemeinstellungen:  
  
- ![Menü](https://user-images.githubusercontent.com/80099175/114196817-024e8380-9952-11eb-88f0-06f6f3e3dcf2.png)  
+ ![Menü](images/de-systemeinstellungen_0.png)  
  
  ## Systemeinstellungen (Beschreibung immer für Haken ist gesetzt):  
 * **Changelog:** Das aktuelle Changelog.
@@ -27,8 +27,8 @@ Die Systemeinstellungen findet ihr im Menü unter Einstellungen anpassen und dan
 * **Verberge Token Namen:** Hier könnt ihr zwischen "Nein", "Ja" (Token immer unbekannt) und Umbenennen (Beim Ziehen auf Szene umbenennen) wählen.
 
  ## Screenshots der Einstellungen:
- ![Systemeinstellugen1](https://user-images.githubusercontent.com/80099175/140312442-7c5bd75b-1d20-4494-be8a-8ccd9ac52837.png) 
- ![Systemeinstellungen2](https://user-images.githubusercontent.com/80099175/140312633-54daca48-0016-442a-b2c9-35458cde9e4c.png)
+ ![Systemeinstellugen1](images/de-systemeinstellungen_1.png) 
+ ![Systemeinstellungen2](images/de-systemeinstellungen_2.png)
 
   *[x]Zuletzt bearbeitet: 04.11.2021*  
 *Überarbeitet: an die aktuellen Systemeinstellungen angepasst*

@@ -130,7 +130,7 @@ The status window contains all the conditions and statuses for the character. So
  
 ## 7. Notes
 In the notes you will find various things that can be entered about the character. This is also where the culture is put if it is pulled into the character during character building. The **GM Notes** are only visible to game masters.
-![Charakterbogen Notizen](https://user-images.githubusercontent.com/80099175/112149840-b4125400-8bdf-11eb-9577-1d78333392ad.png)
+![Charakterbogen Notizen](images/en-charactersheet_0.png)
 
 ## 8. Magic
 The magic sheet does not appear until a magic special skill, spell, ritual, or magic trick has been assigned to the character. The Wizard advantage is not enough for this!  
@@ -140,7 +140,7 @@ The magic sheet does not appear until a magic special skill, spell, ritual, or m
 3. **Tradition, Leiteigenschaft, Merkmal, Leiteig. Multiplier**: the leadership trait must be specified here, since the AsP in the [Traits](en-charactersheet#4-attributes) are also calculated via it. In addition, the influence of the trait on the astral points can be set via the *trait multiplier* (e.g.: Spellbard 0.5).
 4. **Magic tricks** !  
   
-![Magie](https://user-images.githubusercontent.com/80099175/114888610-b1370780-9e09-11eb-92e3-3b3a7efe629f.png)
+![Magie](images/en-charactersheet_0.png)
 
 ## 9. Religion
 1. **Liturgies and Ceremonies**: All of the character's liturgies and ceremonies are listed here.  
@@ -150,11 +150,11 @@ The magic sheet does not appear until a magic special skill, spell, ritual, or m
    - Benevolent talents should definitely be entered here. Pay attention to correct spelling. The state "Rapture" takes these entries into account.
 5. **Blessings**  
   
-![Religion](https://user-images.githubusercontent.com/80099175/112478313-29af2900-8d74-11eb-8344-d68b8f35dbe6.png)
+![Religion](images/en-charactersheet_0.png)
 
 *Translation information*  
 *[x] updated: 2021-06-05*  
-*[x] german entry [linked](de/de-Charakterbogen)*  
+*[x] german entry [linked](de/de-charakterbogen)*  
 *[x] automatic translation*  
 *[ ] proof read*  
 *[ ] change pictures with EN version*  

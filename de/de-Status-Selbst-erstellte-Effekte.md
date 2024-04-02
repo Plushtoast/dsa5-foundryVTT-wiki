@@ -1,21 +1,21 @@
 # Status - Selbst erstellte Effekte
 Effekte bieten die Möglichkeit gewisse Charakterwerte zu beeinflussen. Selbst erstellte Effekte sind in verschiedenen Objekten innerhalb von Foundry verfügbar: Charaktere, Zauber, Rituale, Liturgien, Zeremonien, Ausrüstung, usw. Überall da, wo ihr im Fenster des Objektes einen Effekt/Stautseffekte Tab habt. Vom Grundprinzip funktionieren alle ähnlich, deshalb folgen hier 3 Beispiele:  
 
-- [Effekte von Akteuren](de-Status-Selbst-erstellte-Effekte#effekte-von-akteuren)
-- [Effekte von einer Nahkampfwaffe (Item)](de-Status-Selbst-erstellte-Effekte#effekt-von-einer-nahkampfwaffe-item)
-- [Talentanpassungen durch Effekte](de-Status-Selbst-erstellte-Effekte#talentanpassungen-durch-effekte)
-- [Teilprobenmodifikatoren](de-Status-Selbst-erstellte-Effekte#teilprobenmodifikatoren)
+- [Effekte von Akteuren](de-status-selbst-erstellte-effekte#effekte-von-akteuren)
+- [Effekte von einer Nahkampfwaffe (Item)](de-status-selbst-erstellte-effekte#effekt-von-einer-nahkampfwaffe-item)
+- [Talentanpassungen durch Effekte](de-status-selbst-erstellte-effekte#talentanpassungen-durch-effekte)
+- [Teilprobenmodifikatoren](de-status-selbst-erstellte-effekte#teilprobenmodifikatoren)
 
 Außerdem findet ihr hier die Beschreibung, wie ihr die Dauer von Effekten automatisch behandeln lassen könnt:  
 
-- [Effektdauer](de-Status-Selbst-erstellte-Effekte#effektdauer)
+- [Effektdauer](de-status-selbst-erstellte-effekte#effektdauer)
 
 ## Effekte von Akteuren
 **Ihr könnt alle Datenwerte der Akteure ändern.** Beachtet dabei, dass einige davon berechnet wurden und deshalb immer wieder überschrieben werden. Deshalb ist diese Funktion mit Vorsicht zu verwenden!  
 Es gibt aber eine Auswahl an Werten in der Effektmaske. Diese können ohne Probleme verwendet werden.
 Um selbst erstellte Effekte zu verwenden, öffne den Charakterbogen und gehe auf die Kategorie Status. Über das + kann ein neuer Effekt angelegt, der Statuseffekt benannt und die gewünschten Änderungen eingegeben werden.
 
-![Effekt hinzufügen](https://user-images.githubusercontent.com/44941845/112887103-0d442100-90d3-11eb-8ee5-aa056fcbe8e7.png)
+![Effekt hinzufügen](images/de-status-selbst-erstellte-effekte_0.png)
 
 ### Auswahlliste der wichtigsten Effekte
 Ihr könnt zwischen den wichtisten Attributen und Eigenschaften aus einer Auswahlliste auswählen:
@@ -24,14 +24,14 @@ Ihr könnt zwischen den wichtisten Attributen und Eigenschaften aus einer Auswah
 3. Im Reiter Effekte einen neuen über das + im Rahmen erstellen
 4. Hier habt ihr unter Attributsschlüssel jetzt eine Auswahl an gängigen Effekten
   
-  ![Liste Effekt](https://user-images.githubusercontent.com/80099175/119772544-a6b76580-bebf-11eb-863b-9d6d2ceea0d2.png)
+  ![Liste Effekt](images/de-status-selbst-erstellte-effekte_1.png)
 
 ### Beispiel
 #### Armatrutz
 Erstelle einen neuen Status im Charakterbogen unter Status und füge ein neues Attribut mit der Bezeichnung "data.totalArmor" hinzu. Setze den Modus auf *"Add"* und gib als Wert den gewünschten Rüstungswert ein (Bsp.: 1)
 So kannst du verschiedene Armatrutz Effekte mit verschiedenen Rüstungswerten anlegen, sodass der Spieler den passenden nur noch aktivieren muss, wenn er den Zauber erfolgreich spricht. Der geänderte Rüstungswert wird dann unter Kampf im Charakterbogen angezeigt.
   
-![Armatrutz](https://user-images.githubusercontent.com/80099175/119772692-dcf4e500-bebf-11eb-80fe-8bb6c245f719.png)
+![Armatrutz](images/de-status-selbst-erstellte-effekte_2.png)
   
 ## Effekt von einer Nahkampfwaffe (Item)
 Ihr könnt Irems mit Statuseffekten versehen um so zum Beispiel magische Artefakte zu erstellen. Dies funktioniert nur bei Gegenständen die Ausrüstbar oder Verbrauchsgegenstände sind!
@@ -42,9 +42,9 @@ Ihr könnt Irems mit Statuseffekten versehen um so zum Beispiel magische Artefak
 3. Rüstet den Gegenstand aus und der eingetragene Effekt wird direkt angewendet. 
 3.1 Diesen findet ihr dann auch im Charakterbogen unter *Status* -> *Transferierte Statuseffekte*
   
-![Item Effekt Magisches Schwert](https://user-images.githubusercontent.com/80099175/119779619-2d247500-bec9-11eb-933c-17eb62e79078.png)
+![Item Effekt Magisches Schwert](images/de-status-selbst-erstellte-effekte_0.png)
   
-![Transferierte Statuseffekte](https://user-images.githubusercontent.com/80099175/119779705-4a594380-bec9-11eb-8bd2-cf7daf4eeb3f.png)
+![Transferierte Statuseffekte](images/de-status-selbst-erstellte-effekte_1.png)
 
 ## Talentanpassungen durch Effekte
 Um in Effekten die *Talent - XY* zu verwenden, müsst ihr wie folgt vorgehen. 
@@ -58,7 +58,7 @@ Um in Effekten die *Talent - XY* zu verwenden, müsst ihr wie folgt vorgehen.
 ### Beispiel: Würfelbecher des Glücks
 Ein Würfelbecher der 2 Fertigkeitspunkte auf Brett- & Glücksspiel gibt:  
   
-![Würfelbecher des Glücks](https://user-images.githubusercontent.com/80099175/119782363-63afbf00-becc-11eb-8fb3-e5552e9ebea0.png)
+![Würfelbecher des Glücks](images/de-status-selbst-erstellte-effekte_0.png)
   
 ## Teilprobenmodifikatoren
 Es ist auch möglich nur eine Probe einer 3w20 Talentprobe zu modifizieren.
@@ -83,13 +83,13 @@ Um dann die Dauer in einem Effekt hinzu zu fügen geht ihr folgendermaßen vor:
 3. Ihr habt die Auswahl zwischen verschiedenen Optionen. Am häufigsten verwendet werden *Dauer (Sekunden)* und *Dauer (Züge) - Runden*.
    Sobald die Zeit/Runde abgelaufen ist, verschwindet der Effekt automatisch vom Charakterbogen.
    
-  ![Dauer Effekt](https://user-images.githubusercontent.com/80099175/119773893-9a340c80-bec1-11eb-996a-3c701f830c1f.png)
+  ![Dauer Effekt](images/de-status-selbst-erstellte-effekte_0.png)
    
 ## Tipp für Fortgeschrittene:
 Wer sich ein bisschen mit der Console auskennt (F12 im Browser) kann die Spieldaten selbst nach den Werten durchsuchen.  
 Markiert einen Token und gebt in die Konsole: *_token.actor.data* ein. Dann seht ihr die Werte die sich hierdurch beeinflussen lassen. Weitere Infos hierzu folgen.
   
-![Console](https://user-images.githubusercontent.com/80099175/113256355-5e1d6a80-92c9-11eb-9e02-b52ea1c371b6.png)
+![Console](images/de-status-selbst-erstellte-effekte_0.png)
 
 *[x]Zuletzt bearbeitet: 04.11.2021*   
 *Überarbeitet: Hinweis auf Module in Effektdauer*

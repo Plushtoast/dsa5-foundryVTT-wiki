@@ -10,8 +10,8 @@ affects the visibility and light range of individual elements in this scene. (Ex
 it makes a big difference if a grid is 2 or 20 units. With 2 it can see 5 boxes, with 20 only 2 boxes). 
 This setting is directly related to the [Settings on token](en-sight-light#token-settings).  
   
-![Gitter 2](https://user-images.githubusercontent.com/80099175/111609623-c9037780-87da-11eb-8cdb-5f75ef20c8a0.png)
-![Gitter 20](https://user-images.githubusercontent.com/80099175/111629054-2dc9cc80-87f1-11eb-8b8e-43f6482f91c9.png)
+![Gitter 2](images/en-sight-light_0.png)
+![Gitter 20](images/en-sight-light_1.png)
 
 ## Scene settings - visibility and lighting
 1. **Figure View**: If unchecked, all players will always be able to see everything from the map. Furthermore light sources and walls are ignored 
@@ -27,7 +27,7 @@ the value for the scene will be set to 0 for day or 1 for night.
 5. **Threshold**: for global illumination** If the check mark is set, the global illumination on the scene will be automatically deactivated as soon as the 
 threshold value reached in the controller is exceeded. 
   
-![Sicht und Beleuchtung](https://user-images.githubusercontent.com/80099175/111903842-5c8bb100-8a44-11eb-8fea-3b32dcde8b0b.png)
+![Sicht und Beleuchtung](images/en-sight-light_0.png)
 
 ## Token settings
 The token has again a completely own setting for its own visibility in darkness (advantage: dark visibility) as well as for the light emitted by it 
@@ -37,7 +37,7 @@ If you then drag the token from the actors to the field, it will have the "old" 
 Open the settings of the desired token via the actor menu. At the top of the window must be [Prototype figure]! 1.  
 1. in this window under *Vision* the complete vision and the light of the token is controlled. 
    
-![Prototyp Token Vision](https://user-images.githubusercontent.com/80099175/111622001-f5be8b80-87e8-11eb-9135-f6e283007ec5.png)  
+![Prototyp Token Vision](images/en-sight-light_0.png)  
 
 ### Important settings for TDE: (personal opinion of *tsaath*)
 1. **Has Vision**: When checked, all vision restrictions due to lights, walls, etc. apply. If it is deactivated the actor can look over the whole scene.    
@@ -50,7 +50,7 @@ Open the settings of the desired token via the actor menu. At the top of the win
 8. **Animation type**: Whether the light has an effect (keyword: torch).  
 Ex: Hero with a torch  
   
-![Geron Fackel](https://user-images.githubusercontent.com/80099175/111904114-74176980-8a45-11eb-9609-f4d47b2d6446.png)
+![Geron Fackel](images/en-sight-light_1.png)
 
 
 ## Default settings visibility
@@ -59,12 +59,12 @@ there are the items *Default visibility (vague)* (4) (*Dawn visibility* in the t
 and *default visibility (clear)* (5) (*bright visibility* in the token). Every newly created actor gets these settings. (Personal opinion: I have both at 0
 and control the visibility during daytime only by obstacles, during darkness by twilight vision and flares)  
   
-![Systemeinstellungen Sichtweite](https://user-images.githubusercontent.com/80099175/111624415-f278cf00-87eb-11eb-9ac3-b4b3a98fb1e8.png)
+![Systemeinstellungen Sichtweite](images/en-sight-light_0.png)
 
 
 *Translation information*  
 *[x] updated: 2021-06-07*  
-*[x] german entry [linked](de/de-Sicht_und_Licht.md)*  
+*[x] german entry [linked](de/de-sicht_und_licht.md)*  
 *[x] automatic translation*  
 *[ ] proof read*  
 *[ ] change pictures with EN version*

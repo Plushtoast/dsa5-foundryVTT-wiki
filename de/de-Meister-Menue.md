@@ -3,7 +3,7 @@ Das Meister Menü bietet Funktionen für den Spielleiter. Es werden alle Akteuer
 
 Ich findet es auf der linken Seite unter *Meister Menü* -> *Meister Menü*
 
-![Meister Menü öffnen](https://user-images.githubusercontent.com/80099175/140309218-a7fc73da-f3b4-424c-baeb-503b8d24d884.png)
+![Meister Menü öffnen](images/de-meister-menue_0.png)
 
 ## Funktionen:  
  
@@ -21,15 +21,15 @@ Ich findet es auf der linken Seite unter *Meister Menü* -> *Meister Menü*
 11. **Gruppenprobe:** Löst eine Gruppenprobe auf Basis des ausgewählten Talents (1) aus.  
 12. **Details:** Die Details öffnet ihr mit einem Klick in die Zeile des Charakters. Dort befinden sich der Geldbeutel, der Erfahrungsgrad, die Vorteile und Nachteile des Charakters.
 13. **Gruppenschips**: Können vom SL über +- für die ganze Gruppe vergeben werden. Diese lassen sich dann im Chat über das Kontextmenü verwenden.
-14. **Zuchtgrube**: Wird auf dieser Seite näher beschrieben: [Meister-Menü-Zuchtgrube](de-Meister-Menue-Zuchtgrube) 
-15. **Szeneneinstellungen**: Wird auf dieser Seite näher beschrieben: [Meister-Menü-Szeneneinstellungen](de-Meister-Menue-Szeneneinstellungen)  
+14. **Zuchtgrube**: Wird auf dieser Seite näher beschrieben: [Meister-Menü-Zuchtgrube](de-meister-menue-zuchtgrube) 
+15. **Szeneneinstellungen**: Wird auf dieser Seite näher beschrieben: [Meister-Menü-Szeneneinstellungen](de-meister-menue-szeneneinstellungen)  
 
-![Meister Menü](https://user-images.githubusercontent.com/80099175/140310657-23442a59-3e09-4fbc-a6ba-fb171aa8eabc.png)
+![Meister Menü](images/de-meister-menue_0.png)
 
 ## Charaktere entfernen/hinzufügen
 Um einen Charakter aus dem Menü zu entfernen klickt ihr auf das X am hinter dem Char:  
   
-  ![MM - Char entfernen](https://user-images.githubusercontent.com/80099175/140309413-3550d297-97ab-4405-b613-3283ece50cff.png)
+  ![MM - Char entfernen](images/de-meister-menue_0.png)
   
 Wollt ihr einen Char oder NSC hinzufügen, könnt ihr ihn einfach per Drag and Drop dort hineinziehen. Auch die Reihenfolge könnt ihr per Drag and Drop verändern.
 

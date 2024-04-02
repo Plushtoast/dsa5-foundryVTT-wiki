@@ -2,34 +2,34 @@
 **Es ist nicht möglich alle Module auf vollständige Kompatibilität zu prüfen. Bitte testet die Module im zweifel in einer Testwelt und setzt sie erst in euren Spielwelten ein, wenn ihr euch sicher seid dass sie funktionieren.**
 
 * Kompatible Module
-	- [Dice Tray](de-Module#dice-tray)
-	- [Dice so nice](de-Module#dice-so-nice)
-	- [German (Core)](de-Module#german-core)
-	- [Optolith to Foundry](de-Module#optolith-to-foundry)
-	- [Pings](de-Module#pings)
-	- [Tokenizer](de-Module#tokenizer)
+	- [Dice Tray](de-module#dice-tray)
+	- [Dice so nice](de-module#dice-so-nice)
+	- [German (Core)](de-module#german-core)
+	- [Optolith to Foundry](de-module#optolith-to-foundry)
+	- [Pings](de-module#pings)
+	- [Tokenizer](de-module#tokenizer)
 
 * Persönliche Empfehlungen von Tom
-	- [Automated Animations & JB2A - Jules and Ben's Animated Assets](de-Module#automated-animations--jb2a---jules-and-bens-animated-assets)
-	- [Zeit & Kalender: SmallTime, Simplecalendar, TimesUp](de-Module#zeit--kalender-smalltime-simplecalendar-timesup)
-	- [Clipboard Image](de-Module#clipboard-image)
-	- [DF Curvy Walls](de-Module#df-curvy-walls)
-	- [Drag Ruler](de-Module#drag-ruler)
-	- [FXMaster](de-Module#fxmaster)
-	- [Laptop Form Fix](de-Module#laptop-form-fix)
-	- [Permission Viewer](de-Module#permission-viewer)
-	- [Pings](de-Module#pings)
-	- [Polyglot](de-Module#polyglot)
-	- [Popout!](de-Module#popout)
-	- [Turnmarker](de-Module#turnmarker)
-	- [Window Controls](de-Module#window-controls)
+	- [Automated Animations & JB2A - Jules and Ben's Animated Assets](de-module#automated-animations--jb2a---jules-and-bens-animated-assets)
+	- [Zeit & Kalender: SmallTime, Simplecalendar, TimesUp](de-module#zeit--kalender-smalltime-simplecalendar-timesup)
+	- [Clipboard Image](de-module#clipboard-image)
+	- [DF Curvy Walls](de-module#df-curvy-walls)
+	- [Drag Ruler](de-module#drag-ruler)
+	- [FXMaster](de-module#fxmaster)
+	- [Laptop Form Fix](de-module#laptop-form-fix)
+	- [Permission Viewer](de-module#permission-viewer)
+	- [Pings](de-module#pings)
+	- [Polyglot](de-module#polyglot)
+	- [Popout!](de-module#popout)
+	- [Turnmarker](de-module#turnmarker)
+	- [Window Controls](de-module#window-controls)
 * Persönliche Empfehlungen von Nellkir
-	- [Combat Tracker Effect Icon Tooltips](de-Module#combat-tracker-effect-icon-tooltips)
-	- [Forien's Quest Log](de-Module#foriens-quest-log)
-	- [Popout Resizer](de-Module#popout-resizer)
+	- [Combat Tracker Effect Icon Tooltips](de-module#combat-tracker-effect-icon-tooltips)
+	- [Forien's Quest Log](de-module#foriens-quest-log)
+	- [Popout Resizer](de-module#popout-resizer)
 * Persönliche Empfehlungen von Hüpfklotz
-	- [Health Estimate](de-Module#health-estimate)
-	- [Splatter](de-Module#splatter)
+	- [Health Estimate](de-module#health-estimate)
+	- [Splatter](de-module#splatter)
 
 
 
@@ -43,17 +43,17 @@ Dabei wird der Wurf direkt in den Chat geschrieben und kann dort noch weiter mod
 ![Dice Tray](de/images/Module_Dice_Tray.jpg)
 
 ## Dice so nice
-Wirf 3D Würfel über den virtuellen Spieltisch. Dabei kann sogar zwischen verschiedenen DSA5 Themen gewählt werden. Mitlerweile gibt es in den [Systemeinstellungen](de-Systemeinstellungen) auch die Möglichkeit die Dice so Nice Würfel für die Proben über den Charakterbogen zu verwenden. 
-![Dice so nice Wurf](https://user-images.githubusercontent.com/80099175/111422410-f3780680-86ee-11eb-8edc-6f9ce4d14364.png)
+Wirf 3D Würfel über den virtuellen Spieltisch. Dabei kann sogar zwischen verschiedenen DSA5 Themen gewählt werden. Mitlerweile gibt es in den [Systemeinstellungen](de-systemeinstellungen) auch die Möglichkeit die Dice so Nice Würfel für die Proben über den Charakterbogen zu verwenden. 
+![Dice so nice Wurf](images/de-module_0.png)
 **Achtung:** diese Würfel können bei älteren Geräte zu Performace Problemen führen. Um die Würfel für den einzelnen Spieler zu deaktivieren geht man in *Einstellungen anpassen -> Moduleinstellungen -> Abschnitt Dice so Nice -> My Dice Settings -> Appearance -> Haken bei Enable 3D Dice raus*  
-![Dice so nice Einstellungen](https://user-images.githubusercontent.com/80099175/111422629-4356cd80-86ef-11eb-938c-32f944a713fd.png)
+![Dice so nice Einstellungen](images/de-module_1.png)
 
 [Link zum Youtube Tutorial](https://www.youtube.com/watch?v=o8tlbTe42WM&list=PLGyb6RcE5AmVHzCZSKEN00cenwkB3LxTC&index=5)
 
 ## German Core
 Durch dieses Modul kann die Standardsprache im Foundry Setup auf Deutsch umgestellt werden. Übersetz die komplette Oberfläche auf Deutsch.
 Unter *Adminsetup -> Configuration -> Default Language* Deutsch - German [Core] wählen und Server neu starten.
-![grafik](https://user-images.githubusercontent.com/80099175/111421703-bb23f880-86ed-11eb-94ee-92a71189353e.png)
+![grafik](images/de-module_0.png)
 
 ## Optolith to Foundry
 Ein Modul um die exportierten Charaktere (als .json) direkt zu Foundry zu importieren. Hierzu gibt es ein Video welches die Funktion erklärt: [Link zum Youtube Tutorial](https://youtu.be/SHqkSU1rQoQ)
@@ -63,7 +63,7 @@ Ein Modul um die exportierten Charaktere (als .json) direkt zu Foundry zu import
 Um den Spielern einen Hinweis darüber zu geben über was auf der Szene man gerade spricht, kann mit dem Modul Pings ein 
 Signal auf der Szene erzeugt werden (Standard: Linksklick)  
 Mit einer Tastenkombination (Standard: STRG+Linksklick) springt dann die Sicht der Spieler auch zu dem Punkt an die das Signal gesetzt wurde.  
-![Ping](https://user-images.githubusercontent.com/80099175/111904281-60b8ce00-8a46-11eb-9728-720a761c85b3.png)
+![Ping](images/de-module_0.png)
 
 ## Tokenizer
 Bietet die Möglichkeit aus dem Hochgeladenen Charakterbild einen Token mit der offiziellen DSA5 Umrandung zu erstellen.
@@ -73,7 +73,7 @@ Bietet die Möglichkeit aus dem Hochgeladenen Charakterbild einen Token mit der 
 1. Über die Pfeile kann die Anordnung der einzelnen Bilder gesteuert werden. Die Vorschau zeigt dabei immer das Ergebnis.
 1. Wird das Schloss deaktiviert kann das einzelne Bild mit der Maus verschoben und über das Mausrad gezoomt werden
 1. Ist man mit dem Ergebnis zufrieden kann man das Bild Speichern und dann mit OK bestätigen.
-![Tokennizer](https://user-images.githubusercontent.com/80099175/111424712-6c2c9200-86f2-11eb-8343-6c56e0d20c6f.png)
+![Tokennizer](images/de-module_0.png)
 
 [Link zum Youtube Tutorial](https://youtu.be/137LU0GtvEI?list=PLGyb6RcE5AmVHzCZSKEN00cenwkB3LxTC&t=1393)
 
@@ -114,7 +114,7 @@ Smalltime erzeugt eine kleine Systemuhr über welche die Tageszeit abgebildet wi
 
 Nellkirs Trick, um den Mond in der Zeitleiste als Madamal darzustellen [Madamal-Bilder-Download](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/raw/master/de/files/moon-phases.zip):
 
-![image](https://user-images.githubusercontent.com/82062265/155390350-c16cf877-cdcb-4ec4-a33e-0c382539223d.png)
+![image](images/de-module_0.png)
 
 **Hinweis von Danii0206:** 
 Nellkirs Tipp mit den alternativen images für die gedrehte Mondansicht funktioniert soweit, muss aber nach jedem Update des Moduls angewendet werden. Den gleichen Effekt kann man über das Modul Custom CSS erreichen, wenn man als globale Regeln folgendes festlegt:
@@ -152,7 +152,7 @@ Solltet ihr eine Karte mit einem Runden Turm haben, dann wisst ihr wie unbefried
 ## Drag Ruler
 Hiermit lässt sich die Geschwindigkeit der Charaktere für die maximale Bewegungsrate einstellen. Diese wird dann bei Szenen mit Grid farblich dargestellt. In den *Moduleinstellungen* unter *Drag Ruler* -> *Einstellungen zur Systemintegration* beim *Geschwindigkeitsattribut* `actor.data.data.status.speed.max` und bei *Sprint Multiplikator* eine 2 eingeben.  
   
-  ![Drag Ruler Einstellungen](https://user-images.githubusercontent.com/80099175/115960451-d7e3f500-a511-11eb-8388-78dfa12a69d4.png)
+  ![Drag Ruler Einstellungen](images/de-module_0.png)
   
   [Link zum Youtube Tutorial](https://youtu.be/137LU0GtvEI?list=PLGyb6RcE5AmVHzCZSKEN00cenwkB3LxTC&t=17)
 
@@ -194,7 +194,7 @@ Zu den bereits oben genannten Modulen, empfiehlt und benutzt *Nellkir* folgende 
 ## Combat Tracker Effect Icon Tooltips
 Habt ihr keine Ahnung, was die Effektesymbole auf den Charakteren bedeuten? Dieses kleine Modul öffnet einen nützlichen Tooltip auf den Effekt im Begegnungstracker.
 
-![image](https://user-images.githubusercontent.com/82062265/155386099-c2d7c7ff-afbf-41e4-8b02-940efc1d54bb.png)
+![image](images/de-module_0.png)
 
 ## Forien's Quest Log
 Eine sehr nützliche Rückverfolgung der Questen, wenn ihr mit umfangreichen Kampagnen oder openworld sandboxing spielt.

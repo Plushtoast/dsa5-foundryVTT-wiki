@@ -12,7 +12,7 @@ Also, here is the description of how to have the duration of effects handled aut
 But there is a selection of values in the effect mask. These can be used without problems.
 To use effects you have created yourself, open the character sheet and go to the Status category. Use the + to create a new effect, name the status effect and enter the desired changes.
 
-![Effekt hinzufügen](https://user-images.githubusercontent.com/44941845/112887103-0d442100-90d3-11eb-8ee5-aa056fcbe8e7.png)
+![Effekt hinzufügen](images/en-status-self-created-effects_0.png)
 
 ### Selection list of the most important effects
 You can choose between the most important attributes and attributes from a selection list:
@@ -21,14 +21,14 @@ You can choose between the most important attributes and attributes from a selec
 3. in the Effects tab, create a new one by clicking the + in the frame
 4. here you have under attribute key now a selection of common effects
   
-  ![Liste Effekt](https://user-images.githubusercontent.com/80099175/119772544-a6b76580-bebf-11eb-863b-9d6d2ceea0d2.png)
+  ![Liste Effekt](images/en-status-self-created-effects_1.png)
 
 ### Example
 #### Armatrutz
 Create a new status in the character sheet under Status and add a new attribute called "data.totalArmor". Set the mode to *"Add "* and enter the desired armor value as value (ex: 1)
 This way you can create different Armatrutz effects with different armor values, so that the player only has to activate the appropriate one when he casts the spell successfully. The changed armor value will then be displayed under combat in the character sheet.
   
-![Armatrutz](https://user-images.githubusercontent.com/80099175/119772692-dcf4e500-bebf-11eb-80fe-8bb6c245f719.png)
+![Armatrutz](images/en-status-self-created-effects_2.png)
   
 ## Effect of a melee weapon (Item)
 You can add status effects to Items to create magic artifacts, for example. This only works for items that are wearable or consumable!
@@ -39,9 +39,9 @@ You can add status effects to Items to create magic artifacts, for example. This
 3. equip the item and the entered effect will be applied directly. 
 3.1 You will find this effect in your character sheet under *Status* -> *Transferred Status Effects*.
   
-![Item Effekt Magisches Schwert](https://user-images.githubusercontent.com/80099175/119779619-2d247500-bec9-11eb-933c-17eb62e79078.png)
+![Item Effekt Magisches Schwert](images/en-status-self-created-effects_0.png)
   
-![Transferierte Statuseffekte](https://user-images.githubusercontent.com/80099175/119779705-4a594380-bec9-11eb-8bd2-cf7daf4eeb3f.png)
+![Transferierte Statuseffekte](images/en-status-self-created-effects_1.png)
 
 ## Talent adjustments by effects
 To use *Talent - XY* in effects, you must do the following. 
@@ -55,7 +55,7 @@ To use *Talent - XY* in effects, you must do the following.
 ### Example: Dice cup of luck
 A dice cup that gives 2 skill points to board & luck play:  
   
-![Würfelbecher des Glücks](https://user-images.githubusercontent.com/80099175/119782363-63afbf00-becc-11eb-8fb3-e5552e9ebea0.png)
+![Würfelbecher des Glücks](images/en-status-self-created-effects_0.png)
   
 ## Effect duration
 If you want the duration of the effects to run automatically, you need the following modules:
@@ -70,18 +70,18 @@ To add the duration in an effect you have to do the following:
 3. you have the choice between different options. Most commonly used are *Duration (seconds)* and *Duration (moves) - rounds*.
    Once the time/round is up, the effect will automatically disappear from the character sheet.
    
-  ![Dauer Effekt](https://user-images.githubusercontent.com/80099175/119773893-9a340c80-bec1-11eb-996a-3c701f830c1f.png)
+  ![Dauer Effekt](images/en-status-self-created-effects_0.png)
    
 ## Advanced Tip:
 If you know a bit about the Console (F12 in the browser) you can search the game data for the values yourself.  
 Mark a token and type into the console: *_token.actor.data*. Then you can see the values that can be influenced by this. More infos will follow.
   
-![Console](https://user-images.githubusercontent.com/80099175/113256355-5e1d6a80-92c9-11eb-9e02-b52ea1c371b6.png)
+![Console](images/en-status-self-created-effects_0.png)
 
 
 *Translation information*  
 *[x] updated: 2021-06-07*  
-*[x] german entry [linked](de/de-Status-Selbst-erstellte-Effekte.md)*  
+*[x] german entry [linked](de/de-status-selbst-erstellte-effekte.md)*  
 *[x] automatic translation*  
 *[ ] proof read*  
 *[ ] change pictures with EN version*

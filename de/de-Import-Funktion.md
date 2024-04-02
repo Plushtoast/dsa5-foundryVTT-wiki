@@ -12,12 +12,12 @@ Dadurch, dass an dem System und den Modulen immer weiter gearbeitet wird, verän
   * Kampftechniken migrieren
 3. Es erscheint noch einmal eine Warnung, ob ihr alle Items des vorher ausgewählten Typs überschreiben wollt. Mit *Ja* wird der Import durchgeführt.
 
-![Import Funktion](https://user-images.githubusercontent.com/80099175/140304001-d5934452-3baa-4d5e-bfbc-a60244f773e1.png)
+![Import Funktion](images/de-import-funktion_0.png)
 
 ## Beispiel
 Der Zauber Armatrutz hat mit einem Update einen neuen Effekt bekommen. Importiert ihr über die Funktion *Zauber migrieren* die Zauber, wird der alte Armatrutz (1) durch den neuen Armatrutz (2) ersetzt.
   
-  ![Import Armatrutz](https://user-images.githubusercontent.com/80099175/140304026-f51e1d7a-216f-4a34-a873-336ba9c0f73a.png)
+  ![Import Armatrutz](images/de-import-funktion_0.png)
 
   
 *[x]Zuletzt bearbeitet: 04.11.2021*

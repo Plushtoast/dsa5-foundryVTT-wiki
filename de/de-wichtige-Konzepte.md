@@ -30,4 +30,4 @@
        - Durch Doppelklick auf einen Token, öffnet sich das Charaktersheet (des TOKENS, nicht des Charakters). Durch Klick auf den Button für die Token-Settings (rechts oben im Charsheet) öffnen sich die Einstellungen für diesen einen Token. Änderungen betreffen nur diesen einen Token der angeklickt wurde.
        - Durch Klick auf den Charakter im Verzeichnis, öffnet sich das Charaktersheet (des Charakters, nicht eines Token). Durch Klick auf den Button für die Token-Settings (rechts oben im Charsheet) öffnen sich die Einstellungen für den PROTOTYPE Token. Dieser Prototyp wird verwendet, um einen Token zu generieren, wenn man den Charakter auf eine Szene zieht.
        - Weitere Informationen dazu, direkt auf der [Foundry Website](https://foundryvtt.com/article/tokens/)
-![Token-settings](https://user-images.githubusercontent.com/62849695/116784842-a67da300-aa96-11eb-8e65-4b9a4c6f035a.png)
+![Token-settings](images/de-wichtige-konzepte_0.png)

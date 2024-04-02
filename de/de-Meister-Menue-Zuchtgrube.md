@@ -19,7 +19,7 @@ Das Ausrüstungspaket beinhaltet fest definierte Gegenstände, passend zur Bezei
 5. Hier kann das Geld des NSCs festgelegt oder durch einen Klick auf die jeweilige Münze zufällig bestimmt werden.
 6. Der Token (Ordner) gibt an, welche Bilder auf der rechten Seite der NSC Zucht (8) zur Auswahl stehen. Wird dort ein Token ausgewählt, dann wird der Name des Tokens in Token (Datei) sichtbar.  
 Tipp: Steht bei Token (Datei) `*.*` wird beim ziehen des Akteuers auf die Szene ein zufälliger Token aus dem Token (Ordner) gewählt.
-7. "Mit Akteur Verbinden" verbindet den Token mit dem Akteur so, dass zum Beispiel Schaden an den Akteur übertragen wird usw. "Händler" wählt für den NSC automatisch das [NSC Händler Sheet](de-Haendler#händler) aus.
+7. "Mit Akteur Verbinden" verbindet den Token mit dem Akteur so, dass zum Beispiel Schaden an den Akteur übertragen wird usw. "Händler" wählt für den NSC automatisch das [NSC Händler Sheet](de-haendler#händler) aus.
 8. Auswahl des Bildes welches dann für Portrait und Token des erstellten Akteurs verwendet wird.
 
 ![NSC Zucht](images/Zuchtgrube%20-%20NSC%20Zucht.jpg)  

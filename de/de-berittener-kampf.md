@@ -23,7 +23,6 @@ So kannst du z.B. in der Sidebar die Reiterhorden des Feindes vorbereiten. Ein R
 ## Geschwindigkeit anpassen und Bewegung
 
 Die Geschwindigkeit lässt sich gemäß den Regeln über das Token HUD oder den Charakterbogen ebenfalls anpassen. Dadurch werden entsprechende Probenmodifikatoren gesetzt.
-
 ![Berittener Kampf](de/images/berittenerkampf-2.png)
 
 Bewegen kannst du das Paar indem du den **Reiter** auf dem Spielfeld bewegst. Das Reittier folgt automatisch.
@@ -37,3 +36,5 @@ Ein berittener Kämpfer erhält alle entsprechenden Boni automatisch. z.B.:
 * Die Geschwindigkeit des Pferdes
 * Abzug auf Ausweichen
 * Die Möglichkeit auf die Loyalität des Reittiers zu Würfeln (sofern es dieses Talent enthält)
+
+Reiterproben musst du ggf. gemäß den Regeln selbst auslösen.

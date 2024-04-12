@@ -11,6 +11,8 @@ Um einen Gegenstand mit einem Zauber auszustatten, zieht ihr den Zauber aus eine
 6. Anzahl der Ladungen. Ist der Zauber nicht permanent, verschwindet er nach der Probe komplett. Ist er permanent, dann wir hier nur das Feld geleert und kann durch einen Klick wieder aufgeladen werden.  
 7. Über die Tonne wird der Zauber gelöscht.  
 
+Du kannst diesen Prozess auch über die entsprechenden Regelmechanismen durchführen. Siehe dazu [Artefakte verzaubern](de-artefakte-verzaubern).
+
 ![Gegenstand-Artefakt](de/images/de-artefakte-und-talismane_0.png)
 
 ## Talismane

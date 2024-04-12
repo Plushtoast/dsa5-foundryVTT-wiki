@@ -1,3 +1,5 @@
+# Alchimie
+
 Diese Funktion benötigt das Grundregelwerk Modul.
 
 Das Grundregelwerk fügt dem System die Möglichkeit der assistierten Herstellung von Gegenständen durch Alchimie hinzu. Du findest diese Funktion im Spielermenü. Dieses wiederum lässt sich z.B. über die Quickbar auf der linken Seite des GUI öffnen (zu Finden im DSA-Auge Menü).

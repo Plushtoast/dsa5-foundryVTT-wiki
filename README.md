@@ -23,6 +23,7 @@ To add wiki pages request access via the issues or create a pull request.
 * Also add your newly created page to the contents in the `_sidebar.md` file.
 * Only link to pages or Heading2 with a relative link
 * Use Heading1 only once
+* Upload links to the /images folder of the language and link from there
 
 ### Formatting
 For headings paragraphs and stuff check out this page:

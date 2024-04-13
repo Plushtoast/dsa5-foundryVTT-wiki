@@ -14,6 +14,10 @@ Hast du zusätzlich die Option "Widerstandswürfe aktivieren" in den Settings ak
 
 ![Trefferzonen](de/images/trefferzonen-2.png)
 
+Weiterhin findest du auf allen Heldenbogen auf dem Tab "Eigenschaften" nun ein Dropdownmenü um das Trefferzonenschema festzulegen. Du kannst hier mit einem Click auf das I diese anzeigen lassen.
+
+![Trefferzonen](de/images/trefferzonen-7.png)
+
 ## Rüstungszonen
 
 Für Rüstungszonen benötigst du das Kompendium I und die Aventurische Waffenkammer II Modul.

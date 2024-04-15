@@ -7,7 +7,7 @@ Das unterstützt die Regeln für den berittenen Kampf. Um sie zu verwenden befol
 * Markiere per Rahmen auf dem oder Shift+Click Reiter und Reittier (z.B. Allacaya und ihr treuer Oger).
 * Clicke nun mit Rechtsclick auf den **Reiter**. Das Token HUD erscheint.
 
-![Berittener Kampf](de/images/berittenerkampf-1.png)
+![Berittener Kampf](de/images/berittenerkampf-1.webp)
 
 * Hast du alles richtig gemacht, siehst du oben links im Token HUD ein Pferde Icon. Clicke es an.
 * Der Reiter wird nun automatisch auf das Pferd gezogen, erhält den Status reitend und ist nun mit dem Reittier verbunden. Die Größe des Reiters wird ggf. angepasst, so dass Reiter und Reittier sichtbar bleiben.
@@ -23,7 +23,7 @@ So kannst du z.B. in der Sidebar die Reiterhorden des Feindes vorbereiten. Ein R
 ## Geschwindigkeit anpassen und Bewegung
 
 Die Geschwindigkeit lässt sich gemäß den Regeln über das Token HUD oder den Charakterbogen ebenfalls anpassen. Dadurch werden entsprechende Probenmodifikatoren gesetzt.
-![Berittener Kampf](de/images/berittenerkampf-2.png)
+![Berittener Kampf](de/images/berittenerkampf-2.webp)
 
 Bewegen kannst du das Paar indem du den **Reiter** auf dem Spielfeld bewegst. Das Reittier folgt automatisch.
 

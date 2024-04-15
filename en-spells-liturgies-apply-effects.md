@@ -8,11 +8,11 @@ Many spells/liturgies have been given effects that you can apply directly to the
 3.1 Apply effect to self or  
 3.2 Apply effect to target  
   
-![Effekt anwenden](https://user-images.githubusercontent.com/80099175/120538677-1b6e3080-c3e7-11eb-8091-cfc693a509ae.png)
+![Effekt anwenden](https://user-images.githubusercontent.com/80099175/120538677-1b6e3080-c3e7-11eb-8091-cfc693a509ae.webp)
   
 You will see a symbol next to the token of the target which symbolizes the effect (1). You will also find the effect in the status bar of the character sheet (2).  
   
-![Effekt auf Token](https://user-images.githubusercontent.com/80099175/120538454-d1854a80-c3e6-11eb-9fc9-671ded2017bf.png)
+![Effekt auf Token](https://user-images.githubusercontent.com/80099175/120538454-d1854a80-c3e6-11eb-9fc9-671ded2017bf.webp)
 
 
 *Translation information*  

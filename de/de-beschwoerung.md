@@ -8,7 +8,7 @@ Um Kreaturen zu beschwören führe folgende Schritte aus:
 * Ziehe per Drag and Drop die zu beschwörende Kreatur als Template auf das Spielermenü (z.B. über das Link Symbol neben dem Namen auf dem Bogen der Kreatur). Du brauchst ggf. vom Spielleiter Rechte für diese Kreatur.
 * Das Tool setzt die Regeln für die jeweilige Kreatur automatisch. Ggf. brauchst du weitere Module um Regeln für bestimmte Gattungen (z.B. Geister) verwenden zu können.
 
-![Beschwörung](de/images/beschwoerung-1.png)
+![Beschwörung](de/images/beschwoerung-1.webp)
 
 * Außerdem erkennt es die notwendigen Fähigkeiten für die Beschwörung der jeweiligen Kreaturenkategorie und zeigt sie dir an.
 * Wähle Erweiterungen und Wesensfähigkeiten
@@ -16,8 +16,8 @@ Um Kreaturen zu beschwören führe folgende Schritte aus:
 * Würfle nun die Beschwörungsprobe um die QS die dir für Anpassungen und Dienste zur Verfügung stehen zu bestimmen.
 * Als letzter Schritt, clicke auf Fertigstellen. Der Spielleiter erhält nun ein Popup und muss die Beschwörung mitsamt allen Einstellungen bestätigen.
 
-![Beschwörung](de/images/beschwoerung-2.png)
+![Beschwörung](de/images/beschwoerung-2.webp)
 
 * Hat er das getan erscheint im Chat eine entsprechende Bestätigung. Von dort kann die Kreatur per Drag and Drop auf das Spielfeld gezogen werden.
 
-![Beschwörung](de/images/beschwoerung-3.png)
+![Beschwörung](de/images/beschwoerung-3.webp)

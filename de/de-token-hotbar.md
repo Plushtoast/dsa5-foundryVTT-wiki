@@ -13,7 +13,7 @@ Diese stellt für den aktuell markierten Token einige Schaltflächen zur Verfüg
 Diese Schaltfläche lässt sich ausrichten und Verschieben.
 Bei Hover können die einzelnen Abschnitte zusätzlich gefiltert werden, wenn du über die Tastatur einen Suchbegriff eingibst.
 
-![Token hotbar](de/images/hotbar-1.png)
+![Token hotbar](de/images/hotbar-1.webp)
 
 Es gibt jetzt eine neue Meistermenü-Hotbar für den Spielleiter. Immer wenn kein Token ausgewählt ist, wird sie anstelle der normalen Token-Hotbar angezeigt. Sie enthält häufig genutzte Funktionen des Spielleitermenüs in einer besser zugänglichen Form. Wenn du Ideen für weitere Funktionen hast, lass es uns wissen.
 Derzeit enthält es die folgenden Funktionen (in dieser Reihenfolge):
@@ -29,7 +29,7 @@ Derzeit enthält es die folgenden Funktionen (in dieser Reihenfolge):
 
 Die Token Hotbar Konversion hat alle Funktionen der Tokenhotbar ersetzt aber die normale Foundry Hotbar am unteren Rand des GUIs.
 
-![Token hotbar](de/images/hotbar-2.png)
+![Token hotbar](de/images/hotbar-2.webp)
 
 Sie bietet einige zusätzliche Funktionen, darunter z.B.:
 

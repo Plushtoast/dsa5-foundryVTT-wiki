@@ -6,7 +6,7 @@ Either use an existing entry from the library (must be a "creature" type), or cr
 **IMPORTANT:** When you create your own, make sure to add "Natural Armor" to it, even if the value is zero. The "Familiar" ability needs this entry to work properly. *You can copy this entry from the "cat (barn cat)", so you don't have to create it by yourself.*
 
 Add the ability "Familiar" to the character sheet (use the library to search for it). The creature gets the bonuses according to the rules, and you can add adventure points to it.  
-![familiar](images/en-familiar-01.jpg)  
+![familiar](images/en-familiar-01.webp)  
 
 **Notes**:  
 

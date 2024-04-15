@@ -4,7 +4,7 @@ Die besonderen Regeln für Prügeleien werden unterstützt.
 
 Um eine Prügelei zu starten, starte einen regulären Kampf und wandle diesen in eine Prügelei über den entsprechenden Button um (siehe Bild).
 
-![Prügelei](de/images/pruegelei-1.png)
+![Prügelei](de/images/pruegelei-1.webp)
 
 Über den gleichen Button kannst du die Prügelei auch wieder beenden. Sollten Akteure Schaden erhalten haben, bekommen sie hierbei die Prügelpunkte umgewandelt in Trefferpunkte automatisch.
 
@@ -12,4 +12,4 @@ Wenn eine Prügelei aktiviert ist, erhalten alle Spieler eine alternative Lebens
 
 Die Regeln dazu finden sich auch im Modul "Werkstatt des Meisters".
 
-![Prügelei](de/images/pruegelei-2.png)
+![Prügelei](de/images/pruegelei-2.webp)

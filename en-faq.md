@@ -33,7 +33,7 @@ For example, if the character gets COU+1 from the species, he may directly impro
 ## Changes of the skill values directly in the field are not counted towards the adventure points!
 The input fields should give the player/game master full control over their values to be able to implement house rules if necessary. This also allows you to work around possible mistakes in character creation in the short term.  
 **To calculate the AP, you must always use the +/- buttons.** You can lock / unlock the charsheet, this will hide / show these buttons (for spells, talents, attributes etc.)  
-![lock and unlock](images/en-faq-01.jpg)
+![lock and unlock](images/en-faq-01.webp)
 
 
 *Translation information*  

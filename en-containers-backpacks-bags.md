@@ -9,15 +9,15 @@ The following settings must be set on the item:
 2. equipment category: bags
 3. wearable: activated
   
-  ![Einstellungen Behältnis](https://user-images.githubusercontent.com/80099175/120540406-f24e9f80-c3e8-11eb-87ef-cde5eeecb987.png)
+  ![Einstellungen Behältnis](https://user-images.githubusercontent.com/80099175/120540406-f24e9f80-c3e8-11eb-87ef-cde5eeecb987.webp)
   
 4.1 After that you can drag the items you want to put into the bag into the open window of the bag. Here you can see the pictures of the items in the new tab *Bags*.
   
-  ![Items im Behältnis Bogen](https://user-images.githubusercontent.com/80099175/120540747-4fe2ec00-c3e9-11eb-9f5b-1d6922121c03.png)
+  ![Items im Behältnis Bogen](https://user-images.githubusercontent.com/80099175/120540747-4fe2ec00-c3e9-11eb-9f5b-1d6922121c03.webp)
   
 4.2 Or you can drag the items directly into the container in the equipment tab of the character sheet. The container must be opened to see the items (4.2.1).
   
-  ![Items im Ausrüstungstab im Behältnis](https://user-images.githubusercontent.com/80099175/120541419-25ddf980-c3ea-11eb-810e-c5f96e9c3a6c.png)
+  ![Items im Ausrüstungstab im Behältnis](https://user-images.githubusercontent.com/80099175/120541419-25ddf980-c3ea-11eb-810e-c5f96e9c3a6c.webp)
 
 5. Important notes:
 5.1. You can only see the tab "Bags" when at least on item is in the bag

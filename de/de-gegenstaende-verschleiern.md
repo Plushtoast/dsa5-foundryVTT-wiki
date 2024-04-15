@@ -7,4 +7,4 @@ Möchtest du als Spielleiter, dass die Spieler bei Gegenständen einige Informat
 * Wird der Gegenstand im Chat gepostet, sollten entsprechende Bereiche ebenfalls verborgen sein.
 * Mit einem weiteren Click auf die Maske kannst du diesen Bereich erneut anzeigen.
 
-![Verschleiern](de/images/verschleiern-1.png)
+![Verschleiern](de/images/verschleiern-1.webp)

@@ -3,7 +3,7 @@ There is also a video to go with this tutorial: [Installing The Dark Eye in Foun
 ## What is what
 When you start up Foundry for the first time, you see the main GUI. Before we can start a TDE game, we have to install the needed parts  
 
-![overview](images/en-create-world-01.jpg)  
+![overview](images/en-create-world-01.webp)  
 
 **1. Game Worlds**  
    This is where you can create one (or many) worlds, based on a game system. Every world has ONE designated game system. A game system can have many worlds based on it. The world contains your scenes, characters, journal entries etc.
@@ -23,7 +23,7 @@ When you start up Foundry for the first time, you see the main GUI. Before we ca
 ### Game System  
 Before creating a new world for DSA5, the game system must be installed.  
   
-![install system](images/en-create-world-02.jpg)  
+![install system](images/en-create-world-02.webp)  
 1. first *game systems* -> *install system*  
 2. enter DSA or "dark eye" in the search field
 3. click the install button next to the game system's entry.  
@@ -32,7 +32,7 @@ Before creating a new world for DSA5, the game system must be installed.
 **"The Dark Eye - Introduction Adventure"** is a free module for TDE. It comes with scenes, a story and pre-made characters. It can help you getting into the system, or to try out TDE as a system at all.  
 If you purchased other modules, you can install them instead, or you can install them all together. The installation process is always the same.  
 
-![module installation](images/en-create-world-03.jpg)  
+![module installation](images/en-create-world-03.webp)  
 1. *Add-on Modules* -> *Install Module*.
 2. Enter text in the field *search packages* to find what you are looking for  
     - Purchased modules can be found in the "Premium Content" category
@@ -50,7 +50,7 @@ If you purchased other modules, you can install them instead, or you can install
 With the game system and possible modules installed, it's time to set up our playground, the place where players connect and play together. In Foundry, that's called a world, so let's create one.  
 
 *Game Worlds* -> *Create World* will open a new window  
-![create world](images/en-create-world-04.jpg)  
+![create world](images/en-create-world-04.webp)  
 
 1. **World Title** - The Name of your World. Will be shown in your list of worlds, used to identify by humans. Our World is named after the groups name, but you could go for "Dere", "Live Server", "virtual table" etc.  
 To test out modules, I have another world named "TEST ONLY".  
@@ -69,11 +69,11 @@ To test out modules, I have another world named "TEST ONLY".
 7. **Create World** - click the magic button and feel the power of creation running trough your fingertips!  
 In reality, it's quite underwhelming, but if everything went well, you should see your world in the list now.  
 
-![launch world](images/en-create-world-05.jpg)  
+![launch world](images/en-create-world-05.webp)  
 Click "Launch World", and...
 
 ... voilà, welcome to the login screen.  
-![launch world](images/en-create-world-06.jpg)  
+![launch world](images/en-create-world-06.webp)  
 
 Login as GM (default password is empty). 
 The very first thing you should do within Foundry is go and set a GM password.
@@ -87,27 +87,27 @@ Basically, the TDE System runs in the language you set and expects all the items
 **Make sure your players set the same language as the server runs on!** Otherwise, strange things will happen.  
 
 ### Select the language you want
-![select language](images/en-create-world-07.jpg)  
+![select language](images/en-create-world-07.webp)  
 
 ### Activate the modules you want  
 Open the settings tab -> *Manage Modules*  
-![modules01](images/en-create-world-08.jpg)
+![modules01](images/en-create-world-08.webp)
 
 Then, activate the modules you want. In our case, that's the "Introduction Adventure".  
 To see and hear effects in this adventure (weather, waterstreams etc), you can additionally activate "FXMaster" and "Game Audio Bundle 1 - 4".
-![modules02](images/en-create-world-11.jpg)
+![modules02](images/en-create-world-11.webp)
 
 ### Initialize the adventure module  
 
 Foundry will reload, then it's time to initialize the adventure. With regular modules, you don't have to initialize anything, but adventures contain many linked entities, journal entries and so on, making this necessary.  
 Journals tab -> *Journal Browser*  
 Click on *Introduction Adventure*  
-![initialize01](images/en-create-world-13.jpg)  
+![initialize01](images/en-create-world-13.webp)  
 
 You will see an index on the left side and information on the right. Choose *Readme -> Preparation* and scroll down.  
 Click *Import*, in the next window click *Initialization*  
 **And yes, you should really read all that stuff**  
-![initialize02](images/en-create-world-15.jpg)
+![initialize02](images/en-create-world-15.webp)
 
 
 

@@ -10,18 +10,18 @@ Then you look at how this template is written and adapt it to your wishes.
 This method has the advantage that you can reuse the content you have created or even import it into your own compendium.
 1. import any ritual from the compendium *Spells, Rituals, and Cantrips  
   
-![Ritual Arcanovi](images/en-create-personal-entries_0.png)  
+![Ritual Arcanovi](images/en-create-personal-entries_0.webp)  
   
 2. rewrite the description and the details of the values of the new ritual
   
-![Ritual Adamantium](images/en-create-personal-entries_1.png)
+![Ritual Adamantium](images/en-create-personal-entries_1.webp)
   
 3. dragging the ritual to the hero's character sheet
 
 ## Change entry in the character
 If you want to recreate the new content for only one character, then drag the matching counterpart onto the character and change the description and details there. However, this does not work with species, culture and profession. These are applied directly to the character and must be imported.
   
-![Neuer Zauber](images/en-create-personal-entries_0.png)  
+![Neuer Zauber](images/en-create-personal-entries_0.webp)  
 
 
 *Translation information*  

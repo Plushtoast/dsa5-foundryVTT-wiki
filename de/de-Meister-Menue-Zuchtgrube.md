@@ -6,7 +6,7 @@ Die Zuchtgrube ist nur über den Kauf des Moduls "Werkstatt des Meisters" verfü
 3. Plündergut: Generator für allerlei Plündergut (Kisten, Beutel, usw.)
 4. Aventurische Namen: Namensgenerator
 
-![Zuchtgrube](de/images/Zuchtgrube.jpg)  
+![Zuchtgrube](de/images/Zuchtgrube.webp)  
   
 
 ## 1- NSC Zucht
@@ -22,7 +22,7 @@ Tipp: Steht bei Token (Datei) `*.*` wird beim ziehen des Akteuers auf die Szene 
 7. "Mit Akteur Verbinden" verbindet den Token mit dem Akteur so, dass zum Beispiel Schaden an den Akteur übertragen wird usw. "Händler" wählt für den NSC automatisch das [NSC Händler Sheet](de-haendler#händler) aus.
 8. Auswahl des Bildes welches dann für Portrait und Token des erstellten Akteurs verwendet wird.
 
-![NSC Zucht](de/images/Zuchtgrube%20-%20NSC%20Zucht.jpg)  
+![NSC Zucht](de/images/Zuchtgrube%20-%20NSC%20Zucht.webp)  
 
 ## 2. Kneipen und Tavernen
 
@@ -33,7 +33,7 @@ Tipp: Steht bei Token (Datei) `*.*` wird beim ziehen des Akteuers auf die Szene 
 Tipp: Steht bei Token (Datei) `*.*` wird beim ziehen des Akteuers auf die Szene ein zufälliger Token aus dem Token (Ordner) gewählt.
 5. Auswahl des Bildes welches dann für Portrait und Token des erstellten Akteurs verwendet wird.
 
-![Kneipen und Tavernen](de/images/Zuchtgrube%20-%20Kneipen%20und%20Tavernen.jpg)
+![Kneipen und Tavernen](de/images/Zuchtgrube%20-%20Kneipen%20und%20Tavernen.webp)
 
 ## 3. Plündergut
 
@@ -47,7 +47,7 @@ Tipp: Steht bei Token (Datei) `*.*` wird beim ziehen des Akteuers auf die Szene 
 Über "Size" wird dann die Größe des Tokens eingestellt. 
 6. Auswahl des Bildes welches dann für Portrait und Token des erstellten Akteurs verwendet wird.
 
-![Plündergut](de/images/Zuchtgrube%20-%20Pluendergut.jpg)
+![Plündergut](de/images/Zuchtgrube%20-%20Pluendergut.webp)
 
 ## 4. Aventurische Namen
 
@@ -55,7 +55,7 @@ Tipp: Steht bei Token (Datei) `*.*` wird beim ziehen des Akteuers auf die Szene 
 2. Über den Würfel wird der Name generiert.
 3. Auswahl zwischen männlichen, weiblichen und adeligen Namen.
 
-![Aventurische Namen](de/images/Zuchtgrube%20-%20Aventurische%20Namen.jpg)
+![Aventurische Namen](de/images/Zuchtgrube%20-%20Aventurische%20Namen.webp)
 
 *[x]Zuletzt bearbeitet: 03.03.2022*  
 *Neu: Einleitungstext und Screenshot*

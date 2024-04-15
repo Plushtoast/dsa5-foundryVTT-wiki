@@ -7,7 +7,7 @@ Eine Funktion, die in die Master-Toolbar des Kernmoduls integriert wurde, ist "W
 
 Die widrige Umstände Funktion kannst du über die Meisterhotbar öffnen.
 
-![Widrige Umstände](de/images/widrige-1.png)
+![Widrige Umstände](de/images/widrige-1.webp)
 
 ## Schlechte Umgebung
 
@@ -15,7 +15,7 @@ Für diese Funktion brauchst du das Grundregelwerk Modul.
 
 Sie erlaubt dir den Einfluss von Großer Hitze und Kälte gemäß den Regeln zu berechnen, die passenden Modifikatoren miteinzubeziehen (z.B. Ausrüstung die vor Kälte schützt) und die entsprechenden Auswirkungen auf die Spieler zu übertragen.
 
-![Widrige Umstände](de/images/widrige-2.png)
+![Widrige Umstände](de/images/widrige-2.webp)
 
 Die aufgelisteten Charaktere musst du über das Meistermenü festlegen.
 
@@ -23,8 +23,8 @@ Die aufgelisteten Charaktere musst du über das Meistermenü festlegen.
 
 Für die Verwaltung von Rationen brauchst du zusätzlich das Modul "Das Wüstenreich".
 
-![Widrige Umstände](de/images/widrige-3.png)
+![Widrige Umstände](de/images/widrige-3.webp)
 
 Hier kannst du Hunger und Durst verwalten und die Spieler auffordern einen Beitrag zu den täglichen Rationen zu geben.
 
-![Widrige Umstände](de/images/widrige-4.png)
+![Widrige Umstände](de/images/widrige-4.webp)

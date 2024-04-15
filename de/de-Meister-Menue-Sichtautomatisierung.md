@@ -10,7 +10,7 @@ Ein Klick auf die Sichtautomatisierung im [Meister Menue - Szeneneinstellungen](
 ## Token Licht Konfiguration
 Dieser Bereich entspricht dem [Licht Makro](de-licht-und-sicht-makro.md) und wird dort erläutert. Wichtig ist hier, dass bei einer aktiven Automatisierung, die Sicht-Werte anhand der Szenen-Dunkelheit angepasst werden. Sie entsprechen also nicht mehr 1:1 dem was in den [Presets](de-meister-menue-sichtautomatisierung.md#presets) eingestellt ist.
 
-![Sicht](de/images/Token-Licht-Konfiguration_Sicht.jpg)
+![Sicht](de/images/Token-Licht-Konfiguration_Sicht.webp)
 
 ## Sichtautomatisierung
 Die Sichtautomatisierung wird hier genauer definiert. Ob im Meister Menü oder hier bei (1) der Haken gesetzt wird ist egal, es ist technisch derselbe Haken und deshalb immer identisch eingestellt.  
@@ -21,7 +21,7 @@ Die Sichtautomatisierung wird hier genauer definiert. Ob im Meister Menü oder h
 5. Dunkelheit = 1: Wird hier der Haken gesetzt, werden alle Token auf der Szene blind, haben also 0 Dämmer- und 0 Helle Sicht, sobald die Dunkelheit auf einer Szene auf 1 Steigt.
 6. Standard (Keine Sicht): Gibt an welcher Wert aus den [Presets](de-meister-menue-sichtautomatisierung.md#presets) verwendet werden soll, sollte der Akteur über keinen Vorteil oder ähnlicher verfügen.
 
-![Sichtautomatisierung](de/images/Token-Licht-Konfiguration_Sichtautomatisierung.jpg)
+![Sichtautomatisierung](de/images/Token-Licht-Konfiguration_Sichtautomatisierung.webp)
 
 ## Presets
 Die Presets dienen zum einen als Individualisierungsmöglicheit für das eigene Spiel und die Vorlieben bei Sicht und Lichtverhältnissen. Diese Werte werden aber auch bei der Konfiguration der Sichtautomatisierung zur Rate gezogen.
@@ -29,7 +29,7 @@ Die Presets dienen zum einen als Individualisierungsmöglicheit für das eigene 
 Ein paar der Punkte sind bereits unter [Licht und Sicht Makro - Presets](de-licht-und-sicht-makro.md#presets) erklärt, deshalb hier nur die Punkte die zur Sichtautomatisierung wichtig sind.  
 7. Die Kompensationskonfiguration erscheint nur, wenn unter [Sichtautomatisierung](de-meister-menue-sichtautomatisierung.md#sichtautomatisierung) der Modus (2) auf Kompensation eingestellt ist.
 
-![Presets](de/images/Token-Licht-Konfiguration_Presets.jpg)
+![Presets](de/images/Token-Licht-Konfiguration_Presets.webp)
 
 
 

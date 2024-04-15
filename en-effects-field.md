@@ -2,7 +2,7 @@
 The effect field of items can be used to increase or decrease the attributes of a hero.  
 To do this, enter `VALUE ATTRIBUT` in the effect field of an item (e.g. +1 GS to increase speed by 1). 
 If several attributes are to be influenced by an effect field, they can be entered one after the other separated by a `,`:  
-![Effekt Attribut](images/en-effects-field_0.png)  
+![Effekt Attribut](images/en-effects-field_0.webp)  
 **This works in the effect field of the following ITEMS: Advantages, Disadvantages, Special Skills, Melee Weapons, Ranged Weapons and Armor.  
 
 Current usable attributes per system language:
@@ -28,14 +28,14 @@ Current usable attributes per system language:
 ## Effect Field - Modify Skill Points for Talents/Spells/Rituals/Liturgies/Ceremonies
 To modify the skill points of the above mentioned skills you can also use the effect field.
 To do this, enter 'SKILL FPVALUE' in the effect field of an item (ex: feat of strength FP2). Also here several skills can be indicated by a `,` separated.   
-![Effekt Fertigkeit](images/en-effects-field_0.png)  
+![Effekt Fertigkeit](images/en-effects-field_0.webp)  
 However, this does not cause the value to automatically increase/decrease in the character sheet as it does with the attributes.
 Only during the check the modification appears in the field *Conditional Modification*.  
-![Bedingte Modifikation](images/en-effects-field_1.png)  
+![Bedingte Modifikation](images/en-effects-field_1.webp)  
 **This works in the effect field of the following ITEMS: Advantages, Disadvantages, Special Skills and Equipment**.
 
 Here is another example of a spell:
-![Effekt Zauber](images/en-effects-field_2.png)
+![Effekt Zauber](images/en-effects-field_2.webp)
 
 
 *Translation information*  

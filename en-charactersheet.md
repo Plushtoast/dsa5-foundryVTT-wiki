@@ -13,11 +13,11 @@ There are the categories in it:
   
 **Note**: The *magic* and *religion* tabs only appear if the character has at least one magical or karmal special skill/spell/ritual/liturgy/ceremony assigned. Also, only then do AE (astral energy) or KP (karma points) appear in the character sheet.
   
-![charsheet overview](images/en-charactersheet-01.jpg)  
+![charsheet overview](images/en-charactersheet-01.webp)  
 
 ## 1. Header
 This part of the sheet is always visible and shows a characters base information. Many values are calculated and derived from the settings in the [Attributes tab](en-charactersheet#4-attributes).  
-![charsheet header](images/en-charactersheet-02.jpg)  
+![charsheet header](images/en-charactersheet-02.webp)  
 
 - **Name & picture:** Can be edited. When you change the name, make sure to update that information in the token settings as well
 - **Species:** FYI only, can't be changed
@@ -31,7 +31,7 @@ This tab shows you all available skills, their skill rating and several options 
 
 
 
-![charsheet skills](images/en-charactersheet-06.jpg)  
+![charsheet skills](images/en-charactersheet-06.webp)  
 
 1. **Search/Filter** When you activate the filter (right side symbol), you see all your skills with a SR higher than zero. To search for a skill, you can enter text into the search filed on the left side.  
 2. **Description/Information** Klick on a skill to open a pop-up window with detailed description. You can send that to the chat (chat bubble symbol in the top right corner). Make sure you don't change anything, except you know what you are doing.
@@ -40,19 +40,19 @@ This tab shows you all available skills, their skill rating and several options 
 5. **ENC** Does encumbrance influence this skill? If you are encumbered and you check this skill, it will or will not add the encumbrance level as a malus to the roll. You can de-select the encumbrance in the pop-up window to ignore it on a per-roll basis.
 6. **SR** Skill Rating. To change it, use the +/- buttons. If you set a value directly in this row, no AP calculation will be made by Foundry.
 7. **Cumulative Checks** You can add a cummulative check for a certain skill here. That way, you can quickly roll several checks and keep track of your collected QL, including critical successes and botches.  
-  ![charsheet cumulative01](images/en-charactersheet-04.jpg)  
+  ![charsheet cumulative01](images/en-charactersheet-04.webp)  
  
   - Add a new entry with the + symbol  
   - Click the edit-button to open the entry and change its settings  
   - Select the skill you want to check, enter the allowed amount of checks and the interval (pure text field, can be left empty) and maybe set a name.  
   If you already used that cumulative check before, reset the value fields to 0 to re-use it.  
   - Now you can roll with the dice-symbol and it will send the results to the chat (indivdual rolls and a separate message for the accumulated QL and modifiers)  
-    ![charsheet cumulative02](images/en-charactersheet-05.jpg)  
+    ![charsheet cumulative02](images/en-charactersheet-05.webp)  
 
 
 ## 3. Combat
 The combat sheet contains all data used for [Combat](en-combat) in TDE 5.  
-![charsheet combat](images/en-charactersheet-07.jpg)  
+![charsheet combat](images/en-charactersheet-07.webp)  
 
 1. **Weapons and Armor**: Lists all weapons and armor that are equipped **and have been marked as "worn"** (=activated for the combat sheet) in the [equipment tab.](en-charactersheet#5-equipment)  
   
@@ -69,7 +69,7 @@ For throwing weapons, the weapon itself counts as ammunition, i.e. if you equip 
 
 ## 4. Attributes
 In this tab, the base values of the character are set and maintained. Many of the values here are calculated automatically.    
-![attributes](images/en-charactersheet-08.jpg)
+![attributes](images/en-charactersheet-08.webp)
 
 1. **Attributes**: *First line* is the base value, usually that's 8. Don't change that, except you have a very good reason to do so (which you don't, let's be honest here, aight?). If you changed it for a very good reason, change it back.  
 *Second line* are "added points", so when you improve / level your character, these points go in here. Best is to do that with the +/- symbols next to the abbreviations.  
@@ -88,7 +88,7 @@ The moon symbol **b)** lets you rest. A pop-up will open and you can select some
 ## 5. Equipment
 In the equipment sheet the inventory of the character is administered. All items assigned to the character are visible here.  
 To add new items, they can be dragged onto the character sheet from the library. Alternatively, [content can be created.](en-create-personal-entries)  
-![](images/en-charactersheet-09.jpg)
+![](images/en-charactersheet-09.webp)
 
 1. **Equipment**: All items equipped by the character, sorted into categories (melee weapon, armor, container, ammo, etc.).  
 	a. **Worn**: Only weapons and armors marked here can be actively used in combat . Armor that is not worn this way must be carried by the char. If you ever wonder why you are encumbered, equip your armor.  
@@ -111,7 +111,7 @@ The status window contains all the conditions and statuses for the character. So
 **Handling:**  
   - **Right-click on a name:** Removes the entry (only if the source allows it. You can't remove pain if you still have lost 85% of your life points etc.)  
   - **Left-click on a name:** Shows you the description for that entry. You can click on the icon in the description to send it to the chat for everyone to see.  
-![state](images/en-charactersheet-10.jpg)
+![state](images/en-charactersheet-10.webp)
 
 1. **Status effects**: Shows you stati and conditions directly added to (or coming from) your character, f.e: pain, encumbrance etc. 
 2. **Transferred status effects.**: Shows stati and conditions which were tranferred to the character from other sources, f.e: spells, equipment, enemy attacks.
@@ -126,11 +126,11 @@ The status window contains all the conditions and statuses for the character. So
 
   
 **Context menu**: Right-click on the token and you can add conditions very quickly - if you remember the icon for it. Personally, I prefer to open up the charsheet and add it there, but your brain may be better in memorizing icons.  
-![context menu](images/en-charactersheet-11.jpg)
+![context menu](images/en-charactersheet-11.webp)
  
 ## 7. Notes
 In the notes you will find various things that can be entered about the character. This is also where the culture is put if it is pulled into the character during character building. The **GM Notes** are only visible to game masters.
-![Charakterbogen Notizen](images/en-charactersheet_0.png)
+![Charakterbogen Notizen](images/en-charactersheet_0.webp)
 
 ## 8. Magic
 The magic sheet does not appear until a magic special skill, spell, ritual, or magic trick has been assigned to the character. The Wizard advantage is not enough for this!  
@@ -140,7 +140,7 @@ The magic sheet does not appear until a magic special skill, spell, ritual, or m
 3. **Tradition, Leiteigenschaft, Merkmal, Leiteig. Multiplier**: the leadership trait must be specified here, since the AsP in the [Traits](en-charactersheet#4-attributes) are also calculated via it. In addition, the influence of the trait on the astral points can be set via the *trait multiplier* (e.g.: Spellbard 0.5).
 4. **Magic tricks** !  
   
-![Magie](images/en-charactersheet_0.png)
+![Magie](images/en-charactersheet_0.webp)
 
 ## 9. Religion
 1. **Liturgies and Ceremonies**: All of the character's liturgies and ceremonies are listed here.  
@@ -150,7 +150,7 @@ The magic sheet does not appear until a magic special skill, spell, ritual, or m
    - Benevolent talents should definitely be entered here. Pay attention to correct spelling. The state "Rapture" takes these entries into account.
 5. **Blessings**  
   
-![Religion](images/en-charactersheet_0.png)
+![Religion](images/en-charactersheet_0.webp)
 
 *Translation information*  
 *[x] updated: 2021-06-05*  

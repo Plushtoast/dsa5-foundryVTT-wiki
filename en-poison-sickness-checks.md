@@ -6,12 +6,12 @@ You can apply all poisons and diseases directly from the compendiums:
 4. open it with a click and in the window's top right, click the dice *Roll effect*.
 5. in the window of the poison test you can see if you have marked the target correctly by the toughness/soul power. A click on *roll* executes the check.
   
-  ![Poison check](images/en-poison-sickness-checks_0.png)
+  ![Poison check](images/en-poison-sickness-checks_0.webp)
   
 You will find the result in the chat window.  
 **Note: The effect must still be applied manually.  
 
-  ![Gift Chatfenster](images/en-poison-sickness-checks_1.png)
+  ![Gift Chatfenster](images/en-poison-sickness-checks_1.webp)
 
 
 *Translation information*  

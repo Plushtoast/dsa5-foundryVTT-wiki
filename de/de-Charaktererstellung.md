@@ -29,24 +29,24 @@ Der Spielleiter muss über das Akteure Menü einen Charakter anlegen:
 1. Akteur erstellen
 2. Namen festlegen, Typ Charakter und auf Akteur erstellen  
     
-![Akteur erstellen](de/images/de-charaktererstellung_0.png)  
+![Akteur erstellen](de/images/de-charaktererstellung_0.webp)  
 
 Danach müssen die Rechte über den Akteur an den Spieler gegeben werden: 
 1. Rechtsklick auf den Charakter -> *Rechte anpassen*
 2. Bei dem Spieler das Recht *Besitzer* auswählen und *Änderungen speichern*  
   
-![Akteur Rechte](de/images/de-charaktererstellung_1.png)  
+![Akteur Rechte](de/images/de-charaktererstellung_1.webp)  
 
 Jetzt kann der Spieler diesen Charakter selbst bearbeiten.
 
 ## 2. Erfahrung eingeben
 Die Erfahrung wird auf dem Charakterbogen unter *Eigenschaften* festgelegt.  
   
-![Erfahrungsgrad](de/images/de-charaktererstellung_2.png)
+![Erfahrungsgrad](de/images/de-charaktererstellung_2.webp)
 
 Wird dieser Schritt übersprungen, kommt es beim Hinzufügen von Spezies, Kultur usw. zu einer Abfrage nach dem Erfahrungsgrad. Hierdurch werden die Abenteuerpunke automatisch im Bogen eingetragen. 
   
-![Abenteuerpunkte hinzufügen](de/images/de-charaktererstellung_3.png)
+![Abenteuerpunkte hinzufügen](de/images/de-charaktererstellung_3.webp)
 
 ## 3. Spezies wählen
 Nachdem die Spezies auf den Charakterbogen gezogen wurde öffnet sich ein Fenster in dem folgende Dinge ausgewählt werden können:
@@ -55,8 +55,8 @@ Nachdem die Spezies auf den Charakterbogen gezogen wurde öffnet sich ein Fenste
 3. **Vor-/Nachteile**: Über ein anhaken können direkt die empfohlenen oder geeigneten Vor-/Nachteile mit ausgewählt werden. Sie sind dann dem Charakter direkt zugeordnet und automatisch in den Abenteuerpunkten verrechnet. 
 Nach dem Zuordnen werden alle weiteren Werte aus der Spezies automatisch mit verrechnet: LeP, Seelenkraft, Zähigkeit, Geschwindigkeit usw.  
    
-![Spezies Allgemein](de/images/de-charaktererstellung_4.png)
-![Spezies VorNachteile](de/images/de-charaktererstellung_5.png)
+![Spezies Allgemein](de/images/de-charaktererstellung_4.webp)
+![Spezies VorNachteile](de/images/de-charaktererstellung_5.webp)
 
 ## 4. Kultur wählen
 Die Kultur wird ebenfalls einfach auf den Charakterbogen gezogen. Dann öffnet sich folgendes Fenster:
@@ -64,8 +64,8 @@ Die Kultur wird ebenfalls einfach auf den Charakterbogen gezogen. Dann öffnet s
 2. **Allgemein**: Eingabe der Ortskenntnis, Auswahl von Sprachen und Schriften
 3. **Vor-/Nachteile**: Über ein anhaken können direkt die empfohlenen oder geeigneten Vor-/Nachteile mit ausgewählt werden. Sie sind dann dem Charakter direkt zugeordnet und automatisch in den Abenteuerpunkten verrechnet.  
   
-![Kultur Allgemein](de/images/de-charaktererstellung_6.png)
-![Kultur VorNachteile](de/images/de-charaktererstellung_7.png)
+![Kultur Allgemein](de/images/de-charaktererstellung_6.webp)
+![Kultur VorNachteile](de/images/de-charaktererstellung_7.webp)
 
 ## 5. Eigenschaftspunkte verteilen
 
@@ -73,7 +73,7 @@ Im [Eigenschaftstab des Charakterbogens](de-charakterbogen#4-eigenschaften) kön
 
 **ACHTUNG**: Aktuell werden die Eigenschaftswerte nicht nach den Regeln begrenzt. Das bedeutet, dass auch über den Wert von 14 gesteigert werden kann. Außerdem gibt es keine Grenze bei den 100 Eigenschaftspunkten die maximal laut Regelwerk verteilt werden dürfen.  
   
-![Eigenschaften](de/images/de-charaktererstellung_8.png)
+![Eigenschaften](de/images/de-charaktererstellung_8.webp)
 
 ## 6. Profession wählen
 Auch bei der Profession erscheint nach dem Ziehen auf den Charakterbogen ein Fenster.
@@ -81,28 +81,28 @@ Auch bei der Profession erscheint nach dem Ziehen auf den Charakterbogen ein Fen
 2. **Vor/-Nachteile**: Auch hier werden wieder empfohlene oder geeignete Vorteile vorgeschlagen und können per Anhaken ausgewählt werden.  
 Alle weiteren Werte werden automatisch in den Charakter übertragen und gegen die Abenteuerpunkte verrechnet.  
   
-![Profession](de/images/de-charaktererstellung_9.png)  
+![Profession](de/images/de-charaktererstellung_9.webp)  
 
 ## 7. Vor- und Nachteile wählen
 Als nächstes können weitere Vor- und Nachteile für den Charakter aus der Bibliothek in den Charakterbogen gezogen werden.  
   
-![VorNachteile](de/images/de-charaktererstellung_10.png)   
+![VorNachteile](de/images/de-charaktererstellung_10.webp)   
 
 ## 8. Steigerungen vornehmen
 Um die Fertigkeiten, Kampffertigkeiten, Zauber, Liturgien, usw. Steigern zu können, müssen das + und - verwendet werden. Nur dann werden die Steigerungen oder Senkungen von den Abenteuerpunkten abgezogen. Wird einfach ein Wert eingetragen passiert dies nicht!  
   
-![Liturgien](de/images/de-charaktererstellung_11.png) ![Kampftechnik](de/images/de-charaktererstellung_12.png) ![Fertigkeit](de/images/de-charaktererstellung_13.png) ![EigenschaftLebenspunkte](de/images/de-charaktererstellung_14.png)  
+![Liturgien](de/images/de-charaktererstellung_11.webp) ![Kampftechnik](de/images/de-charaktererstellung_12.webp) ![Fertigkeit](de/images/de-charaktererstellung_13.webp) ![EigenschaftLebenspunkte](de/images/de-charaktererstellung_14.webp)  
 
 ## 9. Sonderfertigkeiten aussuchen
 Sonderfertigkeiten lassen sich ebenfalls aus der Bibliothek in den Charakterbogen ziehen. Sie werden dann da aufgelistet wo sie vom Typ her hingehören:
 * Allgemeine Sonderfertigkeiten, Sprachen, Schriften, Schicksalspunkt Sonderfertigkeiten -> Eigenschaften
-  * ![Allgemeine Sonderfertigkeiten](de/images/de-charaktererstellung_15.png)
+  * ![Allgemeine Sonderfertigkeiten](de/images/de-charaktererstellung_15.webp)
 * Klerikale/Geweihte Sonderfertigkeiten, Traditionen -> Religion
-  * ![Klerikale Sonderfertigkeiten](de/images/de-charaktererstellung_16.png)
+  * ![Klerikale Sonderfertigkeiten](de/images/de-charaktererstellung_16.webp)
 * Magische Sonderfertigkeiten, Traditionen -> Magie
-  * ![Magische Sonderfertigkeiten](de/images/de-charaktererstellung_17.png) 
+  * ![Magische Sonderfertigkeiten](de/images/de-charaktererstellung_17.webp) 
 * Kampf Sonderfertigkeiten -> Kampf
-  * ![Kampf Sonderfertigkeiten](de/images/de-charaktererstellung_18.png)
+  * ![Kampf Sonderfertigkeiten](de/images/de-charaktererstellung_18.webp)
 
 ## 10. Letzte Anpassungen vornehmen (Notizen, Ausrüstung, Name)
 Die letzten Anpassungen werden im Heldendokument unter [Ausrüstung](de-charakterbogen#5-ausrüstung) und [Notizen](de-charakterbogen#7-notizen) vorgenommen.
@@ -115,11 +115,11 @@ Um das Bild anzupassen wird im Charakterbogen auf das Bild im [Kopfbereich](de-c
 Wichtig ist hierfür, dass der Charakterbogen aus dem Seitenmenü unter geöffnet wird.
 1. Über das Menü unter *Akteuere* (1) -> Doppelklick auf den Charakter (2) -> *Token konfigurieren* (3)  
 
-![Token konfigurieren](de/images/de-charaktererstellung_19.png)  
+![Token konfigurieren](de/images/de-charaktererstellung_19.webp)  
 
 2. Im Kopf des geöffneten Fensters muss *Prototyp-Figur* stehen. Dort dann über Image (1) -> *Durchsuche Dateien* den Token heraussuchen und übernehmen.  
 **Anmerkung**: Steht hier nicht *Prototyp-Figur* wurde der Charakterbogen über einen Token in einer Szene geöffnet. Dann ändert sich nur der Token in dieser Szene. Wird der Charakter in eine andere Szene gezogen, erscheint wieder der alte Token.   
 
-![Token zuordnen](de/images/de-charaktererstellung_20.png)  
+![Token zuordnen](de/images/de-charaktererstellung_20.webp)  
 
 *[x] Zuletzt bearbeitet: wird aufgrund eines Updates was die Charaktererstellung nochmal verändert aktuell nicht angepasst.*

@@ -13,7 +13,7 @@ Um einen Gegenstand mit einem Zauber auszustatten, zieht ihr den Zauber aus eine
 
 Du kannst diesen Prozess auch über die entsprechenden Regelmechanismen durchführen. Siehe dazu [Artefakte verzaubern](de-artefakte-verzaubern).
 
-![Gegenstand-Artefakt](de/images/de-artefakte-und-talismane_0.png)
+![Gegenstand-Artefakt](de/images/de-artefakte-und-talismane_0.webp)
 
 ## Talismane
 Um ein Talisman herzustellen, zieht ihr eine Liturgie aus einem Kompendium auf einen Gegensand im Ausrüstungsmenü oder direkt im [Charakter-Ausrüstungstab](de-charakterbogen#5-ausrüstung).  
@@ -25,7 +25,7 @@ Um ein Talisman herzustellen, zieht ihr eine Liturgie aus einem Kompendium auf e
 6. Anzahl der Ladungen. Ist die Liturgie nicht permanent, verschwindet sie nach der Probe komplett. Ist sie permanent, dann wir hier nur das Feld geleert und kann durch einen Klick wieder aufgeladen werden.  
 7. Über die Tonne wird die Liturgie gelöscht.  
 
-![Gegenstand Talisman](de/images/de-artefakte-und-talismane_1.png)
+![Gegenstand Talisman](de/images/de-artefakte-und-talismane_1.webp)
 
 Besitzt ihr das Grundregelwerk könnt ihr zusätzlich über das Spielermenü eine Artefakterstellungsprobe mit den dazugehörigen Modifikatoren auslösen. Siehe dazu auch [Artefakte verzaubern](de-artefakte-verzaubern)
 

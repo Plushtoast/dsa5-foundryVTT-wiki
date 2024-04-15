@@ -18,7 +18,7 @@
         - Importing from a compendium creates a **independent copy**. After updates, the entries may have to be re-imported and replaced, or added manually.
     - **Character sheet (3)**  
       - Entries in a character sheet are **independent copies**. For example, if you drag an advantage from the directory into a character, the advantage can be changed in the character sheet afterwards. The entry in the directory (and compendium) is not affected by this change.
-![Vergleich-Komp-Verz-Char](images/en-important-concepts_0.png)
+![Vergleich-Komp-Verz-Char](images/en-important-concepts_0.webp)
 
  - **Characters & Tokens**
    - A character ("actor") is any entry in the "Actors Directory" in Foundry. This includes player characters as well as NPCs, animals - anything that uses a character sheet.
@@ -31,7 +31,7 @@
        - By double-clicking on a token, the character sheet (of the TOKEN, not of the character) opens. By clicking on the button for the token settings (top right in the charsheet) the settings for this one token will open. Changes only affect this one token that was clicked.
        - Clicking on the character in the directory opens the character sheet (of the character, not of a token). Clicking on the token settings button (top right of the charsheet) opens the settings for the PROTOTYPE token. This prototype is used to generate a token when dragging the character onto a scene.
        - More information about this, directly on the [Foundry Website](https://foundryvtt.com/article/tokens/)
-![Token-settings](images/en-important-concepts_1.png)
+![Token-settings](images/en-important-concepts_1.webp)
 
 
 *Translation information*  

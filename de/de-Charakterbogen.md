@@ -15,7 +15,7 @@ Es gibt darin diese Kategorien:
   
 **Anmerkung**: Die Punkte [Magie](de-charakterbogen#8-magie) und [Religion](de-charakterbogen#9-religion) erscheinen nur, wenn dem Charakter mindestens eine magische oder karmale Sonderfertigkeit/Zauber/Ritual/Liturgie/Zeremonie zugeordnet ist. Auch erst dann erscheinen im [Eigenschaftenbogen](de-charakterbogen#4-eigenschaften) AsP- und/oder Karmapunkte.
   
-![Charakterbogen](de/images/de-charakterbogen_0.png)
+![Charakterbogen](de/images/de-charakterbogen_0.webp)
 
 ## 1. Kopfbereich
 
@@ -29,7 +29,7 @@ Oben rechts findet ihr ein paar Schaltflächen für weitere Funktionen:
 4. Blatt konfigurieren: Charakterbogen auswählen - siehe auch [Händler](de-haendler)
 5. Token konfigurieren: siehe auch [Sicht und Licht - Token Einstellungen](de-sicht_und_licht#token-einstellungen)
   
-![Charakterbogen Kopfbereich](de/images/de-charakterbogen_1.png)
+![Charakterbogen Kopfbereich](de/images/de-charakterbogen_1.webp)
   
 - **Name und Bild:** Können bearbeitet werden. Wenn ihr den Namen ändert, denkt daran dies auch unter Token konfigurieren abzugleichen.
 - **Spezies:** Nur für die Anzeige, kann nicht bearbeitet werden. Eine Spezies muss per Drag & Drop hinzugefügt werden.
@@ -42,7 +42,7 @@ Oben rechts findet ihr ein paar Schaltflächen für weitere Funktionen:
 ## 2. Talente
 Auf dem Talentbogen werden die Talentwerte des Charakters festgehalten und es können Proben abgelegt werden.  
   
-![Charakterbogen Talente](de/images/de-charakterbogen_2.png)
+![Charakterbogen Talente](de/images/de-charakterbogen_2.webp)
 
 1. **Suche/Filter:** Mit einem Klick auf das rechte Symbol sehr ihr nur noch die Talente in denen ihr einen FW über 0 habt. Um nach einem Talent zu suchen, gebt einfach einen Begriff in das links Suchfeld ein.
 2. **Beschreibung/Informationen:** Klickt ihr auf ein Talent, öffnet sich ein Fenster mit der Beschreibung. Oben lässt sich die Talentbeschreibung in den Chat posten über das Sprechblasen-Symbol. Hier solltet ihr keine Änderungen durchführen, es sei denn ihr wisst genau was ihr macht.
@@ -58,11 +58,11 @@ Ganz unten auf dem Bogen habt ihr noch die Möglichkeit Sammelproben anzulegen.
 2. Klickt auf den Namen um die Sammelprobe bearbeiten zu können. Hier könnt ihr neben dem Namen auch alle anderen Werte verändern, insbesondere das verwendete Talent.
 3. Durch einen Klick auf den Würfel, wird die Probe gewürfelt.  
   
-![Sammelprobe](de/images/de-charakterbogen_3.png)
+![Sammelprobe](de/images/de-charakterbogen_3.webp)
 
 1. Zuerst wird die Probe angezeigt und die erreichte QS.
 2. Darunter ist die Zusammenfassung der Sammelprobe. Sie berücksichtigt jede Probe die auf die Sammelprobe ausgeführt wird.
-![Sammelprobe Chat](de/images/de-charakterbogen_4.png)
+![Sammelprobe Chat](de/images/de-charakterbogen_4.webp)
 
 ## 3. Kampf
 
@@ -78,7 +78,7 @@ Der Kampfbogen beinhaltet alle Daten die zum [Kampf](de-kampf) in DSA 5 verwende
 2. **Kampfsonderfertigkeiten**: Listet alle Kampfsonderfertigkeiten des Charakters auf.
 3. **Kampftechniken**: Falls ein Wurf auf den Grundwert der Kampftechnik notwendig ist, sind die Werte und Würfel hier zu finden. Das Steigern funktioniert wie bei den Fertigkeiten.
   
-![Charakterbogen Kampf](de/images/de-charakterbogen_5.png)
+![Charakterbogen Kampf](de/images/de-charakterbogen_5.webp)
 
 ## 4. Eigenschaften
 In diesem Bogen werden die Grundwerte des Charakters festgelegt und gesteigert. Einige der hier vorhandenen Werte werden komplett automatisch berechnet.
@@ -88,7 +88,7 @@ die bei der Erstellung oder später aus der Bibliothek auf den Helden gezogen we
 1. **Grundwerte**: Alles in der Spalte *Wert* wird automatisch nach DSA 5 Regeln berechnet. Die Werte Astral- und Karmaenergie erscheinen nur, wenn der Charakter einen magische, karmale Sonderfertigkeit, einen Zauber, eine Liturgie oder ähnliches zugeordnet hat. Die Vorteile Zauberer und Geweihter reichen dafür nicht.
 1. **Erfahrungsgrad**: hier werden die Verfügbaren und Ausgegebenen Abenteuerpunkte verwaltet. Details hierzu in der [Charaktererstellung](de-charaktererstellung)
   
-![Eigenschaften](de/images/de-charakterbogen_6.png)  
+![Eigenschaften](de/images/de-charakterbogen_6.webp)  
 
 ## 5. Ausrüstung
 Im Ausrüstungsbogen wird das Inventar des Charakters verwaltet. Hier sind alle Items sichtbar, die dem Charakter zugewiesen sind.
@@ -104,7 +104,7 @@ Um neue Items hinzuzufügen, können diese aus der Bibliothek auf den Charakterb
 7. **Tragekraft**: Die Tragkraft wird automatisch nach DSA 5 Regeln berechnet. Sobald die Tragkraft überschritten wird, erhält der Charakter Belastungsstufen.  
 8. **Geldbeutel**: Hier wird das Geld des Charakters verwendet. (SL Tipp: über den Chat Befehl /getPaid kann der SL allen Charakteren (Token markieren!) Geld als Belohnung auszahlen)    
   
-![Charakterbogen Ausrüstung](de/images/de-charakterbogen_7.png)
+![Charakterbogen Ausrüstung](de/images/de-charakterbogen_7.webp)
 
 ## 6. Status
 Das Statusfenster beinhaltet alle für den Charakter aktiven Zustände und Status. Ein paar davon werden automatisch gehandhabt (Bsp.: Schmerz durch Lebenspunkte,
@@ -113,17 +113,17 @@ Belastung durch Rüstung und Ausrüstung.) Soll ein Zustand oder Status entfernt
 2. **Mod.**: Hierüber kann der Zustand durch einen Linksklick erhöht oder einen Rechtsklick verringert werden. Dabei sind negative Werte möglich.  
 3. **Plus (Hinzufügen)**: öffnet ein Kontextmenü, über das ein Status/Zustand gesucht und dem Charakter hinzugefügt werden kann. Zudem lassen sich [eigene Stati anlegen.](de-status-selbst-erstellte-effekte)
   
-![Charakterbogen Status](de/images/de-charakterbogen_8.png)  
+![Charakterbogen Status](de/images/de-charakterbogen_8.webp)  
   
 **Kontextmenü**: dieses Menü lässt sich über das + im Charakterbogen-Status oder direkt im Kontextmenü des Tokens öffnen. 
  - Über das Kontextmenü des Token lassen sich bekannte Stati/Zustände sehr schnell hinzufügen.
  - Über das  Symbol im Charaktersheet lassen sich Einträge suchen/filtern, zudem kann man [eigene Einträge erstellen](de-status-selbst-erstellte-effekte) (+ Symbol neben dem Suchfeld).
   
-![Charakterbogen Status Kontextmenü](de/images/de-charakterbogen_9.png)  
+![Charakterbogen Status Kontextmenü](de/images/de-charakterbogen_9.webp)  
  
 ## 7. Notizen
 In den Notizen finden sich verschiedene Dinge, die über den Charakter eingetragen werden können. Hier wird auch die Kultur abgelegt, wenn diese beim Charakterbau in den Charakter gezogen wird. Die **GM Notizen** sind nur für Spielleiter sichtbar.
-![Charakterbogen Notizen](de/images/de-charakterbogen_10.png)
+![Charakterbogen Notizen](de/images/de-charakterbogen_10.webp)
 
 ## 8. Magie
 Der Magiebogen erscheint erst, wenn dem Charakter eine magische Sonderfertigkeit, ein Zauber, ein Ritual oder ein Zaubertrick zugeordnet wurde. Der Vorteil Zauberer reicht dafür nicht aus!  
@@ -133,7 +133,7 @@ Der Magiebogen erscheint erst, wenn dem Charakter eine magische Sonderfertigkeit
 3. **Tradition, Leiteigenschaft, Merkmal, Leiteig. Multiplikator**: die Leiteigenschaft muss hier angegeben werden, da sich darüber auch die AsP in den [Eigenschaften](de-charakterbogen#4-eigenschaften) berechnen. Außerdem kann über den *Leiteigenschaft Multiplikator* der Einfluss der Leiteigenschaft auf die Astralpunkte eingestellt werden (Bsp: Zauberbarde 0.5).
 4. **Zaubertricks**  
   
-![Magie](de/images/de-charakterbogen_11.png)
+![Magie](de/images/de-charakterbogen_11.webp)
 
 ## 9. Religion
 1. **Liturgien und Zeremonien**: Hier werden alle Liturgien und Zeremonien des Charakters aufgelistet.  
@@ -143,7 +143,7 @@ Der Magiebogen erscheint erst, wenn dem Charakter eine magische Sonderfertigkeit
    - Wohlgefällige Talente sollten hier unbedingt eingetragen werden. Achtet auf korrekte Schreibweise. Der Zustand "Entrückung" berücksichtigt diese Einträge.
 5. **Segnungen**  
   
-![Religion](de/images/de-charakterbogen_12.png)
+![Religion](de/images/de-charakterbogen_12.webp)
 
 *[x]Zuletzt bearbeitet: 04.11.2021*
 *Überarbeitet: Ausrüstung neues Bild und Text*

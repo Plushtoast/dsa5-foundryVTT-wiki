@@ -54,6 +54,7 @@ de | [en](Home)
 * [Selbst erstellte Effekte](de-status-selbst-erstellte-effekte)
 * [Macros](de-makro-probe-anfordern)
 * [Skins](de-skins)
+* [Währungen](de-waehrungen)
 
 **Empfehlungen**
 * [Module](de-module)

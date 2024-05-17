@@ -16,5 +16,8 @@ Ergänzend folgendes Video: [Magier, Geweihte, Vertraute und Gestaltwandlung - D
 
 Erstellst du eine "Eigenschaft (Tier)" mit dem Namen "Begleiter" wird die Abenteuerpunkteverwaltung für die jeweilige Kreatur aktiviert. Du findest passende Tierbegleiter z.B. im Modul "Aventurische Tiergefährten".
 
+Abenteuerpunkte können über das Meistermenü anteilig an Spieler und Begleieter verteilt werden. Sind die Begleiter im Meistermenü eingetragen halten sie ebenfalls 10% der AP (bzw. Vertraute 25%).
+
+
 *[x]Zuletzt bearbeitet: 04.11.2021*  
 *Inhalt geprüft und Youtube Link hinzugefügt.*

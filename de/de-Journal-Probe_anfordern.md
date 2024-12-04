@@ -9,7 +9,6 @@ Der Modifikator muss immer mit dazu geschrieben werden. Wird die Probe nicht mod
 ![Journal Request Code](de/images/de-journal-probe_anfordern_0.webp)
 ![Journal Request](de/images/de-journal-probe_anfordern_1.webp)
 
-
 ### Beispiel Spieleiter-Vorbereitung:
 Dies ist nützlich um direkt zum Beispiel diesen Journaleintrag direkt auf der Karte in einem Raum zu platzieren.
 Dort kann dann zum Beispiel eine verschlossene Truhe stehen die eine Schlösserknacken Probe verlangt.
@@ -21,6 +20,15 @@ Diese ist verschlossen und muss mit einer @Rq[Schlösserknacken -1] Probe geöff
 
 Klickt der Spielleiter auf die Schaltfläche erscheint ein Chat Eintrag welchen die Spieler direkt nutzen um den Wurf direkt abzulegen.
 ![grafik](de/images/de-journal-probe_anfordern_3.webp)
+
+## Vorbereitete Probe würfeln
+Analog zu dem `/ch` [Chat Befehl für die 3W20 Probe](de-chatbefehle#ch-3w20-probe) lassen sich Proben in das Journal integrieren.
+
+```
+@Ch[Sinnesschärfe 1 options={"attrs":"13,15,15","fw":6}]
+```
+
+Wobei die Zahl nach der Probe die Erschwernis ist, und die drei Ziffern im `attrs` Objekt den drei Attributen entrsprechen und `fw` dem Fertigkeitswert auf den gewürfelt wird. Dabei wird nicht überprüft, ob die Attribute Sinn ergeben (also die beiden Initiative Proben in diesem Beisipel denselben Wert haben).
 
 ## Weitere Journal Enricher
 

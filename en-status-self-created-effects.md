@@ -43,6 +43,27 @@ You can add status effects to Items to create magic artifacts, for example. This
   
 ![Transferierte Statuseffekte](images/en-status-self-created-effects_1.webp)
 
+### Modify Items
+Status effects can not only change the values of actors, but also their own or those of other elements (requires Foundry v13+).
+
+In general, you must format the key of the type of change as follows:
+
+Example: Modify armor value without affecting derived values (e.g., encumbrance in zone armor)
+
+```
+@armor.self.system.protection.value
+```
+
+* **@armor** is the type that is influenced. In this case, armor.
+* **self** is the item that should be influenced. In this case, it's the item that contains the effect itself.
+* The rest is the attribute that can be modified. This can be found using the browser's inspect function on the attribute's input field or by asking in the DSA Discord.
+
+Example: A talisman that increases the attack value of every weapon named "Dagger".
+
+```
+@meleeweapon.Dagger.system.at.value
+```
+
 ## Talent adjustments by effects
 To use *Talent - XY* in effects, you must do the following. 
 1. select attribute key

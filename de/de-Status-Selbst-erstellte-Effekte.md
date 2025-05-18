@@ -38,7 +38,7 @@ So kannst du verschiedene Armatrutz Effekte mit verschiedenen Rüstungswerten an
   
 ## Effekt von einer Nahkampfwaffe (Item)
 
-Ihr könnt Irems mit Statuseffekten versehen um so zum Beispiel magische Artefakte zu erstellen. Dies funktioniert nur bei Gegenständen die Ausrüstbar oder Verbrauchsgegenstände sind!
+Ihr könnt Items mit Statuseffekten versehen um so zum Beispiel magische Artefakte zu erstellen. Dies funktioniert nur bei Gegenständen die Ausrüstbar oder Verbrauchsgegenstände sind!
 **Achtung:** in Foundry 0.7.X können die Gegenstandseffekte nicht im Charakter angepasst werden. Hierfür muss ihr das Item unter Items verändern und wieder in den Charakterbogen ziehen.
 
 1. Erstellt das gewünschte Item und geht dann in den Statuseffekte Tab
@@ -49,6 +49,29 @@ Ihr könnt Irems mit Statuseffekten versehen um so zum Beispiel magische Artefak
 ![Item Effekt Magisches Schwert](de/images/de-status-selbst-erstellte-effekte_3.webp)
   
 ![Transferierte Statuseffekte](de/images/de-status-selbst-erstellte-effekte_4.webp)
+
+### Items modifizieren
+
+Statuseffekkte können nicht nur die Werte von Akteuren ändern sondern auch die eigenen oder die von anderen Elementen (benötigt Foundry v13+).
+
+Generell musst du den Key der Änderungsart so formatieren:
+
+Beispiel: Rüstungswert modifizieren ohne abgeleitete Werte zu beeinflussen (z.B. bei Zonenrüstung die Belastung)
+
+```
+@armor.self.system.protection.value
+```
+
+* **@armor** ist der typus der beeinflusst wird. Hier entsprechend Rüstungen
+* **self** ist der Gegenstand der beeinflusst werden soll. In diesem Fall ist es das Item das den Effekt beinhaltet selbst.
+* Der Rest ist das Attribut das modifiziert werden kann. Das kann z.B. über die Browser inspect Funktion am Input Feld des Attributes herausgefunden werden oder im DSA Discord erfragt werden.
+
+Beispiel: Ein Talisman der den Angriffswert jeder Waffe namens "Dolch" erhöht.
+
+```
+@meleeweapon.Dolch.system.at.value
+```
+
 
 ## Talentanpassungen durch Effekte
 

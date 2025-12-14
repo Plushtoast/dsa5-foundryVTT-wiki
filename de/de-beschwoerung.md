@@ -14,7 +14,7 @@ Um Kreaturen zu beschwören führe folgende Schritte aus:
 * Wähle Erweiterungen und Wesensfähigkeiten
 * Du kannst nun die Modifikatoren ggf. anpassen.
 * Würfle nun die Beschwörungsprobe um die QS die dir für Anpassungen und Dienste zur Verfügung stehen zu bestimmen.
-* Als letzter Schritt, clicke auf Fertigstellen. Der Spielleiter erhält nun ein Popup und muss die Beschwörung mitsamt allen Einstellungen bestätigen.
+* Als letzter Schritt, klicke auf Fertigstellen. Der Spielleiter erhält nun ein Popup und muss die Beschwörung mitsamt allen Einstellungen bestätigen.
 
 ![Beschwörung](de/images/beschwoerung-2.webp)
 

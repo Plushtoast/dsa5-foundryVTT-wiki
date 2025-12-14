@@ -122,4 +122,4 @@ Wichtig ist hierfür, dass der Charakterbogen aus dem Seitenmenü unter geöffne
 
 ![Token zuordnen](de/images/de-charaktererstellung_20.webp)  
 
-*[x] Zuletzt bearbeitet: wird aufgrund eines Updates was die Charaktererstellung nochmal verändert aktuell nicht angepasst.*
+*[x] Zuletzt bearbeitet: 14.12.2025*

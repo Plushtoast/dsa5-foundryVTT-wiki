@@ -1,52 +1,52 @@
 ## Anmerkung:
-**Es ist nicht möglich alle Module auf vollständige Kompatibilität zu prüfen. Bitte testet die Module im zweifel in einer Testwelt und setzt sie erst in euren Spielwelten ein, wenn ihr euch sicher seid dass sie funktionieren.**
+**Es ist nicht möglich alle Module auf vollständige Kompatibilität zu prüfen. Bitte testet die Module im Zweifel in einer Testwelt und setzt sie erst in euren Spielwelten ein, wenn ihr euch sicher seid, dass sie funktionieren.**
 
 
 ## Dice Tray
-Platziert unter dem Chat Würfelsymbole um schnell Würfe über das anklicken der jeweiligen Würfel zu generieren. Ein Linksklick fügt einen Würfel hinzu und ein Rechtsklick zieht diesen wieder ab. Über + und - sowie das Feld dazwischen werden die Modifikatoren eingegeben. 
+Platziert unter dem Chat Würfelsymbole, um schnell Würfe über das Anklicken der jeweiligen Würfel zu generieren. Ein Linksklick fügt einen Würfel hinzu und ein Rechtsklick zieht diesen wieder ab. Über + und - sowie das Feld dazwischen werden die Modifikatoren eingegeben. 
 Dabei wird der Wurf direkt in den Chat geschrieben und kann dort noch weiter modifiziert werden.  
 ![Dice Tray](de/images/Module_Dice_Tray.webp)
 
 ## Dice so nice
-Wirf 3D Würfel über den virtuellen Spieltisch. Dabei kann sogar zwischen verschiedenen DSA5 Themen gewählt werden. Mitlerweile gibt es in den [Systemeinstellungen](de-systemeinstellungen) auch die Möglichkeit die Dice so Nice Würfel für die Proben über den Charakterbogen zu verwenden. 
+Wirf 3D Würfel über den virtuellen Spieltisch. Dabei kann sogar zwischen verschiedenen DSA5 Themen gewählt werden. Mittlerweile gibt es in den [Systemeinstellungen](de-systemeinstellungen) auch die Möglichkeit, die Dice-So-Nice-Würfel für die Proben über den Charakterbogen zu verwenden. 
 ![Dice so nice Wurf](de/images/de-module_0.webp)
 
-**Achtung:** diese Würfel können bei älteren Geräte zu Performace Problemen führen. Um die Würfel für den einzelnen Spieler zu deaktivieren geht man in *Einstellungen anpassen -> Moduleinstellungen -> Abschnitt Dice so Nice -> My Dice Settings -> Appearance -> Haken bei Enable 3D Dice raus*  
+**Achtung:** diese Würfel können bei älteren Geräten zu Performance-Problemen führen. Um die Würfel für den einzelnen Spieler zu deaktivieren geht man in *Einstellungen anpassen -> Moduleinstellungen -> Abschnitt Dice so Nice -> My Dice Settings -> Appearance -> Haken bei Enable 3D Dice raus*  
 ![Dice so nice Einstellungen](de/images/de-module_1.webp)
 
 [Link zum Youtube Tutorial](https://www.youtube.com/watch?v=o8tlbTe42WM&list=PLGyb6RcE5AmVHzCZSKEN00cenwkB3LxTC&index=5)
 
 ## German Core
-Durch dieses Modul kann die Standardsprache im Foundry Setup auf Deutsch umgestellt werden. Übersetz die komplette Oberfläche auf Deutsch.
+Durch dieses Modul kann die Standardsprache im Foundry Setup auf Deutsch umgestellt werden. Übersetzt die komplette Oberfläche auf Deutsch.
 Unter *Adminsetup -> Configuration -> Default Language* Deutsch - German [Core] wählen und Server neu starten.
 ![grafik](de/images/de-module_2.webp)
 
 ## Optolith Connector
-Ein Modul um die exportierten Charaktere (als .json) direkt zu Foundry zu importieren. Hierzu gibt es ein Video welches die Funktion erklärt.
+Ein Modul, um die exportierten Charaktere (als .json) direkt zu Foundry zu importieren. Hierzu gibt es ein Video, welches die Funktion erklärt.
 
 ## Tokenizer
-Bietet die Möglichkeit aus dem Hochgeladenen Charakterbild einen Token mit der offiziellen DSA5 Umrandung zu erstellen.
+Bietet die Möglichkeit, aus dem hochgeladenen Charakterbild einen Token mit der offiziellen DSA5 Umrandung zu erstellen.
 1. Ein Bild für den Charakter hochladen (hier vom eigenen Computer).
 1. Über die Tonne kann eine Ebene auf der jeweiligen Seite gelöscht werden.
-1. Das Bild von der linken Seite über das Männchen Symbol auf die Token Seite kopieren.
+1. Das Bild von der linken Seite über das Männchen-Symbol auf die Token-Seite kopieren.
 1. Über die Pfeile kann die Anordnung der einzelnen Bilder gesteuert werden. Die Vorschau zeigt dabei immer das Ergebnis.
-1. Wird das Schloss deaktiviert kann das einzelne Bild mit der Maus verschoben und über das Mausrad gezoomt werden
-1. Ist man mit dem Ergebnis zufrieden kann man das Bild Speichern und dann mit OK bestätigen.
-![Tokennizer](de/images/de-module_4.webp)
+1. Wird das Schloss deaktiviert, kann das einzelne Bild mit der Maus verschoben und über das Mausrad gezoomt werden
+1. Ist man mit dem Ergebnis zufrieden, kann man das Bild speichern und dann mit OK bestätigen.
+![Tokenizer](de/images/de-module_4.webp)
 
 [Link zum Youtube Tutorial](https://youtu.be/137LU0GtvEI?list=PLGyb6RcE5AmVHzCZSKEN00cenwkB3LxTC&t=1393)
 
 
 ## Automated Animations & JB2A - Jules and Ben's Animated Assets
-Für animierte lebendigere Kämpfe sind diese beiden Module ein Muss.
+Für animierte, lebendigere Kämpfe sind diese beiden Module ein Muss.
 
 [Link zum Youtube Tutorial](https://www.youtube.com/watch?v=ltWiQ4EsFJA&t=2s)
 
 ### Automated Animations
-Mit diesem Modul könnt ihr Waffen und Zaubern bestimmte Effekte und Sounds zuweisen, welche beim anwenden automatisch ausgeführt werden.
+Mit diesem Modul könnt ihr Waffen und Zaubern bestimmte Effekte und Sounds zuweisen, welche beim Anwenden automatisch ausgeführt werden.
 Dieses Modul ist vom Modul **sequencer** abhängig.  
   
-Im Modul dsa5-gluenandhammer findet ihr ein fertiges JSON File zum Importieren. 
+Im Modul dsa5-gluenandhammer findet ihr ein fertiges JSON-File zum Importieren. 
 
 Diese Datei importiert ihr über:  
 1. Einstellungen

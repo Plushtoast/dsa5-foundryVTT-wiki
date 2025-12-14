@@ -8,15 +8,15 @@ Derzeit verfügbare Skins sind:
 * "immersiv dsa4/5", Standard, beinhaltet die Layoutänderungen gemäß der neuen DSA5 RSHs
 * "nackt (beta)", mehr wie der Foundry-Standard, der im Grunde ein abgespeckter Skin ist, damit Modder ihre Skins leichter hinzufügen können
 
-Warum haben wir dies hinzugefügt? Es könnte ein "Dark Mode"-Skin in Zukunft geben. Außerdem kannst du jetzt deine eigenen CSS-Stylesheets einfacher hinzufügen und alle Ihre Spieler können ihren Lieblingsskin selbst auswählen.
+Warum haben wir dies hinzugefügt? Es könnte einen "Dark Mode"-Skin in Zukunft geben. Außerdem kannst du jetzt deine eigenen CSS-Stylesheets einfacher hinzufügen und alle eure Spieler können ihren Lieblingsskin selbst auswählen.
 
-Entwickler, die ihren eigenen Stil erstellen wollen, sollten im Grunde folgendes tun:
+Entwickler, die ihren eigenen Stil erstellen wollen, sollten im Grunde Folgendes tun:
 
 * Ein neues Modul erstellen
 * Hinzufügen von gescopten CSS-Styles
 * JS-Datei hinzufügen und den Stil über den Hook "registerDSAstyle" registrieren
 
-Example:
+Beispiel:
 
 ```scss
 //(s)css style file

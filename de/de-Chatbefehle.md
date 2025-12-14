@@ -13,6 +13,7 @@ Es gibt ein paar DSA spezifische Chatbefehle die ihr im Spiel nutzen könnt. Die
 * Anwendungsgebiete - `/apps` [siehe unten](de-chatbefehle#anwendungsgebiete)
 * Zufallsnamen - `/nm` [siehe unten](de-chatbefehle#zufallsnamen)
 * Charakterrechner - `/cc` [siehe unten](de-chatbefehle#charakterrechner)
+* Hilfe - `/help`
   
 In dieser Anleitung findet ihr die Befehle, bei denen die genaue Beschreibung des Befehls im Chatfenster zu umfangreich ist.
 

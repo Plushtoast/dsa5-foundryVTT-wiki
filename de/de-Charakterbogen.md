@@ -83,10 +83,10 @@ Der Kampfbogen beinhaltet alle Daten die zum [Kampf](de-kampf) in DSA 5 verwende
 ## 4. Eigenschaften
 In diesem Bogen werden die Grundwerte des Charakters festgelegt und gesteigert. Einige der hier vorhandenen Werte werden komplett automatisch berechnet.
 1. **Eigenschaften**: Soll die AP Berechnung verwendet werden muss im Grundwert 8 eingetragen und über + und - gesteigert werden.
-1. **Vorteile, Nachteile, Sonderfertigkeiten, Sprache und Schicksalspunktsonderfertigkeiten**: Hier werden die dem Helden zugeordneten Items aufgelistet
+2. **Vorteile, Nachteile, Sonderfertigkeiten, Sprache und Schicksalspunktsonderfertigkeiten**: Hier werden die dem Helden zugeordneten Items aufgelistet
 die bei der Erstellung oder später aus der Bibliothek auf den Helden gezogen werden. 
-1. **Grundwerte**: Alles in der Spalte *Wert* wird automatisch nach DSA 5 Regeln berechnet. Die Werte Astral- und Karmaenergie erscheinen nur, wenn der Charakter einen magische, karmale Sonderfertigkeit, einen Zauber, eine Liturgie oder ähnliches zugeordnet hat. Die Vorteile Zauberer und Geweihter reichen dafür nicht.
-1. **Erfahrungsgrad**: hier werden die Verfügbaren und Ausgegebenen Abenteuerpunkte verwaltet. Details hierzu in der [Charaktererstellung](de-charaktererstellung)
+3. **Grundwerte**: Alles in der Spalte *Wert* wird automatisch nach DSA 5 Regeln berechnet. Die Werte Astral- und Karmaenergie erscheinen nur, wenn der Charakter einen magische, karmale Sonderfertigkeit, einen Zauber, eine Liturgie oder ähnliches zugeordnet hat. Die Vorteile Zauberer und Geweihter reichen dafür nicht.
+4. **Erfahrungsgrad**: hier werden die Verfügbaren und Ausgegebenen Abenteuerpunkte verwaltet. Details hierzu in der [Charaktererstellung](de-charaktererstellung)
   
 ![Eigenschaften](de/images/de-charakterbogen_6.webp)  
 
@@ -98,8 +98,8 @@ Um neue Items hinzuzufügen, können diese aus der Bibliothek auf den Charakterb
 2. **Tragen/Ausrüsten**: Hier wird Ausrüstung auch als "getragen" markiert. Nur so können Waffen und Rüstungen im Kampf verwendet werden. Behälter belasten den Charakter nur, wenn sie auch ausgerüstet sind. 
 3. **Tragkraft Behälter**: Gibt die aktuelle Belastung und maximale Tragkraft eines Behältnises an.   
 4. **Anzahl**: Durch einen Linksklick kann die Zahl erhöht, durch einen Rechtsklick verringert werden.  
-5 **Gewicht**: Berechnet auf Basis der Anzahl und des Einzelgewichts das Gesamtgewicht.  
-6 **Bearbeiten, teilen, Details**: Das Bearbeiten Symbol öffnet den Gegenstand zur Bearbeitung. Die Sprechblase teilt die Infos des Gegenstandes im Chat.   
+5. **Gewicht**: Berechnet auf Basis der Anzahl und des Einzelgewichts das Gesamtgewicht.  
+6. **Bearbeiten, teilen, Details**: Das Bearbeiten Symbol öffnet den Gegenstand zur Bearbeitung. Die Sprechblase teilt die Infos des Gegenstandes im Chat.   
 Über den Pfeil können die Details auf- und zugeklappt werden.  
 7. **Tragekraft**: Die Tragkraft wird automatisch nach DSA 5 Regeln berechnet. Sobald die Tragkraft überschritten wird, erhält der Charakter Belastungsstufen.  
 8. **Geldbeutel**: Hier wird das Geld des Charakters verwendet. (SL Tipp: über den Chat Befehl /getPaid kann der SL allen Charakteren (Token markieren!) Geld als Belohnung auszahlen)    

@@ -1,4 +1,4 @@
-# Begennung und Initiative
+# Begegnung und Initiative
 
 ## Um einen Kampf einzuleiten muss eine Begegnung erstellt werden. 
 1. Gewünschte/n Token markieren.
@@ -18,11 +18,11 @@
   
 Als Meister gibt es dafür die Buttons:  
 1. *Würfel die Initiative für alle*   
-2. *Würfel die Initiative für NSC's*. Hier wird die Initiative automatisch für Kreaturen und NSCs gewürfelt.  
+2. *Würfel die Initiative für NSCs*. Hier wird die Initiative automatisch für Kreaturen und NSCs gewürfelt.  
   
 ![INI-Auswürfeln](de/images/de-begegnung_und_initiative_2.webp)
   
-Wenn die Initiative ausgewürfel ist, erscheinen 2 Werte die durch einen Punkt voneinander getrennt sind. Der erste Wert ist die INI die erwürfelt wurde (1). Der zweite Wert ist der INI Basiswert (2). Dies dient dazu, bei gleicher erwürfelter INI, denjenigen zuerst agieren zu lassen der den höheren Basiswert hat.  
+Wenn die Initiative ausgewürfelt ist, erscheinen 2 Werte die durch einen Punkt voneinander getrennt sind. Der erste Wert ist die INI die erwürfelt wurde (1). Der zweite Wert ist der INI Basiswert (2). Dies dient dazu, bei gleicher erwürfelter INI, denjenigen zuerst agieren zu lassen der den höheren Basiswert hat.  
   
 ![INI Reihenfolge](de/images/de-begegnung_und_initiative_3.webp)
 

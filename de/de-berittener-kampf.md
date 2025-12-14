@@ -4,20 +4,20 @@ Das unterstützt die Regeln für den berittenen Kampf. Um sie zu verwenden befol
 
 ## Aufsatteln
 
-* Markiere per Rahmen auf dem oder Shift+Click Reiter und Reittier (z.B. Allacaya und ihr treuer Oger).
-* Clicke nun mit Rechtsclick auf den **Reiter**. Das Token HUD erscheint.
+* Markiere per Rahmen auf dem oder Shift+Klick Reiter und Reittier (z.B. Allacaya und ihr treuer Oger).
+* Klicke nun mit Rechtsklick auf den **Reiter**. Das Token HUD erscheint.
 
 ![Berittener Kampf](de/images/berittenerkampf-1.webp)
 
-* Hast du alles richtig gemacht, siehst du oben links im Token HUD ein Pferde Icon. Clicke es an.
+* Hast du alles richtig gemacht, siehst du oben links im Token HUD ein Pferde Icon. Klicke es an.
 * Der Reiter wird nun automatisch auf das Pferd gezogen, erhält den Status reitend und ist nun mit dem Reittier verbunden. Die Größe des Reiters wird ggf. angepasst, so dass Reiter und Reittier sichtbar bleiben.
 
 * Alternativ kannst du einem Charakter auch ein Reittier zuweisen indem du es auf das Charakterblatt des Reiters per Drag and Drop ziehst.
-So kannst du z.B. in der Sidebar die Reiterhorden des Feindes vorbereiten. Ein Reiter wird automatisch mit seinem Reiter auf dem Spielfeld platziert, sofern auf diese Art und Weise beide miteinander verknüpft wurden.
+So kannst du z.B. in der Sidebar die Reiterhorden des Feindes vorbereiten. Ein Reiter wird automatisch mit seinem Reittier auf dem Spielfeld platziert, sofern auf diese Art und Weise beide miteinander verknüpft wurden.
 
 ## Absteigen
 
-* Öffne das Token HUD des **Reiters** und clicke auf das umgedrehte Pferd zum Absteigen.
+* Öffne das Token HUD des **Reiters** und klicke auf das umgedrehte Pferd zum Absteigen.
 * Alternativ kannst du auf dem Kampftab des Heldenbogens auch über das Mülltonne Icon absteigen.
 
 ## Geschwindigkeit anpassen und Bewegung

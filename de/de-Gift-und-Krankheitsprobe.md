@@ -16,4 +16,4 @@ Das Ergebnis findet ihr dann im Chatfenster.
   ![Gift Chatfenster](de/images/de-gift-und-krankheitsprobe_1.webp)
 
 *[x]Zuletzt bearbeitet: 04.11.2021*  
-*Inhalt geprüft, keien Änderungen notwendig*
+*Inhalt geprüft, keine Änderungen notwendig*

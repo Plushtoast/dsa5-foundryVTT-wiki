@@ -14,16 +14,16 @@ Open the page of [Foundry VTT](https://foundryvtt.com/) and log in with your Fou
 
 ## How do I create a wizard/blessed one?
 Basically you have to assign the advantage *Blessed* or *Spellcaster* to your character. But this is not enough to see the magic or religion tab in the character sheet. You have to add one of the following items to the character: magic/karmic special skill, spelsl, cantrip, ritual, liturgy, ceremony, blessing.
-For more details, see the [Character Creation](en-character-creation) and the [character sheet](en-charactersheet).
+For more details, see the [Character Creation](en-charaktererstellung) and the [character sheet](en-charakterbogen).
 
 ## Where can I ask questions or get support for problems?
 See above, point 3 under "Why is ... not working?"
 
 ## I can't find my weapons under combat in the character sheet.
-Make sure you have the weapons equipped in the equipment tab. You can do that by placing a check mark in the *Shield* column. For details, check out the guide: [Character Sheet - Equipment](en-charactersheet#5-equipment).  
+Make sure you have the weapons equipped in the equipment tab. You can do that by placing a check mark in the *Shield* column. For details, check out the guide: [Character Sheet - Equipment](en-charakterbogen#5-equipment).  
 
 ## How can I create tokens that look like from the DSA books?
-With the module "Tokenizer". You can find a short how-to in [this section.](en-character-creation#11-portrait-and-token)
+With the module "Tokenizer". You can find a short how-to in [this section.](en-charaktererstellung#11-portrait-and-token)
 
 ## Why does the attribute adjustment of the species not change the values in the character sheet attributes tab?
 According to the DSA rules, the attribute adjustment does not mean that this value is adjusted directly. It only adjusts the maximum value allowed during character creation.

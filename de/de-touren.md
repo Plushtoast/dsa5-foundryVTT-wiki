@@ -11,6 +11,8 @@ Du findest die verfügbaren Touren im **Touren-Management** von Foundry VTT.
 
 Alternativ gibt es oft im **Hilfe-Menü** des Systems (Fragezeichen-Symbol im Chat oder in den Einstellungen) Direktlinks zu den wichtigsten Touren.
 
+![Tour Auswahl](de/images/de-touren-selection.webp)
+
 ## Verfügbare Touren
 
 Das System bringt standardmäßig folgende Touren mit (die Liste kann je nach installierten Modulen variieren):

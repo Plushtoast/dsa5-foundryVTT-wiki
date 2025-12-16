@@ -26,6 +26,8 @@ Das System vergleicht die Qualitätsstufen (QS) von Angriff und Verteidigung.
 *   **Schaden**: Der Schaden wird (unter Berücksichtigung von Rüstungsschutz, falls konfiguriert) angezeigt.
 *   **Anwenden**: Der Spielleiter (oder Besitzer) kann den Schaden per Knopfdruck (`Schaden anwenden`) auf den Ziel-Token übertragen.
 
+![Vergleichende Probe im Kampf](de/images/de-vergleichende-proben-combat.webp)
+
 ## Talente und Zauber
 
 Auch bei Talenten und Zaubern sind vergleichende Proben möglich.

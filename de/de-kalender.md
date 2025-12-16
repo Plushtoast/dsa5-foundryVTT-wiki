@@ -6,8 +6,7 @@ Das DSA5 System für Foundry VTT verfügt über einen vollständig integrierten 
 
 Auf der Benutzeroberfläche (standardmäßig oben in der mitte) findest du das Kalender-Widget. Es bietet einen schnellen Überblick und grundlegende Steuerungsmöglichkeiten.
 
-![Kalender Widget](https://github.com/Plushtoast/dsa5-foundryVTT/wiki/images/calendar_widget.webp)
-*(Beispielbild)*
+![Kalender Widget](de/images/de-kalender-widget.webp)
 
 ### Funktionen des Widgets
 *   **Anzeige**: Zeigt das aktuelle Datum (z.B. "1. Praios 1040 BF") und die Uhrzeit an.

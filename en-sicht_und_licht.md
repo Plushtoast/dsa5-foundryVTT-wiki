@@ -8,7 +8,7 @@ which goes into parts of this topic: https://www.youtube.com/watch?v=s60nS56jIH8
 In the scene, besides the section *Sight and Lighting*, there is also the grid scaling. The value entered here 
 affects the visibility and light range of individual elements in this scene. (Ex.: If a token has a 10 at twilight visibility,
 it makes a big difference if a grid is 2 or 20 units. With 2 it can see 5 boxes, with 20 only 2 boxes). 
-This setting is directly related to the [Settings on token](en-sight-light#token-settings).  
+This setting is directly related to the [Settings on token](en-sicht_und_licht#token-settings).  
   
 ![Gitter 2](images/en-sight-light_0.webp)
 ![Gitter 20](images/en-sight-light_1.webp)

@@ -22,6 +22,8 @@ Das System schlägt eine Überprüfung (Bruchfaktorprobe) in folgenden Situation
     *   Wenn der erlittene **Schaden > 14 TP** ist.
     *   Wenn der Angreifer einen besonders guten Treffer landet (> 2 QS).
 
+![Bruchfaktor Dialog](de/images/de-waffen-ruestung-damage-dialog.webp)
+
 ### Die Bruchfaktorprobe
 
 Tritt ein solcher Fall ein, erscheint (meist im Chat oder als Dialog) die Aufforderung zur **Bruchfaktorprobe**.
@@ -43,6 +45,8 @@ Die Abzüge werden **automatisch** auf die Werte des Charakters angerechnet, sol
 | **Stufe 3** (ca. 25% Struktur) | Unbrauchbar (Werte auf 0) | Unbrauchbar (RS 0) |
 | **Stufe 4** (0% Struktur) | Zerstört | Zerstört |
 
+![Beschädigter Gegenstand](de/images/de-waffen-ruestung-damaged-item.webp)
+
 > **Hinweis**: Bei Rüstungen kann ab Stufe 2 auch die Belastung steigen (je nach Konfiguration).
 
 ## Reparatur
@@ -52,3 +56,7 @@ Um einen Gegenstand zu reparieren, muss ein Handwerker (oder Magie) die Struktur
 *   Klicke auf den Gegenstand, um die Details zu sehen.
 *   Im Reiter "Details" oder "Werte" findest du die **Struktur**.
 *   Erhöhe den aktuellen Wert wieder auf das Maximum, um die Abzüge zu entfernen.
+
+![Reparatur Prozess](de/images/de-waffen-ruestung-repair.webp)
+
+*[x]Zuletzt bearbeitet: 14.12.2025*

@@ -16,3 +16,5 @@ Die komplette Playlist ist hier:
 Der User NEGD hat Videos erstellt, die sich direkt an die Spieler in euren Runden wenden:
 
 - [Playlist Spieler-Tutorials](https://www.youtube.com/playlist?list=PLzE7w5gckJo1L0d1sFCfqElzrwyuJLAqg)
+
+*[x]Zuletzt bearbeitet: 14.12.2025*

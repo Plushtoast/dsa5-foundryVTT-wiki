@@ -4,6 +4,8 @@ Das Schwarze Auge/The Dark Eye ist ein Pen and Paper Rollenspiel welches seit fa
 
 Das Schwarze Auge/The Dark Eye für Foundry ist eine Umsetzung des Rollenspiels in dem Virtual Tabletop System von Foundry VTT, welches zusammen mit Ulisses Spiele entwickelt wurde.
 
+![DSA5 System Übersicht](de/images/de-home-overview.webp)
+
 ## Was braucht ihr zum Spielen von DSA in Foundry?
 
 Zum Spielen mit euren Freunden braucht ihr mindestens Charaktere, einige Gegner (NSCs) und eine Geschichte. 

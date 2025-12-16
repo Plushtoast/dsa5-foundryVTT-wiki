@@ -18,4 +18,4 @@ Es kann außerdem das Modul *Token Magic FX* verwendet werden um eine Animation 
 Siehe auch das folgende Video: [Magier, Geweihte, Vertraute und Gestaltwandlung - DSA 5 Foundry](https://youtu.be/-cuWOYTwUCg)
 
 *[x]Zuletzt bearbeitet: 04.11.2021*  
-*Inhalte gepürft, keine Änderung*  
+*Inhalte geprüft, keine Änderung*  

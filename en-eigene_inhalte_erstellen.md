@@ -5,7 +5,7 @@ You are missing a spell from the AM II? Do you need a consecrated from the AG I?
 
 ## Import a template from the compendiums
 
-The easiest way is to [import](en-library.md#use-contents) a template from one of the compendiums.
+The easiest way is to [import](en-bibliothek.md#use-contents) a template from one of the compendiums.
 Then you look at how this template is written and adapt it to your wishes.
 
 ### Example: Ritual Adamantium from AM II

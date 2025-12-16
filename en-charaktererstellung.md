@@ -6,23 +6,23 @@ The chapters with (game master) can only to be carried out by the game master wh
 
 **Note:** If you are looking for a external tool to create (and maintain) your characters, check out the [ressources section.](en-ressources)
 
-1. [Create character (game master)](en-character-creation#1-create-character-game-master)  
-2. [Enter experience](en-character-creation#2-enter-experience)  
-3. [Choose species](en-character-creation#3-choose-species)  
-4. [Choose culture](en-character-creation#4-choose-culture)  
-5. [Distribute attribute points](en-character-creation#5-attribute-points)  
-6. [Select Profession](en-character-creation#6-choose-profession)  
-7. [Choose advantages and disadvantages](en-character-creation#7-select-advantages-and-disadvantages)  
-8. [Make increases](en-character-creation#8-improvements)  
-9. [Choose special skills](en-character-creation#9-choose-special-abilities)  
-10. [Final adjustments (notes, equipment, name)](en-character-creation#10-final-adjustments)  
-11. [Portrait and token images (game master)](en-character-creation#11-portrait-and-token)  
+1. [Create character (game master)](en-charaktererstellung#1-create-character-game-master)  
+2. [Enter experience](en-charaktererstellung#2-enter-experience)  
+3. [Choose species](en-charaktererstellung#3-choose-species)  
+4. [Choose culture](en-charaktererstellung#4-choose-culture)  
+5. [Distribute attribute points](en-charaktererstellung#5-attribute-points)  
+6. [Select Profession](en-charaktererstellung#6-choose-profession)  
+7. [Choose advantages and disadvantages](en-charaktererstellung#7-select-advantages-and-disadvantages)  
+8. [Make increases](en-charaktererstellung#8-improvements)  
+9. [Choose special skills](en-charaktererstellung#9-choose-special-abilities)  
+10. [Final adjustments (notes, equipment, name)](en-charaktererstellung#10-final-adjustments)  
+11. [Portrait and token images (game master)](en-charaktererstellung#11-portrait-and-token)  
 
 Here you can find the whole thing as a video (german only): [Character creation](https://www.youtube.com/watch?v=NrqvByX3da0)
 
 ## General informations before we start
-### [Using content from the library](en-library)
-### [Create your own content (spells, special skills, equipment, etc.)](en-create-personal-entries)
+### [Using content from the library](en-bibliothek)
+### [Create your own content (spells, special skills, equipment, etc.)](en-eigene_inhalte_erstellen)
 
 ## 1. create character (game master)
 ### The game master must create a character using the Actors menu:
@@ -47,7 +47,7 @@ If this step is skipped, there will be a query for the experience level (when ad
 ![select ap by exp level](images/en-character-creation-04.webp)
 
 ## 3. choose species
-After the species has been [dragged onto the character sheet](en-library), a window opens with the following tabs/information:
+After the species has been [dragged onto the character sheet](en-bibliothek), a window opens with the following tabs/information:
 1. **Description**: Information, Flufftext and background information about the species  
 ![species description](images/en-character-creation-05.webp)
 
@@ -61,7 +61,7 @@ Based on your selections, the derived values are calculated (Life points, moveme
 They will automatically be updated when you change the character values later on (attributes, dis-/advantages, special abilities etc.), but please note that you **can't change the species after you set it**.  
 
 ## 4. choose culture
-The culture is also simply dragged onto the character sheet. Tabs and information are similar to the [species](en-character-creation#3-choose-species) and the same rules apply.
+The culture is also simply dragged onto the character sheet. Tabs and information are similar to the [species](en-charaktererstellung#3-choose-species) and the same rules apply.
 Differences are:
 1. Some entries are pre-selected and can't be de-selected (like languages)
 2. Area Knowledge is a must-have entry. You can write any bogus entry and change it later if you don't know that detail right now.
@@ -114,8 +114,8 @@ Special abilities can also be dragged from the library into the character sheet.
 ## 10. Final Adjustments
 Time for the finetuning, so lets make sure to check or change:
  * **Name of the character and token**. Open the sheet via character menu (not by clicking on the token). Change the name in the top left corner. Then, change the name you want to display on your token by accessing the Prototype Token Config in the top right corner.
- * **Notes** You  can add a Bio, additional notes and stats on the "Notes" Tab. There is a separate field for GM notes, and only players with higher permissions can see them. See [this page](en-charactersheet#5-equipment) for more info on that.
- * **Equipment** You can add single items or packages to your chars inventory. Please check [this page](en-charactersheet#7-notes) for detailed information about that process. Most importantly: If you want to use a weapon or armor, you have to equip it. To do so, tick that little circle in the "worn" column. 
+ * **Notes** You  can add a Bio, additional notes and stats on the "Notes" Tab. There is a separate field for GM notes, and only players with higher permissions can see them. See [this page](en-charakterbogen#5-equipment) for more info on that.
+ * **Equipment** You can add single items or packages to your chars inventory. Please check [this page](en-charakterbogen#7-notes) for detailed information about that process. Most importantly: If you want to use a weapon or armor, you have to equip it. To do so, tick that little circle in the "worn" column. 
 
 ## 11. Portrait and token  
 **There are 2 different approaches to this, either with or without additional module "Tokenizer" installed**  

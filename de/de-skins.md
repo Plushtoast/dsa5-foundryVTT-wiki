@@ -2,11 +2,17 @@
 
 Es gibt eine Einstellung, um den Skin zu ändern (Gesamtstil für Das Schwarze Auge).
 
+![Skin Einstellung](de/images/de-skins-setting.webp)
+
 Derzeit verfügbare Skins sind:
 
 * "immersiv", war in allen bisherigen Versionen so
 * "immersiv dsa4/5", Standard, beinhaltet die Layoutänderungen gemäß der neuen DSA5 RSHs
 * "nackt (beta)", mehr wie der Foundry-Standard, der im Grunde ein abgespeckter Skin ist, damit Modder ihre Skins leichter hinzufügen können
+
+![Immersive Skin](de/images/de-skins-immersive.webp)
+
+![Naked Skin](de/images/de-skins-naked.webp)
 
 Warum haben wir dies hinzugefügt? Es könnte einen "Dark Mode"-Skin in Zukunft geben. Außerdem kannst du jetzt deine eigenen CSS-Stylesheets einfacher hinzufügen und alle eure Spieler können ihren Lieblingsskin selbst auswählen.
 

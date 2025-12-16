@@ -17,17 +17,28 @@ de | [en](Home)
 * [Behälter](de-behaelter-rucksack-oder-tasche)
 
 **Spielmechanismen**
+* [Abstandsmessung (DPS)](de-abstandsmessung)
 * [AP- und Geld-Tracker](de-tracker-ap-geld)
 * [Artefakte und Talismane](de-artefakte-und-talismane)
 * [Begegnung und Initiative](de-begegnung_und_initiative)
+* [Bezahlsystem](de-bezahlsystem)
 * [Bibliothek](de-bibliothek)
 * [Chatbefehle](de-chatbefehle)
 * [Eigene Inhalte](de-eigene_inhalte_erstellen)
 * [Gift- und Krankheitsprobe](de-gift-und-krankheitsprobe)
+* [Gruppenproben](de-gruppenproben)
+* [Handel und Tausch](de-handel-tausch)
 * [Händler](de-haendler)
 * [Kalender](de-kalender)
 * [Kampf](de-kampf)
+* [Kampfsonderfertigkeiten](de-spezialmanöver)
 * [Meister-Menü](de-meister-menue)
+* [Patzer-Tabellen](de-botch-tabellen)
+* [Regeneration](de-regeneration)
+* [Routineproben](de-routineproben)
+* [Sammelproben](de-aggregate-proben)
+* [Schadensanwendung](de-schadensanwendung)
+* [Schicksalspunkte (Schips)](de-schicksal-schips)
 * [Sicht und Licht](de-sicht_und_licht)
 * [Spieler Menü](de-spieler-menue)
 * [Systemeinstellungen](de-systemeinstellungen)
@@ -55,9 +66,13 @@ de | [en](Home)
 * [Artefakte verzaubern](de-artefakte-verzaubern)
 
 **Fortgeschrittene Mechanismen**
+* [Auren](de-auren)
+* [Fallen und Regionenverhalten](de-fallen)
 * [Journal Enricher](de-journal-probe_anfordern)
+* [Journal-Seiten (Dramatis Personae/Kalender)](de-journal-seiten)
 * [Journal-Styles](de-journal-dsa_icons_auge)
 * [Effektfeld](de-effekt_feld)
+* [On-Use-Effekte](de-on-use-effekte)
 * [Selbst erstellte Effekte](de-status-selbst-erstellte-effekte)
 * [Macros](de-makro-probe-anfordern)
 * [Skins](de-skins)
@@ -66,5 +81,5 @@ de | [en](Home)
 **Empfehlungen**
 * [Module](de-module)
 
-*[x]Zuletzt bearbeitet: 02.04.2024*  
-*Seite überarbeitet und neu gegliedert*  
+*[x]Zuletzt bearbeitet: 01.2025*  
+*Seite überarbeitet und neu gegliedert - 16 neue Seiten hinzugefügt*  

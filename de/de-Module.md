@@ -62,38 +62,8 @@ Diese Datei importiert ihr über:
 ### JB2A - Jules and Ben's Animated Assets
 Dieses Modul bietet eine große Datenbank an Animationen für **Automated Animations**
 
-## Zeit & Kalender: SmallTime, Simplecalendar, TimesUp
+## Zeit & Kalender: TimesUp
 Die Verwendung von Zeit und Kalenderfunktionen ist nicht unkompliziert, weshalb ich empfehle die Wiki Seiten der Module zur Hilfe zu nehmen.  
-
-### SmallTime
-Smalltime erzeugt eine kleine Systemuhr über welche die Tageszeit abgebildet wird. Diese Zeiteinstellung lässt sich in den Moduleinstellungen auf das 24 Stunden Format ändern.  
-[Github Seite](https://github.com/unsoluble/smalltime)
-
-Nellkirs Trick, um den Mond in der Zeitleiste als Madamal darzustellen [Madamal-Bilder-Download](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/raw/master/de/files/moon-phases.zip):
-
-![image](de/images/de-module_5.webp)
-
-**Hinweis von Danii0206:** 
-Nellkirs Tipp mit den alternativen images für die gedrehte Mondansicht funktioniert soweit, muss aber nach jedem Update des Moduls angewendet werden. Den gleichen Effekt kann man über das Modul Custom CSS erreichen, wenn man als globale Regeln folgendes festlegt:
-
-`#smalltime-app .moon::-webkit-slider-thumb {
-  transform: rotate(90deg);
-}
-#smalltime-app .moon::-moz-range-thumb {
-  transform: rotate(90deg);
-}`
-
-Der Vorteil daran ist, dass das auch bei einem Update von Smalltime bestehen bleibt und eine Einstellung pro Spielwelt ist - nützlich, falls man auch andere Systeme spielt.  
-
-### Simplecalendar
-Simplecalendar ist eine Kalender Lösung für Foundry, die sich in den Einstellungen an Smalltime anbinden lässt. Dann übernimmt Smalltime die Steuerung der Uhrzeit und Simplecalendar steuert Tage, Wochen, Monate und Jahre.   
-Eine Datei zum Import des DSA Kalenders findet ihr hier: 
-
-[SimpleCalender - DSA Kalender](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/raw/master/de/files/simple-calendar-export-Sonnenzeiten.zip)
-
-[SimpleCalender - DSA Thorwaler Kalender](https://github.com/Plushtoast/dsa5-foundryVTT-wiki/raw/master/de/files/simple-calendar-export-Thorwalsch-Sonnenzeiten.zip)
-
-[Github Seite](https://github.com/vigoren/foundryvtt-simple-calendar)
 
 ### Timesup
 Bindet die Zeit an die Effekte so, dass diese nach bestimmter Zeit und Kampfrunden automatisch beendet werden. Dieses Modul funktioniert ohne irgendwelche Einstellungen und arbeitet perfekt mit Smalltime zusammen.  
@@ -105,13 +75,6 @@ Lässt euch schnell und einfach Bilder aus dem Web oder PDF's auf die Foundry Ob
 
 ## DF Curvy Walls
 Solltet ihr eine Karte mit einem Runden Turm haben, dann wisst ihr wie unbefriedigend Foundry diese Wände umsetzt. Mit dem Modul Curvy Walls könnt ihr ohne Probleme runde Wände ziehen.
-
-## Drag Ruler
-Hiermit lässt sich die Geschwindigkeit der Charaktere für die maximale Bewegungsrate einstellen. Diese wird dann bei Szenen mit Grid farblich dargestellt. In den *Moduleinstellungen* unter *Drag Ruler* -> *Einstellungen zur Systemintegration* beim *Geschwindigkeitsattribut* `actor.system.status.speed.max` und bei *Sprint Multiplikator* eine 2 eingeben.  
-  
-  ![Drag Ruler Einstellungen](de/images/de-module_6.webp)
-  
-  [Link zum Youtube Tutorial](https://youtu.be/137LU0GtvEI?list=PLGyb6RcE5AmVHzCZSKEN00cenwkB3LxTC&t=17)
 
 ## FXMaster
 Hiermit werden weitere Wettereffekte zum Spiel hinzugefügt. Außerdem gibt es noch eine Handvoll Zaubereffekte.
@@ -132,26 +95,10 @@ Bildet über ein Symbol in der Farbe der Spieler die Berechtigungen auf verschie
 ## PopOut!
 Mit PopOut! könnt ihr jedes Fenster in Foundry aus dem Browser in ein separates Fenster verschieben. Sehr nützlich bei 2 Monitoren. Dies Funktioniert aber nicht in der Lokalinstallation von Foundry.
 
-## Turnmarker
-Mit diesem simplen Modul könnt ihr den Rundenmarker übersichtlicher und schöner gestalten.
-
-[Link zum Youtube Tutorial](https://youtu.be/137LU0GtvEI?list=PLGyb6RcE5AmVHzCZSKEN00cenwkB3LxTC&t=1529)
-
 ## Window Controls
 Mit diesem kleinen Modul könnt ihr die geöffneten/minimierten Fenster im Foundry ordentlich aufreihen und verwalten.
 
 [Link zum Youtube Tutorial](https://www.youtube.com/watch?v=YQOuo3tRkpE&list=PLGyb6RcE5AmVHzCZSKEN00cenwkB3LxTC&index=4)
-
-## Combat Tracker Effect Icon Tooltips
-Habt ihr keine Ahnung, was die Effektesymbole auf den Charakteren bedeuten? Dieses kleine Modul öffnet einen nützlichen Tooltip auf den Effekt im Begegnungstracker.
-
-![image](de/images/de-module_7.webp)
-
-## Forien's Quest Log
-Eine sehr nützliche Rückverfolgung der Questen, wenn ihr mit umfangreichen Kampagnen oder openworld sandboxing spielt.
-
-## Popout Resizer
-Ein kleines Modul, welches erlaubt die mit **PopOut!** extrahierten Fenster, in ihrer Größe zu verändern.
 
 ## Health Estimate
 Zeigt den Spielern eine ungefähre Einschätzung des Zustands ihrer Gegner an ohne zu viel zu verraten.

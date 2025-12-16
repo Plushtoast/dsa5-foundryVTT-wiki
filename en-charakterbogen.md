@@ -1,28 +1,28 @@
 # Character Sheet - Structure
 The structure of the character sheet is as similar as the sheet of the rulebook.
 There are the categories in it:  
-1. [Header](en-charactersheet#1-header)  
-2. [Skills](en-charactersheet#2-skills)  
-3. [Combat](en-charactersheet#3-combat)  
-4. [Attributes](en-charactersheet#4-attributes)  
-5. [Equipment](en-charactersheet#5-equipment)  
-6. [State](en-charactersheet#6-state)  
-7. [Notes](en-charactersheet#7-notes)  
-8. [Magic](en-charactersheet#8-magic)  
-9. [Religion](en-charactersheet#9-religion)  
+1. [Header](en-charakterbogen#1-header)  
+2. [Skills](en-charakterbogen#2-skills)  
+3. [Combat](en-charakterbogen#3-combat)  
+4. [Attributes](en-charakterbogen#4-attributes)  
+5. [Equipment](en-charakterbogen#5-equipment)  
+6. [State](en-charakterbogen#6-state)  
+7. [Notes](en-charakterbogen#7-notes)  
+8. [Magic](en-charakterbogen#8-magic)  
+9. [Religion](en-charakterbogen#9-religion)  
   
 **Note**: The *magic* and *religion* tabs only appear if the character has at least one magical or karmal special skill/spell/ritual/liturgy/ceremony assigned. Also, only then do AE (astral energy) or KP (karma points) appear in the character sheet.
   
 ![charsheet overview](images/en-charactersheet-01.webp)  
 
 ## 1. Header
-This part of the sheet is always visible and shows a characters base information. Many values are calculated and derived from the settings in the [Attributes tab](en-charactersheet#4-attributes).  
+This part of the sheet is always visible and shows a characters base information. Many values are calculated and derived from the settings in the [Attributes tab](en-charakterbogen#4-attributes).  
 ![charsheet header](images/en-charactersheet-02.webp)  
 
 - **Name & picture:** Can be edited. When you change the name, make sure to update that information in the token settings as well
 - **Species:** FYI only, can't be changed
-- **Profession:** Can be edited. It's text only. See [here](en-character-creation#6-choose-profession) for more information on choosing / entering professions.
-- **Attribute values:** derived from the [Attributes tab](en-charactersheet#4-attributes), where it can be changed
+- **Profession:** Can be edited. It's text only. See [here](en-charaktererstellung#6-choose-profession) for more information on choosing / entering professions.
+- **Attribute values:** derived from the [Attributes tab](en-charakterbogen#4-attributes), where it can be changed
 - **Life/Astral/Karmal points** (current and max): can be edited. You have to enter the new number, not the changes (fe: you have 30 LP and you lose 5 LP, enter 25 LP). You CAN enter the changes on the token (fe: you have 30 LP and you lose 5 LP, enter -5, hit Enter and char has 25 LP as a result)
 - **Fate Points:** Base value plus dis-/advantages. Maximum can't be changed, but you can add/spend FtP by clicking on them. (When you spend FtP via chatlog by right clicking a roll, the FtP is deducted/spent automatically)
 
@@ -51,14 +51,14 @@ This tab shows you all available skills, their skill rating and several options 
 
 
 ## 3. Combat
-The combat sheet contains all data used for [Combat](en-combat) in TDE 5.  
+The combat sheet contains all data used for [Combat](en-kampf) in TDE 5.  
 ![charsheet combat](images/en-charactersheet-07.webp)  
 
-1. **Weapons and Armor**: Lists all weapons and armor that are equipped **and have been marked as "worn"** (=activated for the combat sheet) in the [equipment tab.](en-charactersheet#5-equipment)  
+1. **Weapons and Armor**: Lists all weapons and armor that are equipped **and have been marked as "worn"** (=activated for the combat sheet) in the [equipment tab.](en-charakterbogen#5-equipment)  
   
   **1. a) Dodge, unarmed attack and parry**: The symbols represent the actions for unarmed combat: dodge, attack, parry... but never parry with bare hands when the enemy wields some sharp weapon ;-)  
  
-  **1. b) Ammunition**: here you can select ammunition for the weapon. However, this must be stored in the [Equipment](en-charactersheet#5-equipment). Then the system will automatically reduce the ammunition after an attack.  
+  **1. b) Ammunition**: here you can select ammunition for the weapon. However, this must be stored in the [Equipment](en-charakterbogen#5-equipment). Then the system will automatically reduce the ammunition after an attack.  
 For throwing weapons, the weapon itself counts as ammunition, i.e. if you equip 3 throwing knives, it reduces the number of throwing knives after the attack to 2 etc., if the number is 0, no more attacks can be made. 
  
   **1. c) Details**: Clicking on the arrow shows details like range and reload time.  
@@ -83,11 +83,11 @@ The *Mod.* column is for temporary modifiers you want to set.
 The _Advance_ column shows the points you bought with AP (you _knew_ you can buy LP, AP and KP with AP, right?). Do so by using the +/- symbols **a)** next to Life / AE / KE points. The AE and KE values only appear if the character has a magic or karmic special skill, spell, liturgy, or similar assigned.  
 The moon symbol **b)** lets you rest. A pop-up will open and you can select some environmental factors. Roll for the rest, and all the possible energies are rolled upon and shown in chat. **RIGHT CLICK on the chat message to apply the rest** (but only once! Or the GM may take a finger from you, now that he knows how to do so).  
 
-1. **Experience level**: Here, the available and spent adventure points are managed. Details about this in the [character creation.](en-character-creation). You can always overwrite the existing numbers manually. We strongly recommend to use a external [tool](en-ressources) to keep track of your character and AP, and only mirror the char within Foundry.  
+1. **Experience level**: Here, the available and spent adventure points are managed. Details about this in the [character creation.](en-charaktererstellung). You can always overwrite the existing numbers manually. We strongly recommend to use a external [tool](en-ressources) to keep track of your character and AP, and only mirror the char within Foundry.  
 
 ## 5. Equipment
 In the equipment sheet the inventory of the character is administered. All items assigned to the character are visible here.  
-To add new items, they can be dragged onto the character sheet from the library. Alternatively, [content can be created.](en-create-personal-entries)  
+To add new items, they can be dragged onto the character sheet from the library. Alternatively, [content can be created.](en-eigene_inhalte_erstellen)  
 ![](images/en-charactersheet-09.webp)
 
 1. **Equipment**: All items equipped by the character, sorted into categories (melee weapon, armor, container, ammo, etc.).  
@@ -122,7 +122,7 @@ The status window contains all the conditions and statuses for the character. So
   b) Mod allow you to modify the level manually by left/right clicking on it.  
   c) Notepad opens the entry to edit it if needed (advanced users function)  
   c) Checkmark allows you to de-activate an entry until re-activated. Recommended for self-created entries instead of deleting them.  
-  d) Plus opens a filter to search and select available effects. You can click the PLUS sign in the opening window to [create your own stati](en-status-self-created-effects).
+  d) Plus opens a filter to search and select available effects. You can click the PLUS sign in the opening window to [create your own stati](en-status-selbst-erstellte-effekte).
 
   
 **Context menu**: Right-click on the token and you can add conditions very quickly - if you remember the icon for it. Personally, I prefer to open up the charsheet and add it there, but your brain may be better in memorizing icons.  
@@ -137,7 +137,7 @@ The magic sheet does not appear until a magic special skill, spell, ritual, or m
 1st **Spells and Rituals**: All of the character's spells and rituals are listed here.  
    1.1 The speech bubble divides the spell/ritual over the chat, the arrow opens details (duration of effect, costs) and the barrel deletes the spell/ritual.   
 2nd **Magical Special Skills**: All special magic skills assigned to the character.
-3. **Tradition, Leiteigenschaft, Merkmal, Leiteig. Multiplier**: the leadership trait must be specified here, since the AsP in the [Traits](en-charactersheet#4-attributes) are also calculated via it. In addition, the influence of the trait on the astral points can be set via the *trait multiplier* (e.g.: Spellbard 0.5).
+3. **Tradition, Leiteigenschaft, Merkmal, Leiteig. Multiplier**: the leadership trait must be specified here, since the AsP in the [Traits](en-charakterbogen#4-attributes) are also calculated via it. In addition, the influence of the trait on the astral points can be set via the *trait multiplier* (e.g.: Spellbard 0.5).
 4. **Magic tricks** !  
   
 ![Magie](images/en-charactersheet_0.webp)
@@ -146,7 +146,7 @@ The magic sheet does not appear until a magic special skill, spell, ritual, or m
 1. **Liturgies and Ceremonies**: All of the character's liturgies and ceremonies are listed here.  
    1.1 The speech bubble shares the liturgy/ceremony via chat, the arrow opens details (effect duration, cost), and the barrel deletes the liturgy/ceremony.   
 2nd **Carmic Special Skills**: All karmic special skills assigned to the character.
-3. **Tradition, Leadership Trait, Aspect, Benevolent Talents**: the Leadership Trait must be specified here, as it is also used to calculate the KaP in the [Traits](en-charactersheet#4-attributes).  
+3. **Tradition, Leadership Trait, Aspect, Benevolent Talents**: the Leadership Trait must be specified here, as it is also used to calculate the KaP in the [Traits](en-charakterbogen#4-attributes).  
    - Benevolent talents should definitely be entered here. Pay attention to correct spelling. The state "Rapture" takes these entries into account.
 5. **Blessings**  
   

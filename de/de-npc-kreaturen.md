@@ -20,12 +20,16 @@ Ein spezialisierter Bogen für Gegner und Tiere.
 *   **Vereinfachte Fertigkeiten**: Statt einer langen Talentliste werden oft nur relevante Werte angezeigt.
 *   **Beute (Loot)**: Ein spezieller Reiter für Beute, die Spieler finden können.
 
+![Akteur-Typen Vergleich](de/images/de-npc-kreaturen-types.webp)
+
 ## Kreaturen-Typen & Automatisierung
 
 Das System bietet eine mächtige Automatisierung für verschiedene Wesensklassen (z.B. Dämonen, Elementare, Untote).
 
 ### Funktionsweise
 Wenn du im Kreaturenbogen den **Typus** (z.B. "Dämon (Niederer)") einträgst, erkennt das System dies automatisch.
+
+![Kreaturentyp Konfiguration](de/images/de-npc-kreaturen-type-config.webp)
 
 ### Auswirkungen
 *   **Immunitäten**: Das System setzt automatisch Haken für Immunitäten gegen Gifte, Krankheiten oder bestimmte Zaubermerkmale.

@@ -5,10 +5,15 @@ Viele Probleme lassen sich oft mit einem Update beheben.
 
 Öffnet dafür die Seite von [Foundry VTT](https://foundryvtt.com/) und loggt euch mit eurem Foundry Account ein. Klickt oben rechts in der Seite auf euren Namen und dann *Premium Content*. Hier gebt ihr euren Key ein, den ihr von Ulisses bekommen habt (Per Mail und im F-Shop unter: *Mein Konto* -> *Bestellungen* -> bei der Bestellung auf *Anzeigen*). Danach steht das Modul in Foundry unter *Module* zur Verfügung.
 
+![Aktivierung im F-Shop](de/images/de-faq-fshop.webp)
+
 ## Wie erstelle ich einen Zauberer/Geweihten?
 
 Grundsätzlich muss dem jeweiligen Charakter zum Einen der Vorteil *Geweiht/Zauberer* zugeordnet werden. Das reicht aber nicht, um im Charakterbogen Magie oder Religion zu sehen. Dafür muss dem Charakter eins der folgenden Items hinzugefügt werden: magische/karmale Sonderfertigkeit, Zauber, Zaubertrick, Ritual, Liturgie, Zeremonie, Segnung.
-Weitere Details findet ihr in der [Charaktererstellung](de-charaktererstellung) und dem [Charakterbogen](de-charakterbogen). 
+Weitere Details findet ihr in der [Charaktererstellung](de-charaktererstellung) und dem [Charakterbogen](de-charakterbogen).
+
+![Zauberkundige Einstellung](de/images/de-faq-spellcaster.webp)
+
 Und hier das passende Video dazu: [Magier, Geweihte, Vertraute und Gestaltwandlung - DSA 5 Foundry Toms Tutorial](https://youtu.be/-cuWOYTwUCg)
 
 ## Wo kann ich Fragen stellen oder bekomme Support bei Problemen?

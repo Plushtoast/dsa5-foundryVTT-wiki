@@ -9,6 +9,8 @@ Diese Funktionen müssen in den Systemeinstellungen aktiviert werden:
 *   Haken bei **Abenteuerpunkte tracken** (`enableAPTracking`).
 *   Haken bei **Geld tracken** (`enableMoneyTracking`).
 
+![AP Tracker Einstellung](de/images/de-tracker-setting.webp)
+
 ## Funktionsweise
 
 Sobald aktiviert, erstellt das System automatisch Journal-Einträge für jeden Spielercharakter, sobald sich dessen AP oder Geldstand ändert.
@@ -17,6 +19,10 @@ Sobald aktiviert, erstellt das System automatisch Journal-Einträge für jeden S
 Die Protokolle findest du im **Journal-Verzeichnis** (Buch-Symbol in der rechten Leiste).
 *   Es werden automatisch Ordner angelegt (z.B. "Abenteuerpunkte" und "Geld").
 *   Darin befindet sich für jeden Charakter ein eigenes Journal.
+
+![AP Tracker Journal](de/images/de-tracker-ap.webp)
+
+![Geld Tracker Journal](de/images/de-tracker-money.webp)
 
 ### Aufbau des Protokolls
 *   **Seiten**: Für jeden Tag, an dem Änderungen vorgenommen wurden, wird eine neue Seite im Journal angelegt (Datum als Titel).

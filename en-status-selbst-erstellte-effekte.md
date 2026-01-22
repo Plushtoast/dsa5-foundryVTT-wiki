@@ -95,7 +95,7 @@ To add the duration in an effect you have to do the following:
    
 ## Advanced Tip:
 If you know a bit about the Console (F12 in the browser) you can search the game data for the values yourself.  
-Mark a token and type into the console: *_token.actor.data*. Then you can see the values that can be influenced by this. More infos will follow.
+Mark a token and type into the console: *_token.actor.system*. Then you can see the values that can be influenced by this. More infos will follow.
   
 ![Console](images/en-status-self-created-effects_0.webp)
 

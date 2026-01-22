@@ -128,7 +128,7 @@ Diese Auren können nun ebenso wie Flächeneffekte von Zaubern mit grafischen An
 ## Tipp für Fortgeschrittene:
 
 Wer sich ein bisschen mit der Console auskennt (F12 im Browser) kann die Spieldaten selbst nach den Werten durchsuchen.  
-Markiert einen Token und gebt in die Konsole: *_token.actor.data* ein. Dann seht ihr die Werte die sich hierdurch beeinflussen lassen. Weitere Infos hierzu folgen.
+Markiert einen Token und gebt in die Konsole: *_token.actor.system* ein. Dann seht ihr die Werte die sich hierdurch beeinflussen lassen. Weitere Infos hierzu folgen.
   
 ![Console](de/images/de-status-selbst-erstellte-effekte_7.webp)
 

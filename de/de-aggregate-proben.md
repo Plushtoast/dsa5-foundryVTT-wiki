@@ -15,6 +15,12 @@ Sammelproben sind erweiterte Proben, bei denen mehrere Versuche über einen län
 3. Wähle als Typ **Sammelprobe** (Aggregated Test)
 4. Vergib einen aussagekräftigen Namen
 
+### Neue Sammelprobe im Charakterblatt anlegen
+
+1. Öffne ein **Charakterblatt**
+2. Reiter **Talente** auswählen
+3. Am unten Ende des Reiters neue **Sammelprobe** anlegen (hierzu +-Symbol drücken) 
+
 ### Konfiguration
 
 Im Gegenstandsblatt der Sammelprobe kannst du folgende Werte einstellen:
@@ -100,3 +106,4 @@ Die Sammelprobe zeigt im Chat:
 - [Gruppenproben](de-gruppenproben.md)
 - [Alchimie](de-alchimie.md)
 - [Eigene Inhalte erstellen](de-eigene_inhalte_erstellen.md)
+

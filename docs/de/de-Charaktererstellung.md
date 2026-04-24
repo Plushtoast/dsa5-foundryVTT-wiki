@@ -1,0 +1,129 @@
+---
+layout: default
+title: de-Charaktererstellung
+---
+# Charaktererstellung
+
+Die Charaktererstellung ist relativ modular. Um es aber einfach zu gestalten sollte man sich grob an den Ablauf des Grundregelwerkes halten. Dabei kommen aber ein paar zusätzliche Schritte hinzu die nur in Foundry gemacht werden müssen. Außerdem sind die Punkte mit (Spielleiter) in der Standard Rechteeinstellung nur vom Spielleiter durchzuführen:
+1. [Charakter anlegen (Spielleiter)](/dsa5-foundryVTT-wiki/de/de-Charaktererstellung#1-charakter-anlegen-spielleiter)
+2. [Erfahrung eingeben](/dsa5-foundryVTT-wiki/de/de-Charaktererstellung#2-erfahrung-eingeben)
+3. [Spezies wählen](/dsa5-foundryVTT-wiki/de/de-Charaktererstellung#3-spezies-wählen)
+4. [Kultur wählen](/dsa5-foundryVTT-wiki/de/de-Charaktererstellung#4-kultur-wählen)
+5. [Eigenschaftspunkte verteilen](/dsa5-foundryVTT-wiki/de/de-Charaktererstellung#5-eigenschaftspunkte-verteilen)
+6. [Profession wählen](/dsa5-foundryVTT-wiki/de/de-Charaktererstellung#6-profession-wählen)
+7. [Vor- und Nachteile wählen](/dsa5-foundryVTT-wiki/de/de-Charaktererstellung#7-vor--und-nachteile-wählen)
+8. [Steigerungen vornehmen](/dsa5-foundryVTT-wiki/de/de-Charaktererstellung#8-steigerungen-vornehmen)
+9. [Sonderfertigkeiten aussuchen](/dsa5-foundryVTT-wiki/de/de-Charaktererstellung#9-sonderfertigkeiten-aussuchen)
+10. [Letzte Anpassungen vornehmen (Notizen, Ausrüstung, Name)](/dsa5-foundryVTT-wiki/de/de-Charaktererstellung#10-letzte-anpassungen-vornehmen-notizen-ausrüstung-name)
+11. [Bild und Token (Spielleiter)](/dsa5-foundryVTT-wiki/de/de-Charaktererstellung#11-bild-und-token-spielleiter)  
+
+Hier findet ihr das Ganze als Video: [Charaktererstellung](https://www.youtube.com/watch?v=NrqvByX3da0)
+
+Das Grundregelwerk bietet zusätzlich die Möglichkeit der automatisierten Charaktererschaffung. Schau dir dazu VTToms Video an:
+[Heldenerschaffung](https://www.youtube.com/watch?v=PDenI-po_Rg)
+
+## Grundsätzliches
+
+[Inhalte aus der Bibliothek verwenden](/dsa5-foundryVTT-wiki/de/de-Bibliothek) 
+
+[Eigene Inhalte erstellen (Zauber, Sonderfertigkeiten, Ausrüstung usw.)](/dsa5-foundryVTT-wiki/de/de-Eigene_Inhalte_erstellen)
+
+## 1. Charakter anlegen (Spielleiter)
+Der Spielleiter muss über das Akteure Menü einen Charakter anlegen:
+1. Akteur erstellen
+2. Namen festlegen, Typ Charakter und auf Akteur erstellen  
+    
+![Akteur erstellen](/dsa5-foundryVTT-wiki/de/images/de-charaktererstellung_0.webp)  
+
+Danach müssen die Rechte über den Akteur an den Spieler gegeben werden: 
+1. Rechtsklick auf den Charakter -> *Rechte anpassen*
+2. Bei dem Spieler das Recht *Besitzer* auswählen und *Änderungen speichern*  
+  
+![Akteur Rechte](/dsa5-foundryVTT-wiki/de/images/de-charaktererstellung_1.webp)  
+
+Jetzt kann der Spieler diesen Charakter selbst bearbeiten.
+
+## 2. Erfahrung eingeben
+Die Erfahrung wird auf dem Charakterbogen unter *Eigenschaften* festgelegt.  
+  
+![Erfahrungsgrad](/dsa5-foundryVTT-wiki/de/images/de-charaktererstellung_2.webp)
+
+Wird dieser Schritt übersprungen, kommt es beim Hinzufügen von Spezies, Kultur usw. zu einer Abfrage nach dem Erfahrungsgrad. Hierdurch werden die Abenteuerpunke automatisch im Bogen eingetragen. 
+  
+![Abenteuerpunkte hinzufügen](/dsa5-foundryVTT-wiki/de/images/de-charaktererstellung_3.webp)
+
+## 3. Spezies wählen
+Nachdem die Spezies auf den Charakterbogen gezogen wurde öffnet sich ein Fenster in dem folgende Dinge ausgewählt werden können:
+1. **Beschreibung**: Informationen zur Spezies
+2. **Allgemein**: Auswahl der Eigenschaftsänderungen
+3. **Vor-/Nachteile**: Über ein anhaken können direkt die empfohlenen oder geeigneten Vor-/Nachteile mit ausgewählt werden. Sie sind dann dem Charakter direkt zugeordnet und automatisch in den Abenteuerpunkten verrechnet. 
+Nach dem Zuordnen werden alle weiteren Werte aus der Spezies automatisch mit verrechnet: LeP, Seelenkraft, Zähigkeit, Geschwindigkeit usw.  
+   
+![Spezies Allgemein](/dsa5-foundryVTT-wiki/de/images/de-charaktererstellung_4.webp)
+![Spezies VorNachteile](/dsa5-foundryVTT-wiki/de/images/de-charaktererstellung_5.webp)
+
+## 4. Kultur wählen
+Die Kultur wird ebenfalls einfach auf den Charakterbogen gezogen. Dann öffnet sich folgendes Fenster:
+1. **Beschreibung**: Informationen zur Kultur
+2. **Allgemein**: Eingabe der Ortskenntnis, Auswahl von Sprachen und Schriften
+3. **Vor-/Nachteile**: Über ein anhaken können direkt die empfohlenen oder geeigneten Vor-/Nachteile mit ausgewählt werden. Sie sind dann dem Charakter direkt zugeordnet und automatisch in den Abenteuerpunkten verrechnet.  
+  
+![Kultur Allgemein](/dsa5-foundryVTT-wiki/de/images/de-charaktererstellung_6.webp)
+![Kultur VorNachteile](/dsa5-foundryVTT-wiki/de/images/de-charaktererstellung_7.webp)
+
+## 5. Eigenschaftspunkte verteilen
+
+Im [Eigenschaftstab des Charakterbogens](/dsa5-foundryVTT-wiki/de/de-Charakterbogen#4-eigenschaften) können die Eigenschaftswerte festgelegt werden. Um eine AP Berechnung hier korrekt zu verwenden müssen die Eigenschaften über das + und - gesteigert werden.  
+
+**ACHTUNG**: Aktuell werden die Eigenschaftswerte nicht nach den Regeln begrenzt. Das bedeutet, dass auch über den Wert von 14 gesteigert werden kann. Außerdem gibt es keine Grenze bei den 100 Eigenschaftspunkten die maximal laut Regelwerk verteilt werden dürfen.  
+  
+![Eigenschaften](/dsa5-foundryVTT-wiki/de/images/de-charaktererstellung_8.webp)
+
+## 6. Profession wählen
+Auch bei der Profession erscheint nach dem Ziehen auf den Charakterbogen ein Fenster.
+1. **Beschreibung**: Informationen zur Profession
+2. **Vor/-Nachteile**: Auch hier werden wieder empfohlene oder geeignete Vorteile vorgeschlagen und können per Anhaken ausgewählt werden.  
+Alle weiteren Werte werden automatisch in den Charakter übertragen und gegen die Abenteuerpunkte verrechnet.  
+  
+![Profession](/dsa5-foundryVTT-wiki/de/images/de-charaktererstellung_9.webp)  
+
+## 7. Vor- und Nachteile wählen
+Als nächstes können weitere Vor- und Nachteile für den Charakter aus der Bibliothek in den Charakterbogen gezogen werden.  
+  
+![VorNachteile](/dsa5-foundryVTT-wiki/de/images/de-charaktererstellung_10.webp)   
+
+## 8. Steigerungen vornehmen
+Um die Fertigkeiten, Kampffertigkeiten, Zauber, Liturgien, usw. Steigern zu können, müssen das + und - verwendet werden. Nur dann werden die Steigerungen oder Senkungen von den Abenteuerpunkten abgezogen. Wird einfach ein Wert eingetragen passiert dies nicht!  
+  
+![Liturgien](/dsa5-foundryVTT-wiki/de/images/de-charaktererstellung_11.webp) ![Kampftechnik](/dsa5-foundryVTT-wiki/de/images/de-charaktererstellung_12.webp) ![Fertigkeit](/dsa5-foundryVTT-wiki/de/images/de-charaktererstellung_13.webp) ![EigenschaftLebenspunkte](/dsa5-foundryVTT-wiki/de/images/de-charaktererstellung_14.webp)  
+
+## 9. Sonderfertigkeiten aussuchen
+Sonderfertigkeiten lassen sich ebenfalls aus der Bibliothek in den Charakterbogen ziehen. Sie werden dann da aufgelistet wo sie vom Typ her hingehören:
+* Allgemeine Sonderfertigkeiten, Sprachen, Schriften, Schicksalspunkt Sonderfertigkeiten -> Eigenschaften
+  * ![Allgemeine Sonderfertigkeiten](/dsa5-foundryVTT-wiki/de/images/de-charaktererstellung_15.webp)
+* Klerikale/Geweihte Sonderfertigkeiten, Traditionen -> Religion
+  * ![Klerikale Sonderfertigkeiten](/dsa5-foundryVTT-wiki/de/images/de-charaktererstellung_16.webp)
+* Magische Sonderfertigkeiten, Traditionen -> Magie
+  * ![Magische Sonderfertigkeiten](/dsa5-foundryVTT-wiki/de/images/de-charaktererstellung_17.webp) 
+* Kampf Sonderfertigkeiten -> Kampf
+  * ![Kampf Sonderfertigkeiten](/dsa5-foundryVTT-wiki/de/images/de-charaktererstellung_18.webp)
+
+## 10. Letzte Anpassungen vornehmen (Notizen, Ausrüstung, Name)
+Die letzten Anpassungen werden im Heldendokument unter [Ausrüstung](/dsa5-foundryVTT-wiki/de/de-Charakterbogen#5-ausrüstung) und [Notizen](/dsa5-foundryVTT-wiki/de/de-Charakterbogen#7-notizen) vorgenommen.
+
+## 11. Bild und Token (Spielleiter)
+### Bild anpassen
+Um das Bild anzupassen wird im Charakterbogen auf das Bild im [Kopfbereich](/dsa5-foundryVTT-wiki/de/de-Charakterbogen#1-kopfbereich) geklickt. Es öffnet sich der Foundry Dateimanager mit dem ein Bild gesucht und ausgewählt wird.  
+
+### Standard Token auswählen
+Wichtig ist hierfür, dass der Charakterbogen aus dem Seitenmenü unter geöffnet wird.
+1. Über das Menü unter *Akteuere* (1) -> Doppelklick auf den Charakter (2) -> *Token konfigurieren* (3)  
+
+![Token konfigurieren](/dsa5-foundryVTT-wiki/de/images/de-charaktererstellung_19.webp)  
+
+2. Im Kopf des geöffneten Fensters muss *Prototyp-Figur* stehen. Dort dann über Image (1) -> *Durchsuche Dateien* den Token heraussuchen und übernehmen.  
+**Anmerkung**: Steht hier nicht *Prototyp-Figur* wurde der Charakterbogen über einen Token in einer Szene geöffnet. Dann ändert sich nur der Token in dieser Szene. Wird der Charakter in eine andere Szene gezogen, erscheint wieder der alte Token.   
+
+![Token zuordnen](/dsa5-foundryVTT-wiki/de/images/de-charaktererstellung_20.webp)  
+
+*[x] Zuletzt bearbeitet: 14.12.2025*

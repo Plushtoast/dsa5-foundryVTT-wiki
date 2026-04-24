@@ -1,0 +1,37 @@
+current directory: /mnt/c/Users/janwe/Dropbox/roleplay/dasschwarzeauge/wiki/dsa5-foundryVTT-wiki/vendor/bundle/ruby/4.0.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+/usr/share/rvm/rubies/ruby-4.0.3/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /mnt/c/Users/janwe/Dropbox/roleplay/dasschwarzeauge/wiki/dsa5-foundryVTT-wiki/vendor/bundle/ruby/4.0.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+make -j21 DESTDIR\= sitearchdir\=./.gem.20260424-107144-skrk5d sitelibdir\=./.gem.20260424-107144-skrk5d clean
+make: Warning: File 'Makefile' has modification time 0.72 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /mnt/c/Users/janwe/Dropbox/roleplay/dasschwarzeauge/wiki/dsa5-foundryVTT-wiki/vendor/bundle/ruby/4.0.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+make -j21 DESTDIR\= sitearchdir\=./.gem.20260424-107144-skrk5d sitelibdir\=./.gem.20260424-107144-skrk5d
+make: Warning: File 'Makefile' has modification time 0.6 s in the future
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+ruby_http_parser.c: In function ‘Parser_execute’:
+ruby_http_parser.c:373:17: warning: comparison of integer expressions of different signedness: ‘size_t’ {aka ‘long unsigned int’} and ‘long int’ [-Wsign-compare]
+  373 |     if (nparsed < len)
+      |                 ^
+ruby_http_parser.c: In function ‘Init_ruby_http_parser’:
+ruby_http_parser.c:515:6: warning: old-style function definition [-Wold-style-definition]
+  515 | void Init_ruby_http_parser() {
+      |      ^~~~~~~~~~~~~~~~~~~~~
+At top level:
+cc1: note: unrecognized command-line option ‘-Wno-self-assign’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-parentheses-equality’ may have been intended to silence earlier diagnostics
+cc1: note: unrecognized command-line option ‘-Wno-constant-logical-operand’ may have been intended to silence earlier diagnostics
+linking shared-object ruby_http_parser.so
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /mnt/c/Users/janwe/Dropbox/roleplay/dasschwarzeauge/wiki/dsa5-foundryVTT-wiki/vendor/bundle/ruby/4.0.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+make -j21 DESTDIR\= sitearchdir\=./.gem.20260424-107144-skrk5d sitelibdir\=./.gem.20260424-107144-skrk5d install
+make: Warning: File 'ruby_http_parser.so' has modification time 0.58 s in the future
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20260424-107144-skrk5d
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /mnt/c/Users/janwe/Dropbox/roleplay/dasschwarzeauge/wiki/dsa5-foundryVTT-wiki/vendor/bundle/ruby/4.0.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20260424-107144-skrk5d sitelibdir\=./.gem.20260424-107144-skrk5d clean

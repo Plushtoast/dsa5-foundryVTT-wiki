@@ -1,0 +1,26 @@
+current directory: /mnt/c/Users/janwe/Dropbox/roleplay/dasschwarzeauge/wiki/dsa5-foundryVTT-wiki/vendor/bundle/ruby/4.0.0/gems/json-2.19.4/ext/json/ext/parser
+/usr/share/rvm/rubies/ruby-4.0.3/bin/ruby extconf.rb
+checking for rb_enc_interned_str() in ruby/encoding.h... yes
+checking for rb_str_to_interned_str() in ruby.h... yes
+checking for rb_hash_new_capa() in ruby.h... yes
+checking for rb_hash_bulk_insert() in ruby.h... yes
+checking for RUBY_TYPED_EMBEDDABLE in ruby.h... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+checking for x86intrin.h... yes
+checking for cpuid.h... yes
+creating Makefile
+
+current directory: /mnt/c/Users/janwe/Dropbox/roleplay/dasschwarzeauge/wiki/dsa5-foundryVTT-wiki/vendor/bundle/ruby/4.0.0/gems/json-2.19.4/ext/json/ext/parser
+make -j21 DESTDIR\= sitearchdir\=./.gem.20260424-107144-mqsqw8 sitelibdir\=./.gem.20260424-107144-mqsqw8 clean
+
+current directory: /mnt/c/Users/janwe/Dropbox/roleplay/dasschwarzeauge/wiki/dsa5-foundryVTT-wiki/vendor/bundle/ruby/4.0.0/gems/json-2.19.4/ext/json/ext/parser
+make -j21 DESTDIR\= sitearchdir\=./.gem.20260424-107144-mqsqw8 sitelibdir\=./.gem.20260424-107144-mqsqw8
+compiling parser.c
+linking shared-object json/ext/parser.so
+
+current directory: /mnt/c/Users/janwe/Dropbox/roleplay/dasschwarzeauge/wiki/dsa5-foundryVTT-wiki/vendor/bundle/ruby/4.0.0/gems/json-2.19.4/ext/json/ext/parser
+make -j21 DESTDIR\= sitearchdir\=./.gem.20260424-107144-mqsqw8 sitelibdir\=./.gem.20260424-107144-mqsqw8 install
+/usr/bin/install -c -m 0755 parser.so ./.gem.20260424-107144-mqsqw8/json/ext
+
+current directory: /mnt/c/Users/janwe/Dropbox/roleplay/dasschwarzeauge/wiki/dsa5-foundryVTT-wiki/vendor/bundle/ruby/4.0.0/gems/json-2.19.4/ext/json/ext/parser
+make DESTDIR\= sitearchdir\=./.gem.20260424-107144-mqsqw8 sitelibdir\=./.gem.20260424-107144-mqsqw8 clean

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/stylesheets/extra.css' | relative_url }}">
+</head>
+<body class="{% if page.url == '/' %}home-page{% else %}docs-page{% endif %} page-{{ page.title | default: 'document' | slugify }}">
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav class="site-nav">
+        <a href="{{ '/Home' | relative_url }}">English</a>
+        <a href="{{ '/de/de-home' | relative_url }}">Deutsch</a>
+        <a href="{{ '/automation-status' | relative_url }}">Automation</a>
+      </nav>
+    </div>
+  </header>
+  {% assign nav_key = 'en' %}
+  {% if page.url contains '/de/' %}
+    {% assign nav_key = 'de' %}
+  {% endif %}
+  {% assign page_url = page.url | replace: '/index.html', '/' %}
+  {% if page.url == '/' %}
+  <main class="shell content-shell">
+    {{ content }}
+  </main>
+  {% else %}
+  <main class="shell content-shell with-sidebar">
+    <aside class="sidebar" aria-label="Section navigation">
+      {% assign nav_groups = site.data.navigation[nav_key] %}
+      {% for group in nav_groups %}
+      <section class="sidebar-group">
+        {% if group.title != '' %}<h3>{{ group.title }}</h3>{% endif %}
+        <ul>
+          {% for item in group.items %}
+          {% assign item_url = item.url %}
+          {% assign item_url_slash = item.url | append: '/' %}
+          <li>
+            <a class="{% if page_url == item_url or page_url == item_url_slash %}active{% endif %}" href="{{ item.url | relative_url }}">{{ item.label }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+      {% endfor %}
+    </aside>
+    <section class="page-content prose">
+      {{ content }}
+    </section>
+  </main>
+  {% endif %}
+</body>
+</html>

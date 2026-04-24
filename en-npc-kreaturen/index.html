@@ -1,0 +1,638 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>en-npc-kreaturen | DSA5 Foundry VTT Wiki</title>
+  <link rel="stylesheet" href="/dsa5-foundryVTT-wiki/assets/stylesheets/extra.css">
+</head>
+<body class="docs-page page-en-npc-kreaturen">
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="site-title" href="/dsa5-foundryVTT-wiki/">DSA5 Foundry VTT Wiki</a>
+      <nav class="site-nav">
+        <a href="/dsa5-foundryVTT-wiki/Home">English</a>
+        <a href="/dsa5-foundryVTT-wiki/de/de-home">Deutsch</a>
+        <a href="/dsa5-foundryVTT-wiki/automation-status">Automation</a>
+      </nav>
+    </div>
+  </header>
+  
+  
+  
+  
+  <main class="shell content-shell with-sidebar">
+    <aside class="sidebar" aria-label="Section navigation">
+      
+      
+      <section class="sidebar-group">
+        
+        <ul>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/Home">Home</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-wichtige-Konzepte">Important Concepts</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-dsa_5_Welt_erstellen">Quickstart</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-tutorials">Tutorial Videos</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-touren">Interactive Tours</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-faq">FAQ</a>
+          </li>
+          
+        </ul>
+      </section>
+      
+      <section class="sidebar-group">
+        <h3>Character</h3>
+        <ul>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-charakterbogen">Character Sheet</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-charaktererstellung">Character Creation</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-import-funktion">Migration</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="active" href="/dsa5-foundryVTT-wiki/en-npc-kreaturen">NPCs and Creatures</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-vertrautentiere">Familiars</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-behaelter-rucksack-oder-tasche">Containers</a>
+          </li>
+          
+        </ul>
+      </section>
+      
+      <section class="sidebar-group">
+        <h3>Game Mechanics</h3>
+        <ul>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-abstandsmessung">Distance Measurement (DPS)</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-tracker-ap-geld">AP and Money Tracker</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-artefakte-und-talismane">Artifacts and Talismans</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-begegnung_und_initiative">Encounters and Initiative</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-bezahlsystem">Payment System</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-bibliothek">Library</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-chatbefehle">Chat Commands</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-eigene_inhalte_erstellen">Create Personal Entries</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-gift-und-krankheitsprobe">Poison and Sickness Checks</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-gruppenproben">Group Checks</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-handel-tausch">Trading</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-haendler">Merchants</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-kalender">Calendar</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-kampf">Combat</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-spezialman%C3%B6ver">Combat Maneuvers</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-meister-menue">GM Menu</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-botch-tabellen">Botch Tables</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-regeneration">Regeneration</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-routineproben">Routine Checks</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-aggregate-proben">Aggregate Tests</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-schadensanwendung">Damage Application</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-schicksal-schips">Fate Points (Schips)</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-sicht_und_licht">Sight and Light</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-spieler-menue">Player Menu</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-systemeinstellungen">System Settings</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-Meister-Menue-Szeneneinstellungen">Scene Settings</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-token-hotbar">Token Hotbar</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-vergleichende-proben">Comparative Checks</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-waffen-und-ruestungsbeschadigung">Weapon and Armor Damage</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-berittener-kampf">Mounted Combat</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-beschwoerung">Summoning</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-gegenstaende-verschleiern">Item Concealment</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-pruegelei">Brawling</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-schwarmregeln">Swarm Rules</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-dies-und-das">Tips and Tricks</a>
+          </li>
+          
+        </ul>
+      </section>
+      
+      <section class="sidebar-group">
+        <h3>Module Mechanics</h3>
+        <ul>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-gestaltwandlung">Shapeshifting</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-licht-und-sicht-makro">Light and Sight Macro</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-meister-menue-sichtautomatisierung">Sight Automation</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-meister-menue-zuchtgrube">Breeding Pit</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-alchimie">Alchemy</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-nahrungssuche">Foraging and Hunting</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-pflanzensuche">Herbalism</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-trefferzonen">Hit and Armor Zones</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-umstaende">Adverse Conditions</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-artefakte-verzaubern">Enchanting</a>
+          </li>
+          
+        </ul>
+      </section>
+      
+      <section class="sidebar-group">
+        <h3>Advanced Mechanisms</h3>
+        <ul>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-auren">Auras</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-fallen">Traps and Region Behaviors</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-Journal-Probe_anfordern">Journal Enrichers</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-journal-seiten">Journal Pages (Dramatis Personae/Calendar)</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-journal-dsa_icons_auge">TDE Icons for Lists</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-effekt_feld">Effects Field</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-on-use-effekte">On-Use Effects</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-status-selbst-erstellte-effekte">Self-Created Effects</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-makro-probe-anfordern">Macros</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-skins">Skins</a>
+          </li>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-waehrungen">Currencies</a>
+          </li>
+          
+        </ul>
+      </section>
+      
+      <section class="sidebar-group">
+        <h3>Recommendations</h3>
+        <ul>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-module">Additional Modules</a>
+          </li>
+          
+        </ul>
+      </section>
+      
+      <section class="sidebar-group">
+        <h3>Additional Pages</h3>
+        <ul>
+          
+          
+          
+          <li>
+            <a class="" href="/dsa5-foundryVTT-wiki/en-zauber-liturgie-effekt-anwenden">en-zauber-liturgie-effekt-anwenden</a>
+          </li>
+          
+        </ul>
+      </section>
+      
+    </aside>
+    <section class="page-content prose">
+      <h1 id="npcs-and-creatures">NPCs and Creatures</h1>
+
+<p><em>Last updated: 01.2025</em></p>
+
+<p>In Foundry VTT, the DSA5 system distinguishes between different types of actors, each with their own character sheets and functions.</p>
+
+<h2 id="actor-types">Actor Types</h2>
+
+<h3 id="1-character-hero">1. Character (Hero)</h3>
+<p>The standard sheet for player characters.</p>
+<ul>
+  <li>Offers full detail depth (attributes, talents, special abilities, equipment, magic/divine works)</li>
+  <li>Designed for long-term development (advancement)</li>
+</ul>
+
+<h3 id="2-non-player-character-npc">2. Non-Player Character (NPC)</h3>
+<p>For important GM characters that are elaborated similarly to heroes.</p>
+<ul>
+  <li>Technically often uses the same base as the character sheet</li>
+  <li>Can offer simplified views depending on configuration</li>
+</ul>
+
+<h3 id="3-creature-monsters--animals">3. Creature (Monsters &amp; Animals)</h3>
+<p>A specialized sheet for opponents and animals.</p>
+<ul>
+  <li><strong>Compact layout</strong>: Focus on combat-relevant values (AT/PA, LP, RS)</li>
+  <li><strong>Simplified skills</strong>: Instead of a long talent list, only relevant values are shown</li>
+  <li><strong>Loot</strong>: A special tab for loot that players can find</li>
+</ul>
+
+<p><img src="images/en-npc-types.webp" alt="Actor Types Comparison" /></p>
+
+<h2 id="creature-types--automation">Creature Types &amp; Automation</h2>
+
+<p>The system offers powerful automation for different creature classes (e.g., Demons, Elementals, Undead).</p>
+
+<h3 id="how-it-works">How It Works</h3>
+
+<p>When you enter the <strong>Type</strong> (e.g., “Demon (Lesser)”) in the creature sheet, the system recognizes this automatically.</p>
+
+<p><img src="images/en-npc-type-config.webp" alt="Creature Type Configuration" /></p>
+
+<h3 id="effects">Effects</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Creature Type</th>
+      <th>Automatic Effects</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Demons</strong></td>
+      <td>Resistance to profane weapons (half damage)</td>
+    </tr>
+    <tr>
+      <td><strong>Undead</strong></td>
+      <td>Immunity to poison, disease</td>
+    </tr>
+    <tr>
+      <td><strong>Elementals</strong></td>
+      <td>Type-specific immunities</td>
+    </tr>
+    <tr>
+      <td><strong>Golems</strong></td>
+      <td>No fatigue, poison immunity</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li><strong>Immunities</strong>: The system automatically sets flags for immunities against poisons, diseases, or certain spell traits</li>
+  <li><strong>Resistances</strong>: Demons automatically receive their resistance against profane weapons (half damage)</li>
+  <li><strong>Weaknesses</strong>: Vulnerabilities (e.g., against consecrated weapons) are considered</li>
+</ul>
+
+<blockquote>
+  <p><strong>Tip</strong>: Pay attention to the correct spelling of the type (or use drag &amp; drop from the compendium) so that automation takes effect.</p>
+</blockquote>
+
+<h2 id="loot">Loot</h2>
+
+<p>Creatures have their own inventory area for loot.</p>
+<ul>
+  <li>You can store items here that the creature carries</li>
+  <li>When the creature is defeated, players (or the GM) can easily loot these items (often via context menu or module support)</li>
+</ul>
+
+<p><img src="images/en-npc-loot.webp" alt="Creature Loot Tab" /></p>
+
+<h2 id="creating-npcs--creatures">Creating NPCs &amp; Creatures</h2>
+
+<h3 id="from-scratch">From Scratch</h3>
+<ol>
+  <li>Click <strong>Create Actor</strong> in the actor directory</li>
+  <li>Select the type (Character, NPC, or Creature)</li>
+  <li>Fill in the required values</li>
+</ol>
+
+<h3 id="from-compendium">From Compendium</h3>
+<ol>
+  <li>Open the <strong>Library</strong></li>
+  <li>Search for the creature</li>
+  <li>Drag it to the actor directory or directly onto the scene</li>
+</ol>
+
+<h3 id="modifying-creatures">Modifying Creatures</h3>
+
+<p>Use the <strong>Breeding Pit</strong> (Zuchtgrube) feature to modify existing creatures:</p>
+<ul>
+  <li>Adjust size (Tiny to Giant)</li>
+  <li>Add special abilities</li>
+  <li>Modify stats</li>
+</ul>
+
+<p>See <a href="/dsa5-foundryVTT-wiki/en-meister-menue-zuchtgrube">Breeding Pit</a> for more details.</p>
+
+<h2 id="tips">Tips</h2>
+
+<ul>
+  <li><strong>Token Settings</strong>: Configure token settings for each actor type (disposition, vision, etc.)</li>
+  <li><strong>Prototype Token</strong>: Set up default token configurations in the actor sheet</li>
+  <li><strong>Creature Sheets</strong>: You can switch between different sheet layouts in settings</li>
+</ul>
+
+<hr />
+
+<p><strong>See also:</strong></p>
+<ul>
+  <li><a href="/dsa5-foundryVTT-wiki/en-charakterbogen">Character Sheet</a></li>
+  <li><a href="/dsa5-foundryVTT-wiki/en-kampf">Combat</a></li>
+  <li><a href="/dsa5-foundryVTT-wiki/en-bibliothek">Library</a></li>
+</ul>
+
+    </section>
+  </main>
+  
+</body>
+</html>

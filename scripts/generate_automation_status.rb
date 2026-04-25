@@ -123,6 +123,14 @@ module AutomationStatusGenerator
     "module-#{row[:module_id].to_s.gsub(/[^a-zA-Z0-9_-]+/, '-').downcase}"
   end
 
+  def module_search_query(row)
+    [row[:module_id], row[:label_de], row[:label_en]].compact.join(" ").downcase
+  end
+
+  def entry_search_query(entry)
+    [entry_name(entry, "nameDe"), entry_name(entry, "nameEn"), entry.fetch("documentGroup", nil)].compact.join(" ").downcase
+  end
+
   def progress_tier(percentage)
     value = percentage.to_f
     return "none" if value <= 0
@@ -159,11 +167,12 @@ module AutomationStatusGenerator
     links = []
     links << %(<a href="#{html_escape(row[:de_link])}">DE</a>) if row[:de_link]
     links << %(<a href="#{html_escape(row[:en_link])}">EN</a>) if row[:en_link]
+    query = html_escape(module_search_query(row))
 
     <<~HTML
-      <li>
-        <a href="##{module_anchor(row)}">#{html_escape(row[:label_de])}</a>
-        <span>#{html_escape(row[:label_en])}</span>
+      <li data-automation-toc-item data-automation-query="#{query}">
+        <a href="##{module_anchor(row)}" data-automation-module-highlight>#{html_escape(row[:label_de])}</a>
+        <span data-automation-module-highlight>#{html_escape(row[:label_en])}</span>
         #{render_progress_bar(row).strip}
         <span>#{links.empty? ? '-' : links.join(' / ')}</span>
       </li>
@@ -177,12 +186,14 @@ module AutomationStatusGenerator
     else
       ""
     end
+    state_value = state || :untracked
+    query = html_escape(entry_search_query(entry))
 
     <<~HTML
-      <tr>
-        <td>#{html_escape(entry_name(entry, "nameDe"))}</td>
-        <td>#{html_escape(entry_name(entry, "nameEn"))}</td>
-        <td>#{html_escape(entry.fetch("documentGroup", "-"))}</td>
+      <tr data-automation-entry data-automation-state="#{state_value}" data-automation-entry-query="#{query}">
+        <td data-automation-entry-highlight>#{html_escape(entry_name(entry, "nameDe"))}</td>
+        <td data-automation-entry-highlight>#{html_escape(entry_name(entry, "nameEn"))}</td>
+        <td data-automation-entry-highlight>#{html_escape(entry.fetch("documentGroup", "-"))}</td>
         <td>#{status_cell}</td>
       </tr>
     HTML
@@ -192,7 +203,7 @@ module AutomationStatusGenerator
     rows = category[:entries].map { |entry| render_entry_row(entry, automation_tracked: category[:automation_tracked]) }.join
 
     <<~HTML
-      <section class="automation-category">
+      <section class="automation-category" data-automation-category>
         <div class="automation-category__header">
           <h4>#{html_escape(category[:label])}</h4>
           <p>#{html_escape(category_coverage_label(category))}</p>
@@ -220,12 +231,14 @@ module AutomationStatusGenerator
     return [] if categories.empty?
 
     links = []
-    links << "[DE](#{row[:de_link]})" if row[:de_link]
-    links << "[EN](#{row[:en_link]})" if row[:en_link]
+    links << %(<a href="#{html_escape(row[:de_link])}">DE</a>) if row[:de_link]
+    links << %(<a href="#{html_escape(row[:en_link])}">EN</a>) if row[:en_link]
+    anchor = module_anchor(row)
 
     lines = []
-    lines << "<details id=\"#{module_anchor(row)}\" class=\"automation-module\">"
-    lines << "<summary><span class=\"automation-module__title\"><strong>#{html_escape(row[:label_de])}</strong> <span>#{html_escape(row[:label_en])}</span></span><span class=\"automation-module__meta\">#{render_progress_bar(row).strip}</span></summary>"
+    lines << "<div id=\"#{anchor}\" class=\"automation-module-anchor\" aria-hidden=\"true\"></div>"
+    lines << "<details class=\"automation-module\" data-automation-module data-automation-anchor-id=\"#{anchor}\" data-automation-query=\"#{html_escape(module_search_query(row))}\">"
+    lines << "<summary><span class=\"automation-module__title\"><strong data-automation-module-highlight>#{html_escape(row[:label_de])}</strong> <span data-automation-module-highlight>#{html_escape(row[:label_en])}</span></span><span class=\"automation-module__meta\">#{render_progress_bar(row).strip}</span></summary>"
     lines << ""
     lines << "<div class=\"automation-module__body\">"
     lines << "<p class=\"automation-module__links\"><strong>Module links:</strong> #{links.empty? ? '-' : links.join(' / ')}</p>"
@@ -272,17 +285,27 @@ module AutomationStatusGenerator
     lines << "---"
     lines << "layout: default"
     lines << "title: Automation Status"
+    lines << "nav_key: automation"
     lines << "---"
     lines << ""
     lines << "# Automation Status"
     lines << ""
     lines << "This page summarizes how much content is automated across official DSA5 Foundry modules. The page is generated from the localized expansion metadata and the Foundry module content exports."
     lines << ""
+    lines << "> Use the module list in the sidebar to jump directly to a module. The sidebar search filters the sidebar, the table of contents, and the module sections together."
+    lines << ""
     lines << "## Meaning of Automated"
     lines << ""
     lines << "Automation coverage indicates how many tracked elements in a module currently have automated support in the exported Foundry content data. Module totals on this page are based only on categories marked as automation-tracked in the Foundry export, not on all module content."
     lines << ""
     lines << "## Table of Contents"
+    lines << ""
+    lines << "<div class=\"automation-search-row automation-search-row--modules\">"
+    lines << "  <label class=\"automation-search-label\" for=\"automation-module-search\">Find module in table of contents</label>"
+    lines << "  <input id=\"automation-module-search\" class=\"automation-search-input\" type=\"search\" placeholder=\"Search DE, EN, or module id\" autocomplete=\"off\" data-automation-module-search>"
+    lines << "</div>"
+    lines << ""
+    lines << "<p class=\"automation-empty-state\" hidden data-automation-module-empty>No modules match this filter.</p>"
     lines << ""
     lines << "<ol class=\"automation-toc\">"
     rows.each do |row|
@@ -294,6 +317,13 @@ module AutomationStatusGenerator
     lines << "## Per-Module Details"
     lines << ""
     lines << "The sections below list every exported element for every module. Automation badges are shown only for categories that the Foundry export marks as automation-tracked."
+    lines << ""
+    lines << "<div class=\"automation-search-row automation-search-row--entries\">"
+    lines << "  <label class=\"automation-search-label\" for=\"automation-entry-search\">Find automated elements in details</label>"
+    lines << "  <input id=\"automation-entry-search\" class=\"automation-search-input\" type=\"search\" placeholder=\"Search automated entries by DE, EN, or document\" autocomplete=\"off\" data-automation-entry-search>"
+    lines << "</div>"
+    lines << ""
+    lines << "<p class=\"automation-empty-state\" hidden data-automation-entry-empty>No automated elements match this search.</p>"
     lines << ""
 
     rows.each do |row|

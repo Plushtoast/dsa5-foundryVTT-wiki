@@ -52,13 +52,13 @@ def write_layouts
           <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
           <nav class="site-nav">
             <a href="{{ '/Home' | relative_url }}">English</a>
-            <a href="{{ '/de/de-home' | relative_url }}">Deutsch</a>
+            <a href="{{ '/de/de-Home' | relative_url }}">Deutsch</a>
             <a href="{{ '/automation-status' | relative_url }}">Automation</a>
           </nav>
         </div>
       </header>
-      {% assign nav_key = 'en' %}
-      {% if page.url contains '/de/' %}
+      {% assign nav_key = page.nav_key | default: 'en' %}
+      {% if page.nav_key == nil and page.url contains '/de/' %}
         {% assign nav_key = 'de' %}
       {% endif %}
       {% assign page_url = page.url | replace: '/index.html', '/' %}
@@ -70,6 +70,12 @@ def write_layouts
       <main class="shell content-shell with-sidebar">
         <aside class="sidebar" aria-label="Section navigation">
           {% assign nav_groups = site.data.navigation[nav_key] %}
+          {% if nav_key == 'automation' %}
+          <div class="sidebar-search-wrap">
+            <label class="sidebar-search-label" for="automation-nav-search">Filter Module Navigation</label>
+            <input id="automation-nav-search" class="sidebar-search-input" type="search" placeholder="Search DE, EN, or module id" autocomplete="off" data-automation-module-search data-automation-sidebar-search>
+          </div>
+          {% endif %}
           {% for group in nav_groups %}
           <section class="sidebar-group">
             {% if group.title != '' %}<h3>{{ group.title }}</h3>{% endif %}
@@ -77,7 +83,7 @@ def write_layouts
               {% for item in group.items %}
               {% assign item_url = item.url %}
               {% assign item_url_slash = item.url | append: '/' %}
-              <li>
+              <li{% if nav_key == 'automation' %} data-automation-nav-item{% endif %}>
                 <a class="{% if page_url == item_url or page_url == item_url_slash %}active{% endif %}" href="{{ item.url | relative_url }}">{{ item.label }}</a>
               </li>
               {% endfor %}
@@ -89,6 +95,176 @@ def write_layouts
           {{ content }}
         </section>
       </main>
+      {% if nav_key == 'automation' %}
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const moduleInputs = Array.from(document.querySelectorAll('[data-automation-module-search]'));
+          const entryInput = document.querySelector('[data-automation-entry-search]');
+          const modules = Array.from(document.querySelectorAll('[data-automation-module]'));
+          const tocItems = Array.from(document.querySelectorAll('[data-automation-toc-item]'));
+          const navItems = Array.from(document.querySelectorAll('[data-automation-nav-item]'));
+          const navGroups = Array.from(document.querySelectorAll('.sidebar-group'));
+          const categories = Array.from(document.querySelectorAll('[data-automation-category]'));
+          const entries = Array.from(document.querySelectorAll('[data-automation-entry]'));
+          const moduleEmptyState = document.querySelector('[data-automation-module-empty]');
+          const entryEmptyState = document.querySelector('[data-automation-entry-empty]');
+          const moduleHighlightTargets = Array.from(document.querySelectorAll('[data-automation-module-highlight], [data-automation-nav-item] a'));
+          const entryHighlightTargets = Array.from(document.querySelectorAll('[data-automation-entry-highlight]'));
+
+          if (moduleInputs.length === 0 && !entryInput) return;
+
+          const escapeHtml = function (value) {
+            return value
+              .replace(/&/g, '&amp;')
+              .replace(/</g, '&lt;')
+              .replace(/>/g, '&gt;')
+              .replace(/"/g, '&quot;')
+              .replace(/'/g, '&#39;');
+          };
+
+          const escapeRegExp = function (value) {
+            return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+          };
+
+          const applyHighlights = function (elements, query) {
+            const trimmed = query.trim();
+            const matcher = trimmed === '' ? null : new RegExp('(' + escapeRegExp(trimmed) + ')', 'ig');
+
+            elements.forEach(function (element) {
+              if (!element.dataset.automationOriginalText) {
+                element.dataset.automationOriginalText = element.textContent;
+              }
+
+              const original = element.dataset.automationOriginalText;
+
+              if (!matcher) {
+                element.innerHTML = escapeHtml(original);
+                return;
+              }
+
+              element.innerHTML = escapeHtml(original).replace(matcher, '<mark class="automation-highlight">$1</mark>');
+            });
+          };
+
+          const syncModuleInputs = function (source) {
+            moduleInputs.forEach(function (input) {
+              if (input !== source) input.value = source.value;
+            });
+          };
+
+          const revealHashTarget = function () {
+            const hash = window.location.hash;
+            if (!hash) return;
+
+            const anchor = document.querySelector(hash + '.automation-module-anchor');
+            if (!anchor) return;
+
+            const details = anchor.nextElementSibling;
+            if (details && details.matches('[data-automation-module]')) {
+              details.open = true;
+            }
+          };
+
+          const applyModuleFilter = function () {
+            const query = (moduleInputs[0] ? moduleInputs[0].value : '').trim().toLowerCase();
+            let visibleModules = 0;
+
+            modules.forEach(function (element) {
+              const haystack = element.dataset.automationQuery || '';
+              element.hidden = query !== '' && !haystack.includes(query);
+              if (!element.hidden) visibleModules += 1;
+            });
+
+            tocItems.forEach(function (element) {
+              const haystack = element.dataset.automationQuery || '';
+              element.hidden = query !== '' && !haystack.includes(query);
+            });
+
+            navItems.forEach(function (element) {
+              const haystack = (element.textContent || '').trim().toLowerCase();
+              element.hidden = query !== '' && !haystack.includes(query);
+            });
+
+            navGroups.forEach(function (group) {
+              const hasVisibleItems = Array.from(group.querySelectorAll('li')).some(function (item) {
+                return !item.hidden;
+              });
+              group.hidden = !hasVisibleItems;
+            });
+
+            if (moduleEmptyState) {
+              moduleEmptyState.hidden = !(query !== '' && visibleModules === 0);
+            }
+
+            applyHighlights(moduleHighlightTargets, query);
+
+            revealHashTarget();
+          };
+
+          const applyEntryFilter = function () {
+            const query = entryInput ? entryInput.value.trim().toLowerCase() : '';
+            let visibleEntries = 0;
+
+            if (!entryInput) return;
+
+            categories.forEach(function (category) {
+              const categoryEntries = Array.from(category.querySelectorAll('[data-automation-entry]'));
+              let hasVisibleEntries = false;
+
+              categoryEntries.forEach(function (entry) {
+                const isAutomated = entry.dataset.automationState === 'automated';
+                const haystack = entry.dataset.automationEntryQuery || '';
+                const matches = query === '' ? true : (isAutomated && haystack.includes(query));
+                entry.hidden = !matches;
+                if (!entry.hidden) {
+                  hasVisibleEntries = true;
+                  visibleEntries += 1;
+                }
+              });
+
+              category.hidden = !hasVisibleEntries;
+            });
+
+            modules.forEach(function (moduleElement) {
+              const visibleCategories = Array.from(moduleElement.querySelectorAll('[data-automation-category]')).some(function (category) {
+                return !category.hidden;
+              });
+
+              if (query !== '') {
+                moduleElement.hidden = moduleElement.hidden || !visibleCategories;
+                if (visibleCategories) moduleElement.open = true;
+              }
+            });
+
+            if (entryEmptyState) {
+              entryEmptyState.hidden = !(query !== '' && visibleEntries === 0);
+            }
+
+            applyHighlights(entryHighlightTargets, query);
+          };
+
+          moduleInputs.forEach(function (input) {
+            input.addEventListener('input', function () {
+              syncModuleInputs(input);
+              applyModuleFilter();
+              applyEntryFilter();
+            });
+          });
+
+          if (entryInput) {
+            entryInput.addEventListener('input', function () {
+              applyModuleFilter();
+              applyEntryFilter();
+            });
+          }
+
+          revealHashTarget();
+          window.addEventListener('hashchange', revealHashTarget);
+          applyModuleFilter();
+          applyEntryFilter();
+        });
+      </script>
+      {% endif %}
       {% endif %}
     </body>
     </html>
@@ -254,6 +430,40 @@ def write_extra_css
     .sidebar-group a.active {
       background: rgba(184, 146, 74, 0.12);
       color: var(--dsa-accent);
+    }
+
+    .sidebar-search-wrap {
+      display: grid;
+      gap: 0.45rem;
+      margin-bottom: 1rem;
+    }
+
+    .sidebar-search-label {
+      color: var(--dsa-muted);
+      font-size: 0.82rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .sidebar-search-input {
+      width: 100%;
+      padding: 0.7rem 0.8rem;
+      border: 1px solid rgba(184, 146, 74, 0.18);
+      border-radius: 0.75rem;
+      background: rgba(12, 11, 10, 0.7);
+      color: var(--dsa-text);
+      font: inherit;
+    }
+
+    .sidebar-search-input::placeholder {
+      color: rgba(184, 171, 149, 0.75);
+    }
+
+    .sidebar-search-input:focus,
+    .automation-search-input:focus {
+      outline: none;
+      border-color: rgba(184, 146, 74, 0.46);
+      box-shadow: 0 0 0 3px rgba(184, 146, 74, 0.12);
     }
 
     .page-content {
@@ -508,6 +718,59 @@ def write_extra_css
       gap: 0.55rem;
     }
 
+    .automation-search-row {
+      display: grid;
+      gap: 0.55rem;
+      margin: 1rem 0 1.2rem;
+      padding: 0.95rem 1rem;
+      border: 1px solid rgba(184, 146, 74, 0.16);
+      border-radius: 0.95rem;
+      background:
+        linear-gradient(180deg, rgba(47, 36, 28, 0.82), rgba(23, 19, 16, 0.88)),
+        radial-gradient(circle at top right, rgba(184, 146, 74, 0.14), transparent 42%);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03);
+    }
+
+    .automation-search-label {
+      color: #f1e7d2;
+      font-size: 0.84rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .automation-search-input {
+      width: 100%;
+      padding: 0.8rem 0.9rem;
+      border: 1px solid rgba(184, 146, 74, 0.2);
+      border-radius: 0.8rem;
+      background: rgba(14, 12, 10, 0.78);
+      color: var(--dsa-text);
+      font: inherit;
+    }
+
+    .automation-search-input::placeholder {
+      color: rgba(184, 171, 149, 0.7);
+    }
+
+    .automation-empty-state {
+      margin: 0 0 1rem;
+      padding: 0.85rem 1rem;
+      border: 1px solid rgba(184, 146, 74, 0.18);
+      border-radius: 0.85rem;
+      background: rgba(108, 47, 42, 0.14);
+      color: #f1dcc4;
+      font-style: italic;
+    }
+
+    .automation-highlight {
+      padding: 0.06rem 0.2rem;
+      border-radius: 0.3rem;
+      background: rgba(184, 146, 74, 0.3);
+      color: #fff0d0;
+      box-shadow: 0 0 0 1px rgba(184, 146, 74, 0.2);
+    }
+
     .automation-toc li {
       display: grid;
       gap: 0.35rem;
@@ -581,6 +844,14 @@ def write_extra_css
       background: linear-gradient(180deg, rgba(34, 29, 25, 0.92), rgba(19, 17, 15, 0.94));
       overflow: hidden;
       box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03);
+    }
+
+    .automation-module-anchor {
+      display: block;
+      height: 0;
+      margin: 0;
+      scroll-margin-top: 5.75rem;
+      visibility: hidden;
     }
 
     .automation-module + .automation-module {
@@ -785,7 +1056,7 @@ def write_index_page
     <p class="hero-copy">This site documents features, workflows, automation coverage, and module usage for the Foundry VTT implementation of DSA5 / The Dark Eye 5. It complements the GitHub wiki with clearer navigation, a calmer reading layout, and a dedicated automation overview.</p>
     <div class="hero-actions">
     <a href="{{ '/Home' | relative_url }}">English documentation</a>
-    <a href="{{ '/de/de-home' | relative_url }}">Deutsche Dokumentation</a>
+    <a href="{{ '/de/de-Home' | relative_url }}">Deutsche Dokumentation</a>
     <a href="{{ '/automation-status' | relative_url }}">Automation status</a>
     </div>
     <div class="hero-meta">
@@ -804,7 +1075,7 @@ def write_index_page
     <div class="card">
     <h3>Deutsch</h3>
     <p>Nutze die deutsche Dokumentation mit derselben Seitenstruktur wie im Wiki.</p>
-    <p><a class="link-card" href="{{ '/de/de-home' | relative_url }}">Deutsches Wiki oeffnen</a></p>
+    <p><a class="link-card" href="{{ '/de/de-Home' | relative_url }}">Deutsches Wiki oeffnen</a></p>
     </div>
     <div class="card">
     <h3>Automation</h3>
@@ -989,13 +1260,28 @@ def additional_navigation_items(language_key, groups, lookup)
   groups + [{ "title" => title, "items" => extras }]
 end
 
+def automation_navigation_items
+  rows = AutomationStatusGenerator.build_rows
+
+  [{
+    "title" => "Modules",
+    "items" => rows.map do |row|
+      {
+        "label" => "#{row[:label_de]} / #{row[:label_en]}",
+        "url" => "/automation-status##{AutomationStatusGenerator.module_anchor(row)}"
+      }
+    end
+  }]
+end
+
 def write_navigation_data(lookup)
   en_groups = parse_sidebar(EN_SIDEBAR, DOCS_DIR.join("Home.md"), lookup)
-  de_groups = parse_sidebar(DE_SIDEBAR, DOCS_DIR.join("de", "de-home.md"), lookup)
+  de_groups = parse_sidebar(DE_SIDEBAR, DOCS_DIR.join("de", "de-Home.md"), lookup)
 
   navigation = {
     "en" => additional_navigation_items("en", en_groups, lookup),
-    "de" => additional_navigation_items("de", de_groups, lookup)
+    "de" => additional_navigation_items("de", de_groups, lookup),
+    "automation" => automation_navigation_items
   }
 
   DOCS_DIR.join("_data", "navigation.json").write(JSON.pretty_generate(navigation))

@@ -92,6 +92,7 @@ require_command git
 require_command ruby
 require_command rsync
 require_command bundle
+require_command mktemp
 
 cd "$ROOT_DIR"
 
@@ -152,36 +153,36 @@ if [[ "$PUSH_WIKI" -eq 1 ]]; then
 fi
 
 if [[ "$DEPLOY_PAGES" -eq 1 ]]; then
-  if [[ -d "$PAGES_EXPORT_DIR/.git" ]]; then
-    git -C "$PAGES_EXPORT_DIR" remote set-url origin "$(git remote get-url "$PAGES_REMOTE")"
-    if git ls-remote --exit-code --heads "$(git remote get-url "$PAGES_REMOTE")" "$PAGES_BRANCH" >/dev/null 2>&1; then
-      git -C "$PAGES_EXPORT_DIR" fetch origin "$PAGES_BRANCH"
-      git -C "$PAGES_EXPORT_DIR" checkout -B "$PAGES_BRANCH" "origin/$PAGES_BRANCH"
-    else
-      if git -C "$PAGES_EXPORT_DIR" show-ref --verify --quiet "refs/heads/$PAGES_BRANCH"; then
-        git -C "$PAGES_EXPORT_DIR" checkout "$PAGES_BRANCH"
-      else
-        git -C "$PAGES_EXPORT_DIR" checkout --orphan "$PAGES_BRANCH"
-      fi
-    fi
-  elif git ls-remote --exit-code --heads "$(git remote get-url "$PAGES_REMOTE")" "$PAGES_BRANCH" >/dev/null 2>&1; then
-    git clone --branch "$PAGES_BRANCH" "$(git remote get-url "$PAGES_REMOTE")" "$PAGES_EXPORT_DIR"
+  pages_export_dir="$PAGES_EXPORT_DIR"
+  if [[ ! -d "$PAGES_EXPORT_DIR/.git" ]] || [[ "$(git -C "$PAGES_EXPORT_DIR" rev-parse --show-toplevel 2>/dev/null || true)" != "$PAGES_EXPORT_DIR" ]]; then
+    pages_export_dir="$(mktemp -d "${TMPDIR:-/tmp}/dsa5-pages-XXXXXX")"
   else
-    mkdir -p "$PAGES_EXPORT_DIR"
-    git -C "$PAGES_EXPORT_DIR" init
-    git -C "$PAGES_EXPORT_DIR" remote add origin "$(git remote get-url "$PAGES_REMOTE")"
-    git -C "$PAGES_EXPORT_DIR" checkout --orphan "$PAGES_BRANCH"
+    rm -rf "$PAGES_EXPORT_DIR"/*
   fi
 
-  chmod -R u+w "$PAGES_EXPORT_DIR" 2>/dev/null || true
-  rsync -a --delete --exclude='.git/' "$ROOT_DIR/_site/" "$PAGES_EXPORT_DIR/"
-  git -C "$PAGES_EXPORT_DIR" add -A
-  if [[ -n "$(git -C "$PAGES_EXPORT_DIR" status --short)" ]]; then
-    git -C "$PAGES_EXPORT_DIR" commit -m "$PAGES_COMMIT_MESSAGE"
-    git -C "$PAGES_EXPORT_DIR" push origin HEAD:"$PAGES_BRANCH"
+  if git ls-remote --exit-code --heads "$(git remote get-url "$PAGES_REMOTE")" "$PAGES_BRANCH" >/dev/null 2>&1; then
+    git clone --branch "$PAGES_BRANCH" "$(git remote get-url "$PAGES_REMOTE")" "$pages_export_dir"
+  else
+    mkdir -p "$pages_export_dir"
+    git -C "$pages_export_dir" init
+    git -C "$pages_export_dir" remote add origin "$(git remote get-url "$PAGES_REMOTE")"
+    git -C "$pages_export_dir" checkout --orphan "$PAGES_BRANCH"
+  fi
+
+  chmod -R u+w "$pages_export_dir" 2>/dev/null || true
+  find "$pages_export_dir" -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+  rsync -a --delete --exclude='.git/' "$ROOT_DIR/_site/" "$pages_export_dir/"
+  git -C "$pages_export_dir" add -A
+  if [[ -n "$(git -C "$pages_export_dir" status --short)" ]]; then
+    git -C "$pages_export_dir" commit -m "$PAGES_COMMIT_MESSAGE"
+    git -C "$pages_export_dir" push origin HEAD:"$PAGES_BRANCH"
     echo "Deployed Pages site to $PAGES_REMOTE/$PAGES_BRANCH"
   else
     echo "No Pages changes to push."
+  fi
+
+  if [[ "$pages_export_dir" != "$PAGES_EXPORT_DIR" ]]; then
+    rm -rf "$pages_export_dir"
   fi
 fi
 

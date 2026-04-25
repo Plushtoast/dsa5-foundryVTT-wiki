@@ -1,0 +1,9 @@
+title: DSA5 Foundry Wiki
+url: https://plushtoast.github.io
+baseurl: /dsa5-foundryVTT-wiki
+source: docs
+destination: _site
+permalink: pretty
+markdown: kramdown
+kramdown:
+  input: GFM

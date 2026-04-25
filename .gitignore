@@ -1,3 +1,11 @@
 sync.sh
 notes
 instructions
+vendor
+.bundle
+.bundle/
+.ruby-lsp/
+.pages-publish/
+.wiki-publish/
+_site/
+docs/

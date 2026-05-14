@@ -8,13 +8,17 @@ PAGES_EXPORT_DIR="$ROOT_DIR/.pages-publish"
 WIKI_REMOTE="${WIKI_REMOTE:-new-origin}"
 PAGES_REMOTE="${PAGES_REMOTE:-origin}"
 PAGES_BRANCH="${PAGES_BRANCH:-gh-pages}"
-WIKI_COMMIT_MESSAGE="${WIKI_COMMIT_MESSAGE:-Publish wiki from source repo}"
+NEW_WIKI_EN_URL="${NEW_WIKI_EN_URL:-https://plushtoast.github.io/dsa5-foundryVTT-wiki/Home}"
+NEW_WIKI_DE_URL="${NEW_WIKI_DE_URL:-https://plushtoast.github.io/dsa5-foundryVTT-wiki/de/de-Home}"
+NEW_WIKI_AUTOMATION_URL="${NEW_WIKI_AUTOMATION_URL:-https://plushtoast.github.io/dsa5-foundryVTT-wiki/automation-status}"
+WIKI_COMMIT_MESSAGE="${WIKI_COMMIT_MESSAGE:-Point historical wiki to new documentation}"
 PAGES_COMMIT_MESSAGE="${PAGES_COMMIT_MESSAGE:-Publish Pages site from source repo}"
 DEPLOY_PAGES=0
 PUSH_WIKI=0
 CHECK_PUBLIC_URL=0
 
 prepare_wiki_export=0
+wiki_export_dir="$WIKI_EXPORT_DIR"
 
 usage() {
   cat <<'EOF'
@@ -22,21 +26,24 @@ Usage: bash scripts/publish.sh [options]
 
 Options:
   --deploy-pages         Build and deploy the Jekyll site to gh-pages.
-  --push-wiki            Commit and push the filtered wiki export to the wiki remote.
+  --push-wiki            Commit and push the historical wiki pointer page to the wiki remote.
   --check-public-url     After validation or deploy, confirm the public Pages URL responds.
   --wiki-message TEXT    Commit message to use for wiki export push.
   --help                 Show this help text.
 
 Environment overrides:
-  WIKI_REMOTE            Wiki remote name. Default: new-origin
+  WIKI_REMOTE            Historical wiki remote name. Default: new-origin
   PAGES_REMOTE           Pages remote name. Default: origin
   PAGES_BRANCH           Pages branch name. Default: gh-pages
+  NEW_WIKI_EN_URL        English documentation URL for the historical wiki pointer.
+  NEW_WIKI_DE_URL        German documentation URL for the historical wiki pointer.
+  NEW_WIKI_AUTOMATION_URL Automation status URL for the historical wiki pointer.
   WIKI_COMMIT_MESSAGE    Default wiki commit message.
   PAGES_COMMIT_MESSAGE   Default Pages commit message.
 
 Default behavior without flags:
   - Generate docs/
-  - Build the filtered wiki export in .wiki-publish/
+  - Build the historical wiki pointer export in .wiki-publish/
   - Do not push or deploy anything
 EOF
 }
@@ -107,48 +114,53 @@ if [[ "$PUSH_WIKI" -eq 1 || "$DEPLOY_PAGES" -eq 0 ]]; then
 fi
 
 if [[ "$prepare_wiki_export" -eq 1 ]]; then
-  rm -rf "$WIKI_EXPORT_DIR"
-  git clone "$(git remote get-url "$WIKI_REMOTE")" "$WIKI_EXPORT_DIR"
-
-  find "$WIKI_EXPORT_DIR" -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
-
-  rsync -a \
-    --exclude='.git/' \
-    --exclude='de/images/' \
-    --exclude='images/' \
-    --exclude='instructions/' \
-    --exclude='notes' \
-    --exclude='scripts/' \
-    --exclude='docs/' \
-    --exclude='_site/' \
-    --exclude='.pages-publish/' \
-    --exclude='.wiki-publish/' \
-    --exclude='.bundle/' \
-    --exclude='.ruby-lsp/' \
-    --exclude='vendor/' \
-    --exclude='Gemfile' \
-    --exclude='Gemfile.lock' \
-    --exclude='_config.yml' \
-    "$ROOT_DIR/" "$WIKI_EXPORT_DIR/"
-
-  if [[ -d "$ROOT_DIR/images" ]]; then
-    rsync -a "$ROOT_DIR/images/" "$WIKI_EXPORT_DIR/images/"
+  if [[ "$PUSH_WIKI" -eq 1 ]]; then
+    wiki_export_dir="$(mktemp -d "${TMPDIR:-/tmp}/dsa5-wiki-XXXXXX")"
+  else
+    rm -rf "$WIKI_EXPORT_DIR"
   fi
 
-  if [[ -d "$ROOT_DIR/de/images" ]]; then
-    mkdir -p "$WIKI_EXPORT_DIR/de/images"
-    rsync -a "$ROOT_DIR/de/images/" "$WIKI_EXPORT_DIR/de/images/"
-  fi
+  git clone "$(git remote get-url "$WIKI_REMOTE")" "$wiki_export_dir"
+
+  find "$wiki_export_dir" -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+
+  cat > "$wiki_export_dir/Home.md" <<EOF
+# DSA5 Foundry Wiki has moved
+
+This historical GitHub wiki is no longer maintained. Please use the new documentation site:
+
+- [English documentation]($NEW_WIKI_EN_URL)
+- [Deutsche Dokumentation]($NEW_WIKI_DE_URL)
+- [Automation status]($NEW_WIKI_AUTOMATION_URL)
+
+## Deutsch
+
+Dieses historische GitHub-Wiki wird nicht mehr gepflegt. Bitte nutze die neue Dokumentationsseite:
+
+- [Englische Dokumentation]($NEW_WIKI_EN_URL)
+- [Deutsche Dokumentation]($NEW_WIKI_DE_URL)
+- [Automatisierungsstatus]($NEW_WIKI_AUTOMATION_URL)
+EOF
+
+  cat > "$wiki_export_dir/_Sidebar.md" <<EOF
+- [English documentation]($NEW_WIKI_EN_URL)
+- [Deutsche Dokumentation]($NEW_WIKI_DE_URL)
+- [Automation status]($NEW_WIKI_AUTOMATION_URL)
+EOF
 fi
 
 if [[ "$PUSH_WIKI" -eq 1 ]]; then
-  git -C "$WIKI_EXPORT_DIR" add -A
-  if [[ -n "$(git -C "$WIKI_EXPORT_DIR" status --short)" ]]; then
-    git -C "$WIKI_EXPORT_DIR" commit -m "$WIKI_COMMIT_MESSAGE"
-    git -C "$WIKI_EXPORT_DIR" push origin HEAD
-    echo "Pushed filtered wiki export to $WIKI_REMOTE"
+  git -C "$wiki_export_dir" add -A
+  if [[ -n "$(git -C "$wiki_export_dir" status --short)" ]]; then
+    git -C "$wiki_export_dir" commit -m "$WIKI_COMMIT_MESSAGE"
+    git -C "$wiki_export_dir" push origin HEAD
+    echo "Pushed historical wiki pointer page to $WIKI_REMOTE"
   else
     echo "No wiki changes to push."
+  fi
+
+  if [[ "$wiki_export_dir" != "$WIKI_EXPORT_DIR" ]]; then
+    rm -rf "$wiki_export_dir"
   fi
 fi
 
@@ -191,7 +203,11 @@ if [[ "$CHECK_PUBLIC_URL" -eq 1 ]]; then
 fi
 
 if [[ "$prepare_wiki_export" -eq 1 ]]; then
-  echo "Prepared docs/ and filtered wiki export in $WIKI_EXPORT_DIR"
+  if [[ "$wiki_export_dir" == "$WIKI_EXPORT_DIR" ]]; then
+    echo "Prepared docs/ and historical wiki pointer export in $WIKI_EXPORT_DIR"
+  else
+    echo "Prepared docs/ and pushed historical wiki pointer export."
+  fi
 else
   echo "Prepared docs/ and Pages site build artifacts."
 fi
@@ -199,7 +215,7 @@ fi
 if [[ "$PUSH_WIKI" -eq 0 || "$DEPLOY_PAGES" -eq 0 ]]; then
   echo "Remaining manual actions:"
   if [[ "$PUSH_WIKI" -eq 0 ]]; then
-    echo "  - Review and optionally push the wiki export with: bash scripts/publish.sh --push-wiki"
+    echo "  - Review and optionally push the historical wiki pointer with: bash scripts/publish.sh --push-wiki"
   fi
   if [[ "$DEPLOY_PAGES" -eq 0 ]]; then
     echo "  - Deploy Pages with: bash scripts/publish.sh --deploy-pages"

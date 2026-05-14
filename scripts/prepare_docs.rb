@@ -98,6 +98,7 @@ def write_layouts
       {% if nav_key == 'automation' %}
       <script>
         document.addEventListener('DOMContentLoaded', function () {
+          const sidebar = document.querySelector('.sidebar');
           const moduleInputs = Array.from(document.querySelectorAll('[data-automation-module-search]'));
           const entryInput = document.querySelector('[data-automation-entry-search]');
           const modules = Array.from(document.querySelectorAll('[data-automation-module]'));
@@ -110,8 +111,21 @@ def write_layouts
           const entryEmptyState = document.querySelector('[data-automation-entry-empty]');
           const moduleHighlightTargets = Array.from(document.querySelectorAll('[data-automation-module-highlight], [data-automation-nav-item] a'));
           const entryHighlightTargets = Array.from(document.querySelectorAll('[data-automation-entry-highlight]'));
+          let pendingSidebarScrollTop = null;
 
           if (moduleInputs.length === 0 && !entryInput) return;
+
+          const restoreSidebarScroll = function () {
+            if (!sidebar || pendingSidebarScrollTop === null) return;
+
+            const targetScrollTop = pendingSidebarScrollTop;
+            requestAnimationFrame(function () {
+              sidebar.scrollTop = targetScrollTop;
+              requestAnimationFrame(function () {
+                sidebar.scrollTop = targetScrollTop;
+              });
+            });
+          };
 
           const escapeHtml = function (value) {
             return value
@@ -163,7 +177,19 @@ def write_layouts
             if (details && details.matches('[data-automation-module]')) {
               details.open = true;
             }
+
+            restoreSidebarScroll();
           };
+
+          navItems.forEach(function (item) {
+            const link = item.querySelector('a');
+            if (!link) return;
+
+            link.addEventListener('click', function () {
+              if (!sidebar) return;
+              pendingSidebarScrollTop = sidebar.scrollTop;
+            });
+          });
 
           const applyModuleFilter = function () {
             const query = (moduleInputs[0] ? moduleInputs[0].value : '').trim().toLowerCase();

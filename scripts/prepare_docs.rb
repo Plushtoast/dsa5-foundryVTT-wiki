@@ -47,6 +47,11 @@ def write_layouts
       <link rel="stylesheet" href="{{ '/assets/stylesheets/extra.css' | relative_url }}">
     </head>
     <body class="{% if page.url == '/' %}home-page{% else %}docs-page{% endif %} page-{{ page.title | default: 'document' | slugify }}">
+      {% assign nav_key = page.nav_key | default: 'en' %}
+      {% if page.nav_key == nil and page.url contains '/de/' %}
+        {% assign nav_key = 'de' %}
+      {% endif %}
+      {% assign page_url = page.url | replace: '/index.html', '/' %}
       <header class="site-header">
         <div class="shell header-inner">
           <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
@@ -56,34 +61,90 @@ def write_layouts
             <a href="{{ '/automation-status' | relative_url }}">Automation</a>
           </nav>
         </div>
+        {% if page.url != '/' %}
+        {% if nav_key == 'de' %}
+          {% assign sidebar_toggle_label = 'Abschnittsnavigation' %}
+          {% assign sidebar_search_label = 'Navigation filtern' %}
+          {% assign sidebar_search_placeholder = 'Kategorie oder Seite suchen' %}
+          {% assign sidebar_search_empty = 'Keine passenden Kategorien oder Seiten.' %}
+        {% elsif nav_key == 'automation' %}
+          {% assign sidebar_toggle_label = 'Module navigation' %}
+          {% assign sidebar_search_label = 'Filter module navigation' %}
+          {% assign sidebar_search_placeholder = 'Search DE, EN, or module id' %}
+          {% assign sidebar_search_empty = 'No matching modules.' %}
+        {% else %}
+          {% assign sidebar_toggle_label = 'Section navigation' %}
+          {% assign sidebar_search_label = 'Filter navigation' %}
+          {% assign sidebar_search_placeholder = 'Search category or page' %}
+          {% assign sidebar_search_empty = 'No matching categories or pages.' %}
+        {% endif %}
+        <div class="sidebar-mobile-bar shell">
+          <button type="button" class="sidebar-toggle" aria-expanded="false" aria-controls="sidebar-nav" data-sidebar-toggle>
+            <span class="sidebar-toggle-icon" aria-hidden="true"><span></span></span>
+            <span class="sidebar-toggle-label">{{ sidebar_toggle_label }}</span>
+          </button>
+        </div>
+        {% endif %}
       </header>
-      {% assign nav_key = page.nav_key | default: 'en' %}
-      {% if page.nav_key == nil and page.url contains '/de/' %}
-        {% assign nav_key = 'de' %}
-      {% endif %}
-      {% assign page_url = page.url | replace: '/index.html', '/' %}
       {% if page.url == '/' %}
-      <main class="shell content-shell">
+      <main class="shell content-shell home-content">
         {{ content }}
       </main>
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const revealElements = Array.from(document.querySelectorAll('.home-reveal'));
+          if (revealElements.length === 0) return;
+
+          const revealNow = function (element) {
+            element.classList.add('is-visible');
+          };
+
+          revealElements.filter(function (element) {
+            return element.classList.contains('home-reveal--immediate');
+          }).forEach(function (element) {
+            requestAnimationFrame(function () {
+              requestAnimationFrame(function () {
+                revealNow(element);
+              });
+            });
+          });
+
+          if (!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+            revealElements.forEach(revealNow);
+            return;
+          }
+
+          const observer = new IntersectionObserver(function (entries) {
+            entries.forEach(function (entry) {
+              if (!entry.isIntersecting) return;
+              revealNow(entry.target);
+              observer.unobserve(entry.target);
+            });
+          }, { threshold: 0.15, rootMargin: '0px 0px -5% 0px' });
+
+          revealElements.forEach(function (element) {
+            if (!element.classList.contains('is-visible')) observer.observe(element);
+          });
+        });
+      </script>
       {% else %}
+      <div class="sidebar-backdrop" data-sidebar-backdrop hidden></div>
       <main class="shell content-shell with-sidebar">
-        <aside class="sidebar" aria-label="Section navigation">
+        <aside id="sidebar-nav" class="sidebar" aria-label="{{ sidebar_toggle_label }}">
           {% assign nav_groups = site.data.navigation[nav_key] %}
-          {% if nav_key == 'automation' %}
           <div class="sidebar-search-wrap">
-            <label class="sidebar-search-label" for="automation-nav-search">Filter Module Navigation</label>
-            <input id="automation-nav-search" class="sidebar-search-input" type="search" placeholder="Search DE, EN, or module id" autocomplete="off" data-automation-module-search data-automation-sidebar-search>
+            <label class="sidebar-search-label" for="sidebar-nav-search">{{ sidebar_search_label }}</label>
+            <input id="sidebar-nav-search" class="sidebar-search-input" type="search" placeholder="{{ sidebar_search_placeholder }}" autocomplete="off" data-sidebar-nav-search{% if nav_key == 'automation' %} data-automation-module-search data-automation-sidebar-search{% endif %}>
           </div>
-          {% endif %}
+          <p class="sidebar-search-empty" data-sidebar-nav-empty hidden>{{ sidebar_search_empty }}</p>
           {% for group in nav_groups %}
-          <section class="sidebar-group">
+          <section class="sidebar-group" data-sidebar-nav-group data-sidebar-nav-query="{{ group.title | downcase | strip }}">
             {% if group.title != '' %}<h3>{{ group.title }}</h3>{% endif %}
             <ul>
               {% for item in group.items %}
               {% assign item_url = item.url %}
               {% assign item_url_slash = item.url | append: '/' %}
-              <li{% if nav_key == 'automation' %} data-automation-nav-item{% endif %}>
+              <li data-sidebar-nav-item data-sidebar-nav-query="{{ item.label | downcase | strip }}"{% if nav_key == 'automation' %} data-automation-nav-item{% endif %}>
                 <a class="{% if page_url == item_url or page_url == item_url_slash %}active{% endif %}" href="{{ item.url | relative_url }}">{{ item.label }}</a>
               </li>
               {% endfor %}
@@ -95,12 +156,115 @@ def write_layouts
           {{ content }}
         </section>
       </main>
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const toggle = document.querySelector('[data-sidebar-toggle]');
+          const backdrop = document.querySelector('[data-sidebar-backdrop]');
+          const sidebar = document.getElementById('sidebar-nav');
+          const siteHeader = document.querySelector('.site-header');
+
+          const syncMobileNavOffset = function () {
+            if (!siteHeader) return;
+            document.documentElement.style.setProperty('--mobile-nav-offset', siteHeader.offsetHeight + 'px');
+          };
+
+          const setSidebarOpen = function (open) {
+            if (!toggle || !sidebar) return;
+
+            document.body.classList.toggle('sidebar-open', open);
+            toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+            sidebar.classList.toggle('sidebar--open', open);
+            if (backdrop) backdrop.hidden = !open;
+          };
+
+          if (toggle && sidebar) {
+            toggle.addEventListener('click', function () {
+              setSidebarOpen(!document.body.classList.contains('sidebar-open'));
+            });
+
+            if (backdrop) {
+              backdrop.addEventListener('click', function () {
+                setSidebarOpen(false);
+              });
+            }
+
+            sidebar.querySelectorAll('a').forEach(function (link) {
+              link.addEventListener('click', function () {
+                setSidebarOpen(false);
+              });
+            });
+
+            document.addEventListener('keydown', function (event) {
+              if (event.key === 'Escape') setSidebarOpen(false);
+            });
+
+            window.addEventListener('resize', function () {
+              syncMobileNavOffset();
+              if (window.matchMedia('(min-width: 721px)').matches) setSidebarOpen(false);
+            });
+
+            syncMobileNavOffset();
+          }
+
+          const navSearchInputs = Array.from(document.querySelectorAll('[data-sidebar-nav-search]'));
+          const navEmptyState = document.querySelector('[data-sidebar-nav-empty]');
+
+          window.applySidebarNavFilter = function (query) {
+            if (!sidebar) return;
+
+            const normalized = (query !== undefined ? query : (navSearchInputs[0] ? navSearchInputs[0].value : '')).trim().toLowerCase();
+            const navGroups = Array.from(sidebar.querySelectorAll('[data-sidebar-nav-group]'));
+            let visibleItems = 0;
+
+            navGroups.forEach(function (group) {
+              const groupQuery = (group.dataset.sidebarNavQuery || '').trim();
+              const groupMatches = normalized !== '' && groupQuery !== '' && groupQuery.includes(normalized);
+              const items = Array.from(group.querySelectorAll('[data-sidebar-nav-item]'));
+              let hasVisibleItems = false;
+
+              items.forEach(function (item) {
+                const itemQuery = (item.dataset.sidebarNavQuery || item.textContent || '').trim().toLowerCase();
+                const itemMatches = normalized === '' || itemQuery.includes(normalized) || groupMatches;
+                item.hidden = !itemMatches;
+                if (itemMatches) {
+                  hasVisibleItems = true;
+                  visibleItems += 1;
+                }
+              });
+
+              group.hidden = !hasVisibleItems;
+            });
+
+            if (navEmptyState) {
+              navEmptyState.hidden = !(normalized !== '' && visibleItems === 0);
+            }
+          };
+
+          if (navSearchInputs.length > 0) {
+            navSearchInputs.forEach(function (input) {
+              input.addEventListener('input', function () {
+                navSearchInputs.forEach(function (other) {
+                  if (other !== input) other.value = input.value;
+                });
+                window.applySidebarNavFilter();
+              });
+            });
+
+            window.applySidebarNavFilter();
+          }
+        });
+      </script>
       {% if nav_key == 'automation' %}
       <script>
         document.addEventListener('DOMContentLoaded', function () {
           const sidebar = document.querySelector('.sidebar');
           const moduleInputs = Array.from(document.querySelectorAll('[data-automation-module-search]'));
           const entryInput = document.querySelector('[data-automation-entry-search]');
+          const elementInput = document.querySelector('[data-automation-element-search]');
+          const elementResults = document.querySelector('[data-automation-element-results]');
+          const elementResultRows = Array.from(document.querySelectorAll('[data-automation-element-result]'));
+          const elementEmptyState = document.querySelector('[data-automation-element-empty]');
+          const elementTruncatedNotice = document.querySelector('[data-automation-element-truncated-notice]');
           const modules = Array.from(document.querySelectorAll('[data-automation-module]'));
           const tocItems = Array.from(document.querySelectorAll('[data-automation-toc-item]'));
           const navItems = Array.from(document.querySelectorAll('[data-automation-nav-item]'));
@@ -111,9 +275,10 @@ def write_layouts
           const entryEmptyState = document.querySelector('[data-automation-entry-empty]');
           const moduleHighlightTargets = Array.from(document.querySelectorAll('[data-automation-module-highlight], [data-automation-nav-item] a'));
           const entryHighlightTargets = Array.from(document.querySelectorAll('[data-automation-entry-highlight]'));
+          const elementHighlightTargets = Array.from(document.querySelectorAll('[data-automation-element-highlight]'));
           let pendingSidebarScrollTop = null;
 
-          if (moduleInputs.length === 0 && !entryInput) return;
+          if (moduleInputs.length === 0 && !entryInput && !elementInput) return;
 
           const restoreSidebarScroll = function () {
             if (!sidebar || pendingSidebarScrollTop === null) return;
@@ -166,9 +331,38 @@ def write_layouts
             });
           };
 
+          const revealEntryTarget = function (entryId) {
+            if (!entryId) return;
+
+            const entryRow = document.getElementById(entryId);
+            if (!entryRow) return;
+
+            const moduleAnchor = entryRow.dataset.automationModuleAnchor;
+            if (moduleAnchor) {
+              const moduleAnchorNode = document.getElementById(moduleAnchor);
+              const moduleDetails = moduleAnchorNode ? moduleAnchorNode.nextElementSibling : null;
+              if (moduleDetails && moduleDetails.matches('[data-automation-module]')) {
+                moduleDetails.hidden = false;
+                moduleDetails.open = true;
+              }
+            }
+
+            entryRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            entryRow.classList.add('automation-entry--focused');
+            window.setTimeout(function () {
+              entryRow.classList.remove('automation-entry--focused');
+            }, 1800);
+          };
+
           const revealHashTarget = function () {
             const hash = window.location.hash;
             if (!hash) return;
+
+            if (hash.startsWith('#entry-')) {
+              revealEntryTarget(hash.slice(1));
+              restoreSidebarScroll();
+              return;
+            }
 
             const anchor = document.querySelector(hash + '.automation-module-anchor');
             if (!anchor) return;
@@ -206,17 +400,9 @@ def write_layouts
               element.hidden = query !== '' && !haystack.includes(query);
             });
 
-            navItems.forEach(function (element) {
-              const haystack = (element.textContent || '').trim().toLowerCase();
-              element.hidden = query !== '' && !haystack.includes(query);
-            });
-
-            navGroups.forEach(function (group) {
-              const hasVisibleItems = Array.from(group.querySelectorAll('li')).some(function (item) {
-                return !item.hidden;
-              });
-              group.hidden = !hasVisibleItems;
-            });
+            if (typeof window.applySidebarNavFilter === 'function') {
+              window.applySidebarNavFilter(query);
+            }
 
             if (moduleEmptyState) {
               moduleEmptyState.hidden = !(query !== '' && visibleModules === 0);
@@ -238,9 +424,8 @@ def write_layouts
               let hasVisibleEntries = false;
 
               categoryEntries.forEach(function (entry) {
-                const isAutomated = entry.dataset.automationState === 'automated';
                 const haystack = entry.dataset.automationEntryQuery || '';
-                const matches = query === '' ? true : (isAutomated && haystack.includes(query));
+                const matches = query === '' || haystack.includes(query);
                 entry.hidden = !matches;
                 if (!entry.hidden) {
                   hasVisibleEntries = true;
@@ -269,6 +454,49 @@ def write_layouts
             applyHighlights(entryHighlightTargets, query);
           };
 
+          const applyElementSearch = function () {
+            const query = elementInput ? elementInput.value.trim().toLowerCase() : '';
+            const maxResults = 200;
+            const matchingRows = [];
+
+            elementResultRows.forEach(function (row) {
+              const haystack = row.dataset.automationElementQuery || '';
+              const matches = query !== '' && haystack.includes(query);
+              row.hidden = true;
+              if (matches) matchingRows.push(row);
+            });
+
+            matchingRows.slice(0, maxResults).forEach(function (row) {
+              row.hidden = false;
+            });
+
+            if (elementResults) {
+              elementResults.hidden = query === '';
+            }
+
+            if (elementEmptyState) {
+              elementEmptyState.hidden = !(query !== '' && matchingRows.length === 0);
+            }
+
+            if (elementTruncatedNotice) {
+              elementTruncatedNotice.hidden = !(query !== '' && matchingRows.length > maxResults);
+            }
+
+            applyHighlights(elementHighlightTargets, query);
+          };
+
+          document.querySelectorAll('[data-automation-element-jump]').forEach(function (link) {
+            link.addEventListener('click', function (event) {
+              const row = link.closest('[data-automation-element-result]');
+              const entryId = row ? row.dataset.automationEntryId : null;
+              if (!entryId) return;
+
+              event.preventDefault();
+              history.replaceState(null, '', '#' + entryId);
+              revealEntryTarget(entryId);
+            });
+          });
+
           moduleInputs.forEach(function (input) {
             input.addEventListener('input', function () {
               syncModuleInputs(input);
@@ -284,10 +512,17 @@ def write_layouts
             });
           }
 
+          if (elementInput) {
+            elementInput.addEventListener('input', function () {
+              applyElementSearch();
+            });
+          }
+
           revealHashTarget();
           window.addEventListener('hashchange', revealHashTarget);
           applyModuleFilter();
           applyEntryFilter();
+          applyElementSearch();
         });
       </script>
       {% endif %}
@@ -458,6 +693,105 @@ def write_extra_css
       color: var(--dsa-accent);
     }
 
+    .sidebar-mobile-bar {
+      display: none;
+    }
+
+    .sidebar-toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.65rem;
+      width: 100%;
+      margin: 0;
+      padding: 0.7rem 0.95rem;
+      border: 1px solid rgba(184, 146, 74, 0.24);
+      border-radius: 0.75rem;
+      background: linear-gradient(180deg, rgba(38, 33, 28, 0.96), rgba(27, 24, 21, 0.96));
+      color: var(--dsa-text);
+      font: inherit;
+      font-size: 0.95rem;
+      cursor: pointer;
+      text-align: left;
+    }
+
+    .sidebar-toggle:hover,
+    .sidebar-toggle:focus-visible {
+      border-color: rgba(184, 146, 74, 0.42);
+      outline: none;
+      box-shadow: 0 0 0 3px rgba(184, 146, 74, 0.12);
+    }
+
+    .sidebar-toggle-icon {
+      position: relative;
+      display: block;
+      width: 1.1rem;
+      height: 0.12rem;
+      flex: 0 0 auto;
+      background: currentColor;
+      border-radius: 999px;
+      transition: background 160ms ease;
+    }
+
+    .sidebar-toggle-icon::before,
+    .sidebar-toggle-icon::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      border-radius: 999px;
+      background: currentColor;
+      transition: transform 160ms ease, top 160ms ease, opacity 160ms ease;
+    }
+
+    .sidebar-toggle-icon span {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      border-radius: 999px;
+      background: currentColor;
+      transition: opacity 160ms ease;
+    }
+
+    .sidebar-toggle-icon::before { top: -0.33rem; }
+    .sidebar-toggle-icon::after { top: 0.33rem; }
+
+    .sidebar-toggle[aria-expanded="true"] .sidebar-toggle-icon {
+      background: transparent;
+    }
+
+    .sidebar-toggle[aria-expanded="true"] .sidebar-toggle-icon span {
+      opacity: 0;
+    }
+
+    .sidebar-toggle[aria-expanded="true"] .sidebar-toggle-icon::before {
+      top: 0;
+      transform: rotate(45deg);
+    }
+
+    .sidebar-toggle[aria-expanded="true"] .sidebar-toggle-icon::after {
+      top: 0;
+      transform: rotate(-45deg);
+    }
+
+    .sidebar-backdrop {
+      position: fixed;
+      top: var(--mobile-nav-offset, 0px);
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 18;
+      border: 0;
+      background: rgba(8, 7, 6, 0.62);
+      backdrop-filter: blur(2px);
+    }
+
+    body.sidebar-open {
+      overflow: hidden;
+    }
+
     .sidebar-search-wrap {
       display: grid;
       gap: 0.45rem;
@@ -483,6 +817,17 @@ def write_extra_css
 
     .sidebar-search-input::placeholder {
       color: rgba(184, 171, 149, 0.75);
+    }
+
+    .sidebar-search-empty {
+      margin: -0.35rem 0 1rem;
+      padding: 0.75rem 0.85rem;
+      border: 1px solid rgba(184, 146, 74, 0.18);
+      border-radius: 0.75rem;
+      background: rgba(108, 47, 42, 0.14);
+      color: #f1dcc4;
+      font-size: 0.92rem;
+      font-style: italic;
     }
 
     .sidebar-search-input:focus,
@@ -595,6 +940,7 @@ def write_extra_css
     }
 
     .hero {
+      position: relative;
       overflow: hidden;
       border: 1px solid rgba(184, 146, 74, 0.24);
       border-radius: 1.4rem;
@@ -604,6 +950,150 @@ def write_extra_css
         linear-gradient(135deg, rgba(9, 8, 7, 0.7), rgba(8, 7, 6, 0.42)),
         url('../images/hero-banner.webp') center/cover no-repeat;
       box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.24);
+      isolation: isolate;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(circle at 20% 20%, rgba(184, 146, 74, 0.16), transparent 42%),
+        radial-gradient(circle at 80% 0%, rgba(108, 47, 42, 0.18), transparent 36%);
+      opacity: 0.85;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: -40% -20%;
+      background: linear-gradient(115deg, transparent 35%, rgba(255, 236, 196, 0.07) 50%, transparent 65%);
+      transform: translateX(-120%);
+      animation: heroShine 7s ease-in-out infinite;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .hero > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    @keyframes heroShine {
+      0%, 100% { transform: translateX(-120%); }
+      45%, 55% { transform: translateX(120%); }
+    }
+
+    @keyframes homeFadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(1.4rem);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes homeFadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(0.6rem);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .home-page .home-reveal {
+      opacity: 0;
+      transform: translateY(1.4rem);
+      will-change: opacity, transform;
+    }
+
+    .home-page .home-reveal.is-visible {
+      animation: homeFadeUp 0.75s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+      animation-delay: var(--reveal-delay, 0ms);
+    }
+
+    .home-page .home-reveal--fade.is-visible {
+      animation-name: homeFadeIn;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .hero::after {
+        animation: none;
+        display: none;
+      }
+
+      .home-page .home-reveal {
+        opacity: 1;
+        transform: none;
+      }
+
+      .home-page .home-reveal.is-visible {
+        animation: none;
+      }
+
+      .home-page .card,
+      .home-page .feature-card,
+      .home-page .reference-card,
+      .home-page .hero-actions a,
+      .home-page .link-card,
+      .home-page .reference-link {
+        transition: none;
+      }
+    }
+
+    .home-content {
+      padding-bottom: 5rem;
+    }
+
+    .card-grid .card:nth-child(1) { --reveal-delay: 80ms; }
+    .card-grid .card:nth-child(2) { --reveal-delay: 180ms; }
+    .card-grid .card:nth-child(3) { --reveal-delay: 280ms; }
+
+    .feature-grid .feature-card:nth-child(1) { --reveal-delay: 80ms; }
+    .feature-grid .feature-card:nth-child(2) { --reveal-delay: 180ms; }
+    .feature-grid .feature-card:nth-child(3) { --reveal-delay: 280ms; }
+
+    .reference-grid .reference-card:nth-child(1) { --reveal-delay: 80ms; }
+    .reference-grid .reference-card:nth-child(2) { --reveal-delay: 180ms; }
+    .reference-grid .reference-card:nth-child(3) { --reveal-delay: 280ms; }
+
+    .hero .eyebrow { --reveal-delay: 0ms; }
+    .hero h1 { --reveal-delay: 90ms; }
+    .hero-copy { --reveal-delay: 180ms; }
+    .hero-actions { --reveal-delay: 270ms; }
+    .hero-meta { --reveal-delay: 360ms; }
+
+    .home-section > h2 { --reveal-delay: 0ms; }
+    .home-section > .section-intro { --reveal-delay: 100ms; }
+
+    .card-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.4rem;
+      height: 2.4rem;
+      margin-bottom: 0.85rem;
+      border-radius: 0.75rem;
+      border: 1px solid rgba(184, 146, 74, 0.28);
+      background: rgba(184, 146, 74, 0.1);
+      color: #f0dbb7;
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .card-icon--automation {
+      background: rgba(108, 47, 42, 0.24);
+      border-color: rgba(192, 107, 76, 0.35);
+      color: #f2bfab;
     }
 
     .eyebrow {
@@ -661,6 +1151,15 @@ def write_extra_css
       background: rgba(27, 24, 21, 0.82);
       color: var(--dsa-text);
       text-decoration: none;
+      transition: transform 180ms ease, background 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+    }
+
+    .hero-actions a:hover,
+    .link-card:hover,
+    .reference-link:hover {
+      transform: translateY(-2px);
+      border-color: rgba(184, 146, 74, 0.55);
+      box-shadow: 0 0.65rem 1.4rem rgba(0, 0, 0, 0.22);
     }
 
     .hero-actions a:first-child,
@@ -675,6 +1174,15 @@ def write_extra_css
       border-radius: 1rem;
       border: 1px solid rgba(184, 146, 74, 0.18);
       background: linear-gradient(180deg, rgba(38, 33, 28, 0.96), rgba(27, 24, 21, 0.96));
+      transition: transform 220ms ease, border-color 220ms ease, box-shadow 220ms ease;
+    }
+
+    .home-page .card:hover,
+    .home-page .feature-card:hover,
+    .home-page .reference-card:hover {
+      transform: translateY(-5px);
+      border-color: rgba(184, 146, 74, 0.38);
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.28);
     }
 
     .card p,
@@ -698,6 +1206,7 @@ def write_extra_css
       border: 1px solid rgba(184, 146, 74, 0.16);
       background: linear-gradient(180deg, rgba(31, 27, 23, 0.96), rgba(20, 18, 15, 0.96));
       box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.02);
+      transition: transform 220ms ease, border-color 220ms ease, box-shadow 220ms ease;
     }
 
     .feature-card h3,
@@ -728,6 +1237,73 @@ def write_extra_css
     .automation-status {
       display: grid;
       gap: 1.25rem;
+    }
+
+    .automation-element-search {
+      display: grid;
+      gap: 0.85rem;
+      padding: 1.1rem 1.15rem;
+      border: 1px solid rgba(184, 146, 74, 0.22);
+      border-radius: 1rem;
+      background:
+        linear-gradient(180deg, rgba(47, 36, 28, 0.82), rgba(23, 19, 16, 0.88)),
+        radial-gradient(circle at top right, rgba(184, 146, 74, 0.14), transparent 42%);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03);
+    }
+
+    .automation-element-search > h2 {
+      margin: 0;
+    }
+
+    .automation-element-search > p {
+      margin: 0;
+      color: var(--dsa-muted);
+      line-height: 1.7;
+    }
+
+    .automation-element-results {
+      display: grid;
+      gap: 0.75rem;
+    }
+
+    .automation-element-index-table {
+      width: 100%;
+      min-width: 42rem;
+      border-collapse: collapse;
+    }
+
+    .automation-element-index-table th,
+    .automation-element-index-table td {
+      padding: 0.65rem 0.75rem;
+      border-bottom: 1px solid rgba(184, 146, 74, 0.1);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .automation-element-index-table th {
+      position: sticky;
+      top: 0;
+      background: rgba(37, 31, 26, 0.96);
+      color: #f1e7d2;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      font-size: 0.78rem;
+    }
+
+    .automation-element-truncated {
+      margin: 0;
+      color: var(--dsa-muted);
+      font-size: 0.92rem;
+      font-style: italic;
+    }
+
+    [data-automation-entry] {
+      scroll-margin-top: 6rem;
+    }
+
+    .automation-entry--focused td {
+      background: rgba(184, 146, 74, 0.16);
+      box-shadow: inset 0 0 0 1px rgba(184, 146, 74, 0.24);
     }
 
     .automation-status > h1,
@@ -1029,15 +1605,45 @@ def write_extra_css
       margin-top: 2.75rem;
     }
 
+    .home-section + .home-section {
+      padding-top: 0.5rem;
+    }
+
     @media (max-width: 720px) {
       .header-inner { align-items: flex-start; flex-direction: column; }
       .site-nav { gap: 0.75rem; }
-      .content-shell { padding-top: 1.25rem; }
+      .site-header {
+        z-index: 20;
+      }
+      .sidebar-mobile-bar {
+        display: block;
+        padding: 0 0 0.75rem;
+      }
+      .content-shell { padding-top: 0.85rem; }
       .hero { padding: 3rem 1rem; }
       .with-sidebar { grid-template-columns: 1fr; }
       .sidebar {
-        position: static;
-        max-height: none;
+        position: fixed;
+        top: var(--mobile-nav-offset, 6rem);
+        left: 1rem;
+        right: 1rem;
+        z-index: 21;
+        width: auto;
+        max-height: calc(100vh - var(--mobile-nav-offset, 6rem) - 1rem);
+        margin: 0;
+        transform: translateY(-0.35rem);
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: opacity 160ms ease, transform 160ms ease, visibility 160ms ease;
+        box-shadow: 0 1.25rem 3rem rgba(0, 0, 0, 0.42);
+        -webkit-overflow-scrolling: touch;
+      }
+      .sidebar.sidebar--open {
+        transform: translateY(0);
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
       }
       .prose {
         padding: 1.1rem 0.95rem;
@@ -1051,6 +1657,9 @@ def write_extra_css
         align-items: flex-start;
       }
       .automation-entry-table {
+        min-width: 34rem;
+      }
+      .automation-element-index-table {
         min-width: 34rem;
       }
     }
@@ -1077,15 +1686,15 @@ def write_index_page
     ---
 
     <section class="hero">
-    <div class="eyebrow">Documentation Hub for DSA5 Foundry</div>
-    <h1>DSA5 Foundry VTT Wiki</h1>
-    <p class="hero-copy">This site documents features, workflows, automation coverage, and module usage for the Foundry VTT implementation of DSA5 / The Dark Eye 5. It complements the GitHub wiki with clearer navigation, a calmer reading layout, and a dedicated automation overview.</p>
-    <div class="hero-actions">
+    <div class="eyebrow home-reveal home-reveal--immediate">Documentation Hub for DSA5 Foundry</div>
+    <h1 class="home-reveal home-reveal--immediate">DSA5 Foundry VTT Wiki</h1>
+    <p class="hero-copy home-reveal home-reveal--immediate">This site documents features, workflows, automation coverage, and module usage for the Foundry VTT implementation of DSA5 / The Dark Eye 5. It complements the GitHub wiki with clearer navigation, a calmer reading layout, and a dedicated automation overview.</p>
+    <div class="hero-actions home-reveal home-reveal--immediate">
     <a href="{{ '/Home' | relative_url }}">English documentation</a>
     <a href="{{ '/de/de-Home' | relative_url }}">Deutsche Dokumentation</a>
     <a href="{{ '/automation-status' | relative_url }}">Automation status</a>
     </div>
-    <div class="hero-meta">
+    <div class="hero-meta home-reveal home-reveal--immediate home-reveal--fade">
     <span>German and English docs</span>
     <span>Generated from wiki source</span>
     <span>Manual dual-publish workflow</span>
@@ -1093,17 +1702,20 @@ def write_index_page
     </section>
 
     <div class="card-grid">
-    <div class="card">
+    <div class="card home-reveal home-reveal--immediate">
+    <span class="card-icon" aria-hidden="true">EN</span>
     <h3>English</h3>
     <p>Browse the English wiki pages with preserved page structure and search support.</p>
     <p><a class="link-card" href="{{ '/Home' | relative_url }}">Open English wiki</a></p>
     </div>
-    <div class="card">
+    <div class="card home-reveal home-reveal--immediate">
+    <span class="card-icon" aria-hidden="true">DE</span>
     <h3>Deutsch</h3>
     <p>Nutze die deutsche Dokumentation mit derselben Seitenstruktur wie im Wiki.</p>
     <p><a class="link-card" href="{{ '/de/de-Home' | relative_url }}">Deutsches Wiki oeffnen</a></p>
     </div>
-    <div class="card">
+    <div class="card home-reveal home-reveal--immediate">
+    <span class="card-icon card-icon--automation" aria-hidden="true">AT</span>
     <h3>Automation</h3>
     <p>See which modules and content areas are automated, with localized module metadata from the Foundry data exports.</p>
     <p><a class="link-card" href="{{ '/automation-status' | relative_url }}">Open automation status</a></p>
@@ -1111,19 +1723,19 @@ def write_index_page
     </div>
 
     <section class="home-section">
-    <h2>What this site is for</h2>
-    <p class="section-intro">Use the site when you need quick access to system features, workflow documentation, journal guidance, and a generated view of automation coverage across official modules. The structure stays close to the wiki, but the presentation is tuned for longer reading sessions on desktop and mobile.</p>
+    <h2 class="home-reveal">What this site is for</h2>
+    <p class="section-intro home-reveal">Use the site when you need quick access to system features, workflow documentation, journal guidance, and a generated view of automation coverage across official modules. The structure stays close to the wiki, but the presentation is tuned for longer reading sessions on desktop and mobile.</p>
 
     <div class="feature-grid">
-    <div class="feature-card">
+    <div class="feature-card home-reveal">
     <h3>Readable long-form docs</h3>
     <p>Interior pages use a quieter parchment-like content surface, stronger heading hierarchy, and improved spacing for tables, lists, code, and screenshots.</p>
     </div>
-    <div class="feature-card">
+    <div class="feature-card home-reveal">
     <h3>Language-specific navigation</h3>
     <p>English and German sidebars are generated directly from the wiki navigation files so the site stays aligned with the source material.</p>
     </div>
-    <div class="feature-card">
+    <div class="feature-card home-reveal">
     <h3>Automation coverage overview</h3>
     <p>The generated automation page summarizes module coverage and links localized metadata from the Foundry export data.</p>
     </div>
@@ -1131,21 +1743,21 @@ def write_index_page
     </section>
 
     <section class="home-section">
-    <h2>External references</h2>
-    <p class="section-intro">These links point to the official DSA and VTT references that complement the wiki documentation.</p>
+    <h2 class="home-reveal">External references</h2>
+    <p class="section-intro home-reveal">These links point to the official DSA and VTT references that complement the wiki documentation.</p>
 
     <div class="reference-grid">
-    <div class="reference-card">
+    <div class="reference-card home-reveal">
     <h3>Ulisses Spiele</h3>
     <p>The German DSA landing page with the main game system overview and official product context.</p>
     <p><a class="reference-link" href="https://ulisses-spiele.de/game-system/das-schwarze-auge/">Open German DSA page</a></p>
     </div>
-    <div class="reference-card">
+    <div class="reference-card home-reveal">
     <h3>Ulisses US VTT</h3>
     <p>The English Virtual Tabletop product page for The Dark Eye / DSA VTT ecosystem.</p>
     <p><a class="reference-link" href="https://ulisses-us.com/ulisses-virtual-tabletops/virtual-tabletop-dsa-vtt/">Open English VTT page</a></p>
     </div>
-    <div class="reference-card">
+    <div class="reference-card home-reveal">
     <h3>Foundry Virtual Tabletop</h3>
     <p>The platform reference for installation, licensing, and the broader Foundry ecosystem.</p>
     <p><a class="reference-link" href="https://foundryvtt.com/">Open Foundry site</a></p>

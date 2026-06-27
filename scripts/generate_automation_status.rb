@@ -179,7 +179,107 @@ module AutomationStatusGenerator
     HTML
   end
 
-  def render_entry_row(entry, automation_tracked:)
+  def entry_anchor_id(module_anchor, entry, index)
+    slug = [entry_name(entry, "nameDe"), entry_name(entry, "nameEn"), index.to_s].join("-")
+    slug = slug.gsub(/[^a-zA-Z0-9_-]+/, "-").downcase
+    slug = slug.gsub(/^-+|-+$/, "")
+    slug = "entry" if slug.empty?
+
+    "entry-#{module_anchor}-#{slug}"[0, 96]
+  end
+
+  def element_index_query(entry, row, category)
+    [
+      entry_name(entry, "nameDe"),
+      entry_name(entry, "nameEn"),
+      entry.fetch("documentGroup", nil),
+      row[:label_de],
+      row[:label_en],
+      row[:module_id],
+      category[:label],
+      module_search_query(row)
+    ].compact.join(" ").downcase
+  end
+
+  def render_element_index_row(entry, row, category, entry_anchor)
+    state = automation_state(entry, automation_tracked: category[:automation_tracked])
+    state_value = state || :untracked
+    query = html_escape(element_index_query(entry, row, category))
+    module_anchor_id = module_anchor(row)
+
+    <<~HTML
+      <tr data-automation-element-result data-automation-element-query="#{query}" data-automation-state="#{state_value}" data-automation-module-anchor="#{module_anchor_id}" data-automation-entry-id="#{entry_anchor}" hidden>
+        <td data-automation-element-highlight>#{html_escape(entry_name(entry, "nameDe"))}</td>
+        <td data-automation-element-highlight>#{html_escape(entry_name(entry, "nameEn"))}</td>
+        <td data-automation-element-highlight>#{html_escape(row[:label_de])} / #{html_escape(row[:label_en])}</td>
+        <td data-automation-element-highlight>#{html_escape(category[:label])}</td>
+        <td><span class="automation-status-pill automation-status-pill--#{state_value}">#{automation_label(state)}</span></td>
+        <td><a href="##{entry_anchor}" data-automation-element-jump>Open</a></td>
+      </tr>
+    HTML
+  end
+
+  def sorted_detail_categories(row)
+    row[:detail_categories].sort_by { |category| [-category[:tracked], category[:label].to_s] }
+  end
+
+  def each_module_entry(row)
+    anchor = module_anchor(row)
+    entry_index = 0
+
+    sorted_detail_categories(row).each do |category|
+      category[:entries].each do |entry|
+        entry_anchor = entry_anchor_id(anchor, entry, entry_index)
+        yield entry, row, category, entry_anchor
+        entry_index += 1
+      end
+    end
+  end
+
+  def render_element_index_rows(rows)
+    rows.map do |row|
+      index_rows = []
+      each_module_entry(row) do |entry, module_row, category, entry_anchor|
+        index_rows << render_element_index_row(entry, module_row, category, entry_anchor)
+      end
+      index_rows.join
+    end.join
+  end
+
+  def render_element_search_section(rows)
+    <<~HTML
+      <section class="automation-element-search">
+        <h2>Find an Element</h2>
+        <p>Search across all modules to quickly find where an element exists and whether it is automated, manual, or not tracked.</p>
+        <div class="automation-search-row automation-search-row--elements">
+          <label class="automation-search-label" for="automation-element-search">Find element across modules</label>
+          <input id="automation-element-search" class="automation-search-input" type="search" placeholder="Search by DE, EN, document, module, or category" autocomplete="off" data-automation-element-search>
+        </div>
+        <p class="automation-empty-state" hidden data-automation-element-empty>No elements match this search.</p>
+        <p class="automation-element-truncated" hidden data-automation-element-truncated-notice>Showing the first 200 matches. Refine your search to narrow the results.</p>
+        <div class="automation-element-results" hidden data-automation-element-results>
+          <div class="automation-table-wrap">
+            <table class="automation-element-index-table">
+              <thead>
+                <tr>
+                  <th scope="col">DE</th>
+                  <th scope="col">EN</th>
+                  <th scope="col">Module</th>
+                  <th scope="col">Category</th>
+                  <th scope="col">Status</th>
+                  <th scope="col">Jump</th>
+                </tr>
+              </thead>
+              <tbody>
+      #{render_element_index_rows(rows)}      </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    HTML
+  end
+
+  def render_entry_row(entry, automation_tracked:, entry_anchor:, module_anchor_id:)
     state = automation_state(entry, automation_tracked: automation_tracked)
     status_cell = if state
       %(<span class="automation-status-pill automation-status-pill--#{state}">#{automation_label(state)}</span>)
@@ -190,7 +290,7 @@ module AutomationStatusGenerator
     query = html_escape(entry_search_query(entry))
 
     <<~HTML
-      <tr data-automation-entry data-automation-state="#{state_value}" data-automation-entry-query="#{query}">
+      <tr id="#{entry_anchor}" data-automation-entry data-automation-state="#{state_value}" data-automation-entry-query="#{query}" data-automation-module-anchor="#{module_anchor_id}" data-automation-entry-id="#{entry_anchor}">
         <td data-automation-entry-highlight>#{html_escape(entry_name(entry, "nameDe"))}</td>
         <td data-automation-entry-highlight>#{html_escape(entry_name(entry, "nameEn"))}</td>
         <td data-automation-entry-highlight>#{html_escape(entry.fetch("documentGroup", "-"))}</td>
@@ -199,10 +299,15 @@ module AutomationStatusGenerator
     HTML
   end
 
-  def render_category_detail_lines(category)
-    rows = category[:entries].map { |entry| render_entry_row(entry, automation_tracked: category[:automation_tracked]) }.join
+  def render_category_detail_lines(category, module_anchor_id:, entry_index_start:)
+    entry_index = entry_index_start
+    rows = category[:entries].map do |entry|
+      entry_anchor = entry_anchor_id(module_anchor_id, entry, entry_index)
+      entry_index += 1
+      render_entry_row(entry, automation_tracked: category[:automation_tracked], entry_anchor: entry_anchor, module_anchor_id: module_anchor_id)
+    end.join
 
-    <<~HTML
+    html = <<~HTML
       <section class="automation-category" data-automation-category>
         <div class="automation-category__header">
           <h4>#{html_escape(category[:label])}</h4>
@@ -224,6 +329,8 @@ module AutomationStatusGenerator
         </div>
       </section>
     HTML
+
+    [entry_index, html]
   end
 
   def render_module_detail_lines(row)
@@ -244,8 +351,10 @@ module AutomationStatusGenerator
     lines << "<p class=\"automation-module__links\"><strong>Module links:</strong> #{links.empty? ? '-' : links.join(' / ')}</p>"
     lines << ""
 
-    categories.sort_by { |category| [-category[:tracked], category[:label].to_s] }.each do |category|
-      lines << render_category_detail_lines(category)
+    entry_index = 0
+    sorted_detail_categories(row).each do |category|
+      entry_index, category_html = render_category_detail_lines(category, module_anchor_id: anchor, entry_index_start: entry_index)
+      lines << category_html
     end
 
     lines << "</div>"
@@ -290,7 +399,10 @@ module AutomationStatusGenerator
     lines << ""
     lines << "# Automation Status"
     lines << ""
+    lines << ""
     lines << "This page summarizes how much content is automated across official DSA5 Foundry modules. The page is generated from the localized expansion metadata and the Foundry module content exports."
+    lines << ""
+    lines << render_element_search_section(rows)
     lines << ""
     lines << "> Use the module list in the sidebar to jump directly to a module. The sidebar search filters the sidebar, the table of contents, and the module sections together."
     lines << ""
@@ -319,11 +431,11 @@ module AutomationStatusGenerator
     lines << "The sections below list every exported element for every module. Automation badges are shown only for categories that the Foundry export marks as automation-tracked."
     lines << ""
     lines << "<div class=\"automation-search-row automation-search-row--entries\">"
-    lines << "  <label class=\"automation-search-label\" for=\"automation-entry-search\">Find automated elements in details</label>"
-    lines << "  <input id=\"automation-entry-search\" class=\"automation-search-input\" type=\"search\" placeholder=\"Search automated entries by DE, EN, or document\" autocomplete=\"off\" data-automation-entry-search>"
+    lines << "  <label class=\"automation-search-label\" for=\"automation-entry-search\">Filter elements in module details</label>"
+    lines << "  <input id=\"automation-entry-search\" class=\"automation-search-input\" type=\"search\" placeholder=\"Search all entries by DE, EN, or document\" autocomplete=\"off\" data-automation-entry-search>"
     lines << "</div>"
     lines << ""
-    lines << "<p class=\"automation-empty-state\" hidden data-automation-entry-empty>No automated elements match this search.</p>"
+    lines << "<p class=\"automation-empty-state\" hidden data-automation-entry-empty>No elements match this search.</p>"
     lines << ""
 
     rows.each do |row|

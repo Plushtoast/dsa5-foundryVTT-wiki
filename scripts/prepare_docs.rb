@@ -130,7 +130,7 @@ def write_layouts
       </script>
       {% else %}
       <div class="sidebar-backdrop" data-sidebar-backdrop hidden></div>
-      <div class="shell docs-layout with-sidebar">
+      <div class="shell docs-page-frame with-sidebar">
         <aside id="sidebar-nav" class="sidebar" aria-label="{{ sidebar_toggle_label }}">
           {% assign nav_groups = site.data.navigation[nav_key] %}
           <div class="sidebar-search-wrap">
@@ -619,6 +619,10 @@ def write_extra_css
 
     body > * {
       position: relative;
+    }
+
+    body > .site-header,
+    body > .shell {
       z-index: 1;
     }
 
@@ -628,7 +632,7 @@ def write_extra_css
     .site-header {
       position: sticky;
       top: 0;
-      z-index: 10;
+      z-index: 30;
       background: rgba(17, 17, 15, 0.78);
       border-bottom: 1px solid rgba(184, 146, 74, 0.2);
       backdrop-filter: blur(12px);
@@ -669,6 +673,7 @@ def write_extra_css
     }
 
     .content-shell { padding: 2rem 0 4rem; }
+    .docs-page-frame.with-sidebar,
     .docs-layout.with-sidebar,
     .with-sidebar {
       display: grid;
@@ -824,7 +829,7 @@ def write_extra_css
       right: 0;
       bottom: 0;
       left: 0;
-      z-index: 18;
+      z-index: 20;
       border: 0;
       background: rgba(8, 7, 6, 0.62);
       backdrop-filter: blur(2px);
@@ -1670,6 +1675,7 @@ def write_extra_css
         pointer-events: auto;
         transform: none;
         box-shadow: none;
+        z-index: auto;
       }
     }
 
@@ -1679,23 +1685,26 @@ def write_extra_css
       .docs-page .site-header {
         position: sticky;
         top: 0;
-        z-index: 20;
+        z-index: 30;
       }
       .docs-page .sidebar-mobile-bar {
         display: block;
         padding: 0 0 0.75rem;
         border-top: 1px solid rgba(184, 146, 74, 0.14);
       }
+      .docs-page .docs-page-frame.with-sidebar {
+        display: block;
+        position: static;
+        z-index: auto;
+      }
       .docs-page .content-shell { padding-top: 0.85rem; }
       .hero { padding: 3rem 1rem; }
-      .docs-layout.with-sidebar,
-      .with-sidebar { grid-template-columns: 1fr; }
       .docs-page .sidebar {
         position: fixed;
         top: var(--mobile-nav-offset, 6rem);
         left: 1rem;
         right: 1rem;
-        z-index: 21;
+        z-index: 25;
         width: auto;
         max-height: calc(100vh - var(--mobile-nav-offset, 6rem) - 1rem);
         margin: 0;

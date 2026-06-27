@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="/dsa5-foundryVTT-wiki/assets/stylesheets/extra.css">
 </head>
 <body class="docs-page page-en-kampf">
+  
+  
+  
   <header class="site-header">
     <div class="shell header-inner">
       <a class="site-title" href="/dsa5-foundryVTT-wiki/">DSA5 Foundry Wiki</a>
@@ -16,479 +19,490 @@
         <a href="/dsa5-foundryVTT-wiki/automation-status">Automation</a>
       </nav>
     </div>
+    
+    
+    <div class="sidebar-mobile-bar shell">
+      <button type="button" class="sidebar-toggle" aria-expanded="false" aria-controls="sidebar-nav" data-sidebar-toggle>
+        <span class="sidebar-toggle-icon" aria-hidden="true"><span></span></span>
+        <span class="sidebar-toggle-label">Section navigation</span>
+      </button>
+    </div>
+    
   </header>
   
-  
-  
-  
+  <div class="sidebar-backdrop" data-sidebar-backdrop hidden></div>
   <main class="shell content-shell with-sidebar">
-    <aside class="sidebar" aria-label="Section navigation">
+    <aside id="sidebar-nav" class="sidebar" aria-label="Section navigation">
       
+      <div class="sidebar-search-wrap">
+        <label class="sidebar-search-label" for="sidebar-nav-search">Filter navigation</label>
+        <input id="sidebar-nav-search" class="sidebar-search-input" type="search" placeholder="Search category or page" autocomplete="off" data-sidebar-nav-search>
+      </div>
+      <p class="sidebar-search-empty" data-sidebar-nav-empty hidden>No matching categories or pages.</p>
       
-      
-      <section class="sidebar-group">
+      <section class="sidebar-group" data-sidebar-nav-group data-sidebar-nav-query="">
         
         <ul>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="home">
             <a class="" href="/dsa5-foundryVTT-wiki/Home">Home</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="important concepts">
             <a class="" href="/dsa5-foundryVTT-wiki/en-wichtige-Konzepte">Important Concepts</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="quickstart">
             <a class="" href="/dsa5-foundryVTT-wiki/en-dsa_5_Welt_erstellen">Quickstart</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="tutorial videos">
             <a class="" href="/dsa5-foundryVTT-wiki/en-tutorials">Tutorial Videos</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="interactive tours">
             <a class="" href="/dsa5-foundryVTT-wiki/en-touren">Interactive Tours</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="faq">
             <a class="" href="/dsa5-foundryVTT-wiki/en-faq">FAQ</a>
           </li>
           
         </ul>
       </section>
       
-      <section class="sidebar-group">
+      <section class="sidebar-group" data-sidebar-nav-group data-sidebar-nav-query="character">
         <h3>Character</h3>
         <ul>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="character sheet">
             <a class="" href="/dsa5-foundryVTT-wiki/en-charakterbogen">Character Sheet</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="character creation">
             <a class="" href="/dsa5-foundryVTT-wiki/en-charaktererstellung">Character Creation</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="migration">
             <a class="" href="/dsa5-foundryVTT-wiki/en-import-funktion">Migration</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="npcs and creatures">
             <a class="" href="/dsa5-foundryVTT-wiki/en-npc-kreaturen">NPCs and Creatures</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="familiars">
             <a class="" href="/dsa5-foundryVTT-wiki/en-vertrautentiere">Familiars</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="containers">
             <a class="" href="/dsa5-foundryVTT-wiki/en-behaelter-rucksack-oder-tasche">Containers</a>
           </li>
           
         </ul>
       </section>
       
-      <section class="sidebar-group">
+      <section class="sidebar-group" data-sidebar-nav-group data-sidebar-nav-query="game mechanics">
         <h3>Game Mechanics</h3>
         <ul>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="distance measurement (dps)">
             <a class="" href="/dsa5-foundryVTT-wiki/en-abstandsmessung">Distance Measurement (DPS)</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="ap and money tracker">
             <a class="" href="/dsa5-foundryVTT-wiki/en-tracker-ap-geld">AP and Money Tracker</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="artifacts and talismans">
             <a class="" href="/dsa5-foundryVTT-wiki/en-artefakte-und-talismane">Artifacts and Talismans</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="encounters and initiative">
             <a class="" href="/dsa5-foundryVTT-wiki/en-begegnung_und_initiative">Encounters and Initiative</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="payment system">
             <a class="" href="/dsa5-foundryVTT-wiki/en-bezahlsystem">Payment System</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="library">
             <a class="" href="/dsa5-foundryVTT-wiki/en-bibliothek">Library</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="chat commands">
             <a class="" href="/dsa5-foundryVTT-wiki/en-chatbefehle">Chat Commands</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="create personal entries">
             <a class="" href="/dsa5-foundryVTT-wiki/en-eigene_inhalte_erstellen">Create Personal Entries</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="poison and sickness checks">
             <a class="" href="/dsa5-foundryVTT-wiki/en-gift-und-krankheitsprobe">Poison and Sickness Checks</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="group checks">
             <a class="" href="/dsa5-foundryVTT-wiki/en-gruppenproben">Group Checks</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="trading">
             <a class="" href="/dsa5-foundryVTT-wiki/en-handel-tausch">Trading</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="merchants">
             <a class="" href="/dsa5-foundryVTT-wiki/en-haendler">Merchants</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="calendar">
             <a class="" href="/dsa5-foundryVTT-wiki/en-kalender">Calendar</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="combat">
             <a class="active" href="/dsa5-foundryVTT-wiki/en-kampf">Combat</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="combat maneuvers">
             <a class="" href="/dsa5-foundryVTT-wiki/en-spezialman%C3%B6ver">Combat Maneuvers</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="gm menu">
             <a class="" href="/dsa5-foundryVTT-wiki/en-meister-menue">GM Menu</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="botch tables">
             <a class="" href="/dsa5-foundryVTT-wiki/en-botch-tabellen">Botch Tables</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="regeneration">
             <a class="" href="/dsa5-foundryVTT-wiki/en-regeneration">Regeneration</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="routine checks">
             <a class="" href="/dsa5-foundryVTT-wiki/en-routineproben">Routine Checks</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="aggregate tests">
             <a class="" href="/dsa5-foundryVTT-wiki/en-aggregate-proben">Aggregate Tests</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="damage application">
             <a class="" href="/dsa5-foundryVTT-wiki/en-schadensanwendung">Damage Application</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="fate points (schips)">
             <a class="" href="/dsa5-foundryVTT-wiki/en-schicksal-schips">Fate Points (Schips)</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="sight and light">
             <a class="" href="/dsa5-foundryVTT-wiki/en-sicht_und_licht">Sight and Light</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="player menu">
             <a class="" href="/dsa5-foundryVTT-wiki/en-spieler-menue">Player Menu</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="system settings">
             <a class="" href="/dsa5-foundryVTT-wiki/en-systemeinstellungen">System Settings</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="scene settings">
             <a class="" href="/dsa5-foundryVTT-wiki/en-Meister-Menue-Szeneneinstellungen">Scene Settings</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="token hotbar">
             <a class="" href="/dsa5-foundryVTT-wiki/en-token-hotbar">Token Hotbar</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="comparative checks">
             <a class="" href="/dsa5-foundryVTT-wiki/en-vergleichende-proben">Comparative Checks</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="weapon and armor damage">
             <a class="" href="/dsa5-foundryVTT-wiki/en-waffen-und-ruestungsbeschadigung">Weapon and Armor Damage</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="mounted combat">
             <a class="" href="/dsa5-foundryVTT-wiki/en-berittener-kampf">Mounted Combat</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="summoning">
             <a class="" href="/dsa5-foundryVTT-wiki/en-beschwoerung">Summoning</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="item concealment">
             <a class="" href="/dsa5-foundryVTT-wiki/en-gegenstaende-verschleiern">Item Concealment</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="brawling">
             <a class="" href="/dsa5-foundryVTT-wiki/en-pruegelei">Brawling</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="swarm rules">
             <a class="" href="/dsa5-foundryVTT-wiki/en-schwarmregeln">Swarm Rules</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="tips and tricks">
             <a class="" href="/dsa5-foundryVTT-wiki/en-dies-und-das">Tips and Tricks</a>
           </li>
           
         </ul>
       </section>
       
-      <section class="sidebar-group">
+      <section class="sidebar-group" data-sidebar-nav-group data-sidebar-nav-query="module mechanics">
         <h3>Module Mechanics</h3>
         <ul>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="shapeshifting">
             <a class="" href="/dsa5-foundryVTT-wiki/en-gestaltwandlung">Shapeshifting</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="light and sight macro">
             <a class="" href="/dsa5-foundryVTT-wiki/en-licht-und-sicht-makro">Light and Sight Macro</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="sight automation">
             <a class="" href="/dsa5-foundryVTT-wiki/en-meister-menue-sichtautomatisierung">Sight Automation</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="breeding pit">
             <a class="" href="/dsa5-foundryVTT-wiki/en-meister-menue-zuchtgrube">Breeding Pit</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="alchemy">
             <a class="" href="/dsa5-foundryVTT-wiki/en-alchimie">Alchemy</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="foraging and hunting">
             <a class="" href="/dsa5-foundryVTT-wiki/en-nahrungssuche">Foraging and Hunting</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="herbalism">
             <a class="" href="/dsa5-foundryVTT-wiki/en-pflanzensuche">Herbalism</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="hit and armor zones">
             <a class="" href="/dsa5-foundryVTT-wiki/en-trefferzonen">Hit and Armor Zones</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="adverse conditions">
             <a class="" href="/dsa5-foundryVTT-wiki/en-umstaende">Adverse Conditions</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="enchanting">
             <a class="" href="/dsa5-foundryVTT-wiki/en-artefakte-verzaubern">Enchanting</a>
           </li>
           
         </ul>
       </section>
       
-      <section class="sidebar-group">
+      <section class="sidebar-group" data-sidebar-nav-group data-sidebar-nav-query="advanced mechanisms">
         <h3>Advanced Mechanisms</h3>
         <ul>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="auras">
             <a class="" href="/dsa5-foundryVTT-wiki/en-auren">Auras</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="traps and region behaviors">
             <a class="" href="/dsa5-foundryVTT-wiki/en-fallen">Traps and Region Behaviors</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="journal enrichers">
             <a class="" href="/dsa5-foundryVTT-wiki/en-Journal-Probe_anfordern">Journal Enrichers</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="journal pages (dramatis personae/calendar)">
             <a class="" href="/dsa5-foundryVTT-wiki/en-journal-seiten">Journal Pages (Dramatis Personae/Calendar)</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="tde icons for lists">
             <a class="" href="/dsa5-foundryVTT-wiki/en-journal-dsa_icons_auge">TDE Icons for Lists</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="effects field">
             <a class="" href="/dsa5-foundryVTT-wiki/en-effekt_feld">Effects Field</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="on-use effects">
             <a class="" href="/dsa5-foundryVTT-wiki/en-on-use-effekte">On-Use Effects</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="self-created effects">
             <a class="" href="/dsa5-foundryVTT-wiki/en-status-selbst-erstellte-effekte">Self-Created Effects</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="macros">
             <a class="" href="/dsa5-foundryVTT-wiki/en-makro-probe-anfordern">Macros</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="skins">
             <a class="" href="/dsa5-foundryVTT-wiki/en-skins">Skins</a>
           </li>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="currencies">
             <a class="" href="/dsa5-foundryVTT-wiki/en-waehrungen">Currencies</a>
           </li>
           
         </ul>
       </section>
       
-      <section class="sidebar-group">
+      <section class="sidebar-group" data-sidebar-nav-group data-sidebar-nav-query="recommendations">
         <h3>Recommendations</h3>
         <ul>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="additional modules">
             <a class="" href="/dsa5-foundryVTT-wiki/en-module">Additional Modules</a>
           </li>
           
         </ul>
       </section>
       
-      <section class="sidebar-group">
+      <section class="sidebar-group" data-sidebar-nav-group data-sidebar-nav-query="additional pages">
         <h3>Additional Pages</h3>
         <ul>
           
           
           
-          <li>
+          <li data-sidebar-nav-item data-sidebar-nav-query="en-zauber-liturgie-effekt-anwenden">
             <a class="" href="/dsa5-foundryVTT-wiki/en-zauber-liturgie-effekt-anwenden">en-zauber-liturgie-effekt-anwenden</a>
           </li>
           
@@ -589,6 +603,104 @@ g if you have no more reactions in this combat round or you prefer to react with
 
     </section>
   </main>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const toggle = document.querySelector('[data-sidebar-toggle]');
+      const backdrop = document.querySelector('[data-sidebar-backdrop]');
+      const sidebar = document.getElementById('sidebar-nav');
+      const siteHeader = document.querySelector('.site-header');
+
+      const syncMobileNavOffset = function () {
+        if (!siteHeader) return;
+        document.documentElement.style.setProperty('--mobile-nav-offset', siteHeader.offsetHeight + 'px');
+      };
+
+      const setSidebarOpen = function (open) {
+        if (!toggle || !sidebar) return;
+
+        document.body.classList.toggle('sidebar-open', open);
+        toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+        sidebar.classList.toggle('sidebar--open', open);
+        if (backdrop) backdrop.hidden = !open;
+      };
+
+      if (toggle && sidebar) {
+        toggle.addEventListener('click', function () {
+          setSidebarOpen(!document.body.classList.contains('sidebar-open'));
+        });
+
+        if (backdrop) {
+          backdrop.addEventListener('click', function () {
+            setSidebarOpen(false);
+          });
+        }
+
+        sidebar.querySelectorAll('a').forEach(function (link) {
+          link.addEventListener('click', function () {
+            setSidebarOpen(false);
+          });
+        });
+
+        document.addEventListener('keydown', function (event) {
+          if (event.key === 'Escape') setSidebarOpen(false);
+        });
+
+        window.addEventListener('resize', function () {
+          syncMobileNavOffset();
+          if (window.matchMedia('(min-width: 721px)').matches) setSidebarOpen(false);
+        });
+
+        syncMobileNavOffset();
+      }
+
+      const navSearchInputs = Array.from(document.querySelectorAll('[data-sidebar-nav-search]'));
+      const navEmptyState = document.querySelector('[data-sidebar-nav-empty]');
+
+      window.applySidebarNavFilter = function (query) {
+        if (!sidebar) return;
+
+        const normalized = (query !== undefined ? query : (navSearchInputs[0] ? navSearchInputs[0].value : '')).trim().toLowerCase();
+        const navGroups = Array.from(sidebar.querySelectorAll('[data-sidebar-nav-group]'));
+        let visibleItems = 0;
+
+        navGroups.forEach(function (group) {
+          const groupQuery = (group.dataset.sidebarNavQuery || '').trim();
+          const groupMatches = normalized !== '' && groupQuery !== '' && groupQuery.includes(normalized);
+          const items = Array.from(group.querySelectorAll('[data-sidebar-nav-item]'));
+          let hasVisibleItems = false;
+
+          items.forEach(function (item) {
+            const itemQuery = (item.dataset.sidebarNavQuery || item.textContent || '').trim().toLowerCase();
+            const itemMatches = normalized === '' || itemQuery.includes(normalized) || groupMatches;
+            item.hidden = !itemMatches;
+            if (itemMatches) {
+              hasVisibleItems = true;
+              visibleItems += 1;
+            }
+          });
+
+          group.hidden = !hasVisibleItems;
+        });
+
+        if (navEmptyState) {
+          navEmptyState.hidden = !(normalized !== '' && visibleItems === 0);
+        }
+      };
+
+      if (navSearchInputs.length > 0) {
+        navSearchInputs.forEach(function (input) {
+          input.addEventListener('input', function () {
+            navSearchInputs.forEach(function (other) {
+              if (other !== input) other.value = input.value;
+            });
+            window.applySidebarNavFilter();
+          });
+        });
+
+        window.applySidebarNavFilter();
+      }
+    });
+  </script>
   
   
 </body>

@@ -31,7 +31,7 @@
   </header>
   
   <div class="sidebar-backdrop" data-sidebar-backdrop hidden></div>
-  <main class="shell content-shell with-sidebar">
+  <div class="shell docs-page-frame with-sidebar">
     <aside id="sidebar-nav" class="sidebar" aria-label="Section navigation">
       
       <div class="sidebar-search-wrap">
@@ -510,8 +510,9 @@
       </section>
       
     </aside>
-    <section class="page-content prose">
-      <h1 id="tutorial-videos">Tutorial Videos</h1>
+    <div class="docs-main content-shell">
+      <article class="page-content prose">
+        <h1 id="tutorial-videos">Tutorial Videos</h1>
 <p>The following tutorials are available. <strong>currently, they are in german language only</strong></p>
 
 <ul>
@@ -531,106 +532,10 @@
 <em>[x] change links</em></p>
 
 
-    </section>
-  </main>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const toggle = document.querySelector('[data-sidebar-toggle]');
-      const backdrop = document.querySelector('[data-sidebar-backdrop]');
-      const sidebar = document.getElementById('sidebar-nav');
-      const siteHeader = document.querySelector('.site-header');
-
-      const syncMobileNavOffset = function () {
-        if (!siteHeader) return;
-        document.documentElement.style.setProperty('--mobile-nav-offset', siteHeader.offsetHeight + 'px');
-      };
-
-      const setSidebarOpen = function (open) {
-        if (!toggle || !sidebar) return;
-
-        document.body.classList.toggle('sidebar-open', open);
-        toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-        sidebar.classList.toggle('sidebar--open', open);
-        if (backdrop) backdrop.hidden = !open;
-      };
-
-      if (toggle && sidebar) {
-        toggle.addEventListener('click', function () {
-          setSidebarOpen(!document.body.classList.contains('sidebar-open'));
-        });
-
-        if (backdrop) {
-          backdrop.addEventListener('click', function () {
-            setSidebarOpen(false);
-          });
-        }
-
-        sidebar.querySelectorAll('a').forEach(function (link) {
-          link.addEventListener('click', function () {
-            setSidebarOpen(false);
-          });
-        });
-
-        document.addEventListener('keydown', function (event) {
-          if (event.key === 'Escape') setSidebarOpen(false);
-        });
-
-        window.addEventListener('resize', function () {
-          syncMobileNavOffset();
-          if (window.matchMedia('(min-width: 721px)').matches) setSidebarOpen(false);
-        });
-
-        syncMobileNavOffset();
-      }
-
-      const navSearchInputs = Array.from(document.querySelectorAll('[data-sidebar-nav-search]'));
-      const navEmptyState = document.querySelector('[data-sidebar-nav-empty]');
-
-      window.applySidebarNavFilter = function (query) {
-        if (!sidebar) return;
-
-        const normalized = (query !== undefined ? query : (navSearchInputs[0] ? navSearchInputs[0].value : '')).trim().toLowerCase();
-        const navGroups = Array.from(sidebar.querySelectorAll('[data-sidebar-nav-group]'));
-        let visibleItems = 0;
-
-        navGroups.forEach(function (group) {
-          const groupQuery = (group.dataset.sidebarNavQuery || '').trim();
-          const groupMatches = normalized !== '' && groupQuery !== '' && groupQuery.includes(normalized);
-          const items = Array.from(group.querySelectorAll('[data-sidebar-nav-item]'));
-          let hasVisibleItems = false;
-
-          items.forEach(function (item) {
-            const itemQuery = (item.dataset.sidebarNavQuery || item.textContent || '').trim().toLowerCase();
-            const itemMatches = normalized === '' || itemQuery.includes(normalized) || groupMatches;
-            item.hidden = !itemMatches;
-            if (itemMatches) {
-              hasVisibleItems = true;
-              visibleItems += 1;
-            }
-          });
-
-          group.hidden = !hasVisibleItems;
-        });
-
-        if (navEmptyState) {
-          navEmptyState.hidden = !(normalized !== '' && visibleItems === 0);
-        }
-      };
-
-      if (navSearchInputs.length > 0) {
-        navSearchInputs.forEach(function (input) {
-          input.addEventListener('input', function () {
-            navSearchInputs.forEach(function (other) {
-              if (other !== input) other.value = input.value;
-            });
-            window.applySidebarNavFilter();
-          });
-        });
-
-        window.applySidebarNavFilter();
-      }
-    });
-  </script>
+      </article>
+    </div>
+  </div>
+  <script src="/dsa5-foundryVTT-wiki/assets/javascripts/site.js" defer></script>
   
   
 </body>

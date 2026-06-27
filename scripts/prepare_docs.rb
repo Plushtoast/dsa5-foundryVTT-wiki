@@ -27,6 +27,7 @@ def reset_docs_dir
   FileUtils.rm_rf(DOCS_DIR)
   FileUtils.mkdir_p(DOCS_DIR.join("assets", "images"))
   FileUtils.mkdir_p(DOCS_DIR.join("assets", "stylesheets"))
+  FileUtils.mkdir_p(DOCS_DIR.join("assets", "javascripts"))
   FileUtils.mkdir_p(DOCS_DIR.join("_layouts"))
   FileUtils.mkdir_p(DOCS_DIR.join("_includes"))
   FileUtils.mkdir_p(DOCS_DIR.join("_data"))
@@ -68,7 +69,7 @@ def write_layouts
           {% assign sidebar_search_placeholder = 'Kategorie oder Seite suchen' %}
           {% assign sidebar_search_empty = 'Keine passenden Kategorien oder Seiten.' %}
         {% elsif nav_key == 'automation' %}
-          {% assign sidebar_toggle_label = 'Module navigation' %}
+          {% assign sidebar_toggle_label = 'Open navigation' %}
           {% assign sidebar_search_label = 'Filter module navigation' %}
           {% assign sidebar_search_placeholder = 'Search DE, EN, or module id' %}
           {% assign sidebar_search_empty = 'No matching modules.' %}
@@ -129,7 +130,7 @@ def write_layouts
       </script>
       {% else %}
       <div class="sidebar-backdrop" data-sidebar-backdrop hidden></div>
-      <main class="shell content-shell with-sidebar">
+      <div class="shell docs-layout with-sidebar">
         <aside id="sidebar-nav" class="sidebar" aria-label="{{ sidebar_toggle_label }}">
           {% assign nav_groups = site.data.navigation[nav_key] %}
           <div class="sidebar-search-wrap">
@@ -152,108 +153,13 @@ def write_layouts
           </section>
           {% endfor %}
         </aside>
-        <section class="page-content prose">
-          {{ content }}
-        </section>
-      </main>
-      <script>
-        document.addEventListener('DOMContentLoaded', function () {
-          const toggle = document.querySelector('[data-sidebar-toggle]');
-          const backdrop = document.querySelector('[data-sidebar-backdrop]');
-          const sidebar = document.getElementById('sidebar-nav');
-          const siteHeader = document.querySelector('.site-header');
-
-          const syncMobileNavOffset = function () {
-            if (!siteHeader) return;
-            document.documentElement.style.setProperty('--mobile-nav-offset', siteHeader.offsetHeight + 'px');
-          };
-
-          const setSidebarOpen = function (open) {
-            if (!toggle || !sidebar) return;
-
-            document.body.classList.toggle('sidebar-open', open);
-            toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-            sidebar.classList.toggle('sidebar--open', open);
-            if (backdrop) backdrop.hidden = !open;
-          };
-
-          if (toggle && sidebar) {
-            toggle.addEventListener('click', function () {
-              setSidebarOpen(!document.body.classList.contains('sidebar-open'));
-            });
-
-            if (backdrop) {
-              backdrop.addEventListener('click', function () {
-                setSidebarOpen(false);
-              });
-            }
-
-            sidebar.querySelectorAll('a').forEach(function (link) {
-              link.addEventListener('click', function () {
-                setSidebarOpen(false);
-              });
-            });
-
-            document.addEventListener('keydown', function (event) {
-              if (event.key === 'Escape') setSidebarOpen(false);
-            });
-
-            window.addEventListener('resize', function () {
-              syncMobileNavOffset();
-              if (window.matchMedia('(min-width: 721px)').matches) setSidebarOpen(false);
-            });
-
-            syncMobileNavOffset();
-          }
-
-          const navSearchInputs = Array.from(document.querySelectorAll('[data-sidebar-nav-search]'));
-          const navEmptyState = document.querySelector('[data-sidebar-nav-empty]');
-
-          window.applySidebarNavFilter = function (query) {
-            if (!sidebar) return;
-
-            const normalized = (query !== undefined ? query : (navSearchInputs[0] ? navSearchInputs[0].value : '')).trim().toLowerCase();
-            const navGroups = Array.from(sidebar.querySelectorAll('[data-sidebar-nav-group]'));
-            let visibleItems = 0;
-
-            navGroups.forEach(function (group) {
-              const groupQuery = (group.dataset.sidebarNavQuery || '').trim();
-              const groupMatches = normalized !== '' && groupQuery !== '' && groupQuery.includes(normalized);
-              const items = Array.from(group.querySelectorAll('[data-sidebar-nav-item]'));
-              let hasVisibleItems = false;
-
-              items.forEach(function (item) {
-                const itemQuery = (item.dataset.sidebarNavQuery || item.textContent || '').trim().toLowerCase();
-                const itemMatches = normalized === '' || itemQuery.includes(normalized) || groupMatches;
-                item.hidden = !itemMatches;
-                if (itemMatches) {
-                  hasVisibleItems = true;
-                  visibleItems += 1;
-                }
-              });
-
-              group.hidden = !hasVisibleItems;
-            });
-
-            if (navEmptyState) {
-              navEmptyState.hidden = !(normalized !== '' && visibleItems === 0);
-            }
-          };
-
-          if (navSearchInputs.length > 0) {
-            navSearchInputs.forEach(function (input) {
-              input.addEventListener('input', function () {
-                navSearchInputs.forEach(function (other) {
-                  if (other !== input) other.value = input.value;
-                });
-                window.applySidebarNavFilter();
-              });
-            });
-
-            window.applySidebarNavFilter();
-          }
-        });
-      </script>
+        <div class="docs-main content-shell">
+          <article class="page-content prose">
+            {{ content }}
+          </article>
+        </div>
+      </div>
+      <script src="{{ '/assets/javascripts/site.js' | relative_url }}" defer></script>
       {% if nav_key == 'automation' %}
       <script>
         document.addEventListener('DOMContentLoaded', function () {
@@ -542,6 +448,130 @@ def write_layouts
   DOCS_DIR.join("_layouts", "home.html").write(home_layout)
 end
 
+def write_site_js
+  js = <<~JS
+    (function () {
+      var mobileQuery = window.matchMedia('(max-width: 720px)');
+
+      function isMobileNav() {
+        return mobileQuery.matches;
+      }
+
+      function initDocsPage() {
+        if (!document.body.classList.contains('docs-page')) return;
+
+        var toggle = document.querySelector('[data-sidebar-toggle]');
+        var backdrop = document.querySelector('[data-sidebar-backdrop]');
+        var sidebar = document.getElementById('sidebar-nav');
+        var siteHeader = document.querySelector('.site-header');
+        var navSearchInputs = Array.prototype.slice.call(document.querySelectorAll('[data-sidebar-nav-search]'));
+        var navEmptyState = document.querySelector('[data-sidebar-nav-empty]');
+
+        var syncMobileNavOffset = function () {
+          if (!siteHeader) return;
+          document.documentElement.style.setProperty('--mobile-nav-offset', siteHeader.offsetHeight + 'px');
+        };
+
+        var setSidebarOpen = function (open) {
+          if (!toggle || !sidebar) return;
+          if (open && !isMobileNav()) return;
+
+          document.body.classList.toggle('sidebar-open', open);
+          toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+          sidebar.classList.toggle('sidebar--open', open);
+          if (backdrop) backdrop.hidden = !open;
+        };
+
+        window.applySidebarNavFilter = function (query) {
+          if (!sidebar) return;
+
+          var normalized = (query !== undefined ? query : (navSearchInputs[0] ? navSearchInputs[0].value : '')).trim().toLowerCase();
+          var navGroups = Array.prototype.slice.call(sidebar.querySelectorAll('[data-sidebar-nav-group]'));
+          var visibleItems = 0;
+
+          navGroups.forEach(function (group) {
+            var groupQuery = (group.dataset.sidebarNavQuery || '').trim();
+            var groupMatches = normalized !== '' && groupQuery !== '' && groupQuery.includes(normalized);
+            var items = Array.prototype.slice.call(group.querySelectorAll('[data-sidebar-nav-item]'));
+            var hasVisibleItems = false;
+
+            items.forEach(function (item) {
+              var itemQuery = (item.dataset.sidebarNavQuery || item.textContent || '').trim().toLowerCase();
+              var itemMatches = normalized === '' || itemQuery.includes(normalized) || groupMatches;
+              item.hidden = !itemMatches;
+              if (itemMatches) {
+                hasVisibleItems = true;
+                visibleItems += 1;
+              }
+            });
+
+            group.hidden = !hasVisibleItems;
+          });
+
+          if (navEmptyState) {
+            navEmptyState.hidden = !(normalized !== '' && visibleItems === 0);
+          }
+        };
+
+        if (toggle) {
+          toggle.addEventListener('click', function (event) {
+            event.preventDefault();
+            setSidebarOpen(!document.body.classList.contains('sidebar-open'));
+          });
+        }
+
+        if (backdrop) {
+          backdrop.addEventListener('click', function () {
+            setSidebarOpen(false);
+          });
+        }
+
+        if (sidebar) {
+          sidebar.addEventListener('click', function (event) {
+            if (event.target.closest('a')) setSidebarOpen(false);
+          });
+        }
+
+        document.addEventListener('keydown', function (event) {
+          if (event.key === 'Escape') setSidebarOpen(false);
+        });
+
+        window.addEventListener('resize', function () {
+          syncMobileNavOffset();
+          if (!isMobileNav()) setSidebarOpen(false);
+        });
+
+        if (typeof mobileQuery.addEventListener === 'function') {
+          mobileQuery.addEventListener('change', function () {
+            syncMobileNavOffset();
+            if (!isMobileNav()) setSidebarOpen(false);
+          });
+        }
+
+        navSearchInputs.forEach(function (input) {
+          input.addEventListener('input', function () {
+            navSearchInputs.forEach(function (other) {
+              if (other !== input) other.value = input.value;
+            });
+            window.applySidebarNavFilter();
+          });
+        });
+
+        syncMobileNavOffset();
+        window.applySidebarNavFilter();
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initDocsPage);
+      } else {
+        initDocsPage();
+      }
+    })();
+  JS
+
+  DOCS_DIR.join("assets", "javascripts", "site.js").write(js)
+end
+
 def write_extra_css
   css = <<~CSS
     :root {
@@ -639,11 +669,16 @@ def write_extra_css
     }
 
     .content-shell { padding: 2rem 0 4rem; }
+    .docs-layout.with-sidebar,
     .with-sidebar {
       display: grid;
       grid-template-columns: minmax(16rem, 20rem) minmax(0, 1fr);
       gap: 1.5rem;
       align-items: start;
+    }
+
+    .docs-main {
+      min-width: 0;
     }
 
     .sidebar {
@@ -693,8 +728,15 @@ def write_extra_css
       color: var(--dsa-accent);
     }
 
-    .sidebar-mobile-bar {
+    .docs-page .sidebar-mobile-bar {
       display: none;
+    }
+
+    button.sidebar-toggle {
+      -webkit-appearance: none;
+      appearance: none;
+      box-sizing: border-box;
+      font-family: inherit;
     }
 
     .sidebar-toggle {
@@ -1609,20 +1651,46 @@ def write_extra_css
       padding-top: 0.5rem;
     }
 
+    @media (min-width: 721px) {
+      .docs-page .sidebar-mobile-bar,
+      .docs-page .sidebar-backdrop {
+        display: none !important;
+      }
+
+      .docs-page .sidebar {
+        position: sticky;
+        top: 5rem;
+        left: auto;
+        right: auto;
+        width: auto;
+        max-height: calc(100vh - 6rem);
+        margin: 0;
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        transform: none;
+        box-shadow: none;
+      }
+    }
+
     @media (max-width: 720px) {
       .header-inner { align-items: flex-start; flex-direction: column; }
       .site-nav { gap: 0.75rem; }
-      .site-header {
+      .docs-page .site-header {
+        position: sticky;
+        top: 0;
         z-index: 20;
       }
-      .sidebar-mobile-bar {
+      .docs-page .sidebar-mobile-bar {
         display: block;
         padding: 0 0 0.75rem;
+        border-top: 1px solid rgba(184, 146, 74, 0.14);
       }
-      .content-shell { padding-top: 0.85rem; }
+      .docs-page .content-shell { padding-top: 0.85rem; }
       .hero { padding: 3rem 1rem; }
+      .docs-layout.with-sidebar,
       .with-sidebar { grid-template-columns: 1fr; }
-      .sidebar {
+      .docs-page .sidebar {
         position: fixed;
         top: var(--mobile-nav-offset, 6rem);
         left: 1rem;
@@ -1639,7 +1707,7 @@ def write_extra_css
         box-shadow: 0 1.25rem 3rem rgba(0, 0, 0, 0.42);
         -webkit-overflow-scrolling: touch;
       }
-      .sidebar.sidebar--open {
+      .docs-page .sidebar.sidebar--open {
         transform: translateY(0);
         opacity: 1;
         visibility: visible;
@@ -2002,6 +2070,7 @@ end
 reset_docs_dir
 write_layouts
 write_extra_css
+write_site_js
 ensure_hero_asset
 copied = copied_markdown_files
 copy_static_assets
